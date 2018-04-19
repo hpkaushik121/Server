@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <title>Serial Script sample</title>
+<script type="text/javascript">
+    function getValue(){
+         $.ajax({url: "http://localhost/serialport/index.php", success: function(result){
+            if($.trim(result) != ""){
+             $("#serial_data").val(result);
+            }else{
+                alert("It seems the machine is empty");
+            }
+            }
+         });
+    }
+</script>
+</head>
+<body>
+
+<h1>Read Serial Port in Web Apps</h1>
+
+<center>
+    <input type="text" name="serial_data" id="serial_data" value=""/>
+    <button name="btn" type="button" onclick="getValue();">Get Value</button>
+</center>
+</body>
+</html>
