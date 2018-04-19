@@ -1,0 +1,47 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 8 Jan 2018 15:06:37 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Mon, 8 Jan 2018 15:06:26 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=8229.606748546
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--8229.606748546
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   
+   --- Problems not related to specific addresses in the message:
+   421 4.7.0 [TSS04] Messages from 43.230.104.162 temporarily deferred due to user complaints - 4.16.55.1; see https://help.yahoo.com/kb/postmaster/SLN3434.html
+   421 4.7.0 [TSS04] Messages from 43.230.104.162 temporarily deferred due to user complaints - 4.16.55.1; see https://help.yahoo.com/kb/postmaster/SLN3434.html
+   *** unionmovers7@aol.com
+   Error connecting to primary server '64.12.88.164'.
+   Error connecting to alternate server '64.12.91.195'.
+   Error connecting to alternate server '152.163.0.68'.
+   Error connecting to alternate server '64.12.88.131'.
+   
+   *** unionmovingservices@gmail.com
+   550-5.7.1 [43.230.104.162      11] Our system has detected that this message is
+   
+   *** unionsister862@yahoo.com
+   556 5.7.5 Invalid RFC missing body
+   
+   *** unionspringsmbc@yahoo.com
+   452 Too many recipients
+   556 5.7.5 Invalid RFC missing body
+
+--8229.606748546
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 8 Jan 2018 14:34:37 +0530
+
+--8229.606748546--

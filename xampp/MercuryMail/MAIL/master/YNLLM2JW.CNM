@@ -1,0 +1,58 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 9 Jan 2018 20:47:22 +0530
+X-Envelope-To: master@ibuiltinfra.com
+From: Mail Delivery System <postmaster@ipuniversity.tk>
+To: master@ibuiltinfra.com
+Date: Tue, 9 Jan 2018 20:47:11 +0530
+Subject: Delivery failure notification
+MIME-Version: 1.0
+Content-Type: Multipart/Report; boundary=Part_Boundary-2A88924D
+X-PMFLAGS: 570949760 0 0 YNLLM2JW.CNM                       
+
+--Part_Boundary-2A88924D
+Content-type: Text/plain; charset=US-ASCII
+Content-description: Mail delivery failure report
+Content-disposition: Inline
+
+With reference to your message with the subject:
+   "this is my last message to you"
+
+The local mail transport system has reported the following problems
+it encountered while trying to deliver your message:
+
+-------------------------------------------------------------------
+*** hpkaushik121@gmail.com
+550-5.7.1 This message does not have authentication information or fails to pass
+-------------------------------------------------------------------
+
+Your mail message is being returned to you in the next part of this
+message.
+
+Should you need assistance, please mail postmaster@ipuniversity.tk.
+
+--Part_Boundary-2A88924D
+Content-type: Message/RFC822
+Content-description: Contents of original mail message
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 9 Jan 2018 20:47:00 +0530
+Received: from [192.168.0.5] (43.230.104.162) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   9 Jan 2018 20:46:58 +0530
+To: hackrackers <hpkaushik121@gmail.com>
+From: master <master@ibuiltinfra.com>
+Subject: this is my last message to you
+Message-ID: <63a7390c-e6cc-6b54-d4e2-5773c3162a1d@ibuiltinfra.com>
+Date: Tue, 9 Jan 2018 20:46:58 +0530
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.5.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 180109-0, 01/09/2018), Outbound message
+X-Antivirus-Status: Clean
+
+sdfffd
+
+
+
+--Part_Boundary-2A88924D--
+

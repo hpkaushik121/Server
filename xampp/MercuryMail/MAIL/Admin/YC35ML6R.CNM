@@ -1,0 +1,48 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 25 Jan 2018 18:39:44 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Thu, 25 Jan 2018 18:39:33 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=19680.1297363062
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--19680.1297363062
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** hpkaushik121@gmail.com
+   550-5.7.1 [43.230.104.162] The IP address sending this message does not have a
+
+--19680.1297363062
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 25 Jan 2018 18:39:22 +0530
+Received: from [192.168.0.5] (43.230.104.162) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   25 Jan 2018 18:39:22 +0530
+To: hackrackers <hpkaushik121@gmail.com>
+From: master <master@ibuiltinfra.com>
+Subject: dh
+Message-ID: <19b6f2c7-408c-0831-4e1d-df775760e07c@ibuiltinfra.com>
+Date: Thu, 25 Jan 2018 18:39:22 +0530
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.5.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 180125-2, 01/25/2018), Outbound message
+X-Antivirus-Status: Clean
+
+dfgh
+
+
+--19680.1297363062--

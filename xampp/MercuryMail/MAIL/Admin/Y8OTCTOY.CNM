@@ -1,0 +1,30 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 24 Jan 2018 02:13:58 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Wed, 24 Jan 2018 02:13:46 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=19680.1151815843
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--19680.1151815843
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** art@arthenson.com
+   554 "Refused. You have no reverse DNS entry. Contact abuse@suresupport.com for details."
+
+--19680.1151815843
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 23 Jan 2018 11:25:56 +0530
+
+--19680.1151815843--

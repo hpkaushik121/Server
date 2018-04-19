@@ -1,0 +1,32 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 2 Jan 2018 23:12:33 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <wordpress@43.230.104.162>
+Received: from geetika (127.0.0.1) by ipuniversity.tk (Mercury/32 v4.62) ID MG000002;
+   2 Jan 2018 23:12:28 +0530
+Subject: New WordPress Site
+To: sk@ipuniversity.tk
+X-PHP-Originating-Script: 0:class-phpmailer.php
+Date: Tue, 2 Jan 2018 17:42:26 +0000
+From: WordPress <wordpress@43.230.104.162>
+Message-ID: <5a708c0284a6b514b6f7981b25fcbe59@43.230.104.162>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-CC-Diagnostic: Body matches "*tp:??[0-9]+.[0-9]+.[0-9]+.*" (20)
+X-PMFLAGS: 34078848 0 0 YEGMJ7VD.CNM
+
+Your new WordPress site has been successfully set up at:
+
+http://43.230.104.162/cpanel/wordpress
+
+You can log in to the administrator account with the following information:
+
+Username: username
+Password: The password you chose during installation.
+Log in here: http://43.230.104.162/cpanel/wordpress/wp-login.php
+
+We hope you enjoy your new site. Thanks!
+
+--The WordPress Team
+https://wordpress.org/
+

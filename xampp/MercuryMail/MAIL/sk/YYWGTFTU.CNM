@@ -1,0 +1,54 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 8 Jan 2018 15:38:42 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <hpkaushik121@gmail.com> 
+Received: from mail-qt0-f170.google.com (209.85.216.170) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   8 Jan 2018 15:38:40 +0530
+Received: by mail-qt0-f170.google.com with SMTP id w10so12910829qtb.10
+        for <sk@ipuniversity.tk>; Mon, 08 Jan 2018 02:08:41 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=px+OmVSZcurFBxLvhf6w2It/NvjW32znlrHrorKdPlQ=;
+        b=o4y6pzSF/qPtqSXcg4hqrrnXJjqkQYXKk8CRKJCg57vNAyQ8aYk7as6HL9idRW+bc4
+         MBZneyN5UZR1Y1CmFQRvrqKdcjXJq4TOzFwxei4z5lb+spVsaaJZihjQpC+vKH/yWGz8
+         jO+iN8Eijz7qVLW79jtEqpjY2nQvioMtjeL5g01RP9TXbv//5lU8qpuQcgRPRxSuYkkI
+         Bauo38pzQZUT/mpCVFAqyk43tmfjGCe3Vtl04deO3Cdfa+rqP64QKmgMOlrscVbrcmP/
+         Q7Zgf43zpTIBGjcE1miv1EyV8IsfYL72NtD1qvGO8gXCu6SyHss/hLTpMCLNVZF7f80B
+         68mA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=px+OmVSZcurFBxLvhf6w2It/NvjW32znlrHrorKdPlQ=;
+        b=m8rK5ed64/0w8pCJf0tQoXwXXZ5e8tovXaLr6rVme2gTrsrAYRQp+GlvBU/1Y6RvIJ
+         Ty8KL9/d+VkDhnVoWqzeUUpzCF0zQ6tMfTH8S3kt8sJ03/BBzUeIh6ohpd68I6XVCbQ6
+         IPEgCQQbTb6HU9r16KPb1qalLgJQbuWRE3BZcJ8nqaH6ao4TYpD7R4PttiQX8Slu5aLe
+         9HU8d/Qli3nOaK76DtFdFf5qg4vmN5o+k67bQ6cT+bGC5aITNjO51OICA9gbJbewk5mr
+         U64ijMiihLGG1yJSNqayKdziBJouDpO7flI/jrauWAC3zLDK9bwnc/HCh+L/JQKHhd74
+         3nVQ==
+X-Gm-Message-State: AKwxytfHwE9C4N4aJhQY4rw686gfHpLwUUlI4JB3rVrVMEdB8IqRdtKW
+	iQEZ9p7fEj7bo6WhaHdUGr/uy2dhzBwN8/FoOhs=
+X-Google-Smtp-Source: ACJfBouh7GJjYLaEnUypqJZ2718bzuD9GtUNRB3EX+GvrF3nm1MTgPA1RZM3rX+eCkUr0C2WOY0+MSQZ9nC8cu/1kNY=
+X-Received: by 10.237.34.137 with SMTP id p9mr14763454qtc.194.1515406118750;
+ Mon, 08 Jan 2018 02:08:38 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.12.216.74 with HTTP; Mon, 8 Jan 2018 02:08:37 -0800 (PST)
+Received: by 10.12.216.74 with HTTP; Mon, 8 Jan 2018 02:08:37 -0800 (PST)
+From: hackrackers <hpkaushik121@gmail.com>
+Date: Mon, 8 Jan 2018 15:38:37 +0530
+Message-ID: <CAMY4Riebr7fV1avRy7nMXP8gm5XS6PTjW4JB0Td3fZsR+E3Q1Q@mail.gmail.com>
+Subject: Hshgdh
+To: sk <sk@ipuniversity.tk>
+Content-Type: multipart/alternative; boundary="001a11375388660c55056240fb20"
+X-PMFLAGS: 570950016 0 0 YYWGTFTU.CNM                       
+
+--001a11375388660c55056240fb20
+Content-Type: text/plain; charset="UTF-8"
+
+Hshsd
+
+--001a11375388660c55056240fb20
+Content-Type: text/html; charset="UTF-8"
+
+<p dir="ltr">Hshsd</p>
+
+--001a11375388660c55056240fb20--

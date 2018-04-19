@@ -1,0 +1,162 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 8 Jan 2018 12:35:12 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <01000160d4963df6-9277a0b3-c438-4cd9-abff-b395397ca7d4-000000@amazonses.com>
+Received: from a9-99.smtp-out.amazonses.com (54.240.9.99) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   8 Jan 2018 12:35:06 +0530
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=feifwur4r4l2ieplxomcqu5dcemhtvnj; d=bootstrapious.com;
+	t=1515395104;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=mkQkOtju4fL2CVkJu7b6aRaHhVFES6HMjxmkww81Q5s=;
+	b=eu4rY5r1i/w11YJsNNaHGumRHSCoJR8kAexSoypzzYuHvDoS57cEVsRCM9X93XRc
+	Zocbhp8aSUgJsKyi7dDyZOkGP8X3lknTHdwLBTNoSOgJOqQ48RanUtxWD4XnskFEeQ4
+	xDvE+2nzy7bk+HDwelKyVv15gdzUH74YFxdo2Dxw=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1515395104;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=mkQkOtju4fL2CVkJu7b6aRaHhVFES6HMjxmkww81Q5s=;
+	b=EDhL0YirATapgjF81y3t6c1a+WIVos0Qqqe/XN/2GiN0eVblGT4lL7+Ns+YO4zu0
+	U+Zql5G2tKtYjzIWyidZ7H38I0Zr6ChJEN7GTHrIrKmJTp6oAutvq/KIGTkm4/8IYrx
+	8S56KPmMYxyK3xXtIl29A+lteXetVG2hTOChtD3I=
+Date: Mon, 8 Jan 2018 07:05:04 +0000
+To: sourabh <sk@ipuniversity.tk>
+From: Ondrej from Bootstrapious <ondrej@bootstrapious.com>
+Reply-To: Ondrej from Bootstrapious <hello@bootstrapious.com>
+Subject: Contact forms in Bootstrap
+Message-ID: <01000160d4963df6-9277a0b3-c438-4cd9-abff-b395397ca7d4-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/zAEGgjUoHP794vll892pEOzg/a>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_b5264a1e41864bf6d83211c36fc29dc2"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2018.01.08-54.240.9.99
+Feedback-ID: 1.us-east-1.bfoJXYnbLesrWCqwQJSJcLMTg2/zuWNHjeOeYqk3rdc=:AmazonSES
+X-PMFLAGS: 570950016 0 5 YZ046V6J.CNM
+
+This is a multi-part message in MIME format.
+
+--b1_b5264a1e41864bf6d83211c36fc29dc2
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hey!
+
+I hope you are having a great week!
+
+Do you do the front-end stuff only or you're fluent also in PHP?
+
+Many of Bootstrapious users contact me because they struggle to get the contact forms working properly. Some of our themes already include the PHP scripts but some of them don't.
+
+So, I have recently decided to write a tutorial about it and show you how to easily build a working  Bootstrap contact form using AJAX and PHP, regardless if it's in Bootstrapious theme or your own. 
+
+All you will need for the tutorial is some basic knowledge of HTML, CSS and Bootstrap CSS framework.
+
+In the tutorial I will walk you through the parts that will show you how to code the contact form in HTML, then I will show you how the data is handled and email sent in the PHP script. At last, I will show you how little JavaScript magic (using jQuery) is needed to submit the form via AJAX without reloading the page itself. This is really handy when you have the contact form on one-page web.
+
+Read the tutorial here: https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/woU2tZBKG7HMKYeXrxNVaA/zAEGgjUoHP794vll892pEOzgp/how-to-build-a-working-bootstrap-contact-form
+
+Have a great & productive week,
+
+Ondrej, Bootstrapious
+
+
+--b1_b5264a1e41864bf6d83211c36fc29dc2
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+=09<title></title>
+</head>
+<body>
+<p><span style=3D"font-family:helvetica;">Hey!</span></p>
+
+<p><span style=3D"font-family:helvetica;">I hope you are having a great wee=
+k!</span></p>
+
+<p><span style=3D"font-family:helvetica;">Do you do the front-end stuff onl=
+y or you&#39;re fluent also in PHP?</span></p>
+
+<p><span style=3D"font-family:helvetica;">Many of Bootstrapious users conta=
+ct me because they struggle to get the contact forms working properly. Some=
+ of our themes already include the PHP scripts but some of them don&#39;t.<=
+/span></p>
+
+<p><span style=3D"font-family:helvetica;">So, I have recently decided to wr=
+ite a tutorial about it and show you&nbsp;<a href=3D"https://sendy.bootstra=
+pious.com/l/892MqEA4aJkntl07TPG0oZ892Q/zAEGgjUoHP794vll892pEOzg/zAEGgjUoHP7=
+94vll892pEOzg"><strong>how to easily build a working &nbsp;Bootstrap&nbsp;c=
+ontact form</strong></a>&nbsp;using AJAX and PHP, regardless if it&#39;s in=
+ Bootstrapious theme or your own.&nbsp;</span></p>
+
+<p><span style=3D"font-family:helvetica;">All you will need for the tutoria=
+l is some basic knowledge of HTML, CSS and Bootstrap CSS framework.</span><=
+/p>
+
+<p><span style=3D"font-family:helvetica;">In the tutorial I will walk you t=
+hrough the parts that will show you <strong>how to code the contact form in=
+ HTML</strong>, then I will show you how the data is handled and email sent=
+ in the <strong>PHP script</strong>. At last, I will show you how <strong>l=
+ittle JavaScript magic</strong> (using jQuery) is needed <strong>to submit =
+the form via AJAX</strong> without reloading the page itself. This is reall=
+y handy when you have the contact form on one-page web.</span></p>
+
+<p><span style=3D"font-family:helvetica;">Read <strong><a href=3D"https://s=
+endy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/zAEGgjUoHP794vll892pEOz=
+g/zAEGgjUoHP794vll892pEOzg">full tutorial here</a></strong>.</span></p>
+
+<p><span style=3D"font-family:helvetica;">If you miss something in it or yo=
+u don&#39;t understand something, get in touch either via comments or email=
+. Oh, and if you like the tutorial, every social share is appreciated :]</s=
+pan></p>
+
+<p><span style=3D"font-family:helvetica;">Have a great &amp; productive wee=
+k,</span></p>
+
+<p><span style=3D"font-family:helvetica;"><strong>Ondrej</strong>, Bootstra=
+pious</span></p>
+
+<p><span style=3D"font-family: helvetica;">--</span></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;"><strong>Ondrej </strong>Svestka, <strong>Bo=
+otstrapious</strong></span></span></span></p>
+
+<p><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/=
+woU2tZBKG7HMKYeXrxNVaA/zAEGgjUoHP794vll892pEOzg" style=3D"color: rgb(17, 85=
+, 204); font-family: arial, sans-serif; font-size: small; background-color:=
+ rgb(255, 255, 255);" target=3D"_blank">website</a><span style=3D"color: rg=
+b(34, 34, 34); font-family: arial, sans-serif; font-size: small; background=
+-color: rgb(255, 255, 255);">&nbsp;|&nbsp;</span><a href=3D"https://sendy.b=
+ootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/68763c8ffE0EjiniyApPAGUA/zAEG=
+gjUoHP794vll892pEOzg" style=3D"color: rgb(17, 85, 204); font-family: arial,=
+ sans-serif; font-size: small; background-color: rgb(255, 255, 255);" targe=
+t=3D"_blank">twitter</a><span style=3D"color: rgb(34, 34, 34); font-family:=
+ arial, sans-serif; font-size: small; background-color: rgb(255, 255, 255);=
+">&nbsp;|&nbsp;</span><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4=
+aJkntl07TPG0oZ892Q/EsPQPnOSt39DvHYavy8nVg/zAEGgjUoHP794vll892pEOzg" style=
+=3D"color: rgb(17, 85, 204); font-family: arial, sans-serif; font-size: sma=
+ll; background-color: rgb(255, 255, 255);" target=3D"_blank">facebook&nbsp;=
+</a><span style=3D"color: rgb(34, 34, 34); font-family: arial, sans-serif; =
+font-size: small; background-color: rgb(255, 255, 255);">|&nbsp;</span><a h=
+ref=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/W08920d=
+HfGj0qg4p8763b763duXw/zAEGgjUoHP794vll892pEOzg" style=3D"color: rgb(17, 85,=
+ 204); font-family: arial, sans-serif; font-size: small; background-color: =
+rgb(255, 255, 255);" target=3D"_blank">google+</a></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;">Bootstrapious, Hasicska street, 70030 Ostra=
+va, Czech republic</span></span></span></p>
+
+<p><span style=3D"font-family: helvetica; font-size: 12px;"><a href=3D"http=
+s://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQ=
+E5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/zAEGgjUoHP794vll892pEOzg"><span style=
+=3D"color:#696969;">Unsubscribe from this list</span></a></span></p>
+</body>
+</html>
+<img src=3D"https://sendy.bootstrapious.com/t/zAEGgjUoHP794vll892pEOzg/892M=
+qEA4aJkntl07TPG0oZ892Q/a" alt=3D"" style=3D"width:1px;height:1px;"/>
+
+
+--b1_b5264a1e41864bf6d83211c36fc29dc2--

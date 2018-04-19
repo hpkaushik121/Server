@@ -1,0 +1,54 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 20 Jan 2018 02:14:27 +0530
+X-Envelope-To: <master@ibuiltinfra.com>
+Return-path: <hpkaushik121@gmail.com> 
+Received: from mail-qt0-f177.google.com (209.85.216.177) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   20 Jan 2018 02:14:23 +0530
+Received: by mail-qt0-f177.google.com with SMTP id d54so6986919qtd.4
+        for <master@ibuiltinfra.com>; Fri, 19 Jan 2018 12:44:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=g49kPkJq7Sasi4iWdQcTlER06cvEIB2JQXGnPzxuPVI=;
+        b=A2e1xcaC+Rwr/RK/1XNMjm80i77BZ2Mxz5FTu1EE+41HoJsI9yl6qLI7QsKGsL5IjE
+         racr3kHyLGMNKlvGoXNJa/PVUnsvJaTXWxx55MNZUQbgpttmQVmh1iMdqBf+tAolZRKL
+         n8hrc8l49veehc8NCA4u+jlgE2mTl5Gr/CsF9+nF/IAksnKgxh6LmqMXmL55EfF2erXi
+         KebdCsbXE7EvnveR49V1r0grRSjoPSC4uQVKVQFZFQ3F7EwgJfhVDp8aoBLDTfOi52Co
+         d+gHLI+/K5M2kIbtrKXnDYhqf8HOS1fWLqjf+EjpHw6YFqCT/9YpkFjh8u5L8vDo/yuH
+         upAA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=g49kPkJq7Sasi4iWdQcTlER06cvEIB2JQXGnPzxuPVI=;
+        b=rtrIEVq/zquWWO3+J0+JPs3qVp8IquvdOSSA7JGCrCVVV8b2s1eb57KUdm6cl+AKEV
+         1PWIAe/z/IBJDAz9b/T/05KUuM1yRqXXp4mRkJ4W+Bh6SWnBHikhIRHlZzZZ7lC0WMva
+         zLF7t8p3nICE7vc6A3AptwpMP0NPjaPhY35LHy4jYR4TmSS0x0fuQC+wevjw1CwE92qI
+         GO/OA8CkZbVL2FTqk+LtnVVxxohXk+5Gqpd1/hhhm/dWn8lVLh0+PUjfi+A5szfSFzq8
+         Qs3jpaAjXW+kJJHDdnxfinSikskGJU3RkVhVR37kqwdLM7ctNxxoTrmgICkWAWPZTEPv
+         r34Q==
+X-Gm-Message-State: AKwxytdZZAq6LQtiweuZFmaVRQWQzvmSIYzyKiKFsPzmL1da7MKb6ZaH
+	1mVJMZzBA8oN1O7oNgmAgrRDjoMKGAwMi0xZ/2Al9w==
+X-Google-Smtp-Source: ACJfBot6DfViPoumUq7rEBudYSIMecNXGjlncfuyhLqsOkakMUT0eRyD05LkvrRH0vi2fr8Ras9W4ns44663wGklJF8=
+X-Received: by 10.200.45.109 with SMTP id o42mr36268336qta.263.1516394661104;
+ Fri, 19 Jan 2018 12:44:21 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.12.201.3 with HTTP; Fri, 19 Jan 2018 12:44:20 -0800 (PST)
+Received: by 10.12.201.3 with HTTP; Fri, 19 Jan 2018 12:44:20 -0800 (PST)
+From: hackrackers <hpkaushik121@gmail.com>
+Date: Sat, 20 Jan 2018 02:14:20 +0530
+Message-ID: <CAMY4RidR1grfxSV03+BCAKB1MF=Qy_3GCra2dZe7iHUQTQFHmg@mail.gmail.com>
+Subject: Hello
+To: master@ibuiltinfra.com
+Content-Type: multipart/alternative; boundary="001a113a5bda1d50c40563272595"
+X-PMFLAGS: 570950016 0 1 YTX9M48B.CNM
+
+--001a113a5bda1d50c40563272595
+Content-Type: text/plain; charset="UTF-8"
+
+This is a test mail
+
+--001a113a5bda1d50c40563272595
+Content-Type: text/html; charset="UTF-8"
+
+<p dir="ltr">This is a test mail</p>
+
+--001a113a5bda1d50c40563272595--

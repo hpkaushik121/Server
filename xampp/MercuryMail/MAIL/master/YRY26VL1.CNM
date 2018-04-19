@@ -1,0 +1,65 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 9 Apr 2018 11:34:11 +0530
+X-Envelope-To: <master@iserv.tech>
+Return-path: <hpkaushik121@gmail.com> 
+Received: from mail-qk0-f177.google.com (209.85.220.177) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000006;
+   9 Apr 2018 11:34:00 +0530
+Received: by mail-qk0-f177.google.com with SMTP id c188so8082471qkg.2
+        for <master@iserv.tech>; Sun, 08 Apr 2018 23:03:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=lmAHB10SQ/ySSC0VoSJoX0/kBtmIzxRv4j4OCz/cbIw=;
+        b=Jd0XQUzjgvf2/R+nVFTw/geXhoHi1CDdDukEW4q7+Q8bn5Mqe4TCCnEJ+owTRB0snb
+         REiSum9RPWY23rOQvLZZWH7yhS4BC1VCwFaqqpIlHbg/SXlcz4BPzYyUt9NCx/hD2/4J
+         zbnpb/HTuukfVNp7lTmyrWfPkTXL7lrBXaTJmgFqwXKJfrzFHIek4X1Lxeh1JIzbQr1P
+         s5H90EC/JfDGt2YVGVjg9sb9lAuaE4PWb4pDlYLJz1/COR+zeoYSMqujnH0IRw2k3hMO
+         YiaF6HQuwrX8KMqopBhlXEaJQNspcAspmEzAUOet1POYIcD2qwFLqzRwkaqblh5nrtM2
+         EkXg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=lmAHB10SQ/ySSC0VoSJoX0/kBtmIzxRv4j4OCz/cbIw=;
+        b=lZE75y+UPxsrH/be3SIvPoHTkbzVFInCDbWxascvGQ5DpYKTOjP1hOr/i6uMg0qfTb
+         BFTyth/ZVKz5tDS2HdKQaOdugOcN74YP0RvR+hHRFv3IAk8DBEexEVSjOkeH8CO+t13h
+         dJXiGnRxpHO7HNNTREd8My36SiiLTim5EAM6Vq2ziW8FBdfVdeMKyC43uLWS4lRUI/LH
+         K11OfzMB5xdv2nNPkRyoZBotN/ewgfzWwxDCS7EpsOjHHbws/NMuW8CiS8y1uOjZ2U1L
+         tXUko+arPdm5dyh0IWjDxdYMKrcgU6dQVChBYRK5AcXM9wyFEjMUtleGVPJE+lV60236
+         VwQA==
+X-Gm-Message-State: ALQs6tBAAw5c5YlTdxjB8NpKAgLXl4yGts7L8dutJvOQyddkuLRjrYXf
+	lTfX/7eMu8ryAapxSzvOpQe1EBaD8Hti01CiiyQ=
+X-Google-Smtp-Source: AIpwx49JU9Dz0oUExS0UpD/DaaTrJJtyjCd8CCvNEv5FKDpMZGTQHqeW/M1joo06bkODKLekWrG9UGitTsEssvFUGo0=
+X-Received: by 10.55.79.5 with SMTP id d5mr45212906qkb.82.1523253838262; Sun,
+ 08 Apr 2018 23:03:58 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.12.155.146 with HTTP; Sun, 8 Apr 2018 23:03:57 -0700 (PDT)
+Received: by 10.12.155.146 with HTTP; Sun, 8 Apr 2018 23:03:57 -0700 (PDT)
+In-Reply-To: <8f32be8c-15f3-f00b-d29d-dec3ba110623@iserv.tech>
+References: <8f32be8c-15f3-f00b-d29d-dec3ba110623@iserv.tech>
+From: hackrackers <hpkaushik121@gmail.com>
+Date: Mon, 9 Apr 2018 11:33:57 +0530
+Message-ID: <CAMY4RicmMQ6MA+5WZjmDdsbrARy3HONjt-6tt0-03fAveqH1aQ@mail.gmail.com>
+Subject: Re: yrd
+To: master <master@iserv.tech>
+Content-Type: multipart/alternative; boundary="001a114a96b2eeb6830569642bd1"
+X-PMFLAGS: 570950016 0 5 YRY26VL1.CNM
+
+--001a114a96b2eeb6830569642bd1
+Content-Type: text/plain; charset="UTF-8"
+
+Hey 123
+On 9 Apr 2018 9:37 am, "master" <master@iserv.tech> wrote:
+
+> tsttestet
+>
+>
+
+--001a114a96b2eeb6830569642bd1
+Content-Type: text/html; charset="UTF-8"
+
+<p dir="ltr">Hey 123</p>
+<div class="gmail_quote">On 9 Apr 2018 9:37 am, &quot;master&quot; &lt;master@iserv.tech&gt; wrote:<br type="attribution"><blockquote class="gmail_quote" style="margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">tsttestet<br>
+<br>
+</blockquote></div>
+
+--001a114a96b2eeb6830569642bd1--

@@ -1,0 +1,44 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 6 Jan 2018 12:06:18 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Sat, 6 Jan 2018 12:06:06 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=19680.423131687
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--19680.423131687
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** spameri@tiscali.it
+   Error connecting to primary server '213.205.33.63'.
+   Error connecting to alternate server '213.205.33.64'.
+   Error connecting to alternate server '213.205.33.63'.
+   Error connecting to alternate server '213.205.33.61'.
+
+--19680.423131687
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 5 Jan 2018 14:29:41 +0530
+Received: from SERVER-POS (76.80.112.82) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000002;
+   5 Jan 2018 14:29:38 +0530
+From: spameri@tiscali.it
+Subject: 43.230.104.162
+To: spameri@tiscali.it
+Date: Fri, 5 Jan 2018 00:59:39 -0800
+X-Priority: 3
+X-Library: Indy 8.0.25
+Message-ID: <149591754CE0@ipuniversity.tk>
+
+t_Smtp.LocalIP
+
+--19680.423131687--

@@ -1,0 +1,190 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 24 Jan 2018 02:13:58 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Wed, 24 Jan 2018 02:13:46 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=31474.1151816328
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--31474.1151816328
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** abbill11@windstream.net
+   554 5.7.1 [P4] Message blocked due to spam content in the message.
+   
+   *** abbj9@hotmail.dk
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [VE1EUR02FT060.eop-EUR02.prod.protection.outlook.com]
+   550 5.5.0 Requested action not taken: mailbox unavailable. [VE1EUR02FT009.eop-EUR02.prod.protection.outlook.com]
+   
+   *** abbyappleby-@hotmail.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [DB5EUR03FT021.eop-EUR03.prod.protection.outlook.com]
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [BY2NAM01FT025.eop-nam01.prod.protection.outlook.com]
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [BL2NAM02FT036.eop-nam02.prod.protection.outlook.com]
+   
+   *** abbyfrank@mac.com
+   550 5.7.1  Your mail from ipuniversity.tk was rejected due to listing in Spamhaus DBL. For details please see https://www.spamhaus.org/lookup/domain/?domain=ipuniversity.tk 
+   
+   *** abbymkl@msn.com
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [BL2NAM02FT036.eop-nam02.prod.protection.outlook.com]
+   
+   *** abbynyame@outlook.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [CO1NAM04FT035.eop-NAM04.prod.protection.outlook.com]
+   550 5.5.0 Requested action not taken: mailbox unavailable. [DM3NAM03FT041.eop-NAM03.prod.protection.outlook.com]
+   
+   *** abc255@cornell.edu
+   550 5.7.606 Access denied, banned sending IP [43.230.104.162]. To request removal from this list please visit https://sender.office.com/ and follow the directions. For more information please go to  http://go.microsoft.com/fwlink/?LinkID=526655 (AS1601
+   
+   *** abc4200@earthlink.net
+   550 ERROR: No or mismatched reverse DNS (PTR) entries for 43.230.104.162
+   
+   *** abccsantos@hotmail.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [DB5EUR03FT021.eop-EUR03.prod.protection.outlook.com]
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [BY2NAM01FT025.eop-nam01.prod.protection.outlook.com]
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com]
+   
+   *** abcdgolefish@mac.com
+   550 5.7.1  Your mail from ipuniversity.tk was rejected due to listing in Spamhaus DBL. For details please see https://www.spamhaus.org/lookup/domain/?domain=ipuniversity.tk 
+   
+   *** abctravel@msn.com
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [BL2NAM02FT036.eop-nam02.prod.protection.outlook.com]
+   
+   *** abdeitani@hotmail.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [SN1NAM02FT009.eop-nam02.prod.protection.outlook.com]
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [BY2NAM01FT025.eop-nam01.prod.protection.outlook.com]
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com]
+   
+   *** abdelhafid-khar@hotmail.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [SN1NAM02FT009.eop-nam02.prod.protection.outlook.com]
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [BY2NAM01FT025.eop-nam01.prod.protection.outlook.com]
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com]
+   
+   *** abdelkader773@hotmail.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [SN1NAM02FT009.eop-nam02.prod.protection.outlook.com]
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [BY2NAM01FT025.eop-nam01.prod.protection.outlook.com]
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com]
+   
+   *** abdelnaby71@hotmail.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [SN1NAM02FT009.eop-nam02.prod.protection.outlook.com]
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [BY2NAM01FT025.eop-nam01.prod.protection.outlook.com]
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com]
+   
+   *** abdessamad@msn.com
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [BL2NAM02FT036.eop-nam02.prod.protection.outlook.com]
+   
+   *** abdi_zamir@hotmail.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [SN1NAM02FT009.eop-nam02.prod.protection.outlook.com]
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [BY2NAM01FT025.eop-nam01.prod.protection.outlook.com]
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com]
+   
+   *** abdih12@icloud.com
+   550 5.7.1  Your mail from ipuniversity.tk was rejected due to listing in Spamhaus DBL. For details please see https://www.spamhaus.org/lookup/domain/?domain=ipuniversity.tk 
+   
+   *** abdiyare89@hotmail.com
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [SN1NAM02FT009.eop-nam02.prod.protection.outlook.com]
+   452 4.5.3 Recipients belong to multiple regions ATTR38 [BY2NAM01FT025.eop-nam01.prod.protection.outlook.com]
+   550 5.7.1 Service unavailable, Client host [43.230.104.162] blocked using Spamhaus. To request removal from this list see http://www.spamhaus.org/lookup.lasso (AS3130). [AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com]
+
+--31474.1151816328
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 22 Jan 2018 18:18:57 +0530
+Received: from User (212.100.79.44) by ipuniversity.tk (Mercury/32 v4.62) ID MG00000E;
+   22 Jan 2018 18:18:55 +0530
+Reply-To: <kennedyuzoka3@gmail.com>
+From: "Mr.Kennedy Uzoka"<admin@uba.net>
+Subject: GOOD NEWS FROM UNITED BANK...
+Date: Mon, 22 Jan 2018 04:48:50 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Antivirus: Avast (VPS 180122-0, 01/21/2018), Outbound message
+X-Antivirus-Status: Clean
+X-CC-Diagnostic: Body contains "pay you" (10), Body contains "Nigeria" (30)
+Message-ID: <3DCE510049D6@ipuniversity.tk>
+
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY bgcolor=#FFFFFF leftmargin=5 topmargin=5 rightmargin=5 bottommargin=5>
+<FONT size=2 color=#000000 face="Arial">
+<DIV>
+UNITED BANK FOR AFRICA - AFRICA'S GLOBAL BANK</DIV>
+<DIV>
+HEAD OFFICE ADDRESS UBA HOUSE</DIV>
+<DIV>
+57 MARINA P.O. BOX 2406 LAGOS NIGERIA</DIV>
+<DIV>
+PHONE: +234 802 263 0701</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+On behalf of the board and management of International Monetary Funds (IMF). In conjunction with</DIV>
+<DIV>
+Organization of African Unity (O.A.U) has directed us to pay you one</DIV>
+<DIV>
+Million five hundred thousand united state dollars ($1.500, 000.00) in</DIV>
+<DIV>
+Cash through means of diplomatic courier service hand delivery.</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+We have been working towards the eradication of fraudsters and scam Artists in Africa with the help of the Organization of African Unity (OAU) United Nations (UN), European Union (EU) and FBI.</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+We have been able to track down some scam artist in various parts of African countries which includes (Nigeria, Republic of Benin, Ghana and Senegal with cote d'ivoire ) and they are all in Government custody now, they will appear at International Criminal Court (ICC) soon for Justice.</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+Note: You have to stop communicating with the impostors right now and you have to stop sending money to them and stop responding to their emails, we are acting according to the Directive from UN, FBI, HLS, so any email you send to them will be monitored.</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+Take note: Three thousand united state dollars (usd$3,000) have been</DIV>
+<DIV>
+Mapped out for all expenses in taxes and other documents that matters.</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+Kindly forward your home address and direct phone number to this email: kennedyuzoka3@gmail.com</DIV>
+<DIV>
+&nbsp;</DIV>
+<DIV>
+Regards,</DIV>
+<DIV>
+Kennedy Uzoka</DIV>
+<DIV>
+Director cash processing unit</DIV>
+<DIV>
+united bank for Africa. (U.B.A).</DIV>
+<DIV>
+PHONE: +234 802 263 0701</DIV>
+<DIV>
+FAX: 234 674 478 8273</DIV>
+<DIV>
+Email: kennedyuzoka3@gmail.com</DIV>
+</FONT>
+<div id="DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2"><br />
+<table style="border-top: 1px solid #D3D4DE;">
+	<tr>
+        <td style="width: 55px; padding-top: 13px;"><a href="https://www.avast.com/sig-email?utm_medium=email&utm_source=link&utm_campaign=sig-email&utm_content=emailclient&utm_term=icon" target="_blank"><img src="https://ipmcdn.avast.com/images/icons/icon-envelope-tick-round-orange-animated-no-repeat-v1.gif" alt="" width="46" height="29" style="width: 46px; height: 29px;" /></a></td>
+		<td style="width: 470px; padding-top: 12px; color: #41424e; font-size: 13px; font-family: Arial, Helvetica, sans-serif; line-height: 18px;">Virus-free. <a href="https://www.avast.com/sig-email?utm_medium=email&utm_source=link&utm_campaign=sig-email&utm_content=emailclient&utm_term=link" target="_blank" style="color: #4453ea;">www.avast.com</a>
+		</td>
+	</tr>
+</table><a href="#DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2" width="1" height="1"> </a></div></BODY></HTML>
+
+--31474.1151816328--

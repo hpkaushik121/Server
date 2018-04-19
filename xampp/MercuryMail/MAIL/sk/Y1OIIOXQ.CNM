@@ -1,0 +1,136 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 10 Jan 2018 13:58:05 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <01000160dee2f500-26f7728a-7a79-4a19-aa34-3048bca33287-000000@amazonses.com>
+Received: from a9-46.smtp-out.amazonses.com (54.240.9.46) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   10 Jan 2018 13:57:55 +0530
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=feifwur4r4l2ieplxomcqu5dcemhtvnj; d=bootstrapious.com;
+	t=1515567904;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=b13AaiDGcJEwSpZwMEGyhnrG7qW5nByVPyl8EdC8cM0=;
+	b=Afmcmv8jicGGu9hg0Xd6YBEYF2GK+0YCQF9gmE7ygnolxp4SEYM1pt/MjYn/GOFh
+	MxS+xeCk1JG+JlSHmCZ8+4Sprh67V7hg9bmw/fHKamKhpC3NyUZUIxsyNK1K27SRb9N
+	cYwVl6bcXgAECBY5aOJz1cazlqudABNr6F9bgcIU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1515567904;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=b13AaiDGcJEwSpZwMEGyhnrG7qW5nByVPyl8EdC8cM0=;
+	b=XMWkdFMYpk+vdZWBIrk+FmH606di+7j7kG5gHjhMErZwpY7o9waegeiSdyUsxQSd
+	Qw3GlXbxCYTKjZ9W00bEVQgIFR6HC6PVTFs1oT3jAZh6hRxLDL9OhNgfGYEXATWxg9L
+	AiT4fYGdFk91+zBaiB7YfCeP1rIddV8nMThPbkZI=
+Date: Wed, 10 Jan 2018 07:05:04 +0000
+To: sourabh <sk@ipuniversity.tk>
+From: Ondrej from Bootstrapious <ondrej@bootstrapious.com>
+Reply-To: Ondrej from Bootstrapious <hello@bootstrapious.com>
+Subject: Become a Google maps hero
+Message-ID: <01000160dee2f500-26f7728a-7a79-4a19-aa34-3048bca33287-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/weHZUPX1763DZKr1dXBbjgcw/a>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_fac7e0e7208a8c1d2671c134befc53fd"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2018.01.10-54.240.9.46
+Feedback-ID: 1.us-east-1.bfoJXYnbLesrWCqwQJSJcLMTg2/zuWNHjeOeYqk3rdc=:AmazonSES
+X-PMFLAGS: 570950016 0 5 Y1OIIOXQ.CNM
+
+This is a multi-part message in MIME format.
+
+--b1_fac7e0e7208a8c1d2671c134befc53fd
+Content-Type: text/plain; charset=us-ascii
+
+Hey,
+
+do you want to learn something new and become a hero of custom Google maps? If the answer is yes, you might like my new tutorial :-)
+
+In the tutorial, I will teach you how to easily add custom Google maps to your website with a custom marker and info window.
+
+Read the tutorial here: https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/892MpYLg37xkOOsychJDnjNA/weHZUPX1763DZKr1dXBbjgcwp/google-maps-and-bootstrap-tutorial
+
+I hope you will enjoy the tutorial it and learn a thing or two.
+
+Have a great day!
+
+Ondrej
+
+
+--b1_fac7e0e7208a8c1d2671c134befc53fd
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+=09<title></title>
+</head>
+<body>
+<p><span style=3D"color:#000000;"><span style=3D"font-family:helvetica;">He=
+y,</span></span></p>
+
+<p><span style=3D"color:#000000;"><span style=3D"font-family:helvetica;">do=
+ you want to learn something new and become a hero of custom Google maps? I=
+f the answer is yes, you might like my new tutorial :-)</span></span></p>
+
+<p><span style=3D"font-family:helvetica;"><span style=3D"color:#000000;">In=
+ the tutorial, I will teach you </span><a href=3D"https://sendy.bootstrapio=
+us.com/l/892MqEA4aJkntl07TPG0oZ892Q/VZwFcfeV6n1D4UeJUPFBmg/weHZUPX1763DZKr1=
+dXBbjgcw">how to easily add custom Google maps</a><span style=3D"color:#000=
+000;"> to your website </span><span style=3D"color:#000000;">with a custom =
+marker and info window.</span></span></p>
+
+<p><span style=3D"font-family:helvetica;"><span style=3D"color:#000000;">Re=
+ad the full tutorial </span><a href=3D"https://sendy.bootstrapious.com/l/89=
+2MqEA4aJkntl07TPG0oZ892Q/VZwFcfeV6n1D4UeJUPFBmg/weHZUPX1763DZKr1dXBbjgcw">h=
+ere</a><span style=3D"color:#000000;">.</span></span></p>
+
+<p><span style=3D"color:#000000;"><span style=3D"font-family: helvetica;">H=
+ave a great day!</span></span></p>
+
+<p><span style=3D"color:#000000;"><span style=3D"font-family: helvetica;">B=
+est,</span></span></p>
+
+<p><span style=3D"color:#000000;"><span style=3D"font-family: helvetica;">O=
+ndrej&nbsp;</span></span></p>
+
+<p><span style=3D"font-family: helvetica;">--</span></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;"><strong>Ondrej </strong>Svestka, <strong>Bo=
+otstrapious</strong></span></span></span></p>
+
+<p><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/=
+892MpYLg37xkOOsychJDnjNA/weHZUPX1763DZKr1dXBbjgcw" style=3D"color: rgb(17, =
+85, 204); font-family: arial, sans-serif; font-size: small; background-colo=
+r: rgb(255, 255, 255);" target=3D"_blank">website</a><span style=3D"color: =
+rgb(34, 34, 34); font-family: arial, sans-serif; font-size: small; backgrou=
+nd-color: rgb(255, 255, 255);">&nbsp;|&nbsp;</span><a href=3D"https://sendy=
+.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/K892SjnQG0LDh72rk5jUNdDg/we=
+HZUPX1763DZKr1dXBbjgcw" style=3D"color: rgb(17, 85, 204); font-family: aria=
+l, sans-serif; font-size: small; background-color: rgb(255, 255, 255);" tar=
+get=3D"_blank">twitter</a><span style=3D"color: rgb(34, 34, 34); font-famil=
+y: arial, sans-serif; font-size: small; background-color: rgb(255, 255, 255=
+);">&nbsp;|&nbsp;</span><a href=3D"https://sendy.bootstrapious.com/l/892MqE=
+A4aJkntl07TPG0oZ892Q/m4XY5r892ps9prXW5MTwz6SA/weHZUPX1763DZKr1dXBbjgcw" sty=
+le=3D"color: rgb(17, 85, 204); font-family: arial, sans-serif; font-size: s=
+mall; background-color: rgb(255, 255, 255);" target=3D"_blank">facebook&nbs=
+p;</a><span style=3D"color: rgb(34, 34, 34); font-family: arial, sans-serif=
+; font-size: small; background-color: rgb(255, 255, 255);">|&nbsp;</span><a=
+ href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/9cwDE=
+M72v56GRq5LWdvbvQ/weHZUPX1763DZKr1dXBbjgcw" style=3D"color: rgb(17, 85, 204=
+); font-family: arial, sans-serif; font-size: small; background-color: rgb(=
+255, 255, 255);" target=3D"_blank">google+</a></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;">Bootstrapious, Hasicska street, 70030 Ostra=
+va, Czech republic</span></span></span></p>
+
+<p><span style=3D"font-family: helvetica; font-size: 12px;"><a href=3D"http=
+s://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQ=
+E5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/weHZUPX1763DZKr1dXBbjgcw"><span style=
+=3D"color:#696969;">Unsubscribe from this list</span></a></span></p>
+</body>
+</html>
+<img src=3D"https://sendy.bootstrapious.com/t/weHZUPX1763DZKr1dXBbjgcw/892M=
+qEA4aJkntl07TPG0oZ892Q/a" alt=3D"" style=3D"width:1px;height:1px;"/>
+
+
+--b1_fac7e0e7208a8c1d2671c134befc53fd--

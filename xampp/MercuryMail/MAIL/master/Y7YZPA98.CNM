@@ -1,0 +1,30 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 25 Jan 2018 18:32:12 +0530
+X-Envelope-To: master@ibuiltinfra.com
+From: Mail Delivery System <>
+To: master@ibuiltinfra.com
+Subject: Message delivery status
+Date: Thu, 25 Jan 2018 18:32:01 +0530
+MIME-Version: 1.0
+Content-type: Text/plain; charset=US-ASCII
+X-PMFLAGS: 34078848 0 0 Y7YZPA98.CNM                        
+
+This is a delivery status message from the electronic mail server at
+ipuniversity.tk. A message appearing to originate from your address
+has been delayed during delivery.
+
+Message details:
+------------------------------------------------------------------
+Originally submitted:      24 Jan 18, 22:44:29
+Originator address:        master@ibuiltinfra.com
+Message's subject:         sdf
+Message's ID:              <3d0f8478-4cff-aa50-b4f6-71e8d084d21f@ibuiltinfra.com>
+
+After 3 hours, the following addresses had delivery problems:
+
+   sourabhkaushik26@Yahoo.com [Temporary failure - still trying to deliver]
+
+The server will continue to attempt to deliver your message to any
+addresses showing temporary errors. You do not need to take any
+further action at this time - this message is for your information
+only.
+

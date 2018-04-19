@@ -1,0 +1,42 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 24 Jan 2018 22:38:10 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Wed, 24 Jan 2018 22:37:59 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=19680.1225268546
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--19680.1225268546
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** parkshitshakla2k16@gmail.com
+   550-5.1.1 The email account that you tried to reach does not exist. Please try
+
+--19680.1225268546
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 24 Jan 2018 22:37:48 +0530
+Received: from geetika (127.0.0.1) by ipuniversity.tk (Mercury/32 v4.62) ID MG000001;
+   24 Jan 2018 22:37:38 +0530
+Date: Wed, 24 Jan 2018 18:07:38 +0100
+Subject: test
+To: parkshitshakla2k16@gmail.com
+X-PHP-Originating-Script: 0:send.php
+From: master@ibuiltinfra.com
+Reply-To: parkshitshakla2k16@gmail.com
+X-Mailer: PHP/7.1.6
+Message-ID: <4907F5774CE0@ipuniversity.tk>
+
+        dekh kaam kr ra h
+
+--19680.1225268546--

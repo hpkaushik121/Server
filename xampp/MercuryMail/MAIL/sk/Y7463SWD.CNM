@@ -1,0 +1,738 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 26 Jan 2018 10:00:29 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <bounceback@response.dell.com>
+Received: from mail02.response.dell.com (204.92.31.129) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000004;
+   26 Jan 2018 10:00:21 +0530
+DKIM-Signature: v=1; a=rsa-sha256; d=dell.com; s=dk2016; c=relaxed/relaxed;
+	q=dns/txt; i=@dell.com; t=1516941019;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=zf1jQh3ckwLdbaGvM9J5hC1mqu4frUKqrByvjTPM2YY=;
+	b=aFVDKkhDUDBGzE8gfzHW120wLlGJDvkaBK/Nm7N+Q+Z9U8SKvhrlIH5TUDz/+xYg
+	osIRATPtZ4NPvhpZLdUeKdwI2HklR4NdeLnGGFYcdPJOHCy9Js4IBgEb89qQNHiO
+	N9HKHwJKqUC5FfP4974bl0CaZOpMkpYfmNjGkX74qEk=;
+DKIM-Signature: v=1; a=rsa-sha1; d=dell.com; s=dk1024-2012; c=relaxed/relaxed;
+	q=dns/txt; i=@dell.com; t=1516941019;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=eJlWr75lbjZvcuWN2kUuoKRn1Lc=;
+	b=LtzSVDTdLpid4kOqucvn8ceOn50hISwxFvafboJ7v5DLBccdcd03218mkqM8kwcz
+	HPzMujSezw1qxEGFRKp4wgedUqgMGz27TdHH45Sk60QFGc/DzJDFyqPaOF3PxeN4
+	bWWuIyBaweGj3I0mWvtSK/aB9nktJil4jVX5MISYZoI=;
+Received: from [10.4.1.245] ([10.4.1.245:35357] helo=G01SNJ002)
+	by msm-mta08-tor6 (envelope-from <bounceback@response.dell.com>)
+	(ecelerity 3.6.9.48312 r(Core:3.6.9.0)) with ESMTP
+	id EC/45-14835-BDEAA6A5; Thu, 25 Jan 2018 23:30:19 -0500
+Message-ID: <7faf83d69c584216ba85ea836f88e5b3@2502>
+X-Binding: 2502
+X-elqSiteID: 2502
+X-elqPod: 0x3BC0F1C4E8C62358C67C33A17D924B7F1CC164F157C9649CB0F6FD597FB1CA9C
+X-cid: 45633-47458
+MIME-Version: 1.0
+From: "Dell Business Solutions" <dellbusinesssolutions@Dell.com>
+To: sk@ipuniversity.tk
+Reply-To: "Dell Enterprise" <emailfeedback@dell.com>
+Date: 25 Jan 2018 23:30:19 -0500
+Subject: Create an agile, scalable infrastructure
+Content-Type: multipart/alternative;
+ boundary=--boundary_3355037_7fc62218-c7c9-4caa-a216-66c0f28e5c9d
+X-UC-Weight: [#   ] 60
+X-CC-Diagnostic: Body contains (ob) "clickhere" (30),
+ Body has all "click here, unsubscribe" (30)
+X-PMFLAGS: 570950016 0 0 Y7463SWD.CNM                       
+
+
+----boundary_3355037_7fc62218-c7c9-4caa-a216-66c0f28e5c9d
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQpNb2Rlcm5pemUgeW91ciBkYXRhIGNlbnRlciB3aXRoIERlbGwgRU1DIFBvd2VyRWRn
+ZSBzZXJ2ZXJzICAgICANCg0KDQoNCg0KWW91IGFyZSBzdWJzY3JpYmVkIGFzIHNrQGlw
+dW5pdmVyc2l0eS50ayA8bWFpbHRvOnNrQGlwdW5pdmVyc2l0eS50az4NCg0KU2Vla2lu
+ZyBUZWNobmljYWwgU3VwcG9ydCA8aHR0cDovL3d3dy5kZWxsLmNvbS9zdXBwb3J0L2hv
+bWUvaW4vZW4vaW5kaHMxP2VscV9taWQ9NDc0NTgmZWxxX2NpZD0yOTIwMjg0MiZlbHFU
+cmFja0lkPTBmYTYyYzgyNDJiMDRmYjE4OTM5MWNkZDJmYWMzM2Q5JmVscT03ZmFmODNk
+NjljNTg0MjE2YmE4NWVhODM2Zjg4ZTViMyZlbHFhaWQ9NDc0NTgmZWxxYXQ9MSZlbHFD
+YW1wYWlnbklkPTQ1NjMzPj8NCg0KVGhpcyBlbWFpbCBpcyBhbiBhZHZlcnRpc2VtZW50
+IG9yIHNvbGljaXRhdGlvbiBmcm9tIERlbGwuIElmIHlvdSBubyBsb25nZXIgd2lzaCB0
+byByZWNlaXZlIGVtYWlsIG1hcmtldGluZyBmcm9tIERlbGwgYW5kIEVNQywgcGxlYXNl
+IGNsaWNrIGhlcmUgPGh0dHA6Ly93d3cuZGVsbC5jb20vcHJlZmVyZW5jZXMvbGlzdHJl
+bW92YWwvP2VscV9taWQ9NDc0NTgmZWxxX2NpZD0yOTIwMjg0MiZsPUVOJmM9SU4mZWxx
+VHJhY2tJZD0xNmQ5NTA0ZDRhZjI0NzNhYWEzZWExZDJmNGE4ZjQzZiZlbHE9N2ZhZjgz
+ZDY5YzU4NDIxNmJhODVlYTgzNmY4OGU1YjMmZWxxYWlkPTQ3NDU4JmVscWF0PTEmZWxx
+Q2FtcGFpZ25JZD00NTYzMz4gdG8gdW5zdWJzY3JpYmUuIEZvciBtb3JlIGluZm9ybWF0
+aW9uIG9uIGhvdyB3ZSB1c2UgYW5kIHByb3RlY3QgeW91ciBkYXRhIHBsZWFzZSB2aXNp
+dCBEZWxsJ3MgUHJpdmFjeSBTdGF0ZW1lbnQgPGh0dHA6Ly93d3cuZGVsbC5jb20vbGVh
+cm4vaW4vZW4vaW5jb3JwMS9wb2xpY2llcy1wcml2YWN5P2VscV9taWQ9NDc0NTgmZWxx
+X2NpZD0yOTIwMjg0MiZjPWluJmNzPWluY29ycDEmbD1lbiZzPWNvcnAmZWxxVHJhY2tJ
+ZD0yMzY0N2EyNjNjOGY0OGVlYjFjOTk1ZTk0MGRiNGVjZCZlbHE9N2ZhZjgzZDY5YzU4
+NDIxNmJhODVlYTgzNmY4OGU1YjMmZWxxYWlkPTQ3NDU4JmVscWF0PTEmZWxxQ2FtcGFp
+Z25JZD00NTYzMz4uIEVNQyBpcyBub3cgcGFydCBvZiB0aGUgRGVsbCBncm91cCBvZiBj
+b21wYW5pZXMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIGhvdyBFTUMgdXNlcyBhbmQg
+cHJvdGVjdHMgeW91ciBkYXRhIHBsZWFzZSB2aXNpdCBFTUPigJlzIFByaXZhY3kgUG9s
+aWN5IDxpbmRpYS5lbWMuY29tL2xlZ2FsL2VtYy1jb3Jwb3JhdGlvbi1wcml2YWN5LXN0
+YXRlbWVudC5odG0/ZWxxVHJhY2tJZD1iNjRhNjJkNzQ4Y2Y0OGEwOWUwMDJjZmVlNWE3
+ZjAzNiZlbHE9N2ZhZjgzZDY5YzU4NDIxNmJhODVlYTgzNmY4OGU1YjMmZWxxYWlkPTQ3
+NDU4JmVscWF0PTEmZWxxQ2FtcGFpZ25JZD00NTYzMz4uDQoNCkNvcHlyaWdodCDCqSAy
+MDE3IERlbGwgSW5jLiBvciBpdHMgc3Vic2lkaWFyaWVzLiBBbGwgUmlnaHRzIFJlc2Vy
+dmVkLiBEZWxsLCBFTUMsIGFuZCBvdGhlciB0cmFkZW1hcmtzIG9mIERlbGwgSW5jLiBv
+ciBpdHMgc3Vic2lkaWFyaWVzLiBPdGhlciB0cmFkZW1hcmtzIG1heSBiZSB0cmFkZW1h
+cmtzIG9mIHRoZWlyIHJlc3BlY3RpdmUgb3duZXJzLg0KDQo=
+----boundary_3355037_7fc62218-c7c9-4caa-a216-66c0f28e5c9d
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="x-apple-disable-message-reformatting">
+<title></title>
+<style type="text/css">
+	@media
+ only screen and (max-width: 504px) {
+		.full { width:100% !important; min-width:0 !important; max-width:none !important; }
+		.hidef { display:none !important; visibility:hidden; }
+		.blockf { display:block !important; }
+		.alignCenterf, #alignCenterf { text-align:center !important; }
+		.flex { width:100% !important; height:auto !important; min-height:1px !important; }
+		.linkfix a, .linkfix a span { color:inherit !important; text-decoration:none !important; }
+		.linkfixu a, .linkfixu a span { 
+color:inherit !important; text-decoration:underline !important; }	
+		.pb15 { padding-bottom:15px !important; } .p0b0 { padding-left:0px !important; padding-right:0px !important; border-right:none !important; }
+		.hAuto { height:auto !important; }
+		.float { clear:both !important; display:block !important; width:100% !important; float:left !important; font-weight:normal; }
+	}
+	@media only screen and (min-device-width: 414px) and (max-device-width: 414px) { .wrapper { min-width: 414px !important; } } 
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { .wrapper { min-width: 375px !important; } } 
+    @media only screen and (min-device-width: 320px) and (max-device-width: 374px) { .wrapper { min-width: 320px !important; } } 
+	#outlook a { padding:0; }
+	body{ width:100% !important; min-width:100%; margin:0; margin:0 auto !important; padding:0; background-color:#eeeeee; font-weight:normal; mso-text-raise:0px; } 
+	div[style*="margin: 16px 0"] { margin:0 !important; 
+}
+	div { margin:0 !important; padding:0 !important; }
+	.ExternalClass { width:100% !important;	display:block !important; }
+	.ExternalClass * { line-height:100%; }
+	div, p, li { -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; }
+	ul,ol { margin-left:18px; margin-top:0px; margin-bottom:4px; padding:0; } li { padding-bottom:8px; }
+	br { line-height:1em; }
+	img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; margin:0; 
+border:0; }
+	sup { vertical-align:super; font-size:60%; line-height:0.5em; }
+	sub { vertical-align:sub; font-size:60%; line-height:0.5em; }
+	table,td { border-spacing:0; mso-table-lspace:0pt; mso-table-rspace:0pt; mso-margin-bottom-alt:0; mso-margin-top-alt:0; overflow: hidden !important;}
+	a { text-decoration:none; }
+	.white a, .white a:link, .white a:visited { color:#ffffff; }
+	.blue a, .blue a:link, .blue a:visited { color:#007cb8; }
+	.gray a, .gray a:link, .gray a:visited { color:#919195; 
+}
+	.dkgray a, .dkgray a:link, .dkgray a:visited { color:#444444; }
+	[style*='linkfix'] a, [style*='linkfix'] a span { color:inherit !important; text-decoration:none !important; }
+	[style*='linkfixu'] a, [style*='linkfixu'] a span { color:inherit !important; text-decoration:underline !important; }
+</style>
+<!--[if gte mso 9]>
+    <style>
+
+        sup, sub { font-size:100% !important; line-height:1em !important; font-size:100%; line-height:1em; }
+        tr { font-size:1px; line-height:0.7pt; }
+        ul,ol { Margin-left:24px !important; Margin-left:24px; }
+    </style>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+<![endif]-->
+</head>
+
+<body style="width:100% !important; min-width:100%; margin:0; margin:0 auto !important; padding:0; background-color:#eeeeee; font-weight:normal; mso-text-raise:0px;" bgcolor="#eeeeee">
+
+
+
+	<div style="color:#444444; font-size:1px; line-height:0; height:0; width:0; max-height:0; display:none; display:none !important; mso-hide:all; overflow:hidden;" align="left">Modernize your data center with Dell EMC PowerEdge servers
+	</div>
+	
+<table style="table-layout:fixed;" class="full wrapper" width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tbody><tr>
+			<td class="full" style="text-align:center;" bgcolor="#eeeeee" align="center">
+				<center>
+					<div style="max-width:600px;">
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="600" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;">
+							<tr>
+								<td width="600" valign="top">
+						<![endif]-->
+
+
+
+						
+<!-- Open Logo / View Online -->
+						<table border="0" cellpadding="0" cellspacing="0" style="max-width:600px;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" style="text-align:center; padding-left:24px; padding-right:24px;">
+			<center>
+			<div style="max-width:550px;"><!--[if (gte mso 9)|(IE)]>
+											<table width="550" align="center" cellpadding="0" cellspacing="0" border="0" style="width:550px;">
+												<tr>
+													<td width="550" valign="top">
+											<![endif]-->
+			
+<table border="0" cellpadding="0" cellspacing="0" style="max-width:550px;" width="100%">
+				<tbody>
+					<tr>
+						<td align="center" style="padding-top:15px;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<th class="float" style="padding:0; font-weight:normal;" valign="bottom" width="99">
+									<table border="0" cellpadding="0" cellspacing="0" class="full" style="width:48px;" width="99">
+										<tbody>
+											<tr>
+												
+<td align="center" style="padding-bottom:24px;">
+												<div align="center"><a href="https://www.dellemc.com/hi-in/index.htm?elq_mid=47458&elq_cid=29202842&elqTrackId=914e4f8bcdcb486b85332a14951541fc&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633">
+<img alt="Dell EMC" border="0" height="17" src="https://img.en25.com/EloquaImages/clients/DellEnterprise/{1d02eda9-0b4d-4dfa-ae3b-10a5a2678d4c}_DellEMC_BlueGrey_300x53.png" style="outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; margin:0; border:0;" width="99"></a></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</th>
+									<th class="float" style="padding:0; font-weight:normal;" valign="bottom">
+									
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+											<tr>
+												<td align="right" class="pb15" style="padding-bottom:24px;">
+												<div align="right" class="gray" id="alignCenterf" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:12px; color:#919195; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">
+<a href="http://app.response.dell.com/e/es?s=2502&e=527306&elqTrackId=f1e94bd8a1f94f78940e9b4dcefbc6b0&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1" style="color:#919195; text-decoration:none;" target="_blank">View online</a></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</th>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+													</td>
+												</tr>
+											
+</table>
+											<![endif]--></div>
+			</center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+						<!-- Close Logo / View Online -->
+                      
+						<!-- Open Headline/BC (if present) | Promos -->
+						<table border="0" cellpadding="0" cellspacing="0" style="max-width:600px;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" style="text-align:center; padding-left:24px; padding-right:24px;">
+			<center>
+			<div style="max-width:550px;"><!--[if (gte mso 9)|(IE)]>
+				
+<table width="550" align="center" cellpadding="0" cellspacing="0" border="0" style="width:550px;">
+					<tr>
+						<td width="550" valign="top">
+				<![endif]-->
+			<table border="0" cellpadding="0" cellspacing="0" style="max-width:550px;" width="100%">
+				<tbody>
+					<tr>
+						<td align="center" style="padding-top:26px; text-align:center;">
+						<center>
+						<div style="max-width:445px;"><!--[if (gte mso 9)|(IE)]>
+								
+<table width="445" align="center" cellpadding="0" cellspacing="0" border="0" style="width:445px;">
+									<tr>
+										<td width="445" valign="top">
+								<![endif]-->
+						<table border="0" cellpadding="0" cellspacing="0" style="max-width:445px;" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" style="padding-bottom:10px;">
+									
+<p align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:24px; line-height:28px; mso-text-raise:1px; color:#444444; Margin-top:0px; Margin-bottom:11px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">Deliver superior agility</p>
+
+									<table border="0" cellpadding="0" cellspacing="0" style="width:60px;" width="60">
+										<tbody>
+											<tr>
+												
+<td height="12" style="border-top:2px solid #808080; height:12px;">
+												<div style="font-size:9px; line-height:12px; height:12px; overflow:hidden; -webkit-text-size-adjust:none;">&nbsp;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									
+<p align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:20px; mso-text-raise:2px; color:#444444; Margin-top:0px; Margin-bottom:14px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">Maximize
+ performance, automate the entire server lifecycle, and protect your customers with scalable business architecture, intelligent automation and integrated security that comes with Dell EMC server solutions.</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+                            		</td>
+                            	</tr>
+                            </table>
+                            <![endif]--></div>
+						</center>
+						</td>
+					</tr>
+				
+</tbody>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+            		</td>
+            	</tr>
+            </table>
+            <![endif]--></div>
+			</center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- Close Headline/Body Copy --><!-- Open Promo -->
+
+<table border="0" cellpadding="0" cellspacing="0" style="max-width:600px;" width="100%">
+	<tbody>
+		<tr>
+			<td style="padding-bottom:18px; font-size:0; text-align:center;"><!--[if (gte mso 9)|(IE)]>
+									
+<table width="550" align="center" cellpadding="0" cellspacing="0" border="0" style="width:550px;">
+										<tr>
+											<td width="280" valign="top" bgcolor="#ffffff">
+									<![endif]-->
+			<div class="full" style="vertical-align:middle; width:100%; max-width:280px; display:inline-block;">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						
+<td align="center" bgcolor="#ffffff" class="hAuto" height="152" style="padding-left:20px; padding-right:20px; height:152px; text-align:center;" valign="middle">
+						<center>
+						<div class="full" style="max-width:212px;"><!--[if (gte mso 9)|(IE)]>
+															<table width="212" align="center" cellpadding="0" cellspacing="0" border="0" style="width:212px;">
+																<tr>
+																	<td width="212" valign="top">
+															<![endif]-->
+						
+<table border="0" cellpadding="0" cellspacing="0" class="full" style="max-width:212px;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" style="padding-bottom:20px; padding-top:20px;">
+									
+<p align="left" class="dkgray" id="alignCenterf" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:21px; mso-text-raise:2px; color:#444444; Margin-top:0px; Margin-bottom:15px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">Transform your IT with Dell EMC.</p>
+
+									<table border="0" cellpadding="0" cellspacing="0" class="full">
+										<tbody>
+											<tr>
+												<td align="center">
+												
+<table border="0" cellpadding="0" cellspacing="0">
+													<tbody>
+														<tr>
+															<td align="center" height="30" style="border:1px solid #007cb8" valign="middle">
+															
+<div align="center" class="blue" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:16px; color:#007cb8; mso-margin-top-alt:7px; mso-margin-bottom-alt:7px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; mso-line-height-rule:exactly;">
+<a href="https://mbcontact.dell.com/LP=17253?elq_mid=47458&elq_cid=29202842&elqTrackId=52c264138b9c4615a4405215e5109eb9&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="display:block; color:#007cb8; text-decoration:none; padding:7px 0;" target="_blank">&nbsp;&nbsp;&nbsp;Read the White Paper &rsaquo;&nbsp;&nbsp;&nbsp;</a></div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									
+</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+																	</td>
+																</tr>
+															</table>
+															<![endif]--></div>
+						</center>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			<!--[if (gte mso 9)|(IE)]>
+											</td>
+											<td width="270" valign="top">
+									<![endif]-->
+
+			
+<div class="full" style="vertical-align:middle; width:100%; max-width:270px; display:inline-block;">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td align="center">
+						<div align="center">
+<img alt="Transform your IT with Dell EMC." border="0" class="full" height="152" src="https://secms.shutterfly.com/SECMS/ShutterflyProduct_Images//A1180_270x152_GLB.jpg" style="outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; margin:0; border:0; width:100%; max-width:270px; height:auto; min-height:1px;" width="270"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			<!--[if (gte mso 9)|(IE)]>
+											</td>
+										</tr>
+									</table>
+									
+<![endif]--></td>
+		</tr>
+		<tr>
+			<td style="padding-bottom:18px; font-size:0; text-align:center;"><!--[if (gte mso 9)|(IE)]>
+									<table width="550" align="center" cellpadding="0" cellspacing="0" border="0" style="width:550px;">
+										<tr>
+											<td width="280" valign="top" bgcolor="#ffffff">
+									<![endif]-->
+			<div class="full" style="vertical-align:middle; width:100%; max-width:280px; display:inline-block;">
+			
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td align="center" bgcolor="#ffffff" class="hAuto" height="152" style="padding-left:20px; padding-right:20px; height:152px; text-align:center;" valign="middle">
+						<center>
+						<div class="full" style="max-width:212px;"><!--[if (gte mso 9)|(IE)]>
+															<table width="212" align="center" cellpadding="0" cellspacing="0" border="0" style="width:212px;">
+																<tr>
+																	
+<td width="212" valign="top">
+															<![endif]-->
+						<table border="0" cellpadding="0" cellspacing="0" class="full" style="max-width:212px;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" style="padding-bottom:20px; padding-top:20px;">
+									
+<p align="left" class="dkgray" id="alignCenterf" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:21px; mso-text-raise:2px; color:#444444; Margin-top:0px; Margin-bottom:15px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">Boost server performance when time is critical</p>
+
+									<table border="0" cellpadding="0" cellspacing="0" class="full">
+										<tbody>
+											<tr>
+												
+<td align="center">
+												<table border="0" cellpadding="0" cellspacing="0">
+													<tbody>
+														<tr>
+															<td align="center" height="30" style="border:1px solid #007cb8" valign="middle">
+															
+<div align="center" class="blue" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:16px; color:#007cb8; mso-margin-top-alt:7px; mso-margin-bottom-alt:7px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; mso-line-height-rule:exactly;">
+<a href="https://mbcontact.dell.com/LP=17254?elq_mid=47458&elq_cid=29202842&elqTrackId=bcdbd571e81f4d308bb5d9bc5ff02c4d&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="display:block; color:#007cb8; text-decoration:none; padding:7px 0;" target="_blank">&nbsp;&nbsp;&nbsp;View the Infographic &rsaquo;&nbsp;&nbsp;&nbsp;</a></div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									
+</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+																	</td>
+																</tr>
+															</table>
+															<![endif]--></div>
+						</center>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			<!--[if (gte mso 9)|(IE)]>
+											</td>
+											<td width="270" valign="top">
+									<![endif]-->
+
+			
+<div class="full" style="vertical-align:middle; width:100%; max-width:270px; display:inline-block;">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td align="center">
+						<div align="center">
+<img alt="Boost server performance when time is critical" border="0" class="full" height="152" src="https://secms.shutterfly.com/SECMS/ShutterflyProduct_Images//1061_270x152_US.jpg" style="outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; margin:0; border:0; width:100%; max-width:270px; height:auto; min-height:1px;" width="270"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			<!--[if (gte mso 9)|(IE)]>
+                  	</td>
+
+                  </tr>
+				</table>
+				<![endif]--></td>
+		</tr>
+	</tbody>
+</table>
+
+						<!-- Close Headline/BC (if present) | Promos -->
+                      
+						<!-- Open Banner Image Feed -->
+						
+						<!-- Close Banner Image Feed -->
+                      
+						<!-- Open NavBar -->
+						<table border="0" cellpadding="0" cellspacing="0" style="max-width:600px;" width="100%">
+	<tbody>
+		<tr>
+			
+<td align="center" style="text-align:center; padding-top:12px; padding-bottom: 10px;">
+			<center>
+			<div style="max-width:550px;"><!--[if (gte mso 9)|(IE)]>
+											<table width="550" align="center" cellpadding="0" cellspacing="0" border="0" style="width:550px;">
+												<tr>
+													<td width="550" valign="top">
+											<![endif]-->
+			<table border="0" cellpadding="0" cellspacing="0" style="max-width:550px;" width="100%">
+				<tbody>
+					<tr>
+						
+<td style="text-align:center; font-size:0; border-top:2px solid #ddd8d5; padding-top: 10px;"><!--[if (gte mso 9)|(IE)]>
+														<table width="550" align="center" cellpadding="0" cellspacing="0" border="0" style="width:550px;">
+															<tr>
+																<td width="166" valign="middle">
+														<![endif]-->
+						<div class="full" style="display:inline-block; width:100%; max-width:166px; vertical-align:middle;">
+						
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" style="padding-top: 5px; padding-bottom: 5px;">
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="padding-right:1px;">
+<a href="https://mbcontact.dell.com/LP=14915?elq_mid=47458&elq_cid=29202842&elqTrackId=f2c703a3e1e04065a9f1755c921ddd5a&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" target="_blank"><img alt="" border="0" height="17" src="http://images.response.dell.com/EloquaImages/clients/DellEnterprise/%7Bffa455b6-8393-4e15-840d-3c16a648fbf0%7D_WFT.png" style="outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; margin:0; border:0;" width="27"></a></td>
+												
+<td valign="middle">
+												<div align="left" class="dkgray" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:12px; color:#444444; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">
+<a href="https://mbcontact.dell.com/LP=14915?elq_mid=47458&elq_cid=29202842&elqTrackId=aa9c8503ec104b09abd90286df76bc1b&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="color:#444444; text-decoration:none;" target="_blank">&nbsp;&nbsp;Workforce Transformation</a></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if (gte mso 9)|(IE)]>
+																
+</td>
+																<td width="127" valign="middle">
+														<![endif]-->
+
+						<div class="full" style="display:inline-block; width:100%; max-width:127px; vertical-align:middle;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" style="padding-top: 5px; padding-bottom: 5px;">
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												
+<td style="padding-right:1px;"><a href="https://mbcontact.dell.com/LP=14914?elq_mid=47458&elq_cid=29202842&elqTrackId=463e0ac2e73c46e7b95d2bf46f9cd8a0&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" target="_blank">
+<img alt="" border="0" height="20" src="http://images.response.dell.com/EloquaImages/clients/DellEnterprise/%7B347b75d0-dd58-4889-ae2d-020c0105ec84%7D_ITT.png" style="outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; margin:0; border:0;" width="26"></a></td>
+												<td valign="middle">
+												
+<div align="left" class="dkgray" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:12px; color:#444444; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">
+<a href="https://mbcontact.dell.com/LP=14914?elq_mid=47458&elq_cid=29202842&elqTrackId=78e2694e90844950a820c841e91ddc02&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="color:#444444; text-decoration:none;" target="_blank">&nbsp;&nbsp;IT Transformation</a></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if (gte mso 9)|(IE)]>
+																</td>
+																
+<td width="120" valign="middle">
+														<![endif]-->
+
+						<div class="full" style="display:inline-block; width:100%; max-width:120px; vertical-align:middle;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" style="padding-top: 5px; padding-bottom: 5px;">
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td style="padding-right:1px;">
+<a href="https://vts.inxpo.com/Launch/QReg.htm?elq_mid=47458&elq_cid=29202842&ShowKey=35224&AffiliateData=EventNurture&elqTrackId=10cf69273e4549e19347bdd7675b5e47&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" target="_blank">
+<img alt="" border="0" height="18" src="http://images.response.dell.com/EloquaImages/clients/DellEnterprise/%7Bccd0ddb0-5d76-4172-910d-1cb12d69d534%7D_events.png" style="outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; margin:0; border:0;" width="18"></a></td>
+												<td valign="middle">
+												
+<div align="left" class="dkgray" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:12px; color:#444444; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">
+<a href="https://vts.inxpo.com/Launch/QReg.htm?elq_mid=47458&elq_cid=29202842&ShowKey=35224&AffiliateData=EventNurture&elqTrackId=50f6704bbe08458a807e6e1b2f02bf43&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="color:#444444; text-decoration:none;" target="_blank">&nbsp;&nbsp;Virtual Events</a></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						
+<!--[if (gte mso 9)|(IE)]>
+																</td>
+																<td width="137" valign="top">
+														<![endif]-->
+
+						<div class="full" style="display:inline-block; width:100%; max-width:137px; vertical-align:middle;">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" style="background-color: #007db8; padding-top: 5px; padding-bottom: 5px;">
+									<table border="0" cellpadding="0" cellspacing="0">
+										
+<tbody>
+											<tr>
+												<td style="padding-right:1px;"><a href="https://mbcontact.dell.com/LP=14228?elq_mid=47458&elq_cid=29202842&elqTrackId=aec8fdac301d47d0a182204d160124e4&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" target="_blank">
+<img alt="Contact Sales" border="0" height="14" src="http://images.response.dell.com/EloquaImages/clients/DellEnterprise/%7B80b03683-842f-4780-84f1-ad706b37128f%7D_chat.png" style="outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; margin:0; border:0;" width="15"></a></td>
+												<td valign="middle">
+												
+<div align="left" class="white" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:12px; color:#ffffff; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">
+<a href="https://mbcontact.dell.com/LP=14228?elq_mid=47458&elq_cid=29202842&elqTrackId=b3aa23a8c0164097a26973fafa3c0677&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="color:#ffffff; text-decoration:none;" target="_blank">&nbsp;&nbsp;Contact Sales</a></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if (gte mso 9)|(IE)]>
+																</td>
+															
+</tr>
+														</table>
+														<![endif]--></td>
+					</tr>
+				</tbody>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+													</td>
+												</tr>
+											</table>
+											<![endif]--></div>
+			</center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+						<!-- Close NavBar -->
+
+
+
+						<!--[if (gte mso 9)|(IE)]>
+								</td>
+							</tr>
+						</table>
+						<![endif]-->
+					</div>
+				</center>
+			</td>
+		</tr>
+	</tbody></table>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" class="full wrapper" style="table-layout:fixed;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" bgcolor="#eeeeee" class="full" style="text-align:center;">
+			<center>
+			<div style="max-width:600px;"><!--[if (gte mso 9)|(IE)]>
+					<table width="600" align="center" cellpadding="0" cellspacing="0" border="0" style="width:600px;">
+						<tr>
+							<td width="600" valign="top">
+					<![endif]-->
+			
+<table border="0" cellpadding="0" cellspacing="0" style="max-width:600px;" width="100%">
+				<tbody>
+					<tr>
+						<td style="padding-left:24px; padding-right:24px;">
+						<center>
+						<div style="max-width:550px;"><!--[if (gte mso 9)|(IE)]>
+										<table width="550" align="center" cellpadding="0" cellspacing="0" border="0" style="width:550px;">
+											<tr>
+												<td width="522" valign="top">
+										<![endif]-->
+						
+<table border="0" cellpadding="0" cellspacing="0" style="max-width:550px;" width="100%">
+							<tbody>
+								<tr>
+									<td style="padding-top:26px; padding-bottom:26px; border-top:2px solid #ddd8d5;">
+									
+<p align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; mso-text-raise:2px; color:#444444; Margin-top:0px; Margin-bottom:15px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; -webkit-font-smoothing:antialiased;">You are subscribed as <a href="mailto:sk@ipuniversity.tk" style="text-decoration: none; color: #007db8;">sk@ipuniversity.tk</a><br>
+									<br>
+									Seeking
+ <a href="http://www.dell.com/support/home/in/en/indhs1?elq_mid=47458&elq_cid=29202842&elqTrackId=0fa62c8242b04fb189391cdd2fac33d9&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="color: #007db8;">Technical Support</a>?<br>
+									<br>
+									This
+ email is an advertisement or solicitation from Dell. If you no longer wish to receive email marketing from Dell and EMC, please <a href="http://www.dell.com/preferences/listremoval/?elq_mid=47458&elq_cid=29202842&l=EN&c=IN&elqTrackId=16d9504d4af2473aaa3ea1d2f4a8f43f&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="color: #007db8;" target="_blank">click here</a>
+ to unsubscribe. For more information on how we use and protect your data please visit <a href="http://www.dell.com/learn/in/en/incorp1/policies-privacy?elq_mid=47458&elq_cid=29202842&c=in&cs=incorp1&l=en&s=corp&elqTrackId=23647a263c8f48eeb1c995e940db4ecd&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="color: #007db8;" target="_blank">Dell&#39;s Privacy Statement</a>.
+ EMC is now part of the Dell group of companies. For more information on how EMC uses and protects your data please visit <a href="india.emc.com/legal/emc-corporation-privacy-statement.htm?elq_mid=47458&elq_cid=29202842&elqTrackId=b64a62d748cf48a09e002cfee5a7f036&elq=7faf83d69c584216ba85ea836f88e5b3&elqaid=47458&elqat=1&elqCampaignId=45633" style="color: #007db8;" target="_blank">EMC&rsquo;s Privacy Policy</a>.<br>
+									<br>
+									Copyright
+ &copy; 2017 Dell Inc. or its subsidiaries. All Rights Reserved. Dell, EMC, and other trademarks of Dell Inc. or its subsidiaries. Other trademarks may be trademarks of their respective owners.</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+												</td>
+											</tr>
+										</table>
+										<![endif]--></div>
+						</center>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+							</td>
+						</tr>
+					
+</table>
+					<![endif]--></div>
+			</center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<img src='http://app.response.dell.com/e/FooterImages/FooterImage1?elq=7faf83d69c584216ba85ea836f88e5b3&siteid=2502' alt="" border=0 width=1px height=1px></body></html>
+----boundary_3355037_7fc62218-c7c9-4caa-a216-66c0f28e5c9d--
+
+

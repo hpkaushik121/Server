@@ -1,0 +1,59 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 13 Jan 2018 19:04:43 +0530
+X-Envelope-To: <master@ibuiltinfra.com>
+From: Mail Delivery System <postmaster@ipuniversity.tk>
+To: <master@ibuiltinfra.com> 
+Date: Sat, 13 Jan 2018 19:04:32 +0530
+Subject: Delivery failure notification
+MIME-Version: 1.0
+Content-Type: Multipart/Report; boundary=Part_Boundary-F9EFE30
+X-PMFLAGS: 570949760 0 0 YZEF8U7Z.CNM                       
+
+--Part_Boundary-F9EFE30
+Content-type: Text/plain; charset=US-ASCII
+Content-description: Mail delivery failure report
+Content-disposition: Inline
+
+With reference to your message with the subject:
+   "sourabh"
+
+The local mail transport system has reported the following problems
+it encountered while trying to deliver your message:
+
+-------------------------------------------------------------------
+*** <matser@ibuiltinfra.com>
+User <matser@ibuiltinfra.com> not known at this site.
+-------------------------------------------------------------------
+
+Your mail message is being returned to you in the next part of this
+message.
+
+Should you need assistance, please mail postmaster@ipuniversity.tk.
+
+--Part_Boundary-F9EFE30
+Content-type: Message/RFC822
+Content-description: Contents of original mail message
+
+Return-path: <master@ibuiltinfra.com> 
+Received: from [192.168.0.5] (43.230.104.162) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000007;
+   13 Jan 2018 19:04:30 +0530
+To: matser@ibuiltinfra.com
+From: master <master@ibuiltinfra.com>
+Subject: sourabh
+Message-ID: <80a010de-063f-4553-e082-44d1ff0eae87@ibuiltinfra.com>
+Date: Sat, 13 Jan 2018 19:04:29 +0530
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.5.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 180112-2, 01/12/2018), Outbound message
+X-Antivirus-Status: Clean
+
+sourabh
+
+
+
+
+--Part_Boundary-F9EFE30--
+

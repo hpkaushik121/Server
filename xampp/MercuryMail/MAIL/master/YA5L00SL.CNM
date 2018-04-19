@@ -1,0 +1,73 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 9 Apr 2018 11:33:27 +0530
+X-Envelope-To: <master@iserv.tech>
+Return-path: <hpkaushik121@gmail.com> 
+Received: from mail-qt0-f181.google.com (209.85.216.181) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000005;
+   9 Apr 2018 11:33:27 +0530
+Received: by mail-qt0-f181.google.com with SMTP id z23so7958011qti.5
+        for <master@iserv.tech>; Sun, 08 Apr 2018 23:03:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=sTVTAIjsc8/Gx0AH1FMlXikzkGrWgRXVcKbbQaUy+qQ=;
+        b=gnuDyBZ12IjzFFSwttnseeBXQ4RAIoWuXsXAhjXzWg2mqijfg79hkdgf+bzlO53iW+
+         D5Yo6P4xQ1uYR/1WB1jPmy2U0PdXDmBFJxvPIQ8vyE1VbvTLh0khS+rgjgxc1LxV2r+r
+         gtjl2JGMbMsUQJlIFIoO/SoQ2CCtFSTxosBuyfJmzsAWpNLsAuhBwzPm7Iym7jHJVknf
+         4X/c6f5wrIFI1mg1MydxWGWp8G56gIL6Up+V71jHjeWkKi2bUXYX8cBmI4hDEPJftc6q
+         91mt2JTUs986Nf/H1OF379VAMZVNWDD+SjHkT40so/PMma74i2QZngECIh1G6QP/p2Ee
+         Pf1w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=sTVTAIjsc8/Gx0AH1FMlXikzkGrWgRXVcKbbQaUy+qQ=;
+        b=gSu2SAbEuoje0VtCpMg4WyjT7F/tNLBIA7jbL660FPuC2l3Fj2ALVez0QpxOT+JuqG
+         SwEDgGcMOnWbobR0632yrmCcBvoBN4ugiqmU99PBbQtPA0J4cltzCKIQQUeyOiKKthCl
+         yIzAE1jP6DjJE1EqIHk0vFxss1y+8vUcxL/mUscesg86sBsdWdGFlH8rCczt2ws6Pr7C
+         Ro7Uc53hBc8GcDKCrlNOk7YDjGHXXscw1/Ks1HMgisnHa/qyhZUtHdhn5ari0yFuNLnL
+         vn8aUGOZAGstOBQDRyjTQkq+6GydmqR2boClQUf4fc1xEFWmvmkewzetmGRxjUybjtWB
+         jdew==
+X-Gm-Message-State: ALQs6tAA0lYumf4JTJ/I1sO0epJhVMv+KR1KbHY8H5jWnKGq6yVpGpZN
+	itkkSorXGvH9wMXaI631vZpe3UhadKKYmkc1/dU=
+X-Google-Smtp-Source: AIpwx49N5L6dBFC6VrhaTp5LFBApNMD59gApFx3W7vfK2UxXbGvBnx/X/AIcyl7IKnm1Yi/vORffo/YyS6++GrNZyxU=
+X-Received: by 10.237.53.47 with SMTP id a44mr51440533qte.96.1523253803937;
+ Sun, 08 Apr 2018 23:03:23 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.12.155.146 with HTTP; Sun, 8 Apr 2018 23:03:23 -0700 (PDT)
+Received: by 10.12.155.146 with HTTP; Sun, 8 Apr 2018 23:03:23 -0700 (PDT)
+In-Reply-To: <3392EB344CE0@ipuniversity.tk>
+References: <3392EB344CE0@ipuniversity.tk>
+From: hackrackers <hpkaushik121@gmail.com>
+Date: Mon, 9 Apr 2018 11:33:23 +0530
+Message-ID: <CAMY4RieFC8O14LuZPveAL87LWjZ7vsUG4_nkBcx80cLwXp93vQ@mail.gmail.com>
+Subject: Re: subject
+To: master@iserv.tech
+Content-Type: multipart/alternative; boundary="001a11c02500e2f5870569642926"
+X-PMFLAGS: 570950016 0 5 YA5L00SL.CNM
+
+--001a11c02500e2f5870569642926
+Content-Type: text/plain; charset="UTF-8"
+
+Hey
+On 9 Apr 2018 11:31 am, <master@iserv.tech> wrote:
+
+> hello this is a test message to check the mail server
+> this is test message to check the mail server
+> this is a test message to check the mail server
+> this is test message to check the mail server
+>
+
+--001a11c02500e2f5870569642926
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Hey</p>
+<div class=3D"gmail_quote">On 9 Apr 2018 11:31 am,  &lt;master@iserv.tech&g=
+t; wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote" style=
+=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">hello th=
+is is a test message to check the mail server<br>
+this is test message to check the mail server<br>
+this is a test message to check the mail server<br>
+this is test message to check the mail server<br>
+</blockquote></div>
+
+--001a11c02500e2f5870569642926--

@@ -1,0 +1,149 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 5 Jan 2018 12:35:14 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <01000160c5232328-a4ac370c-e75a-487d-a507-f1bc9411736f-000000@amazonses.com>
+Received: from a9-112.smtp-out.amazonses.com (54.240.9.112) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   5 Jan 2018 12:35:04 +0530
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=feifwur4r4l2ieplxomcqu5dcemhtvnj; d=bootstrapious.com;
+	t=1515135902;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=AgNDArj8oayo7jYIqXXb1AVmr7Hsv78tzwazjzpJqOQ=;
+	b=t2DPpo3JvnH8QA8BapxD0m1BB39o/10rLMryh3BRfxH6gF3LBJUBA2ZiZHtqn5MI
+	UqHQEmIQDIWfxefGQdNXbdm+pX3RsrSp8bRcF1iZL+UvExQioAWM+sX6cgi07chLik8
+	ikqjtIzP007ukvn93xr77ayKMo91JkTTcVSyQtJ4=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1515135902;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=AgNDArj8oayo7jYIqXXb1AVmr7Hsv78tzwazjzpJqOQ=;
+	b=WO/AvLps3h/pZB5XMvurOIffc4G5SzrCvylpt4VBpJHX+JUVd89mn7BnGrCbX7sj
+	I/LwoaEIwDY76pAUAuTrY0hwp08b2ATVu6RTuPGqWWI2nc3ycdF8OMWKIG2ep6FjPfT
+	8vTG916BjSihaq+1ILMB1IsMZCUawp10L3t5GdbI=
+Date: Fri, 5 Jan 2018 07:05:02 +0000
+To: sourabh <sk@ipuniversity.tk>
+From: Ondrej from Bootstrapious <ondrej@bootstrapious.com>
+Reply-To: Ondrej from Bootstrapious <hello@bootstrapious.com>
+Subject: How do you like the template?
+Message-ID: <01000160c5232328-a4ac370c-e75a-487d-a507-f1bc9411736f-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/WKCfORakzdDjPrAN3GlZ7A/a>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_77e2267e81ba694d9526f6c44eae97a2"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2018.01.05-54.240.9.112
+Feedback-ID: 1.us-east-1.bfoJXYnbLesrWCqwQJSJcLMTg2/zuWNHjeOeYqk3rdc=:AmazonSES
+X-PMFLAGS: 570950016 0 5 YBS6QP67.CNM
+
+This is a multi-part message in MIME format.
+
+--b1_77e2267e81ba694d9526f6c44eae97a2
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hello there,
+
+it's Ondrej from Bootstrapious. 
+
+You downloaded the Obaju E-commerce template yesterday. 
+
+Is everything as expected? If you encounter some bugs (you shouldn't :)), please let me know.
+
+Over the next days, I will send you few emails with latest Bootstrap tips and tricks, tutorials and more. Stay tuned.
+
+Have a great day!
+
+Best,
+
+Ondrej Svestka
+Bootstrapious
+
+P.S. If this email landed in "Promotions" tab in Gmail and you don't want to miss any future updates/fixes for "Obaju E-commerce template", simply drag-and-drop this email to your Primary inbox.
+
+
+--b1_77e2267e81ba694d9526f6c44eae97a2
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+=09<title></title>
+</head>
+<body>
+<p><span style=3D"font-family:helvetica;">Hi there,</span></p>
+
+<p><span style=3D"font-family:helvetica;">it&#39;s Ondrej from&nbsp;<a href=
+=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/WKCfORakzd=
+DjPrAN3GlZ7A/WKCfORakzdDjPrAN3GlZ7A">Bootstrapious</a>.&nbsp;</span></p>
+
+<p><span style=3D"font-family:helvetica;">You downloaded Obaju E-commerce t=
+emplate yesterday.&nbsp;</span></p>
+
+<p><span style=3D"font-family:helvetica;">Is everything as expected? If you=
+ encounter some bugs (you shouldn&#39;t :)), please let me know.&nbsp;</spa=
+n></p>
+
+<p><span style=3D"font-family:helvetica;">The template is free to use with =
+the attribution link pointing to Bootstrapious .&nbsp;If you would like to =
+use the template without the attribution link, please <a href=3D"https://se=
+ndy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/jFtx7XjG4pMb763ctQB9LNOQ=
+/WKCfORakzdDjPrAN3GlZ7A">visit this page</a>.&nbsp;</span></p>
+
+<p><span style=3D"font-family:helvetica;">Over the next days, I will send y=
+ou few emails with latest Bootstrap tips and tricks, tutorials and more.&nb=
+sp;Stay tuned.</span></p>
+
+<p><span style=3D"font-family:helvetica;">Have a great day!</span></p>
+
+<p><span style=3D"font-family:helvetica;">Best,</span></p>
+
+<p><span style=3D"font-family:helvetica;">Ondrej Svestka,&nbsp;Bootstrapiou=
+s</span></p>
+
+<p><span style=3D"font-family:helvetica;">P.S. If this email landed in &quo=
+t;Promotions&quot; tab in Gmail and you don&#39;t want to miss any future u=
+pdates/fixes for this template, simply drag-and-drop this email&nbsp;to you=
+r Primary inbox.</span></p>
+
+<p><span style=3D"font-family: helvetica;">--</span></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;"><strong>Ondrej </strong>Svestka, <strong>Bo=
+otstrapious</strong></span></span></span></p>
+
+<p><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/=
+opqfEUHsR0ntow0elUqliA/WKCfORakzdDjPrAN3GlZ7A" style=3D"color: rgb(17, 85, =
+204); font-family: arial, sans-serif; font-size: small; background-color: r=
+gb(255, 255, 255);" target=3D"_blank">website</a><span style=3D"color: rgb(=
+34, 34, 34); font-family: arial, sans-serif; font-size: small; background-c=
+olor: rgb(255, 255, 255);">&nbsp;|&nbsp;</span><a href=3D"https://sendy.boo=
+tstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/2RtLHsi892by0uIusslvm5qw/WKCfOR=
+akzdDjPrAN3GlZ7A" style=3D"color: rgb(17, 85, 204); font-family: arial, san=
+s-serif; font-size: small; background-color: rgb(255, 255, 255);" target=3D=
+"_blank">twitter</a><span style=3D"color: rgb(34, 34, 34); font-family: ari=
+al, sans-serif; font-size: small; background-color: rgb(255, 255, 255);">&n=
+bsp;|&nbsp;</span><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkn=
+tl07TPG0oZ892Q/w2pD746XOUNBVbC892r5N7ig/WKCfORakzdDjPrAN3GlZ7A" style=3D"co=
+lor: rgb(17, 85, 204); font-family: arial, sans-serif; font-size: small; ba=
+ckground-color: rgb(255, 255, 255);" target=3D"_blank">facebook&nbsp;</a><s=
+pan style=3D"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-s=
+ize: small; background-color: rgb(255, 255, 255);">|&nbsp;</span><a href=3D=
+"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/2YhzxFpdNSxQH=
+kkcXw1cbA/WKCfORakzdDjPrAN3GlZ7A" style=3D"color: rgb(17, 85, 204); font-fa=
+mily: arial, sans-serif; font-size: small; background-color: rgb(255, 255, =
+255);" target=3D"_blank">google+</a></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;">Bootstrapious, Hasicska street, 70030 Ostra=
+va, Czech republic</span></span></span></p>
+
+<p><span style=3D"font-family: helvetica; font-size: 12px;"><a href=3D"http=
+s://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQ=
+E5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/WKCfORakzdDjPrAN3GlZ7A"><span style=3D"=
+color:#696969;">Unsubscribe from this list</span></a></span></p>
+</body>
+</html>
+<img src=3D"https://sendy.bootstrapious.com/t/WKCfORakzdDjPrAN3GlZ7A/892MqE=
+A4aJkntl07TPG0oZ892Q/a" alt=3D"" style=3D"width:1px;height:1px;"/>
+
+
+--b1_77e2267e81ba694d9526f6c44eae97a2--

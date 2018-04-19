@@ -1,0 +1,93 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 4 Jan 2018 11:58:11 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Thu, 4 Jan 2018 11:58:00 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=31474.249845562
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--31474.249845562
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** wordpress@43.230.104.162
+   Permanent error 11001 (non-existent host or domain) resolving '43.230.104.162'.
+
+--31474.249845562
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 4 Jan 2018 11:57:49 +0530
+From: Mail Delivery System <postmaster@ipuniversity.tk>
+To: wordpress@43.230.104.162
+Date: Thu, 4 Jan 2018 11:57:38 +0530
+Subject: Delivery failure notification
+MIME-Version: 1.0
+Content-Type: Multipart/Report; boundary=Part_Boundary-EE400CD
+Message-ID: <EE42C04015A@ipuniversity.tk>
+
+--Part_Boundary-EE400CD
+Content-type: Text/plain; charset=US-ASCII
+Content-description: Mail delivery failure report
+Content-disposition: Inline
+
+With reference to your message with the subject:
+   "[wordpress] Notice of Admin Email Change"
+
+The local mail transport system has reported the following problems
+it encountered while trying to deliver your message:
+
+-------------------------------------------------------------------
+*** you@example.com
+Error connecting to primary server '93.184.216.34'.
+-------------------------------------------------------------------
+
+Your mail message is being returned to you in the next part of this
+message.
+
+Should you need assistance, please mail postmaster@ipuniversity.tk.
+
+--Part_Boundary-EE400CD
+Content-type: Message/RFC822
+Content-description: Contents of original mail message
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 3 Jan 2018 12:56:51 +0530
+Received: from geetika (127.0.0.1) by ipuniversity.tk (Mercury/32 v4.62) ID MG000001;
+   3 Jan 2018 12:56:43 +0530
+Subject: [wordpress] Notice of Admin Email Change
+To: you@example.com
+X-PHP-Originating-Script: 0:class-phpmailer.php
+Date: Wed, 3 Jan 2018 07:26:43 +0000
+From: WordPress <wordpress@43.230.104.162>
+Message-ID: <4cae2d903e33c1b135d2b4797eb50cdd@43.230.104.162>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-CC-Diagnostic: Body matches "*tp:??[0-9]+.[0-9]+.[0-9]+.*" (20)
+
+Hi,
+
+This notice confirms that the admin email address was changed on wordpress.
+
+The new admin email address is hpkaushik121@gmail.com.
+
+This email has been sent to you@example.com
+
+Regards,
+All at wordpress
+http://43.230.104.162/mm
+
+
+
+--Part_Boundary-EE400CD--
+
+
+--31474.249845562--

@@ -1,0 +1,79 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 13 Jan 2018 19:16:01 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Sat, 13 Jan 2018 19:15:50 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=31474.262755515
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--31474.262755515
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** nore@yourdomain.comReply-To:jnkjn
+   Permanent error 11001 (non-existent host or domain) resolving 'yourdomain.comReply-To:jnkjn'.
+
+--31474.262755515
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 13 Jan 2018 19:15:28 +0530
+From: Mail Delivery System <postmaster@ipuniversity.tk>
+To: <nore@yourdomain.comReply-To:jnkjn>
+Date: Sat, 13 Jan 2018 19:15:17 +0530
+Subject: Delivery failure notification
+MIME-Version: 1.0
+Content-Type: Multipart/Report; boundary=Part_Boundary-FA8D654
+Message-ID: <FA901AA015A@ipuniversity.tk>
+
+--Part_Boundary-FA8D654
+Content-type: Text/plain; charset=US-ASCII
+Content-description: Mail delivery failure report
+Content-disposition: Inline
+
+With reference to your message with the subject:
+   "Website Contact Form:"
+
+The local mail transport system has reported the following problems
+it encountered while trying to deliver your message:
+
+-------------------------------------------------------------------
+
+--- Problems not related to specific addresses in the message:
+Job has invalid or illegal from address.
+*** <sourabhkaushik26@yahoo.com>
+-------------------------------------------------------------------
+
+Your mail message is being returned to you in the next part of this
+message.
+
+Should you need assistance, please mail postmaster@ipuniversity.tk.
+
+--Part_Boundary-FA8D654
+Content-type: Message/RFC822
+Content-description: Contents of original mail message
+
+Return-path: <nore@yourdomain.comReply-To:jnkjn>
+Received: from geetika (127.0.0.1) by ipuniversity.tk (Mercury/32 v4.62) ID MG000001;
+   13 Jan 2018 19:15:12 +0530
+Date: Sat, 13 Jan 2018 14:45:12 +0100
+Subject: Website Contact Form:
+To: sourabhkaushik26@yahoo.com
+X-PHP-Originating-Script: 0:contact_me.php
+From: nore@yourdomain.comReply-To:jnkjn
+
+You have received a new message from your website contact form
+You have received a new message from your website contact form
+
+--Part_Boundary-FA8D654--
+
+
+--31474.262755515--

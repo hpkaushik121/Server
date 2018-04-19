@@ -1,0 +1,60 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 12 Mar 2018 21:30:46 +0530
+X-Envelope-To: <master@iserv.tech>
+Return-path: <hpkaushik121@gmail.com> 
+Received: from mail-qk0-f194.google.com (209.85.220.194) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   12 Mar 2018 21:30:40 +0530
+Received: by mail-qk0-f194.google.com with SMTP id z197so11952279qkb.6
+        for <master@iserv.tech>; Mon, 12 Mar 2018 09:00:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=NlQbJ6Hxj+7wOZ5egCRcgB+EVKmNj+Aa/TRfcYE6s1g=;
+        b=csHDKyrfffR+oL1xOfnuRy1QG7ZB2W7h8Hn7D9AqA30cMctNGPIl2Hc3UJltnSIg6g
+         bhdyy10nJ/wmlMuG6QTD2s0hpyOj1y+6RLdQd9H7W4CVC4La68dIiD1LgBw9VJCMOMWM
+         f9Xev/6qday7nKjkLcF0TrlJiCAGOMu0eqtt818AjN/XINMo0I+Iiix+uQYTN/8+Tk4N
+         DJo+3bRYsJx9RFllJ0vcEhSqFRSBlwBlJ3bRIvP3T7h0gLeUVrxKHrsRsA5ipYLZQlJO
+         WYfltHHWWouFDZ/bo07ugJyUh7L59rtycEmeFxMhyjDjz8tCpYmjZzkWUNeug2q0IhT6
+         hWpQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=NlQbJ6Hxj+7wOZ5egCRcgB+EVKmNj+Aa/TRfcYE6s1g=;
+        b=IMASXFA+hv454RPpQDg9PF8gyZyKsASXUSWOJmWX3L3iniRU0VhLD6W7wUHRKx00fO
+         2AHhEl7dEfpBANG9QIuMLIdLIdwkfDn0k+j/CqpzzHFb5RyORcl8JkhpLFg8FzGWPXoL
+         DeFIeytRJzs/PvfhpErLh2OmSwY24mEeHer7vg4hbxEWxl5tjO4UJOL1yZQ1EOEq8ZOn
+         ien4hDRxKs9zMWxp+gUeLFKl68gh+4EWVoy+6IEOk8ldFc/3Bwpv9sh1vk3E69B/p0C+
+         1j+n+10AHYJHzJ5wjmQMMAGL34BAVLexQ5+SgMyfklJL1uqVmgFLy4QS27mzz5s59/Hc
+         kJ1Q==
+X-Gm-Message-State: AElRT7F0Qor7tAke9iY8MFefMp/+8jdMCgYrZ6a6mTVCiR000JhlMNXX
+	igWzOb/vmneJWG5Lz9ljraIFb9ItK0Bkedp1l+w=
+X-Google-Smtp-Source: AG47ELuNbNLCignG1a8QgTAf5t6/t14N0MHOsI0uMq7W0laYV/PBo1tr5kw8EJ164rqKAEKRA4LR3nZAb/BTf1CIM3c=
+X-Received: by 10.55.87.134 with SMTP id l128mr11771675qkb.162.1520870438830;
+ Mon, 12 Mar 2018 09:00:38 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.12.155.172 with HTTP; Mon, 12 Mar 2018 09:00:38 -0700 (PDT)
+From: hackrackers <hpkaushik121@gmail.com>
+Date: Mon, 12 Mar 2018 21:30:38 +0530
+Message-ID: <CAMY4Riepw5a9JpRoQYmv-RRPV_=zXYr0Lc7dvJ78vFuvCh4y+A@mail.gmail.com>
+Subject: hello
+To: master@iserv.tech
+Content-Type: multipart/alternative; boundary="001a114c7ff24312fd0567393ef7"
+X-PMFLAGS: 570950016 0 0 Y0HVETVC.CNM                       
+
+--001a114c7ff24312fd0567393ef7
+Content-Type: text/plain; charset="UTF-8"
+
+this is a test nessage
+
+-- 
+
+Regards,
+Sourabh kaushik
++917838941249
+
+--001a114c7ff24312fd0567393ef7
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">this is a test nessage<br clear="all"><div><br></div>-- <br><div class="gmail_signature" data-smartmail="gmail_signature"><div dir="ltr"><div><br><div>Regards,</div><div>Sourabh kaushik</div><div>+917838941249</div></div></div></div>
+</div>
+
+--001a114c7ff24312fd0567393ef7--

@@ -1,0 +1,105 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 8 Feb 2018 12:35:15 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <01000161743b7625-4f40b032-c790-4ebd-a280-dd28b478ee95-000000@amazonses.com>
+Received: from a9-46.smtp-out.amazonses.com (54.240.9.46) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000004;
+   8 Feb 2018 12:35:10 +0530
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=feifwur4r4l2ieplxomcqu5dcemhtvnj; d=bootstrapious.com;
+	t=1518073509;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=c3xk9pE2IcZa8WqCrVzYcDhPyrSDABTwfkt76vmH06E=;
+	b=wG480K13BaaHZwvsfDmO3ruEe9ob7M0ffWs/M77kgeb0yWxiPQV8ECLtONIVQO19
+	VPfESeQubRkP8WpsJFf2/WrIc4maZG/6KipUBJ2Q9pF+POQZ3PExoDFgol5WkelOz7S
+	ZfZkZ45yxEYCO/6JS9X4DkryX8rUHSVfudcoobWQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1518073509;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=c3xk9pE2IcZa8WqCrVzYcDhPyrSDABTwfkt76vmH06E=;
+	b=GdUj8r1BPLTiB5K3NxMdauYLe2Uqdc8MqUFT6f2d+d/RqfXPu2sR7lfEJrCKqmec
+	NvQ2xzFCeb96Z8Ydosvd/WUa0+DjTVkJOzs7uZlqoePBMgVauu3+xWXnoigy0EZul8X
+	2C9xN7eq1E7Tdod8N2lKRYY/8Weo8XD1aWfdbdMU=
+Date: Thu, 8 Feb 2018 07:05:09 +0000
+To: sourabh <sk@ipuniversity.tk>
+From: Ondrej from Bootstrapious <ondrej@bootstrapious.com>
+Reply-To: Ondrej from Bootstrapious <hello@bootstrapious.com>
+Subject: [tutorial] How to create working and lightweight social share icons
+Message-ID: <01000161743b7625-4f40b032-c790-4ebd-a280-dd28b478ee95-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/kUw9bgcLyTtnw6CbWnPwow/a>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_25e7a496c0d50659e5d5947209876f54"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2018.02.08-54.240.9.46
+Feedback-ID: 1.us-east-1.bfoJXYnbLesrWCqwQJSJcLMTg2/zuWNHjeOeYqk3rdc=:AmazonSES
+X-PMFLAGS: 570950016 0 0 YVD8IPSV.CNM                       
+
+This is a multi-part message in MIME format.
+
+--b1_25e7a496c0d50659e5d5947209876f54
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+I have a new tutorial to share with you.
+
+Today, it will be about creating your own WORKING SET OF SHARE ICONS (HTTPS://BOOTSTRAPIOUS.COM/P/SHARE-ICONS)  - for Facebook, Twitter, Buffer, Google plus and more.
+
+THE PROBLEM with Facebooks and similar JavaScript share buttons or with services like SumoMe is that they add many additional HTTP requests and can SLOW DOWN YOUR SITE QUITE SIGNIFICANTLY.
+
+In my new tutorial, I would like to  show you HOW TO CREATE a set of working and LIGHTWEIGHT SOCIAL SHARE ICONS for your website. This tutorial will teach you how to create a nicely looking modern icons and how to add the necessary functionality to make them work without decreasing your sites performance with many additional requests.
+
+If youre interested in knowing more, check out my new tutorial (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/B8uSDpeI8sL9tP1RLAXazA/kUw9bgcLyTtnw6CbWnPwowp/share-icons) .
+
+Have a great day,
+
+Ondrej
+
+--
+
+ONDREJ Svestka, BOOTSTRAPIOUS
+
+Bootstrapious, Hasicska street, 70030 Ostrava, Czech republic
+
+Unsubscribe from this list (https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/kUw9bgcLyTtnw6CbWnPwow/a) 
+
+
+--b1_25e7a496c0d50659e5d5947209876f54
+Content-Type: text/html; charset=us-ascii
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p><span style="font-family:arial;">Hi,</span></p>
+
+<p><span style="font-family:arial;">I have a new tutorial to share with you.</span></p>
+
+<p><span style="font-family:arial;">Today, it will be about creating your own <strong><a href="https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/mwfjA5CamUxONSeRb38TtQ/kUw9bgcLyTtnw6CbWnPwow">working set of&nbsp;Share icons</a></strong>&nbsp;- for Facebook, Twitter, Buffer, Google plus and more.</span></p>
+
+<p><span style="font-family:arial;"><strong>The problem</strong> with Facebook&#39;s and similar JavaScript share buttons or with services like SumoMe is that they add many additional HTTP requests and can <strong>slow down your site quite significantly</strong>.</span></p>
+
+<p><span style="font-family:arial;">In my new tutorial, I would like to &nbsp;show you <strong>how to create</strong> a set of working and <strong>lightweight social share icons</strong> for your website. This tutorial will teach you how to create a nicely looking modern icons and how to add the necessary functionality to make them work without decreasing your site&#39;s performance with many additional requests.</span></p>
+
+<p><span style="font-family:arial;">If you&#39;re interested in knowing more, check out my <a href="https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/mwfjA5CamUxONSeRb38TtQ/kUw9bgcLyTtnw6CbWnPwow">new tutorial</a>.</span></p>
+
+<p><span style="font-family:arial;">Have a great day,</span></p>
+
+<p><span style="font-family:arial;">Ondrej</span></p>
+
+<p><span style="font-family: helvetica;">--</span></p>
+
+<p><span style="color:#696969;"><span style="font-size: 12px;"><span style="font-family: helvetica;"><strong>Ondrej </strong>Svestka, <strong>Bootstrapious</strong></span></span></span></p>
+
+<p><span style="color:#696969;"><span style="font-size: 12px;"><span style="font-family: helvetica;">Bootstrapious, Hasicska street, 70030 Ostrava, Czech republic</span></span></span></p>
+
+<p><span style="font-family: helvetica; font-size: 12px;"><a href="https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/kUw9bgcLyTtnw6CbWnPwow"><span style="color:#696969;">Unsubscribe from this list</span></a></span></p>
+</body>
+</html>
+<img src="https://sendy.bootstrapious.com/t/kUw9bgcLyTtnw6CbWnPwow/892MqEA4aJkntl07TPG0oZ892Q/a" alt="" style="width:1px;height:1px;"/>
+
+
+
+--b1_25e7a496c0d50659e5d5947209876f54--

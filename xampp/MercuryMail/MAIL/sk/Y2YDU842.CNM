@@ -1,0 +1,174 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 25 Jan 2018 22:18:38 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <010001612e387931-14f09591-15b1-4805-ae90-4093fdacded0-000000@amazonses.com>
+Received: from a9-46.smtp-out.amazonses.com (54.240.9.46) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000003;
+   25 Jan 2018 22:18:32 +0530
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=feifwur4r4l2ieplxomcqu5dcemhtvnj; d=bootstrapious.com;
+	t=1516898908;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=QBKd7NoD7o9VJyG5j+iS1nTq13FSjRovsobMWHT5Ubs=;
+	b=IPrSknIusP+COM9Xuk9PiV4k/7HlOhFOh70SZSzuufedqufWxCQDQzXFDkfS8dAB
+	pJJjlEwC90eLrdv76lne2uEpnSgWenPLdiHxOaTt4Pzc6ZUPky7bR6SqUIbQiQHNunE
+	l0H01Bk0+hHa7GlD4vGRZH4gsvRB/qLESgERURXE=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1516898908;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=QBKd7NoD7o9VJyG5j+iS1nTq13FSjRovsobMWHT5Ubs=;
+	b=jjnjyK7KRSrhwvI1Gp1/xkNM8MCZC0okvyULlL1OTw6oNsMDgHKbqu9SUKgimoYp
+	riiUAgcN/WB7dM+qMfqXF1Re2G+CLniVeHbTKDNbweYCwkmxDjxIfkACk9hRURWBdh8
+	x7IF7fdfZltHXETA8VGHPj6C1xv3pzhkYjP2WCp4=
+Date: Thu, 25 Jan 2018 16:48:28 +0000
+To: sourabh <sk@ipuniversity.tk>
+From: "Ondrej, Bootstrapious" <hello@bootstrapious.com>
+Reply-To: "Ondrej, Bootstrapious" <hello@bootstrapious.com>
+Subject: All Bootstrap dashboards upgraded to Bootstrap 4.0.0
+Message-ID: <010001612e387931-14f09591-15b1-4805-ae90-4093fdacded0-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/G95BQPgFjNQlUSQQf9l4Fw>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_a7726552635309936e8ffd40592ceadc"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2018.01.25-54.240.9.46
+Feedback-ID: 1.us-east-1.bfoJXYnbLesrWCqwQJSJcLMTg2/zuWNHjeOeYqk3rdc=:AmazonSES
+X-PMFLAGS: 570950016 0 0 Y2YDU842.CNM                       
+
+This is a multi-part message in MIME format.
+
+--b1_a7726552635309936e8ffd40592ceadc
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hi, Bootstrap fans,
+
+Last week,  we got a nice gift from MDO and team and the first stable of Bootstrap 4 is here.
+
+So, I plugged my workstation in and UPGRADED ALL MY BOOTSTRAP 4 DASHBOARDS (HTTPS://BOOTSTRAPIOUS.COM/ADMIN-TEMPLATES) TO THE LATEST VERSION, olé. 
+
+Also, to make Premium dashboards even a better deal, I ADDED 3 NEW PAGE TEMPLATES AND PLUGINS - Multiple files upload, Lightbox gallery and Cards demo.
+
+SO, HERE IS THE LIST OF UPGRADED TEMPLATES:
+
+	* Bootstrap 4 Admin Dashboard Premium (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/y9bY6NJqij9AIlQAXx92wA/G95BQPgFjNQlUSQQf9l4Fw) 
+	* Bootstrap 4 Material Admin Premium (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/wmLas3lCmCsYeFE35iQzGQ/G95BQPgFjNQlUSQQf9l4Fw) 
+	* Bootstrap 4 Dark Admin Premium (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/IFg763p0Wxn21lR5QG763QE5bw/G95BQPgFjNQlUSQQf9l4Fw) 
+	* Bootstrap 4 Admin Dashboard (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/dqllELXkde9TtyvhU5oj9w/G95BQPgFjNQlUSQQf9l4Fw) 
+	* Bootstrap 4 Material Admin (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/HgeiT0zDK763rADpaELF01UA/G95BQPgFjNQlUSQQf9l4Fw) 
+	* Bootstrap 4 Dark Admin (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/Y3R7QDKDpEggYLs0IDM36Q/G95BQPgFjNQlUSQQf9l4Fw) 
+
+Thats it for today, have a great Thursday.
+
+Cheers, and all the best!
+
+Ondrej
+
+--
+
+ONDREJ Svestka, BOOTSTRAPIOUS
+
+website (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/aGUPf5YoK892jIGE8Nuz79TQ/G95BQPgFjNQlUSQQf9l4Fw)  | twitter (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/miQARoHQx6bApJroPrSRDQ/G95BQPgFjNQlUSQQf9l4Fw)  | facebook  (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/pVPF4dcg8EtfrWwlg7LXlg/G95BQPgFjNQlUSQQf9l4Fw) | google+ (https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/cX8927vVmv969892KNU892zJQ2hQ/G95BQPgFjNQlUSQQf9l4Fw)
+
+Bootstrapious, Hasicska street, 70030 Ostrava, Czech republic
+
+Unsubscribe from this list (https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/G95BQPgFjNQlUSQQf9l4Fw) 
+
+
+--b1_a7726552635309936e8ffd40592ceadc
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+=09<title></title>
+</head>
+<body>
+<p><span style=3D"font-family:arial;">Hi, Bootstrap fans,</span></p>
+
+<p><span style=3D"font-family:arial;">Last week,&nbsp; we got a nice gift f=
+rom MDO and team and the first stable of Bootstrap 4 is here.</span></p>
+
+<p><span style=3D"font-family:arial;">So, I plugged my workstation in and <=
+strong>upgraded all my <a href=3D"https://sendy.bootstrapious.com/l/892MqEA=
+4aJkntl07TPG0oZ892Q/zyvg4W42aQ7lM7639cIKuKXA/G95BQPgFjNQlUSQQf9l4Fw">Bootst=
+rap 4 dashboards</a> to the latest version</strong>, ol&eacute;. </span></p=
+>
+
+<p><span style=3D"font-family:arial;">Also, to make Premium dashboards even=
+ a better deal, <strong>I added 3 new page templates and plugins</strong> -=
+ Multiple files upload, Lightbox gallery and Cards demo.</span></p>
+
+<p><span style=3D"font-family:arial;"><strong>So, here is the list of upgra=
+ded templates:</strong></span></p>
+
+<ul>
+=09<li><span style=3D"font-family:arial;"><a href=3D"https://sendy.bootstra=
+pious.com/l/892MqEA4aJkntl07TPG0oZ892Q/y9bY6NJqij9AIlQAXx92wA/G95BQPgFjNQlU=
+SQQf9l4Fw">Bootstrap 4 Admin Dashboard Premium</a></span></li>
+=09<li><span style=3D"font-family:arial;"><a href=3D"https://sendy.bootstra=
+pious.com/l/892MqEA4aJkntl07TPG0oZ892Q/wmLas3lCmCsYeFE35iQzGQ/G95BQPgFjNQlU=
+SQQf9l4Fw">Bootstrap 4 Material Admin Premium</a></span></li>
+=09<li><span style=3D"font-family:arial;"><a href=3D"https://sendy.bootstra=
+pious.com/l/892MqEA4aJkntl07TPG0oZ892Q/IFg763p0Wxn21lR5QG763QE5bw/G95BQPgFj=
+NQlUSQQf9l4Fw">Bootstrap 4 Dark Admin Premium</a></span></li>
+=09<li><span style=3D"font-family:arial;"><a href=3D"https://sendy.bootstra=
+pious.com/l/892MqEA4aJkntl07TPG0oZ892Q/dqllELXkde9TtyvhU5oj9w/G95BQPgFjNQlU=
+SQQf9l4Fw">Bootstrap 4 Admin Dashboard</a></span></li>
+=09<li><span style=3D"font-family:arial;"><a href=3D"https://sendy.bootstra=
+pious.com/l/892MqEA4aJkntl07TPG0oZ892Q/HgeiT0zDK763rADpaELF01UA/G95BQPgFjNQ=
+lUSQQf9l4Fw">Bootstrap 4 Material Admin</a></span></li>
+=09<li><span style=3D"font-family:arial;"><a href=3D"https://sendy.bootstra=
+pious.com/l/892MqEA4aJkntl07TPG0oZ892Q/Y3R7QDKDpEggYLs0IDM36Q/G95BQPgFjNQlU=
+SQQf9l4Fw">Bootstrap 4 Dark Admin</a></span></li>
+</ul>
+
+<p><span style=3D"font-family:arial;">That&#39;s it for today, have a great=
+ Thursday.</span></p>
+
+<p><span style=3D"font-family:arial;">Cheers, and all the best!</span></p>
+
+<p><span style=3D"font-family:arial;">Ondrej</span></p>
+
+<p>-<span style=3D"font-family: helvetica;">-</span></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;"><strong>Ondrej </strong>Svestka, <strong>Bo=
+otstrapious</strong></span></span></span></p>
+
+<p><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/=
+aGUPf5YoK892jIGE8Nuz79TQ/G95BQPgFjNQlUSQQf9l4Fw" style=3D"color: rgb(17, 85=
+, 204); font-family: arial, sans-serif; font-size: small; background-color:=
+ rgb(255, 255, 255);" target=3D"_blank">website</a><span style=3D"color: rg=
+b(34, 34, 34); font-family: arial, sans-serif; font-size: small; background=
+-color: rgb(255, 255, 255);">&nbsp;|&nbsp;</span><a href=3D"https://sendy.b=
+ootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/miQARoHQx6bApJroPrSRDQ/G95BQP=
+gFjNQlUSQQf9l4Fw" style=3D"color: rgb(17, 85, 204); font-family: arial, san=
+s-serif; font-size: small; background-color: rgb(255, 255, 255);" target=3D=
+"_blank">twitter</a><span style=3D"color: rgb(34, 34, 34); font-family: ari=
+al, sans-serif; font-size: small; background-color: rgb(255, 255, 255);">&n=
+bsp;|&nbsp;</span><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkn=
+tl07TPG0oZ892Q/pVPF4dcg8EtfrWwlg7LXlg/G95BQPgFjNQlUSQQf9l4Fw" style=3D"colo=
+r: rgb(17, 85, 204); font-family: arial, sans-serif; font-size: small; back=
+ground-color: rgb(255, 255, 255);" target=3D"_blank">facebook&nbsp;</a><spa=
+n style=3D"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-siz=
+e: small; background-color: rgb(255, 255, 255);">|&nbsp;</span><a href=3D"h=
+ttps://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/cX8927vVmv96989=
+2KNU892zJQ2hQ/G95BQPgFjNQlUSQQf9l4Fw" style=3D"color: rgb(17, 85, 204); fon=
+t-family: arial, sans-serif; font-size: small; background-color: rgb(255, 2=
+55, 255);" target=3D"_blank">google+</a></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;">Bootstrapious, Hasicska street, 70030 Ostra=
+va, Czech republic</span></span></span></p>
+
+<p><span style=3D"font-family: helvetica; font-size: 12px;"><a href=3D"http=
+s://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQ=
+E5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/G95BQPgFjNQlUSQQf9l4Fw"><span style=3D"=
+color:#696969;">Unsubscribe from this list</span></a></span></p>
+</body>
+</html>
+<img src=3D"https://sendy.bootstrapious.com/t/G95BQPgFjNQlUSQQf9l4Fw/892MqE=
+A4aJkntl07TPG0oZ892Q" alt=3D"" style=3D"width:1px;height:1px;"/>
+
+
+--b1_a7726552635309936e8ffd40592ceadc--

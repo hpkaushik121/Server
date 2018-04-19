@@ -1,0 +1,41 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 13 Jan 2018 19:15:28 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Sat, 13 Jan 2018 19:15:17 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=19680.262723156
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--19680.262723156
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   
+   --- Problems not related to specific addresses in the message:
+   Job has invalid or illegal from address.
+   *** <sourabhkaushik26@yahoo.com>
+
+--19680.262723156
+Content-type: Message/RFC822
+
+Return-path: <nore@yourdomain.comReply-To:jnkjn>
+Received: from geetika (127.0.0.1) by ipuniversity.tk (Mercury/32 v4.62) ID MG000001;
+   13 Jan 2018 19:15:12 +0530
+Date: Sat, 13 Jan 2018 14:45:12 +0100
+Subject: Website Contact Form:
+To: sourabhkaushik26@yahoo.com
+X-PHP-Originating-Script: 0:contact_me.php
+From: nore@yourdomain.comReply-To:jnkjn
+
+You have received a new message from your website contact form
+
+--19680.262723156--

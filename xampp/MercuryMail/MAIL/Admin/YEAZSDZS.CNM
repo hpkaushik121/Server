@@ -1,0 +1,60 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 27 Jan 2018 20:26:11 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Sat, 27 Jan 2018 20:25:59 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=19680.1476549531
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--19680.1476549531
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** hpkaushik121@gmail.com
+   550-5.7.1 Unauthenticated email from google.com is not accepted due to domain's
+   
+   *** hpkaushik121@gmail.com
+   550-5.7.1 Unauthenticated email from google.com is not accepted due to domain's
+
+--19680.1476549531
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 27 Jan 2018 20:25:37 +0530
+Received: from geetika (127.0.0.1) by ipuniversity.tk (Mercury/32 v4.62) ID MG000005;
+   27 Jan 2018 20:25:31 +0530
+Date: Sat, 27 Jan 2018 15:55:31 +0100
+Subject: CODEJAM
+To: hpkaushik121@gmail.com
+X-PHP-Originating-Script: 0:file.php
+From: noreplay@google.com
+CC: hpkaushik121@gmail.com
+Message-ID: <5802056C4CE0@ipuniversity.tk>
+
+Hello souabh99
+             Congratulation! you have successfully registered for the
+forth round of google code jam.comptetion detail are given below
+             
+             Now your idea submission phase has been started you have
+two days to submit your idea if you are selected for the competition 
+             you will be invited at dublin,ireland. Don't worry
+traveling,accomodation and food are on us. You have to just carry your
+laptop
+             or whatever thing is needed for the competition and plus
+your programming skills with you.
+             competition will be of 42 hours in which 25 question are
+given to you and you have solve all of them any how. We wish you good
+luck
+              winners will be carried to round five which will be held
+in california.And in google their is no place for loosers!!!!
+          
+
+--19680.1476549531--

@@ -1,0 +1,37 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 8 Jan 2018 15:04:57 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Mon, 8 Jan 2018 15:04:46 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=18394.606648562
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--18394.606648562
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   
+   --- Problems not related to specific addresses in the message:
+   421 4.7.0 [TSS04] Messages from 43.230.104.162 temporarily deferred due to user complaints - 4.16.55.1; see https://help.yahoo.com/kb/postmaster/SLN3434.html
+   421 4.7.0 [TSS04] Messages from 43.230.104.162 temporarily deferred due to user complaints - 4.16.55.1; see https://help.yahoo.com/kb/postmaster/SLN3434.html
+   421 4.7.0 [TSS04] Messages from 43.230.104.162 temporarily deferred due to user complaints - 4.16.55.1; see https://help.yahoo.com/kb/postmaster/SLN3434.html
+   *** trs@asf-bremcke.de
+   Error connecting to primary server '80.67.18.126'.
+   
+   *** trs_tc@yahoo.com
+
+--18394.606648562
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 8 Jan 2018 14:32:45 +0530
+
+--18394.606648562--

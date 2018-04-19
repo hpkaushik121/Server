@@ -1,0 +1,18 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 2 Jan 2018 23:38:58 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <wordpress@43.230.104.162>
+Received: from geetika (127.0.0.1) by ipuniversity.tk (Mercury/32 v4.62) ID MG000008;
+   2 Jan 2018 23:38:50 +0530
+Subject: [wordpress] Password Changed
+To: sk@ipuniversity.tk
+X-PHP-Originating-Script: 0:class-phpmailer.php
+Date: Tue, 2 Jan 2018 18:08:50 +0000
+From: WordPress <wordpress@43.230.104.162>
+Message-ID: <4bf175c439ffae1f33b554ccf363343e@43.230.104.162>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-PMFLAGS: 34078848 0 0 YH7EH5XT.CNM                        
+
+Password changed for user: sourabh
+

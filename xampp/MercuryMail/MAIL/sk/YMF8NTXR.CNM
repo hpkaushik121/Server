@@ -1,0 +1,119 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 4 Jan 2018 22:27:38 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <btv1==54240485e09==intent@barracuda.com>
+Received: from bsf04.barracuda.com (64.235.145.84) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   4 Jan 2018 22:27:37 +0530
+X-ASG-Debug-ID: 1515084045-0694671b9c297870001-BlpnqV
+Received: from ip-scl-smrthst03.it.cuda-inc.com (ip-scl-smrthst03.it.cuda-inc.com [10.8.1.72]) by bsf04.barracuda.com with ESMTP id xvAIHH3tkrKKGTOp (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <sk@ipuniversity.tk>; Thu, 04 Jan 2018 08:40:45 -0800 (PST)
+X-Barracuda-Envelope-From: intent@barracuda.com
+Received: from barracuda.com ([10.69.69.244])
+	by ip-scl-smrthst03.it.cuda-inc.com (8.14.4/8.14.4/Debian-4.1ubuntu1) with ESMTP id w04GeiAC002521
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+	for <sk@ipuniversity.tk>; Thu, 4 Jan 2018 08:40:44 -0800
+Received: from localhost.localdomain (localhost [127.0.0.1])
+	by barracuda.com (8.14.4/8.14.4) with ESMTP id w04H9xxY032007
+	for <sk@ipuniversity.tk>; Thu, 4 Jan 2018 12:10:00 -0500
+Date: Thu, 4 Jan 2018 12:09:59 -0500
+Message-Id: <201801041710.w04H9xxY032007@barracuda.com>
+From: intent@barracuda.com
+To: sk@ipuniversity.tk
+Subject: Your request to Barracuda Central regarding confirmation number:
+ BBR21515084033-98295-3960
+Content-Type: multipart/alternative; boundary="1515085799.d67eB5709316.28011"; charset="us-ascii"
+X-ASG-Orig-Subj: Your request to Barracuda Central regarding confirmation number:
+ BBR21515084033-98295-3960
+MIME-Version: 1.0
+X-Barracuda-Connect: ip-scl-smrthst03.it.cuda-inc.com[10.8.1.72]
+X-Barracuda-Start-Time: 1515084045
+X-Barracuda-Encrypted: ECDHE-RSA-AES256-GCM-SHA384
+X-Barracuda-URL: https://bsf04.barracuda.com:443/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Virus-Scanned: by bsmtpd at barracuda.com
+X-Barracuda-Scan-Msg-Size: 3226
+X-Barracuda-Spam-Score: 1.50
+X-Barracuda-Spam-Status: No, SCORE=1.50 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=9.0 tests=BSF_SC3_MV0437, HTML_MESSAGE, MIME_BASE64_TEXT, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.46545
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 NO_REAL_NAME           From: does not include a real name
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MIME_BASE64_TEXT       RAW: Message text disguised using base64 encoding
+	1.50 BSF_SC3_MV0437         Custom rule MV0437
+X-CC-Diagnostic: Body contains "bulk email" (30)
+X-PMFLAGS: 570950016 0 5 YMF8NTXR.CNM
+
+
+--1515085799.d67eB5709316.28011
+Date: Thu, 4 Jan 2018 12:09:59 -0500
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: base64
+
+VGhhbmsgeW91IGZvciBjb250YWN0aW5nIEJhcnJhY3VkYSBOZXR3b3JrcyByZWdhcmRpbmcgeW91
+ciBpc3N1ZS4gIFlvdXIgaXNzdWUgaXMgaW1wb3J0YW50IHRvIHVzLiAgIFdlIGhhdmUgYXNzaWdu
+ZWQgYSBjb25maXJtYXRpb24gbnVtYmVyOiBCQlIyMTUxNTA4NDAzMy05ODI5NS0zOTYwIHRvIHRo
+aXMgY2FzZS4KCldlIGFwb2xvZ2l6ZSBmb3IgYW55IGluY29udmVuaWVuY2UgdGhhdCB0aGlzIG1h
+eSBoYXZlIGNhdXNlZCB5b3UuICBXZSBoYXZlIHJlbW92ZWQgNDMuMjMwLjEwNC4xNjIgKFBsZWFz
+ZSB3YWl0IDI0LTQ4IGhvdXJzKSBmcm9tIG91ciBibG9ja2xpc3QgZm9yIDMwIGRheXMsIGF0IHdo
+aWNoIHRpbWUgaXQgd2lsbCBiZSByZS1ldmFsdWF0ZWQuCgpUaGVyZSBhcmUgYSBudW1iZXIgb2Yg
+cmVhc29ucyB5b3VyIElQIGFkZHJlc3MgbWF5IGhhdmUgYmVlbiBsaXN0ZWQgYXMgInBvb3IiLCBp
+bmNsdWRpbmc6CgoxLiBUaGUgZW1haWwgc2VydmVyIGF0IHRoaXMgSVAgYWRkcmVzcyBjb250YWlu
+cyBhIHZpcnVzIGFuZCBoYXMgYmVlbiBzZW5kaW5nIG91dCBzcGFtCjIuIFRoZSBlbWFpbCBzZXJ2
+ZXIgYXQgdGhpcyBJUCBhZGRyZXNzIG1heSBiZSBjb25maWd1cmVkIGluY29ycmVjdGx5CjMuIFRo
+ZSBQQyBhdCB0aGlzIElQIGFkZHJlc3MgbWF5IGJlIGluZmVjdGVkIHdpdGggYSB2aXJ1cyBvciBi
+b3RuZXQgc29mdHdhcmUgcHJvZ3JhbQo0LiBBbiBpbmRpdmlkdWFsIGluIHRoZSBvcmdhbml6YXRp
+b24gYXQgdGhpcyBJUCBhZGRyZXNzIG1heSBoYXZlIGEgUEMgaW5mZWN0ZWQgd2l0aCBhIHZpcnVz
+IG9yIGJvdG5ldCBwcm9ncmFtCjUuIFRoaXMgSVAgYWRkcmVzcyBtYXkgYmUgYSBkeW5hbWljIElQ
+IGFkZHJlc3Mgd2hpY2ggd2FzIHByZXZpb3VzbHkgdXRpbGl6ZWQgYnkgYSBrbm93biBzcGFtbWVy
+CjYuIFRoZSBtYXJrZXRpbmcgZGVwYXJ0bWVudCBvZiBhIGNvbXBhbnkgYXQgdGhpcyBJUCBhZGRy
+ZXNzIG1heSBiZSBzZW5kaW5nIG91dCBidWxrIGVtYWlscyB0aGF0IGRvIG5vdCBjb21wbHkgd2l0
+aCB0aGUgQ0FOLVNQQU0gQWN0CjcuIFRoaXMgSVAgYWRkcmVzcyBtYXkgaGF2ZSBhIGluc2VjdXJl
+IHdpcmVsZXNzIG5ldHdvcmsgYXR0YWNoZWQgdG8gaXQgd2hpY2ggY291bGQgYWxsb3cgdW5rbm93
+biB1c2VycyB0byB1c2UgaXQncyBuZXR3b3JrIGNvbm5lY3Rpb24gdG8gc2VuZCBvdXQgYnVsayBl
+bWFpbAo4LiBJbiBzb21lIHJhcmUgY2FzZXMsIHlvdXIgcmVjaXBpZW50cycgQmFycmFjdWRhIFNw
+YW0gRmlyZXdhbGwgbWF5IGJlIG1pc2NvbmZpZ3VyZWQKCklmIHlvdSBkbyBub3QgdGhpbmsgYW55
+IG9mIHRoZSBhYm92ZSBhcHBseSwgcGxlYXNlIGFsc28gY29udGFjdCB0aGUgcGVyc29uIHdobyBt
+YW5hZ2VzIHRoaXMgSVAgYWRkcmVzcywgYXMgdGhleSBtYXkgYmUgYmV0dGVyIGFibGUgdG8gaW52
+ZXN0aWdhdGUgdGhpcyBpc3N1ZS4KCgoKQmFycmFjdWRhIENlbnRyYWwgYnkgQmFycmFjdWRhIE5l
+dHdvcmtzCmh0dHA6Ly93d3cuYmFycmFjdWRhY2VudHJhbC5jb20vCmludGVudEBiYXJyYWN1ZGEu
+Y29tCgo=
+
+--1515085799.d67eB5709316.28011
+Date: Thu, 4 Jan 2018 12:09:59 -0500
+MIME-Version: 1.0
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGJvZHk+CgpUaGFuayB5b3UgZm9yIGNvbnRhY3RpbmcgQmFycmFjdWRhIE5ldHdvcmtz
+IHJlZ2FyZGluZyB5b3VyIGlzc3VlLiAgWW91ciBpc3N1ZSBpcyBpbXBvcnRhbnQgdG8gdXMuICBX
+ZSBoYXZlIGFzc2lnbmVkIGEgY29uZmlybWF0aW9uIG51bWJlcjogQkJSMjE1MTUwODQwMzMtOTgy
+OTUtMzk2MCB0byB0aGlzIGNhc2UuPGJyPjxicj4KCldlIGFwb2xvZ2l6ZSBmb3IgYW55IGluY29u
+dmVuaWVuY2UgdGhhdCB0aGlzIG1heSBoYXZlIGNhdXNlZCB5b3UuICBXZSBoYXZlIHJlbW92ZWQg
+NDMuMjMwLjEwNC4xNjIgKFBsZWFzZSB3YWl0IDI0LTQ4IGhvdXJzKSBmcm9tIG91ciBibG9ja2xp
+c3QgZm9yIDMwIGRheXMsIGF0IHdoaWNoIHRpbWUgaXQgd2lsbCBiZSByZS1ldmFsdWF0ZWQuPGJy
+Pjxicj4KClRoZXJlIGFyZSBhIG51bWJlciBvZiByZWFzb25zIHlvdXIgSVAgYWRkcmVzcyBtYXkg
+aGF2ZSBiZWVuIGxpc3RlZCBhcyAicG9vciIsIGluY2x1ZGluZzo8YnI+PGJyPgoKPHVsPgo8bGk+
+VGhlIGVtYWlsIHNlcnZlciBhdCB0aGlzIElQIGFkZHJlc3MgY29udGFpbnMgYSB2aXJ1cyBhbmQg
+aGFzIGJlZW4gc2VuZGluZyBvdXQgc3BhbQo8bGk+VGhlIGVtYWlsIHNlcnZlciBhdCB0aGlzIElQ
+IGFkZHJlc3MgbWF5IGJlIGNvbmZpZ3VyZWQgaW5jb3JyZWN0bHkKPGxpPlRoZSBQQyBhdCB0aGlz
+IElQIGFkZHJlc3MgbWF5IGJlIGluZmVjdGVkIHdpdGggYSB2aXJ1cyBvciBib3RuZXQgc29mdHdh
+cmUgcHJvZ3JhbQo8bGk+QW4gaW5kaXZpZHVhbCBpbiB0aGUgb3JnYW5pemF0aW9uIGF0IHRoaXMg
+SVAgYWRkcmVzcyBtYXkgaGF2ZSBhIFBDIGluZmVjdGVkIHdpdGggYSB2aXJ1cyBvciBib3RuZXQg
+cHJvZ3JhbQo8bGk+VGhpcyBJUCBhZGRyZXNzIG1heSBiZSBhIGR5bmFtaWMgSVAgYWRkcmVzcyB3
+aGljaCB3YXMgcHJldmlvdXNseSB1dGlsaXplZCBieSBhIGtub3duIHNwYW1tZXIKPGxpPlRoZSBt
+YXJrZXRpbmcgZGVwYXJ0bWVudCBvZiBhIGNvbXBhbnkgYXQgdGhpcyBJUCBhZGRyZXNzIG1heSBi
+ZSBzZW5kaW5nIG91dCBidWxrIGVtYWlscyB0aGF0IGRvIG5vdCBjb21wbHkgd2l0aCB0aGUgQ0FO
+LVNQQU0gQWN0CjxsaT5UaGlzIElQIGFkZHJlc3MgbWF5IGhhdmUgYSBpbnNlY3VyZSB3aXJlbGVz
+cyBuZXR3b3JrIGF0dGFjaGVkIHRvIGl0IHdoaWNoIGNvdWxkIGFsbG93IHVua25vd24gdXNlcnMg
+dG8gdXNlIGl0J3MgbmV0d29yayBjb25uZWN0aW9uIHRvIHNlbmQgb3V0IGJ1bGsgZW1haWwKPGxp
+PkluIHNvbWUgcmFyZSBjYXNlcywgeW91ciByZWNpcGllbnRzJyBCYXJyYWN1ZGEgU3BhbSBGaXJl
+d2FsbCBtYXkgYmUgbWlzY29uZmlndXJlZAo8L3VsPgoKSWYgeW91IGRvIG5vdCB0aGluayBhbnkg
+b2YgdGhlIGFib3ZlIGFwcGx5LCBwbGVhc2UgYWxzbyBjb250YWN0IHRoZSBwZXJzb24gd2hvIG1h
+bmFnZXMgdGhpcyBJUCBhZGRyZXNzLCBhcyB0aGV5IG1heSBiZSBiZXR0ZXIgYWJsZSB0byBpbnZl
+c3RpZ2F0ZSB0aGlzIGlzc3VlLjxicj48YnI+CgpUaGFuayB5b3UgZm9yIHlvdXIgdGltZSBhbmQg
+dW5kZXJzdGFuZGluZy48YnI+PGJyPgoKQmFycmFjdWRhIENlbnRyYWwgYnkgQmFycmFjdWRhIE5l
+dHdvcmtzPGJyPgpodHRwOi8vd3d3LmJhcnJhY3VkYWNlbnRyYWwuY29tLzxicj4KaW50ZW50QGJh
+cnJhY3VkYS5jb20KCgo8L2JvZHk+PC9odG1sPgo=
+
+--1515085799.d67eB5709316.28011--

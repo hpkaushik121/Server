@@ -1,0 +1,355 @@
+Content-language: cs
+Content-type: text/html; charset=UTF-8
+Body:----------cs--
+<!--#set var="CONTENT_LANGUAGE" value="cs"
+<!--#include virtual="include/top.html" -->
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+  <!--#endif -->
+
+
+----------cs--
+
+Content-language: de
+Content-type: text/html; charset=UTF-8
+Body:----------de--
+<!--#set var="CONTENT_LANGUAGE" value="de"
+--><!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+
+  <!--#endif -->
+
+----------de--
+
+Content-language: en
+Content-type: text/html; charset=UTF-8
+Body:----------en--
+<!--#include virtual="include/top.html" -->
+
+
+
+----------en--
+
+Content-language: es
+Content-type: text/html
+Body:----------es--
+<!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+
+  <!--#endif -->
+
+----------es--
+
+Content-language: fr
+Content-type: text/html; charset=UTF-8
+Body:----------fr--
+<!--#set var="CONTENT_LANGUAGE" value="fr"
+--><!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+  <!--#endif -->
+
+----------fr--
+
+Content-language: ga
+Content-type: text/html; charset=UTF-8
+Body:----------ga--
+<!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+
+  <!--#endif -->
+
+----------ga--
+
+Content-language: it
+Content-type: text/html; charset=UTF-8
+Body:----------it--
+<!--#set var="CONTENT_LANGUAGE" value="it"
+--><!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+
+  <!--#endif -->
+
+----------it--
+
+Content-language: ja
+Content-type: text/html; charset=UTF-8
+Body:----------ja--
+<!--#set var="CONTENT_LANGUAGE" value="ja"
+--><!--#include virtual="include/top.html" -->
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+  <!--#else -->
+
+
+
+  <!--#endif -->
+
+----------ja--
+
+Content-language: ko
+Content-type: text/html; charset=UTF-8
+Body:----------ko--
+<!--#set var="CONTENT_LANGUAGE" value="ko"
+--><!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+  <!--#endif -->
+
+----------ko--
+
+Content-language: nl
+Content-type: text/html; charset=UTF-8
+Body:----------nl--
+<!--#set var="CONTENT_LANGUAGE" value="nl"
+--><!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+
+  <!--#endif -->
+
+----------nl--
+
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+
+  <!--#endif -->
+
+----------nb--
+
+Content-language: pl
+Content-type: text/html; charset=UTF-8
+Body:----------pl--
+<!--#set var="CONTENT_LANGUAGE" value="pl"
+--><!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+  <!--#else -->
+
+  <!--#endif -->
+
+----------pl--
+
+Content-language: pt-br
+Content-type: text/html; charset=UTF-8
+Body:-------pt-br--
+<!--#set var="CONTENT_LANGUAGE" value="pt-br"
+--><!--#include virtual="include/top.html" -->
+
+
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+
+
+   <!--#else -->
+
+
+
+  <!--#endif -->
+
+-------pt-br--
+
+Content-language: pt
+Content-type: text/html; charset=ISO-8859-1
+Body:----------pt--
+<!--#set var="TITLE" value="M&eacute;todo n&atilde;o permitido!"
+--><!--#include virtual="include/top.html" -->
+
+	O m&eacute;todo <!--#echo var="REDIRECT_REQUEST_METHOD" --> n&atilde;o
+	&eacute; permitido para o URL pedido.
+
+<!--#include virtual="include/bottom.html" -->
+----------pt--
+
+Content-language: ro
+Content-type: text/html; charset=UTF-8
+Body:----------ro--
+<!--#set var="CONTENT_LANGUAGE" value="ro"
+--><!--#set var="TITLE" value="Obiectul nu a fost gasit!"
+--><!--#include virtual="include/top.html" -->
+
+    URL-ul cerut nu a fost gasit pe acest server.
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+    Link-ul de pe
+    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">pagina
+    de unde ati venit</a> pare a fi gresit sau invechit. Va rugam informati autorul
+    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">acestei pagini</a>
+    despre eroare.
+
+  <!--#else -->
+
+    Daca ati introdus URL-ul manual, va rugam verificati
+    corectitudinea si incercati din nou.
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------ro--
+
+Content-language: sr
+Content-type: text/html; charset=UTF-8
+Body:----------sr--
+<!--#set var="CONTENT_LANGUAGE" value="sr"
+--><!--#set var="TITLE" value="Објекат није пронађен!"
+--><!--#include virtual="include/top.html" -->
+
+    Захтевани УРЛ није пронађен на овом серверу.
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+    Изгледа да је веза на
+    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">исходишној
+    страници</a> погрешна или застарела. Молимо обавестите аутора
+    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">те странице</a>
+    о грешци.
+
+  <!--#else -->
+
+    Уколико сте УРЛ унели ручно, молимо проверите могуће
+    грешке и пробајте поново.
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------sr--
+
+Content-language: sv
+Content-type: text/html; charset=UTF-8
+Body:----------sv--
+<!--#set var="CONTENT_LANGUAGE" value="sv"
+--><!--#set var="TITLE" value="Objektet hittas ej!"
+--><!--#include virtual="include/top.html" -->
+
+    Den efterfr&aring;gade adressen hittades inte p&aring; denna server.
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+    L&auml;nken p&aring; den
+    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">tidigare sidan</a>
+    verkar vara felaktig eller inaktuell. V&auml;nligen informera f&ouml;rfattaren av
+    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">sidan</a>
+    om felet.
+
+  <!--#else -->
+
+    Om du skrev in adressen manuellt s&aring; kontrollera din stavning och
+    f&ouml;rs&ouml;k igen.
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------sv--
+
+Content-language: tr
+Content-type: text/html; charset=UTF-8
+Body:----------tr--
+<!--#set var="CONTENT_LANGUAGE" value="tr"
+--><!--#set var="TITLE" value="Nesne mevcut değil!"
+--><!--#include virtual="include/top.html" -->
+
+    Talep ettiğiniz URL, sunucu üzerinde bulunmuyor.
+
+  <!--#if expr="-n v('HTTP_REFERER')" -->
+
+    <a href="<!--#echo encoding="url" var="HTTP_REFERER" -->">İstek yapılan sayfa</a>
+    üzerindeki bağlantı güncel değil. Lütfen <a href="<!--#echo encoding="url"
+    var="HTTP_REFERER" -->">sayfa</a> yazarını hata hakkında bilgilendirin.
+
+  <!--#else -->
+
+    URL'yi elle girdiyseniz, yazdıklarınızı gözden geçirip yeniden deneyin.
+
+  <!--#endif -->
+
+<!--#include virtual="include/bottom.html" -->
+----------tr--

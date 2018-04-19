@@ -1,0 +1,168 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 21 Jan 2018 16:08:03 +0530
+X-Envelope-To: <sk@ipuniversity.tk>
+Return-path: <010001611788f573-30e0b8b0-1e07-47c5-b7f3-350150a7922b-000000@amazonses.com>
+Received: from a9-92.smtp-out.amazonses.com (54.240.9.92) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   21 Jan 2018 16:07:57 +0530
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=feifwur4r4l2ieplxomcqu5dcemhtvnj; d=bootstrapious.com;
+	t=1516518307;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=fQjE7tc/ZeBFT6Hz+w2dU3lUy5dVNLyFwAWqcUD4SuU=;
+	b=umCaj7a5AsW7rbXtt2/AhOc0qpBg5/Q5JLiDgMZ8kbz/OFRAZ2uURiZDRkTCdXBt
+	cFzfNhscoFjLPm2lu3uCc3Rlgy1a8ckzmucUiLy9vwC+eJv5I6Yc2Xr/WYzOcmXyM1N
+	jbTqLP9zjZUJ3EzuJZn5Ld2Weqoy3Of2ZMZY0CWI=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1516518307;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=fQjE7tc/ZeBFT6Hz+w2dU3lUy5dVNLyFwAWqcUD4SuU=;
+	b=nFa3+CEXg3OLDRQxRzfz9/MiABbLSzaPOZBeesmAnCfVy7eFRyO1+eggliKYn/jD
+	/Dn2DnJX0pLWz8ixTyX0xftxeNM/u85A/NSlGC01HiMNMgPvJfk1D9bL8zZJy74E/8x
+	rHk+t7UjzwlCGKozvF9i+EadB5yImg4/s9hO0PY0=
+Date: Sun, 21 Jan 2018 07:05:07 +0000
+To: sourabh <sk@ipuniversity.tk>
+From: "Ondrej, Bootstrapious" <ondrej@bootstrapious.com>
+Reply-To: "Ondrej, Bootstrapious" <hello@bootstrapious.com>
+Subject: 10 Awe-Inspiring Templates
+Message-ID: <010001611788f573-30e0b8b0-1e07-47c5-b7f3-350150a7922b-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/dU7pHPNkzk892892pW4fgHdFiA/a>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_8439001c993ca35af723ffb79d052093"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2018.01.21-54.240.9.92
+Feedback-ID: 1.us-east-1.bfoJXYnbLesrWCqwQJSJcLMTg2/zuWNHjeOeYqk3rdc=:AmazonSES
+X-CC-Diagnostic: Body contains "money-back guarantee" (40)
+X-PMFLAGS: 570950016 0 5 YJNQ6HON.CNM
+
+This is a multi-part message in MIME format.
+
+--b1_8439001c993ca35af723ffb79d052093
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hi.
+
+Did you know that I have also premium templates on Bootstrapious?  https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/OogE5H0ctlI1nFq6srLxfQ/dU7pHPNkzk892892pW4fgHdFiA
+
+I am excited to tell you, that at the moment, there are 10 AWESOME premium themes prepared for you. You can choose from e-commerce templates, dashboards, portfolios or directory template.
+
+Unlike my free templates, these templates include:
+
+- LESS/SASS files which make customization of the CSS really easy
+- support with installation / modifications
+- future updates of the theme for free
+- 30 days money-back guarantee
+
+Check them out! https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/OogE5H0ctlI1nFq6srLxfQ/dU7pHPNkzk892892pW4fgHdFiA
+
+If you have any doubts or questions, do not hesitate to get in touch with me, simply reply to this email.
+
+I will be happy to assist you.
+
+Best,
+
+Ondrej, Bootstrapious
+
+--
+
+Ondrej Svestka
+
+Bootstrapious, Hasicska street, 70030 Ostrava, Czech republic
+
+Unsubscribe from this list ( https://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQE5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/dU7pHPNkzk892892pW4fgHdFiA/a)
+
+
+--b1_8439001c993ca35af723ffb79d052093
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+=09<title></title>
+</head>
+<body>
+<p><span style=3D"font-family:helvetica;">Hi.</span></p>
+
+<p><span style=3D"font-family:helvetica;">Did you know&nbsp;that I have als=
+o <strong><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0=
+oZ892Q/OogE5H0ctlI1nFq6srLxfQ/dU7pHPNkzk892892pW4fgHdFiA">premium templates=
+</a></strong> on Bootstrapious?</span></p>
+
+<p><span style=3D"font-family:helvetica;">I am excited to tell you, that at=
+ the moment, there are 10 AWESOME premium themes prepared for you. You can =
+choose from e-commerce templates, dashboards, portfolios or directory templ=
+ate.</span></p>
+
+<p><strong><span style=3D"font-family:helvetica;">Unlike my free templates,=
+ these&nbsp;templates include:</span></strong></p>
+
+<ul>
+=09<li><span style=3D"font-family:helvetica;">LESS/SASS files&nbsp;which ma=
+ke customization of the CSS really easy</span></li>
+=09<li><span style=3D"font-family:helvetica;">support&nbsp;with installatio=
+n / modifications</span></li>
+=09<li><span style=3D"font-family:helvetica;">future&nbsp;updates&nbsp;of t=
+he theme&nbsp;for free</span></li>
+=09<li><span style=3D"font-family:helvetica;">30 days money-back&nbsp;guara=
+ntee</span></li>
+</ul>
+
+<p><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/=
+OogE5H0ctlI1nFq6srLxfQ/dU7pHPNkzk892892pW4fgHdFiA"><span style=3D"font-fami=
+ly:helvetica;">Check them out!</span></a></p>
+
+<p><span style=3D"font-family:helvetica;">If you have any doubts or questio=
+ns, do not hesitate to get in touch with me, simply reply to this email.</s=
+pan></p>
+
+<p><span style=3D"font-family:helvetica;">I will be happy to assist you.</s=
+pan></p>
+
+<p><span style=3D"font-family:helvetica;">Best,</span></p>
+
+<p><span style=3D"font-family:helvetica;">Ondrej, Bootstrapious</span></p>
+
+<p><span style=3D"font-family: helvetica;">--</span></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;"><strong>Ondrej </strong>Svestka, <strong>Bo=
+otstrapious</strong></span></span></span></p>
+
+<p><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/=
+kzxCTQVTmafc11XZJeBV892g/dU7pHPNkzk892892pW4fgHdFiA" style=3D"color: rgb(17=
+, 85, 204); font-family: arial, sans-serif; font-size: small; background-co=
+lor: rgb(255, 255, 255);" target=3D"_blank">website</a><span style=3D"color=
+: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: small; backgr=
+ound-color: rgb(255, 255, 255);">&nbsp;|&nbsp;</span><a href=3D"https://sen=
+dy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q/8ur3RrltHmbIC892Tm0EXlJw/=
+dU7pHPNkzk892892pW4fgHdFiA" style=3D"color: rgb(17, 85, 204); font-family: =
+arial, sans-serif; font-size: small; background-color: rgb(255, 255, 255);"=
+ target=3D"_blank">twitter</a><span style=3D"color: rgb(34, 34, 34); font-f=
+amily: arial, sans-serif; font-size: small; background-color: rgb(255, 255,=
+ 255);">&nbsp;|&nbsp;</span><a href=3D"https://sendy.bootstrapious.com/l/89=
+2MqEA4aJkntl07TPG0oZ892Q/P0kWw763rvJ0pynwtCv8poeg/dU7pHPNkzk892892pW4fgHdFi=
+A" style=3D"color: rgb(17, 85, 204); font-family: arial, sans-serif; font-s=
+ize: small; background-color: rgb(255, 255, 255);" target=3D"_blank">facebo=
+ok&nbsp;</a><span style=3D"color: rgb(34, 34, 34); font-family: arial, sans=
+-serif; font-size: small; background-color: rgb(255, 255, 255);">|&nbsp;</s=
+pan><a href=3D"https://sendy.bootstrapious.com/l/892MqEA4aJkntl07TPG0oZ892Q=
+/7D3c8922nKQMNKul9fFiL8iQ/dU7pHPNkzk892892pW4fgHdFiA" style=3D"color: rgb(1=
+7, 85, 204); font-family: arial, sans-serif; font-size: small; background-c=
+olor: rgb(255, 255, 255);" target=3D"_blank">google+</a></p>
+
+<p><span style=3D"color:#696969;"><span style=3D"font-size: 12px;"><span st=
+yle=3D"font-family: helvetica;">Bootstrapious, Hasicska street, 70030 Ostra=
+va, Czech republic</span></span></span></p>
+
+<p><span style=3D"font-family: helvetica; font-size: 12px;"><a href=3D"http=
+s://sendy.bootstrapious.com/unsubscribe/7sY0f3763X451vW4sKBBwfYbimS10Td7QPQ=
+E5qKwC6FF8/1lVhV763sl7CIDb0jwk2ijbA/dU7pHPNkzk892892pW4fgHdFiA"><span style=
+=3D"color:#696969;">Unsubscribe from this list</span></a></span></p>
+</body>
+</html>
+<img src=3D"https://sendy.bootstrapious.com/t/dU7pHPNkzk892892pW4fgHdFiA/89=
+2MqEA4aJkntl07TPG0oZ892Q/a" alt=3D"" style=3D"width:1px;height:1px;"/>
+
+
+--b1_8439001c993ca35af723ffb79d052093--

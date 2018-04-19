@@ -1,0 +1,46 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 9 Jan 2018 22:00:30 +0530
+X-Envelope-To: <master@ibuiltinfra.com>
+Return-path: <spamhaus_css_verify@spamhaus.org>
+Received: from mail-out.spamhaus.org (82.165.36.226) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   9 Jan 2018 22:00:26 +0530
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=spamhaus.org;
+	s=dkim2018; t=1515515429;
+	bh=nk0yjQlI+ORjyoEjElQQ8Uy8MKhTiFbFR1guRkGrLH4=;
+	h=To:Subject:From:Date:From:Subject:Date:To:Cc;
+	b=Le5SEsTkYqQ+zYqtsPJantEldrWVnXQNKEWfNfSMVfiASl3M+QRZa2XMSt1f1KX++
+	 O8bczQ719rBPUugrP5/PlWaVl4MeH8GmHrwrin3GeT5b6W8ix1jojoGWaiykX4aVt3
+	 uL3O9y0/dcIuKEiYTTQR2M0rqRM8ZsyFKvUuym6l+f3iNBQz29Um78Ji0PK7HJDa1J
+	 /aturoWeJ/3W6TzkwG0Jtz4ApIFPuOl6CgKX1owfV9OJ7ZyqNQX6FRlCLVcXXnZ5G/
+	 KsYTor76hBMQa7Y0FzNqGLznpqPMh4jG2L57weAODYXFMscsa2zG0PFgV2WoIeqRFV
+	 Y5+Y0FuNO2POw==
+To: master@ibuiltinfra.com
+Subject: Spamhaus CSS Removal Verification Code
+From: Spamhaus CSS Verification <spamhaus_css_verify@spamhaus.org>
+Message-ID: <K3851-102.1515515429@spamhaus.org>
+Date: Tue, 9 Jan 2018 16:30:29 +0000
+X-PMFLAGS: 33554560 0 0 YZGHSV49.CNM                        
+
+----------------------------------------------------------------------
+The Spamhaus Project - Spamhaus Block List (CSS) - Email Policy System
+----------------------------------------------------------------------
+Verification/Confirmation Code: aabda01b1033d0a1891a376fdafe1700
+----------------------------------------------------------------------
+
+Someone claiming to be master@ibuiltinfra.com has submitted a request to 
+remove the ip 43.230.104.162 from the Spamhaus CSS database. This
+request was received from 43.230.104.162 at 2018-01-09 16:30:28 UTC.
+
+If this was you, please verify the validity of your email address by
+following link:
+
+https://www.spamhaus.org/css/removal/ticketcoi/?t=119965&c=aabda01b1033d0a1891a376fdafe1700
+
+  Spamhaus CSS Robot
+  The Spamhaus Project
+  https://www.spamhaus.org/css/
+
+----------------------------------------------------------------------
+NOT YOU? If you did not make this request, simply do nothing. You do
+not need to respond. The request will auto-expire unless activated.
+This message is sent by a robot, please do not reply to this email.
+----------------------------------------------------------------------

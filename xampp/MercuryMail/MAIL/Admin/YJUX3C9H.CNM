@@ -1,0 +1,85 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 6 Jan 2018 20:54:05 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Sat, 6 Jan 2018 20:53:54 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=19680.454796968
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--19680.454796968
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** spameri@tiscali.it
+   Error connecting to primary server '213.205.33.63'.
+   Error connecting to alternate server '213.205.33.61'.
+   Error connecting to alternate server '213.205.33.63'.
+   Error connecting to alternate server '213.205.33.62'.
+
+--19680.454796968
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 6 Jan 2018 12:06:18 +0530
+From: Mail Delivery System <postmaster@ipuniversity.tk>
+To: spameri@tiscali.it
+Date: Sat, 6 Jan 2018 12:06:07 +0530
+Subject: Delivery failure notification
+MIME-Version: 1.0
+Content-Type: Multipart/Report; boundary=Part_Boundary-19387A46
+Message-ID: <1938A58C015A@ipuniversity.tk>
+
+--Part_Boundary-19387A46
+Content-type: Text/plain; charset=US-ASCII
+Content-description: Mail delivery failure report
+Content-disposition: Inline
+
+With reference to your message with the subject:
+   "43.230.104.162"
+
+The local mail transport system has reported the following problems
+it encountered while trying to deliver your message:
+
+-------------------------------------------------------------------
+*** spameri@tiscali.it
+Error connecting to primary server '213.205.33.63'.
+Error connecting to alternate server '213.205.33.64'.
+Error connecting to alternate server '213.205.33.63'.
+Error connecting to alternate server '213.205.33.61'.
+-------------------------------------------------------------------
+
+Your mail message is being returned to you in the next part of this
+message.
+
+Should you need assistance, please mail postmaster@ipuniversity.tk.
+
+--Part_Boundary-19387A46
+Content-type: Message/RFC822
+Content-description: Contents of original mail message
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 5 Jan 2018 14:29:41 +0530
+Received: from SERVER-POS (76.80.112.82) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000002;
+   5 Jan 2018 14:29:38 +0530
+From: spameri@tiscali.it
+Subject: 43.230.104.162
+To: spameri@tiscali.it
+Date: Fri, 5 Jan 2018 00:59:39 -0800
+X-Priority: 3
+X-Library: Indy 8.0.25
+Message-ID: <149591754CE0@ipuniversity.tk>
+
+t_Smtp.LocalIP
+t_Smtp.LocalIP
+
+--Part_Boundary-19387A46--
+
+
+--19680.454796968--

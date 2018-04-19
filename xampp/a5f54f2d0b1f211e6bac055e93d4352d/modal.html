@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>dfsgs</title>
+  <link rel="stylesheet" href="modal.css">
+</head>
+
+<body>
+  <label for="chkPassport">
+    <input type="checkbox" id="chkPassport" onclick="ShowHideDiv(this)" />
+    Do you have Passport?
+</label>
+<hr />
+<div id="dvPassport" style="display: none">
+    Passport Number:
+    <input type="text" id="txtPassportNumber" />
+</div>
+   <script>
+   function ShowHideDiv(chkPassport) {
+        var dvPassport = document.getElementById("dvPassport");
+        dvPassport.style.display = chkPassport.checked ? "block" : "none";
+    }
+  </script>
+</body>
+</html>

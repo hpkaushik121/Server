@@ -1,0 +1,98 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 27 Jan 2018 20:29:07 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Sat, 27 Jan 2018 20:28:56 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=12863.1476726062
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--12863.1476726062
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** noreplay@google.com
+   550-5.7.1 This message does not have authentication information or fails to pass
+
+--12863.1476726062
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 27 Jan 2018 20:28:34 +0530
+From: Mail Delivery System <postmaster@ipuniversity.tk>
+To: noreplay@google.com
+Date: Sat, 27 Jan 2018 20:28:23 +0530
+Subject: Delivery failure notification
+MIME-Version: 1.0
+Content-Type: Multipart/Report; boundary=Part_Boundary-58048BD9
+Message-ID: <5804B6F0015A@ipuniversity.tk>
+
+--Part_Boundary-58048BD9
+Content-type: Text/plain; charset=US-ASCII
+Content-description: Mail delivery failure report
+Content-disposition: Inline
+
+With reference to your message with the subject:
+   "CODEJAM"
+
+The local mail transport system has reported the following problems
+it encountered while trying to deliver your message:
+
+-------------------------------------------------------------------
+*** sourabhkaushik26@yahoo.com
+554 5.7.9 Message not accepted for policy reasons.  See https://help.yahoo.com/kb/postmaster/SLN7253.html
+
+*** sourabhkaushik26@yahoo.com
+554 5.7.9 Message not accepted for policy reasons.  See https://help.yahoo.com/kb/postmaster/SLN7253.html
+-------------------------------------------------------------------
+
+Your mail message is being returned to you in the next part of this
+message.
+
+Should you need assistance, please mail postmaster@ipuniversity.tk.
+
+--Part_Boundary-58048BD9
+Content-type: Message/RFC822
+Content-description: Contents of original mail message
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 27 Jan 2018 20:28:12 +0530
+Received: from geetika (127.0.0.1) by ipuniversity.tk (Mercury/32 v4.62) ID MG00000B;
+   27 Jan 2018 20:28:10 +0530
+Date: Sat, 27 Jan 2018 15:58:10 +0100
+Subject: CODEJAM
+To: sourabhkaushik26@yahoo.com
+X-PHP-Originating-Script: 0:file.php
+From: noreplay@google.com
+CC: sourabhkaushik26@yahoo.com
+Message-ID: <580460C14CE0@ipuniversity.tk>
+
+Hello souabh99
+             Congratulation! you have successfully registered for the
+forth round of google code jam.comptetion detail are given below
+             
+             Now your idea submission phase has been started you have
+two days to submit your idea if you are selected for the competition 
+             you will be invited at dublin,ireland. Don't worry
+traveling,accomodation and food are on us. You have to just carry your
+laptop
+             or whatever thing is needed for the competition and plus
+your programming skills with you.
+             competition will be of 42 hours in which 25 question are
+given to you and you have solve all of them any how. We wish you good
+luck
+              winners will be carried to round five which will be held
+in california.And in google their is no place for loosers!!!!
+          
+          
+
+--Part_Boundary-58048BD9--
+
+
+--12863.1476726062--
