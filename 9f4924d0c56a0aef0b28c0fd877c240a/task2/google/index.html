@@ -1,0 +1,173 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <script src="https://apis.google.com/js/api:client.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:hover {
+  background-color: #cc66cc;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+.sortable tr {
+    cursor: pointer;
+}
+</style>
+  <script>
+  var googleUser = {};
+  var startApp = function() {
+    gapi.load('auth2', function(){
+      // Retrieve the singleton for the GoogleAuth library and set up the client.
+      auth2 = gapi.auth2.init({
+        client_id: '1031800235533-mm2u77cjrjmbaqogqqn5d9vt1ckq32qm.apps.googleusercontent.com',
+        cookiepolicy: 'single_host_origin',
+        // Request scopes in addition to 'profile' and 'email'
+        //scope: 'additional_scope'
+      });
+      attachSignin(document.getElementById('cmt'));
+    });
+  };
+
+  function attachSignin(element) {
+    console.log(element.id);
+    auth2.attachClickHandler(element, {},
+        function(googleUser) {
+         
+			  document.getElementById("cmt").style.display = "none";
+			  document.getElementById("num").style.display = "none";
+        document.getElementById("myDIV").style.display = "block";
+        console.log('Full Name: ' + googleUser.getBasicProfile().profile.getName());
+        
+        }, function(error) {
+          
+        });
+  }
+  </script>
+  
+  </head>
+  <body>
+  <!-- In the callback, you would hide the gSignInWrapper element on a
+  successful sign in -->
+  <div class="limiter">
+		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+				<form class="login100-form validate-form flex-sb flex-w">
+					<span id="num" class="login100-form-title p-b-53">
+						Sign In With
+					</span>
+
+					
+
+					<a href="#" style="margin-left:120px;" id="cmt" class="btn-google m-b-20">
+						<img src="images/icons/icon-google.png" alt="GOOGLE">
+						Google
+					</a>
+					<div id="myDIV" class="sales" style="display:none;">
+	
+	<table class="sortable" id="tableId">
+  <tr>
+    <th id="fullname">Name</th>
+    <th id="givenname">message</th>
+    <th id="email">number</th>
+  </tr>
+  
+  <tr onclick="call('+919159876164','This is test message one');">
+  
+    <td>sourabh</td>
+    <td>This is test message one</td>
+    <td>+919159876164</td>
+	
+  </tr>
+  
+  <tr onclick="call('+919159876164','This is test message Two');">
+    <td>Centro comercial Moctezuma</td>
+    <td>This is test message Two</td>
+    <td>+919159876164</td>
+  </tr>
+  <tr onclick="call('+919159876164','This is test message Three');">
+    <td>sourabh</td>
+    <td>This is test message Three</td>
+    <td>+919159876164</td>
+  </tr>
+  
+</table>
+<div id="sample"></div>
+	</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	<script>
+	function call(value,message){
+	$.ajax({ url: 'call.php?number='+value+'&message='+message,
+         data: {function2call: 'get', otherkey:value},
+         type: 'post',
+         success: function(output) {
+                      alert(output);
+         }
+});
+
+	}
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+  
+  <div id="name"></div>
+  <script>startApp();</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+Received: from spooler by localhost (Mercury/32 v4.62); 3 Jun 2018 16:34:34 +0530
+X-Envelope-To: rmaster
+Received: from spooler by localhost (Mercury/32 v4.62); 3 Jun 2018 16:23:57 +0530
+X-Envelope-To: <master@ipuniversity.tk>
+Return-path: <hpkaushik121@gmail.com> 
+Received: from mail-qk0-f177.google.com (209.85.220.177) by localhost (Mercury/32 v4.62) with ESMTP ID MG000001;
+   3 Jun 2018 16:22:29 +0530
+Received: by mail-qk0-f177.google.com with SMTP id c198-v6so23137548qkg.12
+        for <master@ipuniversity.tk>; Sun, 03 Jun 2018 03:52:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=TiEKs0jOE2lbM6Y6VNgi8u7NxVQPbCqOGvxN1jc/xCY=;
+        b=Ojsde3iuBS58IWeI+8qDzUGzvQZjD+EsxOG5WTwO0wgZ8bHR0qhWHETNok5qMHE9F2
+         qLH9/hk+x4uDfCIpHzi6P//bufhmPVMKM68PEvJZ+QSoAPAngRw2si8GmS1n9ahYc7Bb
+         F8LTf2l1l0Apw9EDsztsvAHcZgEiM5losBANTLVOZ5ckOs3B7dS31AIZAAYCQZsdeELT
+         62I5tenjMrA6Q7V/nevUXLSVEOrOUQ8mimsonRkEQunxrBuQXJlx72BMrYZbEGFA1c30
+         GeTzVNQJTUEkJBRFzdf9fAd09QEAvOeb2rN8/9gv9NHd6fdUg4FqqR8YJE8bBIZ5VSXV
+         xe8w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=TiEKs0jOE2lbM6Y6VNgi8u7NxVQPbCqOGvxN1jc/xCY=;
+        b=N034hjdio5pDnCcEItRqpfUk5x71wU0AA7J9nXngI6Mp3bs5H6jmI1e8GegnHNX4pW
+         Evfd8C+SCrXyUfPE8e21DkAbqoYOtlrMY74/VdU6MkkbmTmihHjCnCNn8/tFaxquSTBf
+         KXzbEJ7FlxzYdwYGgoHzBvnTYGEAuMhRBGq4bW50Z85cqJuYuC6oeGzgvCHov8X2t8Jt
+         9ww4gh2dWbWTJa7M2fHW4IeJgUnL6mi8OvUKnRSCyK2tDa9AW5cn0k4q1um70YYwXZBJ
+         kp7CVUB7zEuW/Diuqsc5j4lvkB+X0EOoVOe04nIADkEXQtfJ2FiYmqbYsbpE+0aWkj+8
+         h5oA==
+X-Gm-Message-State: APt69E13XThjDbg1/GRiywbPqJLPAOMWu69PuOvhaMNSlfbPeS3SKvez
+	hlSnBUhXEX5Nvv0VI4tnee96hy3ifLUWlS07djg=
+X-Google-Smtp-Source: ADUXVKI1+nhcoil3lNB0c7V3qmiRN++O8terGt3r+3Augn0Gv+j6NOP0I8HOxstiRIp35vgC8dlz7GfOIEN27C2EjM0=
+X-Received: by 2002:a37:951:: with SMTP id 78-v6mr15272416qkj.445.1528023159798;
+ Sun, 03 Jun 2018 03:52:39 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAMY4Rif3HUX64BNMA3HTH4gBG8zkezpSFu3U5+siOnwtU2SzgA@mail.gmail.com>
+In-Reply-To: <CAMY4Rif3HUX64BNMA3HTH4gBG8zkezpSFu3U5+siOnwtU2SzgA@mail.gmail.com>
+From: hackrackers <hpkaushik121@gmail.com>
+Date: Sun, 3 Jun 2018 16:22:28 +0530
+Message-ID: <CAMY4RicsQA_cvdn0hL7nrdW1=KUwuFoAX9U4m_O+zvKFFnqB-g@mail.gmail.com>
+Subject: Re: Hshsh
+To: master@ipuniversity.tk
+Content-Type: multipart/alternative; boundary="000000000000a601df056dba9d24"
+X-Antivirus: Avast (VPS 180603-0, 03-06-2018), Inbound message
+X-Antivirus-Status: Clean
+X-PMFLAGS: 570950016 0 9 YEC4LU93.CNM
+
+--000000000000a601df056dba9d24
+Content-Type: text/plain; charset="UTF-8"
+
+Hshsgsg
+
+On Sun 3 Jun, 2018, 4:18 PM hackrackers, <hpkaushik121@gmail.com> wrote:
+
+> Whhshshsh
+>
+
+--000000000000a601df056dba9d24
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Hshsgsg</div><br><div class=3D"gmail_quote"><div dir=3D"l=
+tr">On Sun 3 Jun, 2018, 4:18 PM hackrackers, &lt;<a href=3D"mailto:hpkaushi=
+k121@gmail.com">hpkaushik121@gmail.com</a>&gt; wrote:<br></div><blockquote =
+class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid=
+;padding-left:1ex"><div dir=3D"auto">Whhshshsh</div>
+</blockquote></div>
+
+--000000000000a601df056dba9d24--

@@ -1,0 +1,67 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 4 Jun 2018 01:00:38 +0530
+X-Envelope-To: <master@iserv.tech>
+Return-path: <hpkaushik121@gmail.com> 
+Received: from mail-vk0-f47.google.com (209.85.213.47) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG00005C;
+   4 Jun 2018 01:00:30 +0530
+Received: by mail-vk0-f47.google.com with SMTP id x191-v6so18613886vke.10
+        for <master@iserv.tech>; Sun, 03 Jun 2018 12:30:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=9HVMIDoWs7CPPyLt1DxdJ1l61h/4AD/yg6ELfvrUjgM=;
+        b=oKV4aIGaGZgK9tQ8VD8tKKuTVPRvA/d0RMiTan5115ZNfPJ4VjCL0pMHU2De8q5dqX
+         +wGj9PY3lM38YaP004xYmNBsHLioTsCZPcSzOEgDCkWdSHOKKAJJ/7AQAqos6sGaD0fQ
+         xRCwyI6VxH+o36h4JBTBKyQqNO97mK+yPXUe0Tjp6HrD6AQpV6sDEww/iy93Z+vwRa/L
+         JcKi2lMLAvnA0uiHZc4dDKuvFbNMCDXghwiDTYRQoY8kNmfFbRBR4zOzGUKPN4aYXBze
+         2pID1jJq5R+t2p+yW/7FSSdn5TCk7OmHmlTBxPfLXNdmIhCE7cNQpr7HEa3jKAzfvRA0
+         j6Ig==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=9HVMIDoWs7CPPyLt1DxdJ1l61h/4AD/yg6ELfvrUjgM=;
+        b=SZqnaVrpD5LHvk29PXOnsBt7283pWgHZOCem6Xvr4aHsH0fOKy5sBNCjYPTBCLAklp
+         GGLGj12sXruDnn/tlc0VTo1zgHhc67uLEryFmpoLNjfdCSV6+qmu3nDVf/9f+oSYNL/W
+         PRMJWyeMJL4+G+t783lxnrlnkN7YRl43hbxmssjhA/glA/v70Pc6clcsxhsiRL5lRDqz
+         HdFQib0J/zRPo3VbkmK9j8XVBw71doWqq6nyDHLeb9PA+9pqR5Dq8iPygfrwPio+Q4Uo
+         mtTqw+VVni36+oJwRK3lqhr36GfV1LtztL3hgYu9nL9JgeaeHVjrmexhySsqijJLi25r
+         WW4g==
+X-Gm-Message-State: APt69E2nqlUltSDr+MyKDew1Gtot3FMQcw9Svu8q4yT32KFat6GRKADb
+	+aJJ89q/XFXfaN2TFhgyRtsehZ+O4wUDcXYy3Ac=
+X-Google-Smtp-Source: ADUXVKLUy1cRxbpjcncJx/EMv3M+v76DKbi0Bi0vQ8sC9bTgK/RM4jFHbJUwWjA1h0yeI3LPgDgpWgOsj4U+xZTPGYw=
+X-Received: by 2002:a1f:9491:: with SMTP id w139-v6mr1494654vkd.157.1528054244394;
+ Sun, 03 Jun 2018 12:30:44 -0700 (PDT)
+MIME-Version: 1.0
+References: <d452074c-29bf-f9b9-c94a-0950d0c3346b@iserv.tech>
+In-Reply-To: <d452074c-29bf-f9b9-c94a-0950d0c3346b@iserv.tech>
+From: hackrackers <hpkaushik121@gmail.com>
+Date: Mon, 4 Jun 2018 01:00:32 +0530
+Message-ID: <CAMY4Rif41n46MuMKR2u_maaZ0qbas0Vz03Rsz-2F2WbJgqNvRQ@mail.gmail.com>
+Subject: Re: asdfasdf
+To: master <master@iserv.tech>
+Content-Type: multipart/alternative; boundary="0000000000006f4b50056dc1daba"
+X-PMFLAGS: 570950016 0 1 YICNY0YO.CNM
+
+--0000000000006f4b50056dc1daba
+Content-Type: text/plain; charset="UTF-8"
+
+6fdd
+
+On Mon 4 Jun, 2018, 1:00 AM master, <master@iserv.tech> wrote:
+
+> asdfdfa
+>
+>
+
+--0000000000006f4b50056dc1daba
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">6fdd</div><br><div class=3D"gmail_quote"><div dir=3D"ltr"=
+>On Mon 4 Jun, 2018, 1:00 AM master, &lt;master@iserv.tech&gt; wrote:<br></=
+div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-lef=
+t:1px #ccc solid;padding-left:1ex">asdfdfa<br>
+<br>
+</blockquote></div>
+
+--0000000000006f4b50056dc1daba--

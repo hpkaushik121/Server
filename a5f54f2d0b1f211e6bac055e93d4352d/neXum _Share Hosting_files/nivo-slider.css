@@ -1,0 +1,726 @@
+/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Description: The default skin for the Nivo Slider.
+Version: 1.3
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+Supports Thumbs: true
+*/
+/* -------------------------------------
+preview-2
+---------------------------------------- */
+.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
+  left: 15px;
+}
+.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav {
+  right: 65px;
+}
+.preview-2 .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  left: -34px;
+  font-size: 0;
+}
+.preview-2 .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  right: 16px;
+  font-size: 0;
+}
+.preview-2 .nivo-directionNav a.nivo-prevNav:hover:before {
+  background: #fff;
+  color: #000;
+}
+.preview-2 .nivo-directionNav a.nivo-prevNav:before {
+  background: rgba(0, 0, 0, 0.25);
+  content: "\f053";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 300ms ease-in 0s;
+  width: 50px;
+  z-index: 9;
+}
+.preview-2 .nivo-directionNav a.nivo-nextNav:hover:before {
+  background: #fff;
+  color: #000;
+}
+.preview-2 .nivo-directionNav a.nivo-nextNav:before {
+  background: rgba(0, 0, 0, 0.25);
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transition: all 300ms ease-in 0s;
+  width: 50px;
+  z-index: 9;
+}
+.preview-2 .nivo-controlNav {
+  position: absolute;
+  z-index: 99;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+.preview-2 .nivo-controlNav a {
+  border: 5px solid #fff;
+  display: inline-block;
+  height: 18px;
+  margin: 0 5px;
+  text-indent: -9999px;
+  width: 18px;
+  line-height: 8px;
+  background: #3c3c3c;
+  cursor: pointer;
+  position: relative;
+  z-index: 9;
+  border-radius: 100%;
+  opacity: 0;
+  z-index: -999;
+}
+.preview-2:hover .nivo-controlNav a {
+  opacity: 1;
+  z-index: 999999;
+}
+.preview-2 .nivo-controlNav a:hover,
+.preview-2 .nivo-controlNav a.active {
+  background: #ffffff none repeat scroll 0 0 !important;
+  border: 5px solid #000000;
+  cursor: pointer;
+}
+.nivoSlider {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.nivoSlider img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  max-width: none;
+}
+.nivo-main-image {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  display: none;
+  background: white;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0;
+}
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+}
+.nivo-box img {
+  display: block;
+}
+/* Caption styles */
+.nivo-caption {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: #fff;
+  width: 100%;
+  z-index: 8;
+  padding: 5px 10px;
+  opacity: 0.8;
+  overflow: hidden;
+  display: none;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=8);
+  /* Safari/Chrome, other WebKit */
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+.nivo-caption p {
+  padding: 5px;
+  margin: 0;
+}
+.nivo-caption a {
+  display: inline !important;
+}
+.nivo-html-caption {
+  display: none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+  position: absolute;
+  top: 45%;
+  z-index: 9;
+  cursor: pointer;
+}
+.nivo-prevNav {
+  left: 0px;
+}
+.nivo-nextNav {
+  right: 0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+  text-align: center;
+  padding: 15px 0;
+}
+.nivo-controlNav a {
+  cursor: pointer;
+}
+.nivo-controlNav a.active {
+  font-weight: bold;
+}
+/* ------------------------------
+Default Theme
+---------------------------------*/
+.slider-direction {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: none;
+  color: #fff;
+  font-size: 16px;
+  z-index: 999;
+  display: none;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  display: none;
+  background: white;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0;
+}
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+}
+.nivo-box img {
+  display: block;
+}
+.nivo-caption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+}
+.nivo-main-image {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0;
+}
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+}
+@-webkit-keyframes myfirst {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes myfirst {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.slider-progress.pos_hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+/* ------------------------------
+custom slider
+---------------------------------*/
+.slider-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fc5003;
+  height: 5px;
+  -webkit-animation: myfirst 5000ms ease-in-out;
+  animation: myfirst 5000ms ease-in-out;
+}
+.s-tb {
+  display: table;
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+.s-tb-c {
+  display: table-cell;
+  vertical-align: middle;
+}
+.t-cn {
+  text-align: center;
+}
+.t-lft {
+  text-align: left;
+}
+.t-lfr {
+  text-align: right;
+}
+.slider-area {
+  position: relative;
+  overflow: hidden;
+}
+.slider-area .slider-1 h1 {
+  -webkit-animation: bounceInUp 1000ms ease-in-out;
+  animation: bounceInUp 1000ms ease-in-out;
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+.slider-area .slider-1 p {
+  -webkit-animation: bounceInUp 2500ms ease-in-out;
+  animation: bounceInUp 2500ms ease-in-out;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 27%;
+  font-size: 16px;
+  margin-bottom: 50px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.slider-area .slider-1 .slider-button {
+  -webkit-animation: bounceInUp 3500ms ease-in-out;
+  animation: bounceInUp 3500ms ease-in-out;
+}
+.slider-area .slider-1 .slider-button ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.slider-area .slider-1 .slider-button ul li {
+  display: inline-block;
+  position: relative;
+}
+.slider-area .slider-1 .slider-button ul li a {
+  display: block;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 0.5s ease 0s;
+}
+.slider-area .slider-1 .slider-button ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.slider-area .slider-2 h1 {
+  -webkit-animation: fadeInLeft 500ms ease-in-out;
+  animation: fadeInLeft 500ms ease-in-out;
+  left: 20%;
+  position: relative;
+  font-size: 60px;
+  font-weight: 700;
+}
+.slider-area .slider-2 p {
+  -webkit-animation: fadeInLeft 1500ms ease-in-out;
+  animation: fadeInLeft 1500ms ease-in-out;
+  left: 20%;
+  position: relative;
+  padding: 0 60% 0 0;
+  margin-bottom: 50px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.slider-area .slider-2 .slider-button {
+  -webkit-animation: fadeInLeft 2000ms ease-in-out;
+  animation: fadeInLeft 2000ms ease-in-out;
+  left: 20%;
+  position: relative;
+}
+.slider-area .slider-2 .slider-button ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.slider-area .slider-2 .slider-button ul li {
+  display: inline-block;
+  position: relative;
+}
+.slider-area .slider-2 .slider-button ul li a {
+  display: block;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 0.5s ease 0s;
+}
+.slider-area .slider-2 .slider-button ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.slider-area .slider-3 h1 {
+  -webkit-animation: fadeInRight 500ms ease-in-out;
+  animation: fadeInRight 500ms ease-in-out;
+  right: 20%;
+  position: relative;
+  font-size: 60px;
+  font-weight: 700;
+}
+.slider-area .slider-3 p {
+  -webkit-animation: fadeInRight 1500ms ease-in-out;
+  animation: fadeInRight 1500ms ease-in-out;
+  right: 20%;
+  position: relative;
+  padding: 0 0 0 60%;
+  margin-bottom: 50px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.slider-area .slider-3 .slider-button {
+  -webkit-animation: fadeInRight 2000ms ease-in-out;
+  animation: fadeInRight 2000ms ease-in-out;
+  right: 20%;
+  position: relative;
+}
+.slider-area .slider-3 .slider-button ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.slider-area .slider-3 .slider-button ul li {
+  display: inline-block;
+  position: relative;
+}
+.slider-area .slider-3 .slider-button ul li a {
+  display: block;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 0.5s ease 0s;
+}
+.slider-area .slider-3 .slider-button ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+/*------------------------------------ 
+Nivo Slider Responsive 
+------------------------------------*/
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width: 1600px) {
+  /* font size */
+  .slider-area .slider-1 h1,
+  .slider-area .slider-2 h1,
+  .slider-area .slider-3 h1 {
+    font-size: 48px;
+  }
+  /* padding style */
+  .slider-area .slider-1 p {
+    padding: 0 15%;
+  }
+  .slider-area .slider-2 p {
+    padding: 0 50% 0 0;
+  }
+  .slider-area .slider-3 p {
+    padding: 0 0 0 50%;
+  }
+  /* slide Two */
+  .slider-area .slider-2 h1,
+  .slider-area .slider-2 p,
+  .slider-area .slider-2 .slider-button {
+    left: 10%;
+  }
+  /* slide Three */
+  .slider-area .slider-3 h1,
+  .slider-area .slider-3 p,
+  .slider-area .slider-3 .slider-button {
+    right: 10%;
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* font size */
+  .slider-area .slider-1 h1,
+  .slider-area .slider-2 h1,
+  .slider-area .slider-3 h1 {
+    font-size: 48px;
+  }
+  /* padding style */
+  .slider-area .slider-1 p {
+    padding: 0 15%;
+  }
+  .slider-area .slider-2 p {
+    padding: 0 50% 0 0;
+  }
+  .slider-area .slider-3 p {
+    padding: 0 0 0 50%;
+  }
+  /* slide Two */
+  .slider-area .slider-2 h1,
+  .slider-area .slider-2 p,
+  .slider-area .slider-2 .slider-button {
+    left: 10%;
+  }
+  /* slide Three */
+  .slider-area .slider-3 h1,
+  .slider-area .slider-3 p,
+  .slider-area .slider-3 .slider-button {
+    right: 10%;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* font size */
+  .slider-area .slider-1 h1,
+  .slider-area .slider-2 h1,
+  .slider-area .slider-3 h1 {
+    font-size: 40px;
+  }
+  /* padding style */
+  .slider-area .slider-1 p {
+    padding: 0 10%;
+  }
+  .slider-area .slider-2 p {
+    padding: 0 40% 0 0;
+  }
+  .slider-area .slider-3 p {
+    padding: 0 0 0 40%;
+  }
+  /* slide Two */
+  .slider-area .slider-2 h1,
+  .slider-area .slider-2 p,
+  .slider-area .slider-2 .slider-button {
+    left: 7%;
+  }
+  /* slide Three */
+  .slider-area .slider-3 h1,
+  .slider-area .slider-3 p,
+  .slider-area .slider-3 .slider-button {
+    right: 7%;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .preview-2 .nivo-controlNav {
+    display: none;
+  }
+  /* font size */
+  .slider-area .slider-1 h1,
+  .slider-area .slider-2 h1,
+  .slider-area .slider-3 h1 {
+    font-size: 24px !important;
+    margin-bottom: 30px !important;
+  }
+  /* padding style */
+  .slider-area .slider-1 p {
+    padding: 0 6%;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .slider-area .slider-2 p {
+    padding: 0 8% 0 0;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .slider-area .slider-3 p {
+    padding: 0 0 0 8%;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  /* slide Two */
+  .slider-area .slider-2 h1,
+  .slider-area .slider-2 p,
+  .slider-area .slider-2 .slider-button {
+    left: 7%;
+  }
+  /* slide Three */
+  .slider-area .slider-3 h1,
+  .slider-area .slider-3 p,
+  .slider-area .slider-3 .slider-button {
+    right: 7%;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .preview-2 .nivo-controlNav {
+    display: none;
+  }
+  /* font size */
+  .slider-area .slider-1 h1,
+  .slider-area .slider-2 h1,
+  .slider-area .slider-3 h1 {
+    font-size: 30px;
+  }
+  /* padding style */
+  .slider-area .slider-1 p {
+    display: none;
+  }
+  .slider-area .slider-2 p {
+    display: none;
+  }
+  .slider-area .slider-3 p {
+    display: none;
+  }
+  /* slide Two */
+  .slider-area .slider-2 h1,
+  .slider-area .slider-2 p,
+  .slider-area .slider-2 .slider-button {
+    left: 7%;
+  }
+  /* slide Three */
+  .slider-area .slider-3 h1,
+  .slider-area .slider-3 p,
+  .slider-area .slider-3 .slider-button {
+    right: 7%;
+  }
+  /* slider button stying */
+  .slider-area .slider-1 .slider-button ul li a,
+  .slider-area .slider-2 .slider-button ul li a,
+  .slider-area .slider-3 .slider-button ul li a {
+    padding: 7px 20px;
+    font-size: 14px;
+  }
+  /* next prev styling */
+  .nivo-directionNav a {
+    top: 30%;
+  }
+  .preview-2 .nivo-directionNav a.nivo-nextNav::before,
+  .preview-2 .nivo-directionNav a.nivo-prevNav::before {
+    font: 400 16px/40px FontAwesome !important;
+    height: 40px !important;
+    width: 40px !important;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .preview-2 .nivo-controlNav {
+    display: none;
+  }
+  /* font size */
+  .slider-area .slider-1 h1,
+  .slider-area .slider-2 h1,
+  .slider-area .slider-3 h1 {
+    font-size: 30px;
+  }
+  /* padding style */
+  .slider-area .slider-1 p {
+    display: none;
+  }
+  .slider-area .slider-2 p {
+    display: none;
+  }
+  .slider-area .slider-3 p {
+    display: none;
+  }
+  /* slide Two */
+  .slider-area .slider-2 h1,
+  .slider-area .slider-2 p,
+  .slider-area .slider-2 .slider-button {
+    left: 0;
+    margin: auto;
+    position: inherit;
+    right: 0 !important;
+    text-align: center;
+  }
+  /* slide Three */
+  .slider-area .slider-3 h1,
+  .slider-area .slider-3 p,
+  .slider-area .slider-3 .slider-button {
+    left: 0;
+    margin: auto;
+    position: inherit;
+    right: 0 !important;
+    text-align: center;
+  }
+  /* slider button stying */
+  .slider-area .slider-1 .slider-button ul li a,
+  .slider-area .slider-2 .slider-button ul li a,
+  .slider-area .slider-3 .slider-button ul li a {
+    padding: 7px 20px;
+    font-size: 14px;
+  }
+  /* next prev styling */
+  .nivo-directionNav a {
+    top: 30%;
+  }
+  .preview-2 .nivo-directionNav a.nivo-nextNav::before,
+  .preview-2 .nivo-directionNav a.nivo-prevNav::before {
+    font: 400 16px/40px FontAwesome !important;
+    height: 40px !important;
+    width: 40px !important;
+  }
+}

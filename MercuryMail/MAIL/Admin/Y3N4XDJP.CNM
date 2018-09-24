@@ -1,0 +1,46 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 4 Jun 2018 11:32:06 +0530
+X-Envelope-To: Electronic Postmaster <Admin@ipuniversity.tk>
+To: Electronic Postmaster <Admin@ipuniversity.tk>
+From: Electronic Postmaster <postmaster@ipuniversity.tk>
+Date: Mon, 4 Jun 2018 11:31:54 +0530
+Subject: Postmaster Notify: Delivery Failure.
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary=19680.663591406
+
+This message is in MIME format. If you are seeing this text,
+then your mailer does not understand this format properly.
+
+--19680.663591406
+Content-type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+Content-Description: Reason for delivery failure.
+
+The attached message has failed delivery and has been referred
+to you as postmaster. The following error report or reports
+were given to explain the problem:
+
+   *** hpkaushik121@gmail.com
+   550-5.7.1 This message does not have authentication information or fails to pass
+
+--19680.663591406
+Content-type: Message/RFC822
+
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 4 Jun 2018 11:31:32 +0530
+Received: from [192.168.0.121] (43.230.104.162) by ipuniversity.tk (Mercury/32 v4.62) with ESMTP ID MG000001;
+   4 Jun 2018 11:31:28 +0530
+To: hpkaushik121@gmail.com
+From: master <master@iserv.tech>
+Subject: djfioviosdiofg
+Message-ID: <00a1f927-89b2-120c-22c4-4c37d7e88485@iserv.tech>
+Date: Mon, 4 Jun 2018 11:31:19 +0530
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.8.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+fjisdjfiosiodkfjisdf
+
+
+--19680.663591406--

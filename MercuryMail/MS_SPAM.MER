@@ -1,0 +1,13 @@
+# Mercury/32 SMTP server block query definitions data file.
+# Mercury/32 Mail Transport System, Copyright 1993-2006, David Harris.
+
+Begin
+Name: Spamhaus
+Enabled: Y
+QueryType: Blacklist
+QueryForm: Address
+Hostname: sbl-xbl.spamhaus.org
+Strictness: Normal
+Action: Reject
+Parameter: this a spam mail
+End

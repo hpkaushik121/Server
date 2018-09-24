@@ -1,0 +1,9251 @@
+/*....................................
+Template Name: Taxi Cab HTML5 Template.
+Template URI: http://creativeon/com
+Description: Taxi Cab HTML5 Template one of the most latest Nexum Template.
+Author: Nexum   todo
+Author URI: creativeON (Sajid Iqbal)
+Version: 1.0
+....................................
+CSS INDEX
+....................................
+1.Theme Default CSS (body, link color, section etc)
+2.navbar-header  Start Here
+3. Slide start here
+4  slider botton area start Here
+5. Form-box start Here
+6   choose-us  Start Here
+7.counte start Here
+8. Banner Start Here
+9. Services Start Here
+10. pricing-plan Start Here
+11. faq-banner Start Here
+12 latest-news Start Here
+13 footer-Here
+14.footer-endarea start
+....................................*/
+/*=========================
+   Including fonts
+   =======================*/
+/* ubuntu-regular - latin */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/ubuntu-v11-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+	url('../fonts/ubuntu-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/ubuntu-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/ubuntu-v11-latin-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/ubuntu-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/ubuntu-v11-latin-regular.svg#Ubuntu') format('svg'); /* Legacy iOS */
+}
+
+/* ubuntu-500 - latin */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/ubuntu-v11-latin-500.eot'); /* IE9 Compat Modes */
+	src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+	url('../fonts/ubuntu-v11-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/ubuntu-v11-latin-500.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/ubuntu-v11-latin-500.woff') format('woff'), /* Modern Browsers */ url('../fonts/ubuntu-v11-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/ubuntu-v11-latin-500.svg#Ubuntu') format('svg'); /* Legacy iOS */
+}
+
+/* ubuntu-700 - latin */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/ubuntu-v11-latin-700.eot'); /* IE9 Compat Modes */
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+	url('../fonts/ubuntu-v11-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/ubuntu-v11-latin-700.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/ubuntu-v11-latin-700.woff') format('woff'), /* Modern Browsers */ url('../fonts/ubuntu-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/ubuntu-v11-latin-700.svg#Ubuntu') format('svg'); /* Legacy iOS */
+}
+
+html {
+	font-family: "Ubuntu", serif;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-family: "Ubuntu", serif;
+	font-size: 14px;
+	transition: 500ms all;
+}
+
+a:hover,
+a:focus {
+	color: #fc5003;
+	text-decoration: none;
+}
+
+p {
+	font-size: 14px;
+	color: #414141;
+	font-family: "Ubuntu", serif;
+	font-weight: 200;
+}
+
+.btn {
+	color: #fc5003;
+	border: solid 1px #fc5003;
+	border-radius: 0;
+	font-size: 14px;
+	padding: 0;
+	height: 50px;
+	width: 140px;
+	line-height: 49px;
+	font-weight: 600;
+}
+
+.btn:hover {
+	background-color: #fc5003;
+	color: white;
+}
+
+h1,
+h2,
+h3 h4,
+h5,
+h6 {
+	font-family: "Ubuntu", serif;
+}
+
+[class^="flaticon-"] {
+	color: black;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+	margin-left: 0;
+}
+
+/*=========================
+   Header Start here
+   =======================*/
+.top-bar {
+	background-color: #0d1115;
+	border-bottom: solid 2px #232f3a;
+}
+
+.top-bar ul {
+	margin: 0 0;
+}
+
+.top-bar ul li span {
+	margin-left: 5px;
+}
+
+.top-bar ul li .fa.fa-comment-o {
+	margin-left: 20px;
+}
+
+.top-bar .dropdown-menu ul li a {
+	color: black;
+	padding: 10px;
+}
+
+.top-bar .dropdown-menu ul li a img {
+	margin-right: 10px;
+	margin-top: -3px;
+}
+
+.top-bar ul li.nav-item {
+	display: inline-block;
+}
+
+.top-bar ul li.nav-item.dropdown {
+	float: right;
+}
+
+button.navbar-toggler.navbar-toggler-right.navbar-light {
+	background-color: #FFFFFF;
+}
+
+.navigation {
+	background-color: #11171c;
+}
+
+.navigation button.navbar-toggler.navbar-toggler-right.navbar-light {
+	margin-top: -10px;
+	background: transparent;
+}
+
+.navigation ul.navbar-nav {
+	margin-left: 10px;
+}
+
+.navigation ul.navbar-nav li.cart {
+	background-color: #fc5003;
+	margin-left: 123px;
+	margin-top: -7px;
+	padding-top: 10px;
+}
+
+.navigation button:focus {
+	outline: 0;
+
+}
+
+.navigation ul li a.active {
+	color: #fc5003;
+}
+
+li.cart .cart-left {
+	position: absolute;
+	top: -8px;
+	right: 200px;
+	border-color: transparent;
+	border-style: solid;
+}
+
+li.cart .cart-left {
+	border-width: 3px;
+	border-right-color: rgba(252, 80, 3, 0.7);
+	border-bottom-color: rgba(252, 80, 3, 0.7);
+	z-index: 3;
+}
+
+li.cart .cart-right {
+	position: absolute;
+	top: -8px;
+	right: 25px;
+	border-color: transparent;
+	border-style: solid;
+}
+
+li.cart .cart-right {
+	border-width: 3px;
+	border-left-color: rgba(252, 80, 3, 0.7);
+	border-bottom-color: rgba(252, 80, 3, 0.7);
+	z-index: 3;
+}
+
+.navigation ul.navbar-nav li.cart a sup {
+	margin-left: 11px;
+	font-size: 14px;
+	margin-right: 10px;;
+}
+
+.navigation ul.navbar-nav li.cart a sup.cart-tag {
+	background-color: white;
+	color: #222222;
+	margin-left: 0;
+	padding: 4px 8px;
+	border-radius: 17px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.navigation ul.navbar-nav li.cart a .fa {
+	font-size: 20px;
+}
+
+.navigation ul.navbar-nav li.cart a:hover {
+	color: white;
+}
+
+.navigation ul.navbar-nav li a {
+	line-height: 3;
+}
+
+.navigation img {
+	margin-top: -19px;
+}
+
+.navigation .navbar {
+	padding: 0;
+}
+
+.navigation ul li .dropdown-menu {
+	top: 100%;
+	left: 0;
+	z-index: 9;
+	background-color: #11171c;
+	padding: 10px;
+	border: solid 1px #fc5003;
+	border-radius: 0;
+	margin-top: 0;
+}
+
+.navigation ul li ul.sub-menu li a {
+	display: block;
+}
+
+/*=========================
+   Main Slider Start here
+   =======================*/
+.slider-area {
+	overflow: hidden;
+	margin-bottom: 50px;
+
+}
+.main-slider {
+	position: relative;
+}
+.main-slider .slide-content-inner {
+	max-width: 980px;
+}
+
+.slider-area .row{
+	padding: 260px 0;
+}
+
+.main-slider .slick-arrow {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	font-size: 30px;
+	line-height: 41px;
+	text-align: center;
+	top: 40%;
+	margin-top: -25px;
+	color: #fc5003;
+	border: 1px solid #fc5003;
+	cursor: pointer;
+	transition: all 300ms linear;
+	opacity: 0;
+	z-index: 9999;
+}
+.main-slider .slick-arrow:hover {
+	background: #fc5003;
+	color: #fff;
+}
+.main-slider .slick-arrow.fa-angle-left {
+	left: -25px;
+}
+.main-slider .slick-arrow.fa-angle-right {
+	right: -25px
+}
+.main-slider:hover .slick-arrow.fa-angle-left {
+	opacity: 1;
+	left: 25px;
+}
+.main-slider:hover .slick-arrow.fa-angle-right {
+	opacity: 1;
+	right: 25px
+}
+.slide-custom-link {
+	display: none;
+}
+.main-slider .slick-dots {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	bottom: 0;
+	background: white;
+}
+.main-slider .slick-dots li {
+	min-width: 200px;
+	align-self: auto;
+	height: 100px;
+	width: 294px;
+	padding: 10px 0;
+	bottom: 0;
+	display: block;
+	position: relative;
+	margin: 0;
+	border-right: 1px solid #e3e3e3;
+	background: #f5f5f5;
+}
+.main-slider .slick-dots li:last-child{
+	border: none;
+}
+.main-slider .slick-dots li > div:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent;
+	top: -10px;
+	left: 50%;
+	margin-left: -10px;
+}
+.main-slider .slick-dots li i {
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: #fc5003;
+}
+.main-slider .slick-dots li h3 {
+	 font-weight: 400;
+	 font-size: 20px;
+ }
+
+.main-slider .slick-dots li.slick-active {
+	background: #fc5003;
+	color: white;
+}
+.main-slider .slick-dots li.slick-active > div:after {
+	border-color: transparent transparent #fc5003 transparent;
+}
+
+
+.main-slider .slick-dots li.slick-active i {
+	color: white;
+
+}
+.main-slider .slick-dots li.slick-active h3 {
+	color: white;
+}
+.main-slider h5{
+	color: #ffffff;
+	font-size: 24px;
+}
+.main-slider .slick-active h5{
+	-webkit-animation: bounceIn 1500ms ease-in-out;
+	animation: bounceIn 1500ms ease-in-out;
+}
+
+.main-slider .slide-heading {
+	text-transform: capitalize;
+	font-size: 60px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.main-slider .slide-heading span{
+	color: #fc5003;
+}
+.main-slider .slick-active .slide-image-1 {
+	-webkit-animation: pulse 1500ms ease-in-out;
+	animation: pulse 1500ms ease-in-out;
+}
+.main-slider .slick-active .slide-heading {
+	-webkit-animation: bounceInUp 1000ms ease-in-out;
+	animation: bounceInUp 1000ms ease-in-out;
+}
+.main-slider .slide-text {
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 50px;
+	line-height: 30px;
+	color: #ffffff;
+}
+.main-slider .slick-active .slide-text {
+	-webkit-animation: bounceInUp 2500ms ease-in-out;
+	animation: bounceInUp 2500ms ease-in-out;
+}
+.main-slider .slide-button a {
+	border: 1px solid transparent;
+	background-color: #070707;
+	color: white;
+	height: 50px;
+	width: 170px;
+	text-transform: uppercase;
+}
+.main-slider .slide-button a.btn-1{
+	background-color: #fc5003;
+	margin-left: 10px;
+}
+
+.main-slider .slick-active .slide-button {
+	-webkit-animation: bounceInUp 3500ms ease-in-out;
+	animation: bounceInUp 3500ms ease-in-out;
+}
+
+.slider-area .domain-offer-area {
+	position: fixed;
+	top: 138px;
+	width: 150px;
+	z-index: 99999;
+}
+
+.slider-area .domain-offer-area .top-text {
+	background: #fc5003;
+	padding: 20px 20px 70px;
+}
+
+.slider-area .domain-offer-area .top-text h4 {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #ffffff;
+}
+
+.slider-area .domain-offer-area .top-text h4 span {
+	font-size: 24px;
+	font-weight: 500;
+	margin: 5px 0;
+	display: block;
+}
+
+.slider-area  .domain-offer-area .button {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background: #ffffff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	bottom: -75px;
+}
+
+.slider-area .domain-offer-area .button strong {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #000000;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 18px;
+}
+
+.slider-area  .domain-offer-area .button strong a {
+	font-weight: bold;
+	color: #fc5003;
+	font-size: 30px;
+}
+.slider-area .row .domain-offer-root {
+	border-left: solid 2px #ffffff;
+	height: 138px;
+	position: absolute;
+	top: -260px;
+	left: 88px;
+}
+
+
+/*=========================
+   Slider Start here
+   =======================*/
+.slider {
+	background-image: url("../images/slider-image.png");
+	padding: 300px 0;
+	background-size: cover;
+	margin-bottom: 150px;
+}
+
+/*=========================
+   Form-box Start here
+   =======================*/
+.form-box {
+	background-color: #f6f6f6;
+	padding-top: 55px;
+	padding-bottom: 25px;
+}
+
+.form-box .row .col-sm-9 {
+	padding: 0;
+}
+
+.form-box .row .col-sm-2 {
+	padding: 0;
+	margin-left: -1px;
+}
+
+.form-box .row .col-sm-1 {
+	padding: 0;
+}
+
+.form-box .row .col-sm-2 .form-control {
+	background-color: #fc5003;
+	border-color: #fc5003;
+	color: #FFFFFF;
+	height: 55px;
+	font-family: "Ubuntu", serif;
+	font-size: 18px;
+	padding-top: 4px;
+}
+
+.form-box .row button[type="submit"] {
+	background-color: #070707;
+	display: block;
+	color: #FFFFFF;
+	height: 55px;
+	width: 55px;
+	line-height: 55px;
+	border: 0;
+	cursor: pointer;
+}
+
+.nice-select:after {
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+
+.form-box .row .form-control {
+	border-radius: 0;
+	height: 55px;
+	border-color: #dddddd;
+}
+
+.form-box .row .col-sm-2 .form-control span {
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.form-box .row .col-sm-2 .nice-select .list {
+	background-color: white;
+	border: solid 1px #fc5003;
+	color: #fc5003;
+	outline: 0;
+	margin-top: 2px;
+}
+
+.nice-select .option:hover{
+	background-color: #fc5003;
+	color: white;
+}
+.nice-select .option.focus{
+	color: #fc5003;
+}
+
+.nice-select .option.selected.focus{
+	background-color: #fc5003;
+	color: #FFFFFF;
+}
+.nice-select ul:hover .option.selected.focus{
+	background-color: #fc5003;
+	color: #fc5003;
+}
+.nice-select ul li:hover{
+	color: #FFFFFF!important;
+}
+
+.form-box .row .btn {
+	padding: 0;
+	height: 80px;
+	width: 134px;
+	padding-top: 11px;
+	color: #222222;
+	background-color: #FFFFFF;
+	border: 1px solid #dddddd;
+	margin-bottom: 15px;
+}
+
+.form-box .row .btn:hover {
+	background-color: #fc5003;
+	color: #FFFFFF;
+	border-color: #fc5003;
+}
+
+.form-box .row .btn p {
+	color: #222222;
+	transition: 500ms;
+	font-weight: 300;
+	margin-top: -10px;
+}
+
+.form-box .search-header h5 {
+	margin-left: -13px;
+	color: #222222;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.form-box .row .btn:hover p {
+	color: #FFFFFF;
+}
+
+.form-box .slick-dots {
+	visibility: hidden;
+}
+
+.form-box .responsive button {
+	visibility: hidden;
+}
+
+i.fa.fa-caret-left.slick-arrow {
+	position: relative;
+	top: 214px;
+	left: 210px;
+	font-size: 18px;
+	color: #acacac;
+}
+
+i.fa.fa-caret-right.slick-arrow {
+	position: relative;
+	left: 225px;
+	font-size: 18px;
+	color: #acacac;
+}
+
+i.fa.fa-caret-right.slick-arrow:hover,
+i.fa.fa-caret-left.slick-arrow:hover {
+	color: #070707;
+}
+
+.form-box .form-box-item {
+	padding-top: 54px;
+}
+.form-box .nice-select:after{
+	border: none;
+}
+.form-box .nice-select .option {
+	text-align: center;
+}
+.form-box .nice-select{
+	padding-left: 23px;
+}
+/*=========================
+   choose-us Start here
+   =======================*/
+.choose-us {
+	padding: 100px 0;
+}
+
+.top-heading h2 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Ubuntu", serif;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	color: #222222;
+}
+.choose-us .choose-us-image img{
+	width: 566px;
+}
+.top-heading p {
+	font-size: 14px;
+	color: #414141;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+}
+
+.choose-us .row .row img {
+	padding: 20px 0;
+}
+
+.choose-us h6 {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.choose-us .coohse-border {
+	border-bottom: solid 1px #ebebeb;
+	margin-left: 15px;
+}
+
+.choose-us .choose-border-1 {
+	border-right: solid 1px #ebebeb;
+}
+
+/*=========================
+   Counter Start here
+   =======================*/
+.counter {
+	background-color: #28292c;
+	padding: 140px 0;
+}
+
+.counter h2 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.counter p {
+	margin-bottom: 0;
+	color: #eaeaea;
+}
+
+.counter .row .fa {
+	padding-top: 7px;
+	color: #fc5003;
+	font-size: 47px;
+
+}
+
+/*=========================
+   Banner Start here
+   =======================*/
+.banner {
+	background-color: #f7f7f7;
+	padding: 100px 0;
+}
+
+.banner .top-heading p {
+	padding-bottom: 30px;
+}
+
+.banner .top-heading {
+	padding-top: 70px;
+	text-transform: capitalize;
+}
+
+.banner .top-heading h2 {
+	text-transform: capitalize;
+	line-height: 1.5;
+}
+
+/*=========================
+   Seriveces Start here
+   =======================*/
+.services {
+	background-image: url("../images/servicesbg.png");
+	background-size: cover;
+	color: white;
+	padding: 100px 0;
+}
+
+.services .top-heading h2 {
+	color: white;
+}
+
+.services .btn {
+	font-size: 14px;
+}
+
+.services h5 {
+	font-size: 18px;
+	color: #e5e5e5;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.services p {
+	color: #e8e8e8;
+	margin-bottom: 30px;
+}
+
+.services div .fa {
+	color: #fc5003;
+	border: 1px solid #fc5003;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 52px;
+	margin-bottom: 20px;
+	font-size: 45px;
+	transition: 500ms;
+}
+
+.services .services-box:hover .fa,
+.services .services-box:hover .btn {
+	color: white;
+	background-color: #fc5003;
+}
+
+/*=========================
+   Pricing plan Start here
+   =======================*/
+.pricing-plan {
+	padding: 100px 0;
+}
+
+.pricing-plan .whmpress_pricing_table.four .pricing_table_price .amount {
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "Ubuntu", serif;
+}
+
+.pricing-plan .holder.holder .duration {
+	color: #FFFFFF;
+}
+
+.pricing-plan .whmpress_pricing_table.four .pricing_table_price .holder {
+	margin-top: -14px;
+}
+
+.pricing-plan .whmpress_pricing_table.four .pricing_table_price .duration {
+	display: block;
+	font-size: 16px;
+	word-spacing: 0;
+	font-weight: 700;
+	color: #FFFFFF;
+	padding-top: 20px;
+}
+
+.pricing-plan .whmpress_pricing_table.four {
+	background-color: #f7f7f7;
+}
+
+/*=========================
+   Pricing plan Start here
+   =======================*/
+.faq-banner {
+	background-image: url("../images/faq-bannerbg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.faq-banner .card-header {
+	background-color: #fc5003;
+	border-radius: 0;
+}
+
+.faq-banner .top-heading h5 {
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	font-size: 20px;
+	padding-top: 100px;
+}
+
+.faq-banner .top-heading p {
+	padding-bottom: 30px;
+}
+
+.faq-banner p {
+	color: #e7e7e7;
+}
+
+.faq-banner .top-heading h2 {
+	padding-bottom: 20px;
+}
+
+.faq-banner .card-header a {
+	font-size: 18px;
+	display: block;
+}
+
+.faq-banner .card-header a i {
+	font-size: 16px;
+}
+
+.faq-banner .card {
+	border-color: #fc5003;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.faq-banner .card-header a:hover,
+.faq-banner .card-header a:focus {
+	color: white;
+}
+
+.faq-banner .card-header i {
+	float: right;
+}
+
+.faq-banner .top-heading h2 {
+	color: #ffffff;
+	text-transform: capitalize;
+}
+
+[data-toggle="collapse"]:not(.collapsed) > i.fa:before {
+	content: "\f106";
+}
+
+/*=========================
+   latest-news Start here
+   =======================*/
+.latest-news {
+	padding-top: 100px;
+}
+
+.latest-news ul {
+	background-color: #363636;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.latest-news ul li {
+	display: inline-block;
+	padding: 10px 16px;
+}
+
+.latest-news ul li.latest-news-line {
+	border-right: 1px solid white;
+}
+
+.latest-news ul li .fa {
+	padding-right: 3px;
+}
+
+.latest-news .latest-news-box {
+	background-color: #f6f6f6;
+	padding: 25px 30px;
+}
+
+.latest-news .latest-news-box h5 {
+	font-size: 18px;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+	color: #282828;
+}
+
+.latest-news .btn {
+	height: 45px;
+	width: 135px;
+	line-height: 44px;
+	font-weight: 600;
+}
+
+.latest-news .owl-theme .owl-controls .owl-buttons div {
+	background-color: transparent;
+	opacity: 1;
+	color: #FFF;
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.latest-news .latest-slider i.fa.fa-angle-left {
+	top: 228px;
+	left: -65px;
+	position: absolute;
+	color: #fc5003;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 0;
+	background: transparent;
+	font-size: 22px;
+	border: 1px solid #fc5003;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.latest-news .latest-slider i.fa.fa-angle-right {
+	top: 228px;
+	right: -65px;
+	position: absolute;
+	color: #fc5003;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 0;
+	background: transparent;
+	font-size: 22px;
+	border: 1px solid #fc5003;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.latest-news .latest-slider i.fa.fa-angle-left:hover,
+.latest-news .latest-slider i.fa.fa-angle-right:hover {
+	background-color: #fc5003;
+	color: white;
+}
+
+.latest-news .latest-box-1 {
+
+	width: 94%;
+	box-shadow: -4px 0 19px 0 #e4e4e4;
+	margin: 0 15px;
+}
+
+.latest-news .latest-box-1 img {
+	width: 100%;
+}
+
+/*=========================
+   brand Start here
+   =======================*/
+.brands {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.brands .image-o {
+	margin-left: -11px;
+}
+
+.brands .brands-border {
+	border-bottom: solid 2px #e1e1e1;
+	margin-bottom: 60px;
+}
+
+/*=========================
+   footer Start here
+   =======================*/
+.footer {
+	background-color: #222222;
+	padding-top: 100px;
+	color: #b3b3b3;
+	font-size: 14px;
+	padding-bottom: 60px;
+}
+
+.footer h5 {
+	padding-bottom: 45px;
+	color: white;
+}
+
+.footer .footer-icon a .fa {
+	color: white;
+	background-color: #15191c;
+	height: 28px;
+	width: 31px;
+	text-align: center;
+	line-height: 27px;
+	border: solid 1px #292f33;
+	margin-left: 10px;
+	transition: 500ms;
+}
+
+.footer .footer-icon a .fa.fa-facebook {
+	margin-left: 0;
+}
+
+.footer .footer-icon a .fa:hover {
+	color: #fc5003;
+}
+
+h5.heading-footer {
+	padding-bottom: 20px;
+}
+
+.footer .fa-angle-right {
+	color: #fc5003;
+	line-height: 36px;
+}
+
+.footer .row ul li a span {
+	margin-left: 5px;
+}
+
+.footer .row ul li a {
+	color: #b3b3b3;
+}
+
+.footer .row p {
+	color: #b3b3b3;
+	margin-bottom: 30px;
+}
+
+.footer .row ul li a:hover {
+	color: #fc5003;
+}
+
+.footer img {
+	margin-bottom: 10px;
+	height: 70px;
+	width: 80px;
+}
+
+.footer i {
+	color: #fc5003;
+	line-height: 36px;
+}
+
+.footer .footer-contact span {
+	margin-left: 15px;
+}
+
+.footer-end {
+	background-color: #000000;
+	color: #999999;
+	padding: 20px 0;
+	font-family: "Ubuntu", serif;
+}
+
+.footer-end p {
+	margin-bottom: 0;
+	color: #999999;
+}
+
+.footer form {
+	position: relative;
+}
+
+.footer form i {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 47px;
+	width: 47px;
+	line-height: 47px;
+	background-color: #fc5003;
+	color: white;
+	text-align: center;
+}
+
+.footer form .form-control {
+	max-width: 100%;
+	height: 47px;
+	background-color: #2b2b2b;
+	border-color: #2b2b2b;
+	color: #626262;
+}
+
+/*=========================
+  brand-comb Start here
+  =======================*/
+.brand-comb {
+	background-image: url("../images/About/aboutbg.png");
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.brand-comb h2 {
+	color: white;
+	font-family: "Ubuntu", serif;
+	font-size: 30px;
+	font-weight: 600;
+	float: left;
+	line-height: 30px;
+}
+.brand-comb .float-right{
+	line-height: 30px;
+}
+
+.brand-comb span {
+	color: #fc5003;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.brand-comb a {
+	font-weight: 400;
+}
+
+.brand-comb.form-box .form-box-item {
+	padding: 0;
+	margin: 0 auto;
+	max-width: 60%;
+}
+.form-box .nice-select.wide.form-control.open i:before {
+	content: "\f106";
+}
+/*=========================
+      About-us Start here
+      =======================*/
+.about-us {
+	background-image: url(../images/About/about1.png);
+	background-repeat: no-repeat;
+	padding: 100px 0;
+	background-position-x: 17%;
+	background-position-y: 47%;
+}
+
+.about-us .about-heading h2 {
+	font-size: 36px;
+	font-weight: 600;
+	font-family: "Ubuntu", serif;
+	letter-spacing: 5px;
+	margin-bottom: 0;
+	padding-bottom: 40px;
+	color: #222222;
+}
+
+.about-us .about-heading p {
+	margin-bottom: 0;
+	padding-bottom: 100px;
+}
+
+.about-us .row .about-box h6 {
+	font-size: 18px;
+	font-family: "Ubuntu", serif;
+	color: #fc5003;
+	font-weight: 400;
+	letter-spacing: 5px;
+	margin-bottom: 0;
+	padding-bottom: 25px;
+}
+
+.about-us .row .about-box h2 {
+	font-size: 30px;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+	color: #222222;
+}
+
+.about-us .row .about-box p {
+	margin-bottom: 0;
+}
+
+.about-us .row h5 {
+	margin-bottom: 30px;
+	color: #222222;
+}
+
+.about-us .row .about-box {
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 13px 0 #e4e4e4;
+	padding: 70px 40px;
+}
+
+.about-us .about-row-box {
+	padding-bottom:50px;
+}
+
+.about-us .row .row img {
+	width: 54px;
+	height: 44px;
+}
+
+/*=========================
+   Seriveces-about Start here
+   =======================*/
+.services-about {
+	padding: 100px 0;
+	background-color: #f8f8f8;
+}
+
+.services-about h5 {
+	font-size: 18px;
+	color: #111111;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.services-about p {
+	color: #414141;
+	margin-bottom: 30px;
+}
+
+.services-about div .fa {
+	color: #fc5003;
+	border: 1px solid #fc5003;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 52px;
+	margin-bottom: 20px;
+	font-size: 45px;
+	transition: 500ms;
+}
+
+.services-about .services-box:hover .fa,
+.services-about .services-box:hover .btn {
+	color: white;
+	background-color: #fc5003;
+}
+
+.services-about .services-slider i.fa.fa-angle-left {
+	top: 151px;
+	left: -65px;
+	position: absolute;
+	color: #ffffff;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 0;
+	background: #0a0a0a;
+	font-size: 22px;
+	border: 1px solid transparent;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.services-about .services-slider i.fa.fa-angle-right {
+	top: 151px;
+	right: -65px;
+	position: absolute;
+	color: #ffffff;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 0;
+	background: #0a0a0a;
+	font-size: 22px;
+	border: 1px solid transparent;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.services-about .services-slider i.fa.fa-angle-left:hover,
+.services-about .services-slider i.fa.fa-angle-right:hover {
+	background-color: #fc5003;
+	color: white;
+}
+
+/*=========================
+     domain-list Start here
+     =======================*/
+.domain-list {
+	padding: 100px 0;
+}
+
+.domain-list .domaing-slider .owl-item {
+	margin: 0 0;
+}
+
+.domain-list .domaing-slider a.btn {
+	padding: 0;
+	height: 80px;
+	width: 146px;
+	padding-top: 11px;
+	color: #222222;
+	background-color: #FFFFFF;
+	border: 1px solid #dddddd;
+	margin-bottom: 15px;
+}
+
+.domain-list .domaing-slider a.btn:hover {
+	background-color: #fc5003;
+	border-color: #fc5003;
+}
+
+.domain-list .domaing-slider p {
+	margin-bottom: 0;
+	color: #222222;
+	transition: 500ms;
+	margin-top: -10px;
+}
+
+.domain-list .domaing-slider a.btn:hover p,
+.domain-list .domaing-slider a.btn:hover {
+	color: #FFFFFF;
+}
+
+.domaing-slider i.fa.fa-caret-right {
+	color: #dddddd;
+	display: inline-block;
+	border-radius: 0;
+	font-size: 22px;
+	text-align: center;
+}
+
+.domain-list .domaing-slider i.fa.fa-caret-left {
+	color: #dddddd;
+	display: inline-block;
+	border-radius: 0;
+	font-size: 22px;
+	border: 1px solid transparent;
+	text-align: center;
+}
+
+.domain-list .domaing-slider i.fa.fa-caret-left:hover,
+.domain-list .domaing-slider i.fa.fa-caret-right:hover {
+	color: #070707;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	background-color: transparent;
+	opacity: 1;
+}
+.services-chart .row .col-sm-4:last-child {
+	margin-bottom: 15px;
+	text-align: right;
+}
+/*=========================
+     Support-team Start here
+     =======================*/
+.support-team {
+	padding-top: 100px;
+}
+
+.support-team img {
+	width: 100%;
+}
+
+.support-team .support-item {
+	position: relative;
+}
+
+.support-team .support-item:hover .support-name {
+	opacity: 0;
+}
+
+.support-team .support-name {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #161616;
+	padding: 20px 0;
+	transition: 600ms;
+}
+
+.support-team .support-name h5 {
+	color: #fc5003;
+	font-size: 22px;
+}
+
+.support-team .support-name p {
+	color: #f1f1f1;
+	margin-bottom: 0;
+}
+
+.support-team .support-text {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.73);
+	padding: 100px 35px;
+	opacity: 0;
+	transition: 600ms;
+}
+
+.support-team .row .col-xs-12.col-sm-12.col-md-6.col-lg-4{
+	margin-bottom: 30px;
+}
+
+.support-team .support-item:hover .support-text {
+	opacity: 1;
+}
+
+.support-team .support-text ul li {
+	display: inline-block;
+}
+
+.support-team .support-text h5 {
+	font-size: 22px;
+	color: #ffffff;
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+.support-team .support-text p.paragraph {
+	color: #fc5003;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+.support-team .support-text p {
+	color: #ffffff;
+	font-family: "Ubuntu", serif;
+	margin-bottom: 0;
+	padding-bottom: 25px;
+}
+
+.support-team .support-text ul li a i {
+	border: solid 15px black;
+	border-bottom: solid 15px transparent;
+	border-right: solid 15px transparent;
+}
+
+.support-team .support-text ul li a i:hover {
+	border-left-color: #fc5003;
+	border-top-color: #fc5003;
+}
+
+.support-team .support-text ul li a:hover,
+.support-team .support-text ul li a:focus {
+	color: #ffffff;
+}
+
+.support-text .support-border {
+	border-bottom: solid 3px #ffffff;
+	margin: auto;
+	max-width: 10%;
+	margin-bottom: 15px;
+}
+
+.support-box ul li a {
+	font-size: 18px;
+	font-weight: bold;
+	border: solid 1px #fc5003;
+	margin-left: 10px;
+	background-color: transparent;
+	border-radius: 0px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 27px;
+	font-family: "Ubuntu", serif;
+	color: #fc5003;
+}
+
+.support-box .page-link:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #fc5003;
+	border-color: transparent;
+}
+
+.support-box .page-link.active {
+	background-color: #fc5003;
+	color: #FFFFFF;
+}
+
+.support-box {
+	margin: auto;
+	max-width: 14%;
+	padding-top: 30px;
+}
+
+.support-team .page-item:first-child .page-link,
+.support-team .page-item:last-child .page-link {
+	border-radius: 0;
+}
+
+/* ===========================
+     Blog  satting
+     ==========================*/
+.single-blog .row.blog .row img {
+	width: 100%;
+}
+
+.blog .row ul {
+	background-color: #fc5003;
+	margin-bottom: 0;
+}
+
+.blog .row ul li {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 30px;
+}
+
+.blog .row .btn {
+	border-color: #414141;
+	color: #414141;
+}
+
+.blog .row .btn:hover {
+	color: #FFFFFF;
+	border-color: #fc5003;
+}
+
+.blog .row ul li span {
+	padding-left: 5px;
+}
+
+.blog .row ul li a:hover {
+	color: #FFFFFF;
+}
+
+.blog .row ul li.blog-box-1 {
+	border-right: solid 1px white;
+}
+
+.blog .row .blog-text-box {
+	background-color: #f7f7f7;
+	padding: 30px 25px;
+}
+
+.blog-text-box h5 {
+	margin-bottom: 25px;
+}
+
+.blog .row .blog-box-item {
+	margin-bottom: 35px;
+	transition: 500ms;
+}
+
+.blog .row .blog-box-item:hover {
+	box-shadow: 0 12px 15px 0 rgba(179, 179, 179, 0.53);
+}
+
+.blog .page-item:first-child .page-link,
+.blog .page-item:last-child .page-link {
+	border-radius: 0;
+}
+
+.single-blog .row .col-sm-8 .blog-text-box p {
+	margin-bottom: 30px;
+}
+
+/* ===========================
+     Single-Blog  satting
+     ==========================*/
+.blog-pargraf p {
+	border-left: solid 2px #d00009;
+	padding-left: 20px;
+	height: 107px;
+	padding-top: 15px;
+}
+
+.single-border {
+	border-bottom: solid 3px #fc5003;
+	float: left;
+	width: 100px;
+	margin-bottom: 30px;
+}
+
+.single-border-1 {
+	float: right;
+	border-bottom: solid 1px #dddddd;
+	width: 250px;
+	padding-top: 1px;
+}
+
+.clear {
+	clear: both;
+}
+
+.single-blog {
+	padding-top: 100px;
+}
+
+.single-blog .row h4 {
+	font-size: 20px;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+	color: #222222;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+.blog-pargraf p,
+.blog-pargraf i {
+	display: inline-block;
+}
+
+.blog-pargraf i {
+	font-size: 60px;
+	padding-top: 24px;
+	padding-left: 35px;
+	color: #dddddd;
+}
+
+.single-blog .row .row img {
+	width: auto;
+}
+
+.single-blog .form-control {
+	height: 45px;
+	border: 1px solid transparent;
+	background-color: #f4f4f4;
+	margin-bottom: 50px;
+	width: 100%;
+	border-radius: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.single-blog textarea.form-control {
+	height: 193px;
+}
+
+.single-blog .form-control:focus {
+	border-color: #fc5003;
+	background-color: #f4f4f4;
+}
+
+.form-inline .btn {
+	background-color: #fc5003;
+	color: #FFFFFF;
+	font-family: "Ubuntu", serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0;
+	height: 54px;
+	width: 170px;
+}
+
+.form-inline .button:hover {
+	border-radius: 30px;
+	border-bottom: solid 2px #75c75a;
+}
+
+.single-blog textarea.mb-4 {
+	background-color: #f0f0f0;
+	padding-left: 10px;
+	padding-top: 10px;
+	border: solid 1px transparent;
+	outline: 0;
+}
+
+.single-blog textarea::-webkit-input-placeholder {
+	color: #7a7a7a;
+}
+
+.single-blog textarea:-ms-input-placeholder {
+	color: #7a7a7a;
+}
+
+.single-blog .comment-box a {
+	color: #fc5003;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.single-blog .comment-box {
+	font-family: "Ubuntu", serif;
+	color: #646464;
+}
+
+.single-blog textarea.mb-4:focus {
+	border-color: #fc5003;
+}
+
+.single-border-comment {
+	border-bottom: solid 4px #fc5003;
+	width: 50px;
+	margin-bottom: 30px;
+}
+
+.cateqory-icon li:first-child {
+	padding-top: 0;
+}
+
+.single-blog .left {
+	float: left;
+	font-size: 16px;
+	padding-top: 30px;
+	font-family: "Ubuntu", serif;
+	color: #222222;
+}
+
+.single-blog .left span {
+	font-weight: 200;
+	color: #414141;
+}
+
+.single-blog .right {
+	float: right;
+	padding-top: 30px;
+}
+
+.single-blog .share-icon li {
+	display: inline-block;
+}
+
+.single-blog .share-icon li i {
+	background-color: transparent;
+	text-align: center;
+	border: solid 1px #d1d3d5;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+}
+
+.single-blog .share-icon li i {
+	color: #fc5003;
+	font-size: 14px;
+}
+
+.single-blog .share-icon li i:hover {
+	background-color: #fc5003;
+	color: #FFFFFF;
+	border-color: #fc5003;
+}
+
+.single-blog .text-border-1 {
+	border-bottom: solid 1px #dddddd;
+	padding-bottom: 17px;
+}
+
+.single-blog .search-box {
+	position: relative;
+}
+
+.single-blog .search-box .form-control {
+	border-radius: 0;
+	border-color: #bdbdbd;
+	max-width: 100%;
+	background-color: white;
+	height: 50px;
+	margin-top: 5px;
+	font-size: 16px;
+	font-family: "Ubuntu", serif;
+}
+
+.single-blog .search-icon {
+	position: absolute;
+	top: 80px;
+	right: 15px;
+	background-color: #fc5003;
+	color: white;
+	height: 50px;
+	width: 50px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.single-blog .row .row .col-8 p {
+	color: #222222;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.single-blog .row .row .col-8 p:hover {
+	color: #fc5003;
+}
+
+.single-blog .row .row .col-8 div {
+	color: #aaaaaa;
+	font-size: 16px;
+	font-family: "Ubuntu", serif;
+}
+
+.single-blog .row h3 strong {
+	font-size: 20px;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+}
+
+.single-blog .row.blog-row-box img {
+	width: 100%;
+}
+
+.single-blog .row.blog-row-box {
+	border: solid 1px #e7e7e7;
+	padding: 30px 0;
+	padding-left: 30px;
+}
+
+.single-blog .row.blog-row-box-1 img {
+	width: 117px;
+	margin-bottom: 20px;
+}
+
+.single-blog .row.blog-row-box-1 strong,
+.single-blog .row.blog-row-box strong {
+	color: #fc5003;
+}
+
+.single-blog .row.blog-row-box-1 {
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.single-blog .row.blog-row-box-1 .col-sm-10 {
+	padding-left: 40px;
+}
+
+.single-blog .row.blog-row-box-1 span i {
+	color: #fc5003;
+	padding-right: 5px;
+}
+
+.single-blog .row h3 {
+	font-size: 24px;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+	margin-left: 23px;
+}
+
+.single-blog .row .col-sm-8 p {
+	font-size: 14px;
+	color: #414141;
+	font-family: "Ubuntu", serif;
+}
+
+.single-blog .row .col-sm-8 .row p {
+	color: #414141;
+	font-family: "Ubuntu", serif;
+}
+
+.single-blog .row .col-sm-8 .row strong {
+	font-size: 18px;
+	font-family: "Ubuntu", serif;
+}
+
+.cateqory-icon span {
+	padding-left: 10px;
+	font-weight: 500;
+}
+
+.single-blog .blog-single-image img {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.single-blog .blog-text-item {
+	position: relative;
+}
+
+.single-blog .blog-text-item h3 {
+	font-size: 30px;
+	color: #FFFFFF;
+	border: solid 2px white;
+	height: 70px;
+	width: 200px;
+	line-height: 65px;
+	font-family: "Ubuntu", serif;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+
+.single-blog .blog-text-item .btn {
+	height: 50px;
+	width: 150px;
+	line-height: 49px;
+	padding: 0;
+	background-color: #fc5003;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+}
+
+.single-blog .blog-text-tag {
+	position: absolute;
+	top: 174px;
+	left: 80px;
+}
+
+.cateqory-icon li {
+	border-bottom: solid 1px #dddddd;
+	padding-top: 25px;
+	padding-bottom: 18px;
+}
+
+.cateqory-icon li a {
+	color: #444444;
+	display: block;
+	font-size: 16px;
+}
+
+.cateqory-icon li a:hover {
+	color: #fc5003;
+}
+
+.cateqory-icon li a i {
+	color: #fc5003;
+}
+
+.widget ul.tag-list {
+	margin: 0;
+	padding: 0;
+}
+
+.widget ul.tag-list li {
+	display: inline-block;
+	margin: 10px 1px 24px 0;
+}
+
+.widget ul.tag-list li a {
+	background-color: transparent;
+	border: solid 1px black;
+	padding: 15px 19px;
+	transition: 300ms;
+	text-decoration: none;
+	color: #222222;
+}
+
+.widget ul.tag-list li a:hover {
+	background-color: #fc5003;
+	color: #FFFFFF;
+	border-color: #fc5003;
+}
+
+#scrollUp {
+	bottom: 20px;
+	right: 20px;
+	background-color: #fc5003;
+	color: #fff;
+	border-radius: 50%;
+	transition: all 0.5s ease 0s;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	z-index: 2147483647;
+	display: block;
+}
+
+/* ===========================
+     vhost-best  satting
+     ==========================*/
+.vhost-best {
+	padding: 100px 0;
+	background-color: #f9f9f9;
+}
+
+.vhost-best p {
+	color: #414141;
+}
+
+.vhost-best .row .fa {
+	color: #222222;
+	border: 1px solid #222222;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 48px;
+	border-radius: 52px;
+	margin-bottom: 24px;
+	font-size: 20px;
+	transition: 300ms;
+}
+
+.vhost-best .row h5 {
+	font-size: 18px;
+	color: #222222;
+	margin-bottom: 15px;
+	font-weight: 600;
+	transition: 300ms;
+}
+
+.vhost-best .row .col-sm-12:hover h5 {
+	color: #fc5003;
+	transition: 300ms;
+}
+
+.vhost-best .row .col-sm-12:hover i {
+	color: #fc5003;
+	border-color: #fc5003;
+}
+
+.vhost-best .row p {
+	color: #414141;
+	font-family: "Ubuntu", serif;
+}
+
+/* ===========================
+     services-banner  satting
+     ==========================*/
+.services-banner {
+	padding: 100px 0;
+}
+
+.services-banner .card-header {
+	background-color: #f5f5f5;
+	border-radius: 0;
+}
+
+.services-banner p {
+	color: #414141;
+}
+
+.services-banner .card-header a {
+	font-size: 18px;
+	display: block;
+}
+
+.services-banner .card {
+	border-color: #f5f5f5;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.services-banner .card-header a {
+	color: #222222;
+	font-weight: 600;
+}
+
+.services-banner .card-header a:hover,
+.services-banner .card-header a:focus {
+	color: #222222;
+}
+
+.services-banner .card-header i {
+	float: right;
+}
+
+/* ===========================
+     form-area  satting
+     ==========================*/
+.form-area {
+	padding: 100px 0;
+	background-color: #f6f6f6;
+}
+
+.form-area .form-control {
+	width: 100%;
+	border-radius: 0;
+	margin-bottom: 25px;
+	font-size: 14px;
+	font-family: "Ubuntu", serif;
+	height: 50px;
+	border-color: #dddddd;
+}
+
+.form-area .form-control:focus {
+	border-color: #fc5003;
+}
+
+.form-area textarea.form-control {
+	height: 150px;
+}
+
+.form-area .form-inline .btn {
+	background-color: #fc5003;
+	color: #FFFFFF;
+	font-family: "Ubuntu", serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0;
+	height: 54px;
+	width: 170px;
+	line-height: 50px;
+	text-transform: capitalize;
+}
+
+/* ===========================
+     nexum-services  satting
+     ==========================*/
+.nexum-services {
+	padding: 100px 0;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+	background-color: #f6f6f6;
+}
+
+.nexum-services .row {
+	font-size: 20px;
+}
+
+.nexum-services .row span {
+	padding-left: 15px;
+	position: relative;
+	top: -3px;
+}
+
+.nexum-services .row .fa.fa-wifi {
+	padding-left: 0;
+}
+
+.nexum-services .row .col-sm-4 {
+	padding-bottom: 10px;
+}
+
+.nexum-services .col-xs-12.col-sm-12.col-md-12.col-lg-4 {
+	margin-bottom: 25px;
+}
+
+.nexum-services .col-xs-12.col-sm-12.col-md-12.col-lg-4 i {
+	font-size: 25px;
+}
+
+/* ===========================
+     vps-banner  satting
+     ==========================*/
+.vps-banner {
+	background-image: url("../images/blog/bannerbg.png");
+	padding: 85px 0;
+	background-size: cover;
+}
+
+.vps-banner p {
+	color: white;
+	margin-bottom: 30px;
+}
+
+.vps-banner h2 {
+	color: #FFFFFF;
+	font-size: 36px;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+
+.vps-banner .btn {
+	font-size: 16px;
+	padding: 0;
+	height: 50px;
+	width: 250px;
+	line-height: 48px;
+	color: #FFFFFF;
+	background-color: #fc5003;
+}
+
+/* ===========================
+     vps-feature  satting
+     ==========================*/
+.vps-feature {
+	padding-top: 100px;
+}
+
+.vps-feature .feature-box {
+	background-color: #f6f6f6;
+	padding: 85px 0;
+}
+
+.vps-feature .feature-box .row {
+	margin-bottom: 0;
+}
+
+.vps-feature .row {
+	max-width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.vps-feature .row img {
+	width: 100%;
+}
+
+.vps-feature .row h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: "Ubuntu", serif;
+	font-weight: 600;
+	color: #222222;
+}
+
+.vps-feature p {
+	color: #414141;
+}
+.vps-feature .feature-box .row {
+	text-align: right;
+}
+/* ===========================
+     in-feature  satting
+     ==========================*/
+.in-feature {
+	padding: 100px 0;
+}
+
+.in-feature .row i {
+	color: #fc5003;
+	border: 1px solid #fc5003;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 52px;
+	margin-bottom: 20px;
+	font-size: 45px;
+	transition: 500ms;
+}
+
+.in-feature .row i:hover {
+	background-color: #fc5003;
+	color: #FFFFFF;
+}
+
+.in-feature .row h5 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.in-feature .row p {
+	color: #4f4f4f;
+}
+
+.in-feature .row .btn {
+	background-color: #fc5003;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding: 0;
+	height: 45px;
+	line-height: 40px;
+	width: 150px;
+}
+
+.in-feature .row .col-sm-3 p {
+	margin-bottom: 40px;
+}
+
+.nexum-services-1 {
+	background-color: #f6f6f6;
+}
+
+.in-feature .col-xs-12.col-sm-12.col-md-6.col-lg-3 {
+	margin-bottom: 25px
+}
+
+/*=========================
+   Domian shob Start here
+   =======================*/
+.domain-shop {
+	padding-top: 100px;
+}
+
+.domain-shop div ul li {
+	display: inline-block;
+	width: 20%;
+
+}
+
+.domain-shop div ul li button {
+	color: white;
+	padding: 10px 69px;
+	background-color: transparent;
+	border: none;
+	font-size: 14px;
+	outline: 0;
+}
+
+.domain-shop div ul li:hover {
+	background-color: #fc5003;
+}
+
+.domain-shop div ul li:first-child {
+	border-top-left-radius: 10px;
+}
+
+.domain-shop div ul li:last-child {
+	border-top-right-radius: 10px;
+}
+
+.domain-shop div ul {
+	background-color: #8b8b8c;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-bottom: 0;
+	font-size: 0.003px;
+}
+
+.domain-shop .top-heading h2 span {
+	font-size: 36px;
+	text-transform: lowercase;
+	color: #fc5003;
+	letter-spacing: 2px;
+}
+
+.domain-shop .top-heading h2 i {
+	color: #dbdbdb;
+}
+
+.domain-shop .top-heading h2 {
+	padding-bottom: 20px;
+}
+
+.domain-shop .top-heading p {
+	font-size: 18px;
+	padding-bottom: 60px;
+	margin-left: -29px;
+	color: #7d7d7d;
+}
+
+.domain-shop .domain-shop-box {
+	background-color: #f2f2f2;
+	border-left: solid 3px #d0d0d0;
+}
+
+.domain-shop .domain-shop-item {
+	padding: 30px 30px;
+	border-bottom: solid 1px #d0d0d0;
+}
+
+.domain-shop .shop-tag {
+	border-width: 11px;
+	border-right-color: transparent;
+	border-bottom-color: #f2f2f2;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	z-index: 3;
+	position: absolute;
+	top: 168px;
+	left: 116px;
+	border-style: solid;
+}
+
+li.cart .cart-left {
+	position: absolute;
+	top: -8px;
+	right: 200px;
+	border-style: solid;
+}
+
+.domain-shop .domain-shop-item:last-child {
+	border-bottom: none;
+}
+
+.domain-shop .domain-shop-item i.fa.fa-close,
+.domain-shop .domain-shop-item i.fa.fa-check {
+	color: #fc5003;
+	font-size: 30px;
+	padding-right: 10px;
+	padding-top: 8px;
+}
+
+.domain-shop .domain-shop-item a.btn.btn-shop-1 {
+	background-color: #515151;
+}
+
+.domain-shop .domain-shop-item a.btn.btn-shop-1:hover {
+	background-color: #fc5003;
+}
+
+.domain-shop .domain-shop-item a.btn {
+	margin-left: 17px;
+	color: #FFFFFF;
+	border-color: transparent;
+	background-color: #a1a1a1;
+}
+
+.domain-shop .domain-shop-item h6 {
+	font-size: 18px;
+}
+
+.domain-shop .domain-shop-item p {
+	font-family: "Ubuntu", serif;
+	color: #a4a4a4;
+}
+
+.domain-shop i.fa.fa-shopping-cart {
+	padding-right: 10px;
+}
+
+/*=========================
+   services chart Start here
+   =======================*/
+.services-chart {
+	background-color: #f8f8f8;
+	padding: 100px 0;
+}
+
+.services-chart .row input {
+	height: 35px;
+	width: 180px;
+	font-size: 14px;
+	padding-left: 5px;
+	font-family: "Ubuntu", serif;
+}
+
+.services-chart .row {
+	padding: 30px 10px;
+}
+.services-chart .row ul{
+	margin-bottom: 0;
+}
+.services-chart .services-chart-box {
+	background-color: #e8e8e8;
+	margin-bottom: 60px;
+}
+
+.services-chart .services-chart-box-1 {
+	background-color: #e8e8e8;
+
+}
+
+.services-chart .row label {
+	font-family: "Ubuntu", serif;
+	margin-bottom: 0;
+}
+
+.services-chart .row ul li button {
+	background-color: black;
+	padding: 0 15px;
+	color: white;
+	border: none;
+	outline: 0;
+	font-size: 14px;
+	font-family: "Ubuntu", serif;
+	height: 35px;
+	text-align: center;
+}
+
+.services-chart .row ul li {
+	display: inline-block;
+}
+
+.services-chart .row ul li button:hover {
+	background-color: #fc5003;
+}
+
+.services-chart tr.chart-box-1 {
+	background-color: #333333;
+	color: white;
+}
+
+.services-chart tr.chart-box-2 {
+	background-color: #f8f8f8;
+}
+
+.services-chart tr {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.services-chart .table {
+	width: 100%;
+	overflow: auto;
+
+}
+
+.services-chart tr th {
+	width: 158px;
+	height: 50px;
+	border-right: solid 1px #babbbb;
+	text-align: center;
+	font-weight: 500;
+}
+
+.services-chart tr th:last-child {
+	border: none;
+}
+
+.services-chart tr th.chart-li {
+	color: #fc5003;
+}
+
+/* ===========================
+     host-feature  satting
+     ==========================*/
+.host-feature {
+	background-color: #f7f7f7;
+	padding: 100px 0;
+}
+
+.host-feature .host-box-item {
+	box-shadow: 0 2px 15px 0 gainsboro;
+	padding: 30px 40px;
+	padding-top: 0;
+	transition: 500ms;
+	margin-bottom: 20px;
+}
+
+.host-feature .host-box-item:hover {
+	background-color: #FFFFFF;
+	box-shadow: none;
+}
+
+.host-feature .host-box-item h5 {
+	font-weight: 600;
+	transition: 500ms;
+	color: #222222;
+	margin-bottom: 25px;
+	margin-top: -10px;
+}
+
+.host-feature .host-box-item:hover h5 {
+	color: #fc5003;
+}
+
+.host-feature .host-box-item p {
+	margin-bottom: 0;
+	font-family: "Ubuntu", serif;
+}
+
+.host-feature .host-box-item i {
+	height: 70px;
+	width: 75px;
+	line-height: 70px;
+	font-size: 40px;
+	margin-bottom: 20px;
+	transition: 500ms;
+}
+
+.host-feature .host-box-item:hover i {
+	box-shadow: 0 4px 10px 2px rgba(34, 34, 34, 0.2);
+	color: #fc5003;
+	background-color: #f7f7f7;
+}
+
+/* ===========================
+     contact-us  setting
+     ==========================*/
+.contact-us {
+	padding-top: 100px;
+}
+
+.contact-us .row .form-control:focus {
+	border-color: #fc5003;
+}
+
+.contact-us #map {
+	margin-bottom: 65px;
+	height: 50%
+}
+
+.contact-us .row h5 {
+	font-weight: 600;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.contact-us .row li {
+	font-size: 14px;
+	color: #666666;
+	padding-bottom: 20px;
+	font-weight: 600;
+	font-family: "Ubuntu", serif;
+}
+
+.contact-us .row li span {
+	color: #fc5003;
+}
+
+.contact-us .row p {
+	color: #666666;
+	font-weight: 600;
+	font-family: "Ubuntu", serif;
+	margin-bottom: 45px;
+}
+
+.contact-us .row label {
+	font-size: 12px;
+	color: #888888;
+	margin-bottom: 15px;
+}
+
+.contact-us .row .form-control {
+	margin-bottom: 30px;
+	border-radius: 0;
+}
+
+.contact-us .row .btn {
+	font-size: 16px;
+	padding: 0;
+	height: 50px;
+	width: 200px;
+	line-height: 48px;
+	color: #FFFFFF;
+	background-color: #fc5003;
+}
+/* ===========================
+     error  setting
+     ==========================*/
+.error {
+	padding: 100px 0;
+}
+
+.error div h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.error div img {
+	margin-bottom: 45px;
+}
+
+.error div p {
+	margin-bottom: 30px;
+}
+
+.error div .btn {
+	padding: 0;
+	height: 50px;
+	width: 140px;
+	line-height: 50px;
+	font-size: 16px;
+	background-color: #222222;
+	border: none;
+	color: white;
+	font-weight: 600;
+}
+
+.error div .btn:hover {
+	background-color: #fc5003;
+}
+
+/* ===========================
+     testimonial  setting
+     ==========================*/
+.testimonial {
+	background: #202737;
+	margin-top: 145px;
+	margin-bottom: 50px;
+	padding: 50px 0;
+}
+
+.testimonial div p i {
+	color: #dadada;
+	font-size: 16px;
+	font-family: "Ubuntu", serif;
+	margin-bottom: 20px;
+}
+
+.testimonial div h5 {
+	font-size: 18px;
+	color: white;
+}
+
+.testimonial div {
+	color: white;
+}
+
+.testimonial .testimonial-border {
+	border-bottom: solid 2px white;
+	max-width: 20%;
+	margin-bottom: 20px;
+}
+
+.testimonial img {
+	border-radius: 200px;
+	border: solid 1px #fc5003;
+}
+
+.testimonial .testimonial-image {
+	border: solid 15px #202737;
+	position: absolute;
+	top: -104px;
+	border-radius: 200px;
+}
+
+.testimonial .testimonial-item div {
+	height: 20px;
+	border-bottom: solid 1px white;
+	text-align: right;
+	margin-top: 22px;
+}
+
+.testimonial .testimonial-item div.item-3 {
+	color: #fc5003;
+
+	border-color: #fc5003;
+}
+
+.testimonial .testimonial-item div.item-1 {
+	transform: rotate(-16deg);
+	margin-bottom: 47px;
+	margin-top: 3px;
+
+}
+
+.testimonial .testimonial-item div.item-2 {
+	transform: rotate(16deg);
+	margin-top: 47px;
+}
+
+/* ===========================
+     services-plan  setting
+     ==========================*/
+.services-pricein-plan .switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+.services-pricein-plan .switch input {
+	display: none;
+}
+
+.services-pricein-plan .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	background-image: none;
+	padding: 17px;
+	margin-top: 28px;
+}
+
+.services-pricein-plan .holder p {
+	font-size: 16px;
+	color: white;
+	margin-bottom: 0;
+}
+
+.services-pricein-plan .holder ul li p {
+	color: #222222;
+	font-weight: 600;
+}
+
+.services-pricein-plan a.whmpress-btn.whmpress_order_button {
+	width: 140px;
+	height: 50px;
+	font-size: 16px;
+	background: transparent;
+	padding: 0;
+	color: #fc5003;
+	border: solid 1px #fc5003;
+	border-radius: 0;
+	line-height: 45px;
+	transition: background 0.5s ease-in-out;
+}
+
+.services-pricein-plan a.whmpress-btn.whmpress_order_button:hover {
+	background-color: #fc5003;
+	color: #FFFFFF;
+}
+
+.services-pricein-plan .holder ul li {
+	border-bottom: solid 1px #dddddd;
+	padding: 25px 0;
+	margin: auto;
+	max-width: 95%;
+
+}
+
+.services-pricein-plan .holder ul li h6 {
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.services-pricein-plan .slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.services-pricein-plan input:checked + .slider {
+	background-color: #fc5003;
+	padding: 17px;
+	margin: 0;
+	margin-top: 28px;
+}
+
+.services-pricein-plan .price-check-box {
+	border: solid 1px #fc5003;
+	margin-top: 45px;
+	padding-bottom: 17px;
+}
+
+.services-pricein-plan .price-check-box .slider-free {
+	display: block;
+	font-size: 12px;
+	color: #222222;
+	padding-left: 182px;
+}
+
+.services-pricein-plan .price-check-box .slider-y {
+	font-size: 18px;
+	color: #222222;
+}
+
+.services-pricein-plan .price-check-box .slider-m {
+	font-size: 18px;
+	color: #222222;
+	position: relative;
+	top: 7px;
+}
+
+
+.services-pricein-plan input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+.services-pricein-plan input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.services-pricein-plan .slider.round {
+	border-radius: 34px;
+}
+
+.services-pricein-plan .slider.round:before {
+	border-radius: 50%;
+}
+
+/*=========================
+       pricing-plan Start here
+       =======================*/
+.pricing-plan-1 {
+	padding: 100px 0;
+}
+
+.pricing-plan-1 .holder.holder1 {
+	border: solid 4px #f88d5d;
+}
+
+.pricing-plan-1 .holder ul li span {
+	font-weight: 700;
+}
+
+.pricing-plan-1 .holder h6:first-child {
+	margin-bottom: 30px;
+}
+
+.pricing-plan-1 .holder h6:last-child {
+	margin-bottom: 0;
+}
+
+.pricing-plan-1 .holder ul li {
+	padding: 25px 0;
+}
+
+.pricing-plan-1 .pricing-plan-li {
+	background-color: #f7f7f7;
+}
+
+.pricing-plan-1 .holder ul li:first-child {
+	padding: 40px 0;
+}
+
+.pricing-plan-1 .pricing_table_submit .holder a {
+	font-size: 16px;
+	height: 50px;
+	width: 160px;
+	background: transparent;
+	padding: 0;
+	color: #fc5003;
+	border: solid 1px #fc5003;
+	border-radius: 0;
+	line-height: 45px;
+}
+
+.pricing-plan-1 .pricing_table_submit {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.pricing-plan-1 .pricing_table_features {
+	padding-bottom: 0;
+}
+
+.pricing-plan-1 .whmpress_pricing_table.four {
+	border-radius: 6px;
+}
+
+.pricing-plan-1 .pricing_table_submit a:hover {
+	background-color: #fc5003;
+	color: #FFFFFF;
+}
+
+.pricing-plan-1 .whmpress_pricing_table.four {
+	box-shadow: 0 8px 9px 0 #dcdcdc;
+}
+
+/* ===========================
+     Services-plane-1  setting
+     ==========================*/
+
+.services-pricein-plan-1 {
+	padding: 100px 0;
+}
+
+.services-pricein-plan-1 .row .col-sm-3 {
+	padding: 0;
+}
+
+.services-pricein-plan-1 .holder.holder1 {
+	border: solid 4px #f88d5d;
+}
+
+.services-pricein-plan-1 .holder h6 span {
+	font-weight: 700;
+	color: #222222;
+}
+
+.services-pricein-plan-1 .holder h6:first-child {
+	margin-bottom: 30px;
+}
+
+.services-pricein-plan-1 .holder h6:last-child {
+	margin-bottom: 0;
+}
+
+.services-pricein-plan-1 .holder ul li {
+	padding: 25px 0;
+	color: #fc5003;
+}
+
+.services-pricein-plan-1 .pricing-plan-li {
+	background-color: #f7f7f7;
+}
+
+.services-pricein-plan-1 .holder ul li:first-child {
+	padding: 40px 0;
+	color: #888888;
+}
+
+
+.services-pricein-plan-1 .pricing_table_submit {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.services-pricein-plan-1 .pricing_table_features {
+	padding-bottom: 0;
+}
+
+.services-pricein-plan-1 .whmpress_pricing_table.four {
+	border-radius: 6px;
+}
+
+.services-pricein-plan-1 .whmpress_pricing_table.four {
+	box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.services-pricein-plan-1 a.whmpress-btn.whmpress_order_button:hover {
+	background-color: #fc5003;
+	color: #FFFFFF;
+}
+
+.services-pricein-plan-1 a.whmpress-btn.whmpress_order_button {
+	width: 140px;
+	height: 50px;
+	font-size: 16px;
+	transition: 500ms all;
+	background: transparent;
+	padding: 0;
+	color: #fc5003;
+	border: solid 1px #fc5003;
+	border-radius: 0;
+	line-height: 45px;
+}
+
+.services-pricein-plan-1 .whmpress_pricing_table.four {
+	margin: 0;
+	margin-bottom: 25px;
+}
+.contact-us .cont{
+	margin-bottom: 160px;
+}
+.mar-mob{
+	margin: 0;
+}
+.blog-single-image {
+	margin-bottom: 50px;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+	.navigation img {
+		margin-top: -10px;
+		padding: 10px 0;
+	}
+
+	.navigation .navbar {
+		padding: 10px;
+	}
+
+	.navigation ul.navbar-nav li.cart {
+		background-color: transparent;
+		margin-left: 0;
+	}
+
+	.navigation ul.navbar-nav li.cart a sup.cart-tag {
+		right: 183px;
+	}
+
+	.slider {
+		background-image: none;
+		padding: 100px 0;
+	}
+
+	.choose-us {
+		background-image: none;
+	}
+
+	.choose-us .row .choose-us-image img {
+		display: none;
+	}
+
+	.counter {
+		text-align: center;
+	}
+
+	.banner img {
+		display: none;
+	}
+
+	.faq-banner img {
+		display: none;
+	}
+
+	.btn {
+		margin-bottom: 15px;
+	}
+
+	.latest-news .owl-item {
+		margin: auto 0;
+		box-shadow: none;
+	}
+
+	.brands img {
+		margin-left: 5px;
+		margin-bottom: 10px;
+	}
+
+	.brands .image-o {
+		margin-left: 5px;
+	}
+
+	.about-us {
+		background-position-y: 35%;
+	}
+
+	.services-about .owl-item {
+		margin: auto 0;
+	}
+
+	.support-box {
+		max-width: 41%;
+	}
+
+	.brands .image-brand {
+		text-align: center;
+	}
+
+	.brand-comb h2,
+	.brand-comb .float-right {
+		float: none !important;
+	}
+
+	.brand-comb {
+		text-align: center;
+	}
+
+	.brand-comb .clear {
+		clear: none !important;
+	}
+
+	.services-banner .card-header a {
+		font-size: 18px;
+	}
+
+	.nexum-services .row .fa.fa-wifi {
+		padding-left: 0;
+	}
+
+	.vps-feature .row img {
+		display: none;
+	}
+
+	.vps-feature .feature-box .row {
+		text-align: left;
+	}
+
+	.single-blog .row.blog .row .blog-box-item img {
+		width: 100%;
+	}
+
+	.single-border-1 {
+		width: 268px;
+	}
+
+	.single-blog .row.blog-row-box img {
+		width: auto;
+	}
+
+	.services-chart tr th {
+		border: none;
+	}
+
+	.services-chart .row a {
+		background-color: black;
+		padding: 10px 10px;
+	}
+
+	.services-chart .row .col-sm-4 {
+		margin-bottom: 15px;
+		text-align: left;
+	}
+	.services-chart .row .col-sm-4:last-child {
+		margin-bottom: 15px;
+		text-align: left;
+	}
+	.services-chart .row ul li.li-box {
+		margin-left: -4px;
+	}
+	.services-chart .row input {
+		margin-left: -18px;
+	}
+	.top-bar nav.navbar-toggleable-md ul.float-right li {
+	}
+	.services-chart .row label {
+		padding-right: 30px;
+	}
+	.top-bar ul li .fa.fa-comment-o {
+		margin-left: 12px;
+	}
+
+	.top-bar .nav-link {
+		display: block;
+		padding: 0 1px;
+	}
+
+	.brand-comb.form-box .form-box-item {
+		max-width: 100%;
+	}
+
+	i.fa.fa-caret-left.slick-arrow {
+		left: 180px;
+	}
+
+	i.fa.fa-caret-right.slick-arrow {
+		left: 210px;
+	}
+
+	.slider-price .slick-dots {
+		left: 0;
+	}
+
+	.latest-news ul li {
+		padding: 10px 18px;
+	}
+
+	.slider-buttom-area .slider-buttom ul li {
+		width: 100%;
+	}
+
+	.single-blog .row .mb-4 img {
+		width: 100%;
+		padding-top: 60px;
+
+	}
+
+	.single-blog .blog-text-tag {
+		left: 49px;
+		top: 90px;
+	}
+
+	.error div img {
+		width: 100%;
+	}
+
+	.domain-shop div ul li:first-child {
+		border-top-right-radius: 10px;
+	}
+
+	.domain-shop div ul li:last-child {
+		border-top-right-radius: 0;
+	}
+
+	.domain-shop .shop-tag {
+		display: none;
+	}
+
+	.domain-shop div ul li {
+		width: 100%;
+	}
+
+	li.cart .cart-right,
+	li.cart .cart-left {
+		display: none;
+	}
+
+	.pricing-plan .whmpress_pricing_table ul li {
+		padding: 27px 1px;
+	}
+
+	h5.heading-footer {
+		padding-top: 32px;
+	}
+
+	.footer form .form-control {
+		max-width: 100%;
+	}
+
+	.footer form i {
+		right: 0;
+	}
+
+	.navigation {
+		padding: 0;
+	}
+
+	.navigation button.navbar-toggler.navbar-toggler-right.navbar-light {
+		margin-top: 0;
+	}
+
+	.slider-area {
+		display: none;
+	}
+
+	.slider-buttom-area {
+		display: none;
+	}
+
+	.form-box form .form-control {
+		margin-bottom: 10px;
+	}
+
+	.top-bar i {
+		color: white;
+		background-color: #15191c;
+		height: 28px;
+		width: 31px;
+		text-align: center;
+		line-height: 27px;
+		border: solid 1px #292f33;
+		margin: 10px 12px;
+		transition: 500ms;
+	}
+
+	.top-bar i:hover {
+		color: #fc5003;
+	}
+
+	.top-bar {
+		background-color: #222222;
+	}
+
+	.form-box .row button.hidden-lg-up.hidden-md-up {
+		width: 50%;
+		margin: auto;
+		border: solid 1px #fc5003;
+		outline: 0;
+	}
+
+	.top-bar .hidden-xs-down {
+		display: none;
+	}
+
+	.latest-news .owl-buttons {
+		display: none;
+	}
+
+	.brands .owl-item {
+		width: 162px;
+		margin: 0 17px;
+	}
+
+	.services .btn {
+		margin-bottom: 50px;
+	}
+
+	.counter .row .col-xs-12.col-sm-12.col-md-6.col-lg-3 {
+		margin-bottom: 25px;
+	}
+
+	.counter .row .row i {
+		margin-bottom: 10px;
+	}
+
+	.form-box .search-header h5 {
+		margin-left: 0;
+	}
+
+	.brands {
+		display: none;
+	}
+
+	.ssl-ul-li li .fa {
+		color: white;
+	}
+
+	.footer h5 {
+		padding-top: 45px;
+		padding-bottom: 0;
+	}
+
+	.footer {
+		padding-top: 40px;
+	}
+
+	.testimonial img {
+		display: none;
+		border-color: transparent;
+	}
+
+	.testimonial .testimonial-image {
+		display: none;
+	}
+
+	.navigation ul li .dropdown-menu {
+		border-left-color: transparent;
+		border-right: transparent;
+	}
+
+	.navigation li button.navbar-toggler.navbar-toggler-right.navbar-ligh {
+		width: 100%;
+		top: 14px;
+	}
+
+	.navigation li button.navbar-toggler.navbar-toggler-right.navbar-ligh span {
+		width: 100%;
+		color: white;
+		text-align: right;
+		font-size: 14px;
+	}
+
+	.testimonial {
+		margin-top: 50px;
+	}
+
+	.services-about .owl-buttons {
+		display: none;
+	}
+
+	.pricing-plan-button {
+		padding-left: 25% !important;
+	}
+
+	.top-bar ul li.nav-item.dropdown {
+		float: none;
+	}
+
+	.domain-shop .domain-shop-item a.btn {
+		margin-left: 0;
+	}
+
+	.domain-shop .domain-shop-item i.fa.fa-close, .domain-shop .domain-shop-item i.fa.fa-check {
+		color: #fc5003;
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 15px;
+	}
+
+	.about-us .row .row img {
+		margin-bottom: 10px;
+	}
+
+	.navigation ul li ul.sub-menu {
+		width: 100%;
+	}
+
+	.choose-us .row {
+		text-align: center;
+	}
+
+	br {
+		display: none;
+	}
+
+	.choose-us, .banner, .services, .pricing-plan, .faq-banner, .latest-news, .in-feature, .nexum-services, .vps-banner,
+	.vhost-best, .services-banner, .pricing-plan-1, .form-area {
+		padding: 50px 0;
+	}
+
+	.faq-banner .top-heading h5 {
+		padding-top: 0;
+	}
+
+	.vhost-best .row {
+		text-align: center;
+	}
+
+	.blog .row ul li {
+		padding: 0 9px;
+	}
+}
+
+@media (min-width: 576px ) {
+	.form-box .row button.hidden-lg-up.hidden-md-up {
+		display: none;
+	}
+
+	.navigation li button.navbar-toggler.navbar-toggler-right.navbar-ligh {
+		display: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	.navigation ul.navbar-nav li.cart {
+		display: none;
+	}
+
+	.domain-shop div ul li {
+		padding: 10px 52px;
+	}
+
+	.domain-shop .shop-tag {
+		left: 105px;
+	}
+
+	.latest-news ul li {
+		padding: 10px 14px;
+	}
+}
+
+@media (max-width: 992px) {
+	section{
+		overflow: hidden;
+	}
+	.choose-us .row {
+		text-align: center;
+		padding-top: 30px;
+	}
+	.navigation {
+		padding: 26px 0;
+	}
+
+	.top-bar ul li.nav-item:first-child {
+		margin-left: -52px;
+	}
+
+	.navbar-light .navbar-toggler-icon {
+		background-image: none;
+	}
+
+	.navbar-light .navbar-toggler-icon i {
+		padding-top: 7px;
+		color: #fc5003;
+	}
+
+	.footer form i {
+		right: 0;
+	}
+
+	.footer form .form-control {
+		max-width: 100%;
+	}
+
+	.choose-us {
+		background-position-x: 52%;
+		background-position-y: 41%;
+	}
+
+	.slider-buttom-area .slider-buttom ul li {
+		width: 24%;
+	}
+
+	.nexum-services .row .fa.fa-wifi {
+		padding-left: 0;
+	}
+
+	.domain-shop div ul li {
+		padding: 10px 28px;
+	}
+
+	.domain-shop .shop-tag {
+		left: 81px;
+	}
+
+	.testimonial .testimonial-image {
+		display: none;
+	}
+
+	.blog .row ul li {
+		padding: 0 26px;
+	}
+
+
+
+	.single-blog .blog-text-tag {
+		left: 248px;
+	}
+
+	.about-us {
+		background-image: none;
+	}
+
+	section.services-about .btn {
+		margin-bottom: 50px;
+	}
+	.main-slider .slide-button a.btn-1{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.banner .image img{
+		width: 100%;
+	}
+	.services .services-box {
+		margin-bottom: 40px;
+	}
+	section.counter .col-xs-12.col-sm-12.col-md-6.col-lg-3 .row {
+		margin-bottom: 40px;
+	}
+	.slider-area .row .domain-offer-root,
+	.slider-area .domain-offer-area{
+		display: none;
+	}
+	.banner .container .col-xs-6.col-sm-12.col-md-6.col-lg-6{
+		text-align: center;
+	}
+	.form-box .form-box-item{
+		padding: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.pricing-plan .whmpress_pricing_table.four .pricing_table_price .duration{
+	padding-bottom: 15px;
+		padding-top: 15px;
+	}
+
+	.navigation img {
+		margin-top: -10px;
+		padding: 10px 0;
+	}
+
+	.navigation .navbar {
+		padding: 10px;
+	}
+
+	.navigation ul.navbar-nav li.cart {
+		background-color: transparent;
+		margin-left: 0;
+	}
+
+	.navigation ul.navbar-nav li.cart a sup.cart-tag {
+		right: 183px;
+	}
+
+	.slider {
+		background-image: none;
+		padding: 100px 0;
+	}
+
+	.choose-us {
+		background-image: none;
+	}
+
+	.choose-us .row .choose-us-image img {
+		display: none;
+	}
+
+	.counter {
+		text-align: center;
+	}
+
+	.banner img {
+		display: none;
+	}
+
+	.faq-banner img {
+		display: none;
+	}
+
+	.btn {
+		margin-bottom: 15px;
+	}
+
+	.latest-news .owl-item {
+		margin: auto 0;
+		box-shadow: none;
+	}
+
+	.brands img {
+		margin-left: 5px;
+		margin-bottom: 10px;
+	}
+
+	.brands .image-o {
+		margin-left: 5px;
+	}
+
+	.about-us {
+		background-position-y: 35%;
+	}
+
+	.services-about .owl-item {
+		margin: auto 0;
+	}
+
+	.support-box {
+		max-width: 41%;
+	}
+
+	.brands .image-brand {
+		text-align: center;
+	}
+
+
+	.brand-comb {
+		text-align: center;
+	}
+
+
+	.services-banner .card-header a {
+		font-size: 18px;
+	}
+
+	.nexum-services .row .fa.fa-wifi {
+		padding-left: 0;
+	}
+
+	.vps-feature .row img {
+		display: none;
+	}
+
+
+	.single-blog .row.blog .row .blog-box-item img {
+		width: 100%;
+	}
+
+	.single-border-1 {
+		width: 268px;
+	}
+
+	.single-blog .row.blog-row-box img {
+		width: auto;
+	}
+
+	.services-chart tr th {
+		border: none;
+	}
+
+	.services-chart .row a {
+		background-color: black;
+		padding: 10px 10px;
+	}
+
+
+	.top-bar nav.navbar-toggleable-md ul.float-right li {
+	}
+
+	.top-bar ul li .fa.fa-comment-o {
+		margin-left: 12px;
+	}
+
+	.top-bar .nav-link {
+		display: block;
+		padding: 0 1px;
+	}
+
+	.brand-comb.form-box .form-box-item {
+		max-width: 100%;
+	}
+
+	i.fa.fa-caret-left.slick-arrow {
+		left: 180px;
+	}
+
+	i.fa.fa-caret-right.slick-arrow {
+		left: 210px;
+	}
+
+	.slider-price .slick-dots {
+		left: 0;
+	}
+
+	.latest-news ul li {
+		padding: 10px 18px;
+	}
+	.single-blog .row .mb-4 img {
+		width: 100%;
+		padding-top: 0;
+
+	}
+
+	.error div img {
+		width: 100%;
+	}
+
+	.domain-shop div ul li:first-child {
+		border-top-right-radius: 10px;
+	}
+
+	.domain-shop div ul li:last-child {
+		border-top-right-radius: 0;
+	}
+
+	.domain-shop .shop-tag {
+		display: none;
+	}
+
+	.domain-shop div ul li {
+		width: 100%;
+	}
+
+	li.cart .cart-right,
+	li.cart .cart-left {
+		display: none;
+	}
+
+	.pricing-plan .whmpress_pricing_table ul li {
+		padding: 27px 1px;
+	}
+
+	h5.heading-footer {
+		padding-top: 32px;
+	}
+
+	.footer form .form-control {
+		max-width: 100%;
+	}
+
+	.footer form i {
+		right: 0;
+	}
+
+
+	.navigation button.navbar-toggler.navbar-toggler-right.navbar-light {
+		margin-top: 0;
+	}
+
+	.slider-area {
+		display: none;
+	}
+
+	.slider-buttom-area {
+		display: none;
+	}
+
+	.form-box form .form-control {
+		margin-bottom: 10px;
+	}
+
+	.top-bar i {
+		color: white;
+		background-color: #15191c;
+		height: 28px;
+		width: 31px;
+		text-align: center;
+		line-height: 27px;
+		border: solid 1px #292f33;
+		margin: 10px 12px;
+		transition: 500ms;
+	}
+
+	.top-bar i:hover {
+		color: #fc5003;
+	}
+
+	.top-bar {
+		background-color: #222222;
+	}
+
+	.form-box .row button.hidden-lg-up.hidden-md-up {
+		width: 50%;
+		margin: auto;
+		border: solid 1px #fc5003;
+		outline: 0;
+		margin-bottom: 28px;
+	}
+
+	.top-bar .hidden-xs-down {
+		display: none;
+	}
+
+	.latest-news .owl-buttons {
+		display: none;
+	}
+
+
+	.services .btn {
+		margin-bottom: 50px;
+	}
+
+	.counter .row .col-xs-12.col-sm-12.col-md-6.col-lg-3 {
+		margin-bottom: 25px;
+	}
+
+	.counter .row .row i {
+		margin-bottom: 10px;
+	}
+
+	.form-box .search-header h5 {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.brands {
+		display: none;
+	}
+
+
+	.footer h5 {
+		padding-top: 45px;
+		padding-bottom: 0;
+	}
+
+	.footer {
+		padding-top: 40px;
+	}
+
+	.testimonial img {
+		display: none;
+		border-color: transparent;
+	}
+
+	.testimonial .testimonial-image {
+		display: none;
+	}
+
+	.navigation ul li .dropdown-menu {
+		border-left-color: transparent;
+		border-right: transparent;
+	}
+
+	.navigation li button.navbar-toggler.navbar-toggler-right.navbar-ligh {
+		width: 100%;
+		top: 14px;
+	}
+
+	.navigation li button.navbar-toggler.navbar-toggler-right.navbar-ligh span {
+		width: 100%;
+		color: white;
+		text-align: right;
+		font-size: 14px;
+	}
+
+	.testimonial {
+		margin-top: 50px;
+	}
+
+	.services-about .owl-buttons {
+		display: none;
+	}
+
+
+	.top-bar ul li.nav-item.dropdown {
+		float: none;
+	}
+
+	.domain-shop .domain-shop-item a.btn {
+		margin-left: 0;
+	}
+
+	.domain-shop .domain-shop-item i.fa.fa-close, .domain-shop .domain-shop-item i.fa.fa-check {
+		color: #fc5003;
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 15px;
+	}
+
+	.about-us .row .row img {
+		margin-bottom: 10px;
+	}
+
+	.navigation ul li ul.sub-menu {
+		width: 100%;
+	}
+
+	.choose-us .row {
+		text-align: center;
+	}
+
+	br {
+		display: none;
+	}
+
+	.choose-us, .banner, .services, .pricing-plan, .faq-banner, .latest-news, .in-feature, .nexum-services, .vps-banner,
+	.vhost-best, .services-banner, .pricing-plan-1, .form-area, .counter, .services-pricein-plan, .services-pricein-plan-1,
+	.host-feature, .domain-shop, .about-us, .services-about {
+		padding: 50px 0;
+	}
+
+	.vps-feature {
+		padding-top: 50px;
+	}
+
+	.banner .top-heading {
+		padding-top: 0;
+	}
+
+	.faq-banner .top-heading h5 {
+		padding-top: 0;
+	}
+
+	.vhost-best .row {
+		text-align: center;
+	}
+
+	.blog .row ul li {
+		padding: 0 9px;
+	}
+
+	.blog-single-image.mb-5 {
+		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.form-box .row .col-sm-9,
+	.form-box .row .col-sm-1,
+	.form-box .row .col-sm-2 {
+		padding: 0 15px;
+	}
+
+	.blog .row ul li {
+		padding: 0 20px;
+	}
+	.pricing-plan .slider-price{
+		padding: 0 0;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+	.navigation img {
+		margin-top: -10px;
+		padding: 10px 0;
+	}
+
+	.navigation .navbar {
+		padding: 10px;
+	}
+
+	.navigation ul.navbar-nav li.cart {
+		background-color: transparent;
+		margin-left: 0;
+	}
+
+	.navigation ul.navbar-nav li.cart a sup.cart-tag {
+		right: 183px;
+	}
+
+	.slider {
+		background-image: none;
+		padding: 100px 0;
+	}
+
+	.choose-us {
+		background-image: none;
+	}
+
+	.counter {
+		text-align: center;
+	}
+
+	.banner img {
+		display: none;
+	}
+
+	.faq-banner img {
+		display: none;
+	}
+
+	.btn {
+		margin-bottom: 15px;
+	}
+
+	.latest-news .owl-item {
+		margin: auto 0;
+		box-shadow: none;
+	}
+
+	.brands .image-o {
+		margin-left: 5px;
+	}
+
+	.about-us {
+		background-position-y: 35%;
+	}
+
+	.services-about .owl-item {
+		margin: auto 0;
+	}
+
+	.support-box {
+		max-width: 41%;
+	}
+
+	.brands .image-brand {
+		text-align: center;
+	}
+
+	.brand-comb h2,
+	.brand-comb .float-right {
+		float: none !important;
+	}
+
+	.brand-comb {
+		text-align: center;
+	}
+
+	.brand-comb .clear {
+		clear: none !important;
+	}
+
+	.services-banner .card-header a {
+		font-size: 18px;
+	}
+
+	.nexum-services .row .fa.fa-wifi {
+		padding-left: 0;
+	}
+
+	.vps-feature .row img {
+		display: none;
+	}
+
+	.vps-feature .feature-box .row {
+		text-align: left !important;
+	}
+
+	.single-border-1 {
+		border: none;
+	}
+
+	.single-blog .row.blog-row-box img {
+		width: auto;
+		margin-bottom: 20px;
+	}
+
+	.single-blog .row.blog .row img {
+		width: auto;
+	}
+
+	.single-blog .right {
+		float: left;
+	}
+
+	.support-team .support-text {
+		padding: 48px 30px;
+	}
+}
+
+.wpct_comparison_table {
+	box-sizing: border-box;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 20px;
+	min-width: 640px;
+	overflow-x: auto;
+}
+
+.wpct_comparison_table *,
+.wpct_comparison_table :after,
+.wpct_comparison_table :before {
+	box-sizing: border-box;
+}
+
+.wpct_comparison_table .wpct_comparison_table_row::after,
+.wpct_comparison_table .wpct_comparison_table_row::before,
+.wpct_comparison_table .wpct_comparison_table_row:after,
+.wpct_comparison_table .wpct_comparison_table_row:before {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.wpct_comparison_table .wpct_comparison_table_col {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.wpct_comparison_table .wpct_comparison_table_col > h2,
+.wpct_comparison_table .wpct_comparison_table_col > p {
+	display: none;
+}
+
+.wpct_comparison_table.one_col .wpct_comparison_table_col {
+	width: 50%;
+}
+
+.wpct_comparison_table.two_cols .wpct_comparison_table_col {
+	width: 33.33%;
+}
+
+.wpct_comparison_table.three_cols .wpct_comparison_table_col {
+	width: 25%;
+}
+
+.wpct_comparison_table.four_cols .wpct_comparison_table_col {
+	width: 20%;
+}
+
+.wpct_comparison_table.five_cols .wpct_comparison_table_col {
+	width: 16.66%;
+}
+
+.wpct_comparison_table.six_cols .wpct_comparison_table_col {
+	width: 14.28%;
+}
+
+.wpct_comparison_table.seven_cols .wpct_comparison_table_col {
+	width: 12.5%;
+}
+
+.wpct_comparison_table.eight_cols .wpct_comparison_table_col {
+	width: 11.11%;
+}
+
+.wpct_comparison_table.nine_cols .wpct_comparison_table_col {
+	width: 10%;
+}
+
+.wpct_comparison_table.ten_cols .wpct_comparison_table_col {
+	width: 9.09%;
+}
+
+.wpct_comparison_table.eleven_cols .wpct_comparison_table_col {
+	width: 8.33%;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_heading {
+	background: #42444a;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_content {
+	background: #dfdfdf;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li:nth-child(odd) {
+	background: #efefef;
+	border-bottom-color: #efefef;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: #e1e1e1;
+	border-bottom-color: #e1e1e1;
+}
+
+.wpct_comparison_table ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table .wpct_comparison_table_feature_values li {
+	list-style: none;
+	padding: 10px 0;
+	border-bottom: 1px solid #adadad;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li.wpct_has_tooltip,
+.wpct_comparison_table .wpct_comparison_table_feature_values li.wpct_has_tooltip {
+	padding-left: 20px;
+	position: relative;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li.wpct_has_tooltip:before,
+.wpct_comparison_table .wpct_comparison_table_feature_values li.wpct_has_tooltip:before {
+	width: 20px;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	content: "\f059";
+	font-family: FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li .wpct_feature_title_text,
+.wpct_comparison_table .wpct_comparison_table_feature_values li .wpct_feature_title_text {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.wpct_comparison_table .wpct_comp_feature_title_responsive {
+	display: none;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li:last-child,
+.wpct_comparison_table .wpct_comparison_table_feature_values li:last-child {
+	border: 0;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_values li {
+	text-align: center;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_values li .fa {
+	font-size: 1.15em;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #0e0;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_values li .fa.wpct_icon_no {
+	color: #e00;
+}
+
+
+.wpct_comparison_table .wpct_comparison_table_section_summary .wpct_pricing_table .wpct_heading,
+.wpct_comparison_table .wpct_comparison_table_section_summary .wpct_pricing_table .wpct_price {
+	display: none;
+}
+
+.wpct_comparison_table .wpct_price_caption {
+	display: none;
+}
+
+.wpct_comparison_table .wpct_plan_description_responsive {
+	display: none;
+}
+
+.wpct_comparison_table .wpct_discounts_container {
+	text-align: center;
+	padding: 15px 0;
+}
+
+.wpct_comparison_table .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #fc5003;
+	color: #fff;
+	padding: 10px;
+	width: 80%;
+	display: inline-block;
+	position: relative;
+	border-radius: 4px 4px 4px 0;
+	font-size: 1.3em;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+.wpct_comparison_table .wpct_discounts_container .wpct_holder:not(:empty):after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 6px 0 0;
+	border-color: #fc5003;
+	bottom: -10px;
+	left: 0;
+}
+
+.wpct_comparison_table .wpct_discounts_container .wpct_discount_text,
+.wpct_comparison_table .wpct_discounts_container .wpct_discount_value {
+	display: block;
+}
+
+.wpct_comparison_table .wpct_pricing_table .wpct_discounts_container .wpct_holder {
+	font-size: .8em;
+	border-radius: 4px 0 4px 4px;
+	margin-bottom: 0;
+}
+
+.wpct_comparison_table .wpct_pricing_table .wpct_discounts_container .wpct_holder:after {
+	top: -10px;
+	right: 0;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	left: auto;
+	bottom: auto;
+}
+
+.partner-slider,
+.domaing-slider {
+	overflow: hidden;
+}
+
+.slider-buttom-area .slider-buttom {
+	text-align: center;
+	background: #F5F5F5;
+}
+
+.slider-buttom-area {
+	margin-bottom: 100px;
+}
+
+.slider-buttom-area .slider-buttom ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.slider-buttom-area .slider-buttom ul li {
+	display: inline-block;
+	padding: 15px;
+	text-align: center;
+	width: 24.6%;
+	transition: all .3s;
+}
+
+.slider-buttom-area .slider-buttom ul li:hover {
+	background: #fc5003;
+}
+
+.slider-buttom-area .slider-buttom ul li:hover i,
+.slider-buttom-area .slider-buttom ul li:hover h3 {
+	color: #ffffff;
+}
+
+.slider-buttom-area .slider-buttom ul li i {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.slider-buttom-area .slider-buttom ul li h3 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.service-price {
+	padding: 100px 0;
+}
+
+.service-price .wpct_submit {
+	padding: 10px 20px;
+	color: #ffffff;
+	margin: 20px 0;
+	background: #fc5003;
+	display: block;
+	text-align: center;
+}
+
+/*=========================
+       pricing-plan Start here
+       =======================*/
+.slider-price {
+	padding: 0 45px;
+}
+
+.slider-price i.slick-arrow {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	background: #fc5003;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.pricing-plan .whmpress_pricing_table ul li {
+	padding-top: 28px;
+	padding-left: 38px;
+	padding-right: 38px;
+}
+
+.pricing-plan .pricing_table_submit .holder a {
+	height: 45px;
+	background: transparent;
+	width: 180px;
+	line-height: 44px;
+	font-weight: 600;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	padding: 0;
+	color: #fc5003;
+	border: solid 1px #fc5003;
+	border-radius: 0;
+}
+
+.pricing-plan .pricing_table_submit .holder a:hover {
+	background-color: #fc5003;
+	color: #FFFFFF;
+}
+
+.slider-price1 i.slick-arrow {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	background: #fc5003;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.slider-price i.slick-arrow.fa-angle-left {
+	left: 0;
+}
+
+.slider-price i.slick-arrow.fa-angle-right {
+	right: 0;
+}
+
+.slider-price1 i.slick-arrow.fa-angle-left {
+	left: -48px;
+	z-index: 5;
+}
+
+.slider-price1 i.slick-arrow.fa-angle-right {
+	right: -44px;
+}
+
+.whmpress_pricing_table.four .pricing_table_heading {
+	background: #fc5003;
+	padding: 30px 0;
+	margin-top: -1px;
+}
+
+.whmpress_pricing_table.four .pricing_table_heading h2 {
+	margin: 0;
+	color: #fff;
+	font-weight: 400;
+}
+
+.whmpress_pricing_table.four .pricing_table_price {
+	background: #fc5003;
+	position: relative;
+}
+
+.whmpress_pricing_table.four .pricing_table_price .holder {
+	font-size: 38px;
+	font-weight: 400;
+}
+
+.whmpress_pricing_table.four .pricing_table_price .currency,
+.whmpress_pricing_table.four .pricing_table_price .fraction {
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.whmpress_pricing_table.four .pricing_table_price .amount {
+	letter-spacing: -2px;
+	margin-bottom: 8px;
+	color: white;
+}
+
+.whmpress_pricing_table.four .pricing_table_price .duration {
+	display: block;
+	font-size: 16px;
+	word-spacing: 0;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+
+.whmpress *,
+.whmpress :after,
+.whmpress :before,
+.whmpress input[type=search] {
+	box-sizing: border-box;
+}
+
+.whmpress_pricing_table.four .pricing_table_features ul {
+	margin: 0;
+	padding: 0;
+}
+
+.wpct_table_group .whmpress_pricing_table ul li {
+	width: 100%;
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+	list-style: none;
+}
+
+.whmpress_pricing_table ul li {
+	width: 100%;
+	padding-top: 30px;
+	margin: 0;
+	list-style: none;
+}
+
+
+.whmpress *,
+.whmpress :after,
+.whmpress :before,
+.whmpress input[type=search] {
+	box-sizing: border-box;
+}
+
+
+
+.wpct_table_group .wpct_table_group_col .whmpress_pricing_table .whmpress_order_button {
+	display: inline-block;
+}
+
+.holder.holder1 {
+	width: 120px;
+	height: 120px;
+	background: white;
+	border-radius: 74px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.services-pricein-plan-1 .pricing_table_price.pricing_table_price-1 .holder.holder1 span {
+	color: #222222;
+	font-weight: 600;
+}
+section.pricing-plan-1 .pricing_table_price.pricing_table_price-1 .holder.holder1 span {
+	color: #222222;
+	font-weight: 600;
+}
+section.services-pricein-plan .pricing_table_price.pricing_table_price-1 .holder.holder1 span {
+	color: #222222;
+	font-weight: 600;
+}
+.holder.holder .duration {
+	color: #fc5003;
+}
+
+.pricing_table_price-1 {
+	margin-bottom: 0;
+	padding-top: 25px;
+}
+
+.holder h2 {
+	font-size: 24px;
+
+}
+
+.services-pricein-plan .row .col-sm-3 {
+	padding: 0;
+}
+
+.services-pricein-plan {
+	padding: 100px 0;
+	background-color: #f6f6f6;
+}
+section.services-pricein-plan .whmpress.whmpress_pricing_table.four .pricing_table_submit{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.pricing-plan-button {
+	padding-left: 42%;
+}
+
+.services-pricein-plan .whmpress_pricing_table.four {
+	margin: 0;
+	margin-bottom: 20px;
+	background-color: white;
+	box-shadow: -5px 0 16px 0 rgba(220, 220, 220, 0);
+	transition: 500ms;
+}
+
+.services-pricein-plan .whmpress_pricing_table.four:hover {
+	box-shadow: 0 5px 16px 0 #d7d7d7;
+}
+
+.pricing-plan-button .plan-1 {
+	background-color: #FFFFFF;
+	padding: 11px 28px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	color: #222222;
+}
+
+.pricing-plan-button .plan-2 {
+	background-color: white;
+	padding: 11px 28px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	color: #222222;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+	color: #fff;
+	cursor: default;
+	background-color: #fc5003;
+}
+
+.pricing_table_price.pricing_table_price-1.pricing_table_price-2 {
+	background-color: #1f294b;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+ul.nav.nav-pills.pricing-plan-button {
+	margin-bottom: 45px;
+}
+
+.whmpress a.buy-button,
+.whmpress a.whmpress-btn,
+.whmpress a.whmpress_order_button,
+.whmpress a.whois-button,
+.whmpress a.www-button,
+.whmpress button,
+.whmpress input[type=submit] {
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 4px;
+	text-align: center;
+	height: auto;
+	background: #fb4400;
+	transition: background 0.5s ease-in-out;
+	display: inline-block;
+}
+
+.wpct_table_group .whmpress_pricing_table {
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.whmpress_pricing_table.four {
+	font-family: "Ubuntu", serif;
+	margin: 16px 15px;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	box-shadow: -5px 0 16px 0 gainsboro
+}
+
+.whmpress_pricing_table {
+	border-radius: 20px;
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.whmpress {
+	color: #333;
+	max-width: 100%;
+	font-size: 16px;
+	line-height: 1.4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wpct_table_group .wpct_table_group_col {
+	width: 20%;
+	padding: 10px;
+	min-width: 250px;
+	text-align: center;
+}
+
+.wpct_price_toggle {
+	text-align: center;
+}
+
+.wpct_price_toggle input {
+	display: none;
+}
+
+.wpct_price_toggle label {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	cursor: pointer;
+}
+
+.wpct_price_toggle label span {
+	display: inline-block;
+	padding: 6px;
+	transition: all 0.1s ease-in-out;
+	border: solid 1px #fc5003;
+	height: 60px;
+	width: 100%;
+	line-height: 51px;
+	margin-bottom: 23px;
+	font-family: "Ubuntu", serif;
+}
+
+.wpct_price_toggle label span i {
+	font-size: 14px;
+	opacity: 0;
+	background: white;
+	color: #fc5003;
+	border-radius: 10px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.wpct_comparison_table.eighth .wpct_price_toggle input:checked + span i {
+	opacity: 1;
+}
+
+.wpct_price_toggle label * {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.wpct_pricing_table {
+	box-sizing: border-box;
+	background: #eee;
+	color: #333;
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: "Ubuntu", serif;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	padding: 15px;
+	border: 2px solid #d5d5d5;
+}
+
+.wpct_price_toggle label span.vps-yearly {
+	margin-top: 0;
+	margin-bottom: 145px;
+}
+
+.wpct_holder.annually.monthly-pricing,
+.wpct_holder.monthly.monthly-pricing {
+	height: 120px;
+	width: 120px;
+	background-color: #fc5003;
+	border-radius: 75px;
+	margin: auto;
+	padding-top: 9px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Ubuntu", serif;
+}
+
+.wpct_holder.annually.monthly-pricing-1,
+.wpct_holder.monthly.monthly-pricing-1 {
+	height: 120px;
+	width: 120px;
+	background-color: white;
+	border-radius: 75px;
+	margin: auto;
+	padding-top: 9px;
+	text-align: center;
+	color: #222222;
+	font-family: "Ubuntu", serif;
+}
+
+.wpct_holder.annually.monthly-pricing-1 .wpct_period {
+	color: #222222;
+}
+
+.wpct_holder.monthly.monthly-pricing-1 .wpct_period {
+	color: #222222;
+}
+
+.wpct_pricing_table .wpct_heading h2 {
+	margin: 0;
+	padding-bottom: 20px;
+	font-weight: 700;
+	font-family: "Ubuntu", serif;
+}
+
+.wpct_pricing_table .wpct_features ul li {
+	padding: 10px;
+	list-style: none;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+.wpct_pricing_table .wpct_features ul li:last-child {
+	border-bottom: 0;
+}
+
+.wpct_pricing_table .wpct_price {
+	padding: 15px;
+	font-family: "Ubuntu", serif;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 1;
+	background: #d5d5d5;
+	margin: 0 -15px;
+}
+
+.wpct_pricing_table .wpct_price .wpct_fraction,
+.wpct_pricing_table .wpct_price .wpct_unit {
+	font-size: 40%;
+}
+
+.wpct_pricing_table .wpct_price .wpct_period {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	word-spacing: 0;
+	color: #FFFFFF;
+}
+
+.wpct_pricing_table .wpct_button {
+	padding: 15px;
+	text-align: center;
+}
+
+.wpct_pricing_table .wpct_button .wpct_submit-button {
+	background: transparent;
+	border: 2px solid #fc5003;
+	color: #fc5003;
+	cursor: pointer;
+	height: 45px;
+	width: 120px;
+	display: inline-block;
+	text-decoration: none;
+	transition: all 0.5s ease-in-out;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/* my chak*/
+.wpct_pricing_table.comparison-08 {
+	background: #eeeeee;
+	border: 0;
+	padding: 0;
+}
+
+.wpct_pricing_table .wpct_button .wpct_submit-button:hover {
+	background-color: #fc5003;
+	color: white;
+}
+
+.wpct_pricing_table.comparison-08.featured .wpct_button .wpct_submit-button:hover {
+	color: #fc5003;
+}
+
+.wpct_pricing_table.comparison-08 .wpct_heading {
+	padding-top: 20px;
+	background: 0;
+}
+
+.wpct_pricing_table.comparison-08 .wpct_price {
+	margin: 0;
+	background: 0;
+}
+
+.wpct_pricing_table.comparison-08 .wpct_price .wpct_amount {
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.wpct_pricing_table.comparison-08 .wpct_price .wpct_decimal {
+	display: none;
+}
+
+.wpct_pricing_table.comparison-08.featured {
+	background: #fc5003;
+	padding-top: 30px;
+	position: relative;
+	color: #fff;
+}
+
+.wpct_pricing_table.comparison-08.featured .wpct_promo-text {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: #1f294b;
+	line-height: 2;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.wpct_pricing_table.comparison-08.featured .wpct_heading h2 {
+	color: #fff;
+}
+
+.wpct_pricing_table.comparison-08.featured .wpct_button .wpct_submit-button {
+	background: #eee;
+	color: #2A363F;
+}
+
+.wpct_pricing_table.alaska {
+	border: 0;
+	background: #f8f8f8;
+	padding-top: 20px;
+}
+
+.wpct_pricing_table.alaska .wpct_icon .holder {
+	background: #fd4326;
+	height: 78px;
+	width: 78px;
+	border-radius: 78px;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.wpct_pricing_table.alaska .wpct_icon .holder .fa {
+	font-size: 27px;
+	line-height: 78px;
+}
+
+.wpct_pricing_table.alaska .wpct_heading h2 {
+	font-size: 20px;
+	line-height: 22px;
+	margin: 17px 0 20px;
+}
+
+.wpct_pricing_table.alaska .wpct_price {
+	background: #ebebeb;
+	color: #fd4326;
+	font-size: 40px;
+	line-height: 26px;
+}
+
+.wpct_pricing_table.alaska .wpct_price .wpct_amount,
+.wpct_pricing_table.alaska .wpct_price .wpct_fraction,
+.wpct_pricing_table.alaska .wpct_price .wpct_unit {
+	font-size: 100%;
+}
+
+.wpct_pricing_table.alaska .wpct_price .wpct_period {
+	font-size: 14px;
+	display: inline;
+}
+
+.wpct_pricing_table.alaska .wpct_summary {
+	font-family: "Ubuntu", serif;
+	padding: 20px 5px;
+	font-size: 13px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.wpct_pricing_table.alaska .wpct_button .wpct_submit-button {
+	border-radius: 4px;
+	border: 1px solid #fd4326;
+	background: #fd4326;
+	color: #fff;
+	font-size: 12px;
+	line-height: 40px;
+	text-transform: uppercase;
+	padding: 0 15px;
+}
+
+.wpct_pricing_table.alaska .wpct_button .wpct_submit-button:hover {
+	background: #fff;
+	color: #fd4326;
+}
+
+.wpct_comparison_table {
+	box-sizing: border-box;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 20px;
+	min-width: 640px;
+	overflow-x: auto;
+}
+
+.wpct_comparison_table *,
+.wpct_comparison_table :after,
+.wpct_comparison_table :before {
+	box-sizing: border-box;
+}
+
+.wpct_comparison_table .wpct_comparison_table_row {
+	width: 100%;
+	margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+.wpct_comparison_table .wpct_comparison_table_row::after,
+.wpct_comparison_table .wpct_comparison_table_row::before,
+.wpct_comparison_table .wpct_comparison_table_row:after,
+.wpct_comparison_table .wpct_comparison_table_row:before {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.wpct_comparison_table .wpct_comparison_table_row.wpct_comparison_table_section_content,
+.wpct_comparison_table .wpct_comparison_table_row.wpct_comparison_table_section_summary {
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.wpct_comparison_table .wpct_comparison_table_col {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.wpct_comparison_table .wpct_comparison_table_col > h2,
+.wpct_comparison_table .wpct_comparison_table_col > p {
+	display: none;
+}
+
+.wpct_comparison_table.one_col .wpct_comparison_table_col {
+	width: 50%;
+}
+
+.wpct_comparison_table.two_cols .wpct_comparison_table_col {
+	width: 33.33%;
+}
+
+.wpct_comparison_table.three_cols .wpct_comparison_table_col {
+	width: 25%;
+}
+
+.wpct_comparison_table.four_cols .wpct_comparison_table_col {
+	width: 20%;
+}
+
+.wpct_comparison_table.five_cols .wpct_comparison_table_col {
+	width: 16.66%;
+}
+
+.wpct_comparison_table.six_cols .wpct_comparison_table_col {
+	width: 14.28%;
+}
+
+.wpct_comparison_table.seven_cols .wpct_comparison_table_col {
+	width: 12.5%;
+}
+
+.wpct_comparison_table.eight_cols .wpct_comparison_table_col {
+	width: 11.11%;
+}
+
+.wpct_comparison_table.nine_cols .wpct_comparison_table_col {
+	width: 10%;
+}
+
+.wpct_comparison_table.ten_cols .wpct_comparison_table_col {
+	width: 9.09%;
+}
+
+.wpct_comparison_table.eleven_cols .wpct_comparison_table_col {
+	width: 8.33%;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_heading {
+	background: #42444a;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px;
+	font-size: 14px;
+	font-family: "Ubuntu", serif;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_content {
+	background: #dfdfdf;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li:nth-child(odd) {
+	background: #efefef;
+	border-bottom-color: #efefef;
+	color: #222222;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: #e1e1e1;
+	border-bottom-color: #e1e1e1;
+	color: #222222;
+}
+
+.wpct_comparison_table ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 400;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table .wpct_comparison_table_feature_values li {
+	list-style: none;
+	padding: 10px 0;
+	border-bottom: 1px solid #adadad;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li.wpct_has_tooltip,
+.wpct_comparison_table .wpct_comparison_table_feature_values li.wpct_has_tooltip {
+	padding-left: 20px;
+	position: relative;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li.wpct_has_tooltip:before,
+.wpct_comparison_table .wpct_comparison_table_feature_values li.wpct_has_tooltip:before {
+	width: 20px;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	content: "\f059";
+	font-family: FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li .wpct_feature_title_text,
+.wpct_comparison_table .wpct_comparison_table_feature_values li .wpct_feature_title_text {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #777777;
+}
+
+.wpct_comparison_table .wpct_comp_feature_title_responsive {
+	display: none;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_titles li:last-child,
+.wpct_comparison_table .wpct_comparison_table_feature_values li:last-child {
+	border: 0;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_values li {
+	text-align: center;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_values li .fa {
+	font-size: 1.15em;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #0e0;
+}
+
+.wpct_comparison_table .wpct_comparison_table_feature_values li .fa.wpct_icon_no {
+	color: #fc5003;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_summary .wpct_pricing_table {
+	margin: 0;
+	border-top: 0 ;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.wpct_comparison_table .wpct_comparison_table_section_summary .wpct_pricing_table .wpct_heading,
+.wpct_comparison_table .wpct_comparison_table_section_summary .wpct_pricing_table .wpct_price {
+	display: none;
+}
+
+.wpct_comparison_table .wpct_price_caption {
+	display: none;
+}
+
+.wpct_comparison_table .wpct_plan_description_responsive {
+	display: none;
+}
+
+.wpct_comparison_table .wpct_discounts_container {
+	text-align: center;
+	padding: 15px 0;
+}
+
+.wpct_comparison_table .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: orange;
+	color: #fff;
+	padding: 10px;
+	width: 80%;
+	display: inline-block;
+	position: relative;
+	border-radius: 4px 4px 4px 0;
+	font-size: 1.3em;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+.wpct_comparison_table .wpct_discounts_container .wpct_holder:not(:empty):after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 6px 0 0;
+	border-color: orange transparent transparent transparent;
+	bottom: -10px;
+	left: 0;
+}
+
+.wpct_comparison_table .wpct_discounts_container .wpct_discount_text,
+.wpct_comparison_table .wpct_discounts_container .wpct_discount_value {
+	display: block;
+}
+
+.wpct_comparison_table .wpct_pricing_table .wpct_discounts_container .wpct_holder {
+	font-size: .8em;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.wpct_comparison_table .wpct_pricing_table .wpct_discounts_container .wpct_holder:after {
+	top: -10px;
+	right: 0;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	left: auto;
+	bottom: auto;
+}
+
+.wpct_comparison_table.first {
+	padding-top: 70px;
+}
+
+.wpct_comparison_table.first .wpct_comparison_table_section_heading {
+	background: #4796b3;
+}
+
+.wpct_comparison_table.first .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #337ab7;
+}
+
+.wpct_comparison_table.first .wpct_price_toggle input:checked + span {
+	color: #fff;
+	background: #4796b3;
+}
+
+.wpct_comparison_table.first .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #337ab7;
+}
+
+.wpct_comparison_table.first .wpct_discounts_container .wpct_holder:not(:empty):after {
+	border-top-color: #337ab7;
+}
+
+.wpct_comparison_table.first .wpct_tooltip {
+	background: #337ab7;
+}
+
+.wpct_comparison_table.first .wpct_tooltip:after {
+	border-color: transparent #337ab7 transparent transparent;
+}
+
+.wpct_comparison_table.second .wpct_comparison_table_section_heading {
+	background: #333;
+}
+
+.wpct_comparison_table.second .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #00ab00;
+}
+
+.wpct_comparison_table.second .wpct_price_toggle input:checked + span {
+	color: #fff;
+	background: #333;
+}
+
+.wpct_comparison_table.second .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #00ab00;
+}
+
+.wpct_comparison_table.second .wpct_discounts_container .wpct_holder:not(:empty):after {
+	border-top-color: #00ab00;
+}
+
+.wpct_comparison_table.second .wpct_tooltip {
+	background: #00ab00;
+}
+
+.wpct_comparison_table.second .wpct_tooltip:after {
+	border-color: transparent #00ab00 transparent transparent;
+}
+
+.wpct_comparison_table.third .wpct_comparison_table_section_heading {
+	background: #ff4d00;
+}
+
+.wpct_comparison_table.third .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #ff4d00;
+}
+
+.wpct_comparison_table.third .wpct_price_toggle input:checked + span {
+	color: #fff;
+	background: #ff4d00;
+}
+
+.wpct_comparison_table.third .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #ff4d00;
+}
+
+.wpct_comparison_table.third .wpct_discounts_container .wpct_holder:not(:empty):after {
+	border-top-color: #ff4d00;
+}
+
+.wpct_comparison_table.third .wpct_tooltip {
+	background: #ff4d00;
+}
+
+.wpct_comparison_table.third .wpct_tooltip:after {
+	border-color: transparent #ff4d00 transparent transparent;
+}
+
+.wpct_comparison_table.fourth .wpct_comparison_table_section_heading {
+	background: #54b4f2;
+}
+
+.wpct_comparison_table.fourth .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #54b4f2;
+}
+
+.wpct_comparison_table.fourth .wpct_price_toggle input:checked + span {
+	color: #fff;
+	background: #54b4f2;
+}
+
+.wpct_comparison_table.fourth .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #54b4f2;
+}
+
+.wpct_comparison_table.fourth .wpct_discounts_container .wpct_holder:not(:empty):after {
+	border-top-color: #54b4f2;
+}
+
+.wpct_comparison_table.fourth .wpct_tooltip {
+	background: #54b4f2;
+}
+
+.wpct_comparison_table.fourth .wpct_tooltip:after {
+	border-color: transparent #54b4f2 transparent transparent;
+}
+
+.wpct_comparison_table.fifth .wpct_comparison_table_section_heading {
+	background: #323232;
+}
+
+.wpct_comparison_table.fifth .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #323232;
+}
+
+.wpct_comparison_table.fifth .wpct_price_toggle input:checked + span {
+	color: #fff;
+	background: #323232;
+}
+
+.wpct_comparison_table.fifth .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #323232;
+}
+
+.wpct_comparison_table.fifth .wpct_discounts_container .wpct_holder:not(:empty):after {
+	border-top-color: #323232;
+}
+
+.wpct_comparison_table.fifth .wpct_tooltip {
+	background: #323232;
+}
+
+.wpct_comparison_table.fifth .wpct_tooltip:after {
+	border-color: transparent #323232 transparent transparent;
+}
+
+.wpct_comparison_table.sixth .wpct_comparison_table_section_heading {
+	background: #62b2fe;
+}
+
+.wpct_comparison_table.sixth .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #3399fe;
+}
+
+.wpct_comparison_table.sixth .wpct_price_toggle input:checked + span {
+	color: #fff;
+	background: #3399fe;
+}
+
+.wpct_comparison_table.sixth .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #3399fe;
+}
+
+.wpct_comparison_table.sixth .wpct_discounts_container .wpct_holder:not(:empty):after {
+	border-top-color: #3399fe;
+}
+
+.wpct_comparison_table.sixth .wpct_tooltip {
+	background: #3399fe;
+}
+
+.wpct_comparison_table.sixth .wpct_tooltip:after {
+	border-color: transparent #3399fe transparent transparent;
+}
+
+.wpct_comparison_table.seventh .wpct_comparison_table_section_heading {
+	background: #f56a05;
+}
+
+.wpct_comparison_table.seventh .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #f56a05;
+}
+
+.wpct_comparison_table.seventh .wpct_price_toggle input:checked + span {
+	color: #fff;
+	background: #f56a05;
+}
+
+.wpct_comparison_table.seventh .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #f56a05;
+}
+
+.wpct_comparison_table.seventh .wpct_discounts_container .wpct_holder:not(:empty):after {
+	border-top-color: #f56a05;
+}
+
+.wpct_comparison_table.seventh .wpct_tooltip {
+	background: #f56a05;
+}
+
+.wpct_comparison_table.seventh .wpct_tooltip:after {
+	border-color: transparent #f56a05 transparent transparent;
+}
+
+.wpct_comparison_table.eighth {
+	background: #fff;
+}
+
+.wpct_comparison_table.eighth .wpct_comparison_table_section_content,
+.wpct_comparison_table.eighth .wpct_comparison_table_section_summary {
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.wpct_comparison_table.eighth .wpct_comparison_table_section_content .wpct_pricing_table .wpct_price,
+.wpct_comparison_table.eighth .wpct_comparison_table_section_summary .wpct_pricing_table .wpct_price {
+	display: block;
+}
+
+.wpct_comparison_table.eighth .wpct_comparison_table_section_heading {
+	background: #1f294b;
+}
+
+.wpct_comparison_table.eighth .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #fc5003;
+}
+
+.wpct_comparison_table.eighth .wpct_comparison_table_titles_col .wpct-arrow-box {
+	position: relative;
+	background: #5f686f;
+	padding: 12px 20px 12px 0;
+	text-align: right;
+	color: #fff;
+	margin: 0 15px 0 -15px;
+}
+
+.wpct_comparison_table.eighth .wpct_comparison_table_titles_col .wpct-arrow-box:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(153, 153, 153, 0);
+	border-left-color: #5f686f;
+	border-width: 18px;
+	margin-top: -18px;
+}
+
+.wpct_comparison_table.eighth .wpct_comparison_table_titles_col .wpct-arrow-box h2 {
+	font-size: 21px;
+	line-height: 28px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.wpct_comparison_table.eighth .wpct_comparison_table_titles_col .wpct-arrow-box h4 {
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.wpct_comparison_table.eighth .wpct_price_toggle input:checked + span {
+	color: #fff;
+	background: #fc5003;
+}
+
+.wpct_comparison_table.eighth .wpct_discounts_container .wpct_holder:not(:empty) {
+	background: #1f294b;
+}
+
+.wpct_comparison_table.eighth .wpct_discounts_container .wpct_holder:not(:empty):after {
+	border-top-color: #1f294b;
+}
+
+.wpct_comparison_table.eighth .wpct_tooltip {
+	background: #86c724;
+}
+
+.wpct_comparison_table.eighth .wpct_tooltip:after {
+	border-color: transparent #86c724 transparent transparent;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_section_heading {
+	background: #42454a;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_section_content {
+	background: #f3f3f3;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.alaska .wpct_comparison_table_feature_values li {
+	border-color: #e6e6e6;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_feature_values li .fa {
+	font-size: 22px;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_feature_values li .fa.fa-check {
+	color: #fd4326;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_feature_values li .fa.fa-close {
+	color: #42454a;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_feature_values li:nth-child(odd) {
+	background: #f8f8f8;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: #fff;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_summary_box {
+	background: #42454a;
+}
+
+.wpct_comparison_table.alaska .wpct_comparison_table_summary_box .wpct_price {
+	display: block;
+	background: 0;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_row {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_row .wpct_comparison_table_col {
+	border-right: 1px solid #e4e4e4;
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_row .wpct_comparison_table_col.featured {
+	background: #fafafa;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_row.wpct_first_row .wpct_comparison_table_col {
+	border: 0;
+	padding: 15px 0;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_row .wpct_comparison_table_title {
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+}
+
+.wpct_comparison_table.simple-01 .wpct_pricing_table {
+	border: 0;
+	background: 0;
+	text-align: center;
+}
+
+.wpct_comparison_table.simple-01 .wpct_heading {
+	text-align: center;
+}
+
+.wpct_comparison_table.simple-01 .wpct_heading h2 {
+	font-size: 14px;
+	line-height: 21px;
+	color: #39bce5;
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+.wpct_comparison_table.simple-01 .whmp_text {
+	display: none;
+}
+
+.wpct_comparison_table.simple-01 .wpct_price {
+	text-align: center;
+	font-size: 18px;
+	line-height: 27px;
+	background: 0;
+	padding: 0;
+	color: #333;
+}
+
+.wpct_comparison_table.simple-01 .wpct_price * {
+	display: inline;
+	font-size: inherit;
+	font-weight: inherit;
+	position: relative;
+}
+
+.wpct_comparison_table.simple-01 .wpct_price .wpct_period {
+	display: block;
+}
+
+.wpct_comparison_table.simple-01 .wpct_promo-text {
+	display: none;
+}
+
+.wpct_comparison_table.simple-01 .wpct_button .wpct_submit-button {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	padding: 0 20px;
+	color: #fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #97a1b7;
+	white-space: nowrap;
+	border: 0;
+}
+
+.wpct_comparison_table.simple-01 .wpct_button .wpct_submit-button:hover {
+	background-color: #838c9f;
+}
+
+.wpct_comparison_table.simple-01 .featured .wpct_button .wpct_submit-button {
+	background-color: #646bbc;
+}
+
+.wpct_comparison_table.simple-01 .featured .wpct_button .wpct_submit-button:hover {
+	background-color: #2e3353;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_section_content {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_feature_titles,
+.wpct_comparison_table.simple-01 .wpct_comparison_table_feature_values {
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.simple-01 .wpct_comparison_table_feature_values li {
+	background: 0;
+	border-bottom: 1px solid #e4e4e4;
+	padding: 15px 0;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_feature_titles li:last-child,
+.wpct_comparison_table.simple-01 .wpct_comparison_table_feature_values li:last-child {
+	border-bottom: 0;
+}
+
+.wpct_comparison_table.simple-01 .wpct_comparison_table_section_summary .wpct_comparison_table_titles_col {
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.wpct_comparison_table.simple-02 .wpct_pricing_table {
+	border: 0;
+	background: 0;
+	text-align: center;
+}
+
+.wpct_comparison_table.simple-02 .wpct_first_row {
+	background: #2980b9;
+}
+
+.wpct_comparison_table.simple-02 .wpct_first_row .wpct_heading {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.wpct_comparison_table.simple-02 .wpct_first_row .wpct_heading h2 {
+	font-size: 14px;
+	line-height: 22px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+}
+
+.wpct_comparison_table.simple-02 .wpct_first_row .wpct_plan_description_responsive {
+	background: #fff;
+}
+
+.wpct_comparison_table.simple-02 .wpct_comparison_table_section_content {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-02 .wpct_comparison_table_section_content .wpct_comparison_table_col {
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-02 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.simple-02 .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li {
+	background: 0;
+	border-bottom: 1px solid #EEE;
+}
+
+.wpct_comparison_table.simple-02 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles li:nth-child(even),
+.wpct_comparison_table.simple-02 .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: #f9f9f9;
+}
+
+.wpct_comparison_table.simple-02 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles {
+	text-align: right;
+	font-weight: 700;
+}
+
+.wpct_comparison_table.simple-02 .wpct_price_row {
+	font-weight: 700;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.wpct_comparison_table.simple-02 .wpct_price_row .wpct_comparison_table_titles_col {
+	text-align: right;
+}
+
+.wpct_comparison_table.simple-02 .wpct_price {
+	font-size: 20px;
+	line-height: 40px;
+	color: #2980b9;
+	text-align: center;
+}
+
+.wpct_comparison_table.simple-02 .wpct_button .wpct_submit-button {
+	border: 0;
+	background: #2980b9;
+}
+
+.wpct_comparison_table.simple-02 .wpct_button .wpct_submit-button:hover {
+	background: #20638f;
+}
+
+.wpct_comparison_table.simple-02 .wpct_comparison_table_section_heading {
+	color: #555;
+	background: 0 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.wpct_comparison_table.simple-02 .wpct_first_row {
+		background: #fff;
+	}
+
+	.wpct_comparison_table.simple-02 .wpct_first_row .wpct_heading {
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	.wpct_comparison_table.simple-02 .wpct_first_row .wpct_heading h2 {
+		font-size: 14px;
+		line-height: 22px;
+		background: #2980b9;
+		color: #fff;
+		padding: 10px;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	.wpct_comparison_table.simple-02 .wpct_first_row .wpct_plan_description_responsive {
+		background: #fff;
+	}
+
+	.wpct_comparison_table.simple-02 .wpct_price * {
+		font-weight: 700;
+	}
+}
+
+.wpct_comparison_table.simple-03 {
+	border-top: 3px solid #f9a13a;
+	padding-top: 0;
+}
+
+.wpct_comparison_table.simple-03 .wpct_heading_row {
+	color: #fff;
+	text-align: center;
+	background: #005793;
+	padding: 20px 0;
+}
+
+.wpct_comparison_table.simple-03 .wpct_heading_row .wpct_heading h2 {
+	margin: 0 0 10px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.wpct_comparison_table.simple-03 .wpct_heading_row .wpct_price {
+	color: #f9a13a;
+}
+
+.wpct_comparison_table.simple-03 .wpct_heading_row .wpct_price .wpct_amount {
+	font-size: 26px;
+	font-weight: 900;
+}
+
+.wpct_comparison_table.simple-03 .wpct_heading_row .wpct_button .wpct_submit-button {
+	background-color: #ffcb08;
+	border: 1px solid #815627;
+	box-shadow: 0 3px 0 #815627, 0 6px 4px -2px rgba(0, 0, 0, 0.3);
+	color: #333;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 18px;
+	letter-spacing: .5px;
+	padding: 8px 16px;
+}
+
+.wpct_comparison_table.simple-03 .wpct_heading_row .wpct_button .wpct_submit-button:hover {
+	background: #ffd43d;
+}
+
+.wpct_comparison_table.simple-03 .wpct_heading_row .wpct_button .wpct_submit-button:active {
+	box-shadow: none;
+}
+
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_content {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_content .wpct_comparison_table_col {
+	padding: 0;
+	border-right: 1px solid #adadad;
+}
+
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_content .wpct_comparison_table_col:first-child {
+	border-left: 1px solid #adadad;
+}
+
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles,
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_content .wpct_comparison_table_feature_values {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li {
+	background: 0;
+	border-bottom: 1px solid #adadad;
+	padding: 10px;
+}
+
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles {
+	font-weight: 700;
+}
+
+.wpct_comparison_table.simple-03 .wpct_comparison_table_section_heading {
+	background: #005793;
+}
+
+@media only screen and (max-width: 767px) {
+	.wpct_comparison_table.simple-03 {
+		border-top: 0;
+		padding: 0;
+	}
+
+	.wpct_comparison_table.simple-03 .wpct_heading_row {
+		margin: 15px auto 25px;
+		padding-top: 0;
+		background: #fff;
+	}
+
+	.wpct_comparison_table.simple-03 .wpct_heading_row .wpct_comparison_table_titles_col {
+		display: none;
+	}
+
+	.wpct_comparison_table.simple-03 .wpct_heading_row .wpct_comparison_table_col {
+		border-top: 3px solid #f9a13a;
+		margin: 15px auto 25px;
+		padding: 25px 15px 35px;
+		background: #005793;
+	}
+}
+
+.wpct_comparison_table.simple-04 {
+	max-width: 100%;
+	min-width: 0;
+	border: 1px solid #adadad;
+	padding-top: 0;
+}
+
+.wpct_comparison_table.simple-04 .wpct_table_container {
+	min-width: 991px;
+	overflow-x: auto;
+}
+
+.wpct_comparison_table.simple-04 .wpct_heading_row {
+	text-align: center;
+	background: #e9e8e8;
+	color: #fff;
+}
+
+.wpct_comparison_table.simple-04 .wpct_heading_row .wpct_comparison_table_titles_col {
+	align-self: stretch;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.wpct_comparison_table.simple-04 .wpct_heading_row .wpct_comparison_table_titles_col h2 {
+	margin: 0;
+	color: #000;
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: 700;
+}
+
+.wpct_comparison_table.simple-04 .wpct_heading_row .wpct_comparison_table_col .wpct_heading {
+	background: #879097;
+	padding: 15px 0;
+}
+
+.wpct_comparison_table.simple-04 .wpct_heading_row .wpct_comparison_table_col .wpct_heading h2 {
+	margin: 0 0 40px;
+}
+
+.wpct_comparison_table.simple-04 .wpct_heading_row .wpct_comparison_table_col .wpct_price {
+	padding: 30px 0;
+	background: #c8c9c9;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.wpct_comparison_table.simple-04 .wpct_heading_row .wpct_comparison_table_col.featured .wpct_heading {
+	background: green;
+}
+
+.wpct_comparison_table.simple-04 .wpct_heading_row .wpct_comparison_table_col.featured .wpct_price {
+	background: #96d3fc;
+}
+
+.wpct_comparison_table.simple-04 .wpct_comparison_table_col {
+	padding: 0;
+	border-right: 1px solid #adadad;
+}
+
+.wpct_comparison_table.simple-04 .wpct_comparison_table_col:last-child {
+	border: 0;
+}
+
+.wpct_comparison_table.simple-04 .wpct_comparison_table_section_content {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-04 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles,
+.wpct_comparison_table.simple-04 .wpct_comparison_table_section_content .wpct_comparison_table_feature_values {
+	border: 0;
+}
+
+.wpct_comparison_table.simple-04 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.simple-04 .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li {
+	background: 0 0;
+}
+
+.wpct_comparison_table.simple-04 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles li:nth-child(even),
+.wpct_comparison_table.simple-04 .wpct_comparison_table_section_content .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: #e9e8e8;
+}
+
+.wpct_comparison_table.simple-04 .wpct_comparison_table_section_content .wpct_comparison_table_feature_titles {
+	text-align: center;
+	font-weight: 700;
+}
+
+.wpct_comparison_table.simple-04 .wpct_button .wpct_submit-button {
+	color: #fff;
+	width: 50%;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 8px 18px;
+	border: 0;
+	background: #79c923;
+}
+
+.wpct_comparison_table.simple-05 {
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.wpct_comparison_table.simple-05 .wpct_price {
+	background: 0 0;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.simple-05 .wpct_comparison_table_feature_values li {
+	border-bottom: 1px solid #f2f2f2;
+	padding: 10px 15px;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_feature_titles li:nth-child(odd),
+.wpct_comparison_table.simple-05 .wpct_comparison_table_feature_values li:nth-child(odd) {
+	background: #f8f8f8;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_feature_titles li:nth-child(even),
+.wpct_comparison_table.simple-05 .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_feature_titles li:last-child,
+.wpct_comparison_table.simple-05 .wpct_comparison_table_feature_values li:last-child {
+	border-bottom: 0;
+}
+
+.wpct_comparison_table.simple-05 .wpct_submit-button {
+	width: 100%;
+	display: block;
+	background: green;
+	color: #fff;
+	text-align: center;
+	padding: 25px;
+	opacity: .8;
+	font-size: 22px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: 800;
+	transition: all 0.3s ease-in-out;
+}
+
+.wpct_comparison_table.simple-05 .wpct_submit-button:hover {
+	opacity: 1;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_col {
+	border: 1px solid #f2f2f2;
+	border-top: 0;
+	-ms-flex-item-align: stretch;
+	-ms-grid-row-align: stretch;
+	align-self: stretch;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_col:not(:first-child) {
+	border-left: 0;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_col:nth-child(odd) .wpct_submit-button {
+	background: #43cb83;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_col:nth-child(even) .wpct_submit-button {
+	background: #845a9f;
+}
+
+.wpct_comparison_table.simple-05 .wpct_pricing_table {
+	background: 0;
+	border: 0;
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_section_tables .wpct_comparison_table_col {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	text-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 24px 15px;
+	border-top: 15px solid #ccc;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_section_tables .wpct_comparison_table_col > * {
+	width: 100%;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_section_tables .wpct_comparison_table_col:nth-child(odd) {
+	border-top-color: #43cb83;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_section_tables .wpct_comparison_table_col:nth-child(even) {
+	border-top-color: #845a9f;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_section_tables .wpct_comparison_table_col:first-child {
+	border-top-color: #ccc;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_section_tables h2 {
+	font-size: 22px;
+	font-weight: 800;
+	line-height: 29px;
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_section_content {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-05 .wpct_comparison_table_section_content .wpct_comparison_table_col {
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-06 {
+	padding-top: 50px;
+}
+
+.wpct_comparison_table.simple-06 .wpct_price {
+	background: 0 0;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.simple-06 .wpct_comparison_table_feature_values li {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 15px;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_feature_titles li:nth-child(odd),
+.wpct_comparison_table.simple-06 .wpct_comparison_table_feature_values li:nth-child(odd) {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_feature_titles li:nth-child(even),
+.wpct_comparison_table.simple-06 .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_feature_titles li:last-child,
+.wpct_comparison_table.simple-06 .wpct_comparison_table_feature_values li:last-child {
+	border-bottom: 0;
+}
+
+.wpct_comparison_table.simple-06 .wpct_submit-button {
+	border-radius: 100px;
+	border: 0;
+	padding: 10px 25px;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_col {
+	border: 1px solid #ccc;
+	border-top: 0;
+	-ms-flex-item-align: stretch;
+	-ms-grid-row-align: stretch;
+	align-self: stretch;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_col:not(:last-child) {
+	border-right: 0;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_col.featured {
+	background: #eff8f7;
+}
+
+@media only screen and (max-width: 768px) {
+	.wpct_comparison_table.simple-06 .wpct_comparison_table_col:not(:last-child) {
+		border-right: 1px solid #ccc;
+	}
+}
+
+.wpct_comparison_table.simple-06 .wpct_pricing_table {
+	background: 0;
+	border: 0;
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-06 .wpct_pricing_table .wpct_promo-text {
+	background: #6bc991;
+	position: absolute;
+	top: -66px;
+	color: #fff;
+	padding: 10px;
+	margin: 0 -15px;
+	left: -1px;
+	right: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_section_tables .wpct_comparison_table_col {
+	align-self: stretch;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	text-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 24px 15px;
+	border-top: 1px solid #ccc;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_section_tables .wpct_comparison_table_col > * {
+	width: 100%;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_section_tables .wpct_comparison_table_col:first-child {
+	border-top: 0;
+	border-left: 0;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_section_tables h2 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_section_tables .wpct_button {
+	display: block;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_section_heading {
+	background: #eff8f7;
+	border: 1px solid #ccc;
+	border-top: 0;
+	font-weight: 700;
+	color: #45545f;
+	text-transform: none;
+	font-size: 18px;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_section_content {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-06 .wpct_comparison_table_section_content .wpct_comparison_table_col {
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-07 {
+	padding-top: 50px;
+	color: #666c70;
+}
+
+.wpct_comparison_table.simple-07 .wpct_heading h2 {
+	font-size: 26px;
+	line-height: 32px;
+}
+
+.wpct_comparison_table.simple-07 .wpct_price {
+	background: 0 0;
+	font-size: 17px;
+	line-height: 26px;
+	margin: 0;
+	word-spacing: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_submit-button {
+	border-radius: 100px;
+	border: 1px solid #666c70;
+	padding: 10px 25px;
+	background: 0 0;
+	color: #2990ea;
+	font-weight: 700;
+}
+
+.wpct_comparison_table.simple-07 .wpct_submit-button:hover {
+	color: #1269b5;
+	background: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_values li {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 15px;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_titles li:nth-child(odd),
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_values li:nth-child(odd) {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_titles li:nth-child(even),
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_titles li:last-child,
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_values li:last-child {
+	border-bottom: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_titles li .fa.wpct_icon_yes,
+.wpct_comparison_table.simple-07 .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	color: #1269b5;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_col {
+	border: 1px solid #ccc;
+	border-top: 0;
+	-ms-grid-row-align: stretch;
+	align-self: stretch;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_col:not(:last-child) {
+	border-right: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_col.featured {
+	background: #eff8f7;
+}
+
+@media only screen and (max-width: 768px) {
+	.wpct_comparison_table.simple-07 .wpct_comparison_table_col:not(:last-child) {
+		border-right: 1px solid #ccc;
+	}
+}
+
+.wpct_comparison_table.simple-07 .wpct_pricing_table {
+	background: 0;
+	border: 0;
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_pricing_table .wpct_promo-text {
+	background: #6bc991;
+	position: absolute;
+	top: -66px;
+	color: #fff;
+	padding: 10px;
+	margin: 0 -15px;
+	left: -1px;
+	right: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_section_tables .wpct_comparison_table_col {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	text-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 24px 15px;
+	border-top: 1px solid #ccc;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_section_tables .wpct_comparison_table_col > * {
+	width: 100%;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_section_tables .wpct_comparison_table_col:first-child {
+	border-top: 0;
+	border-left: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_section_tables h2 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_section_tables .wpct_button {
+	display: block;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_section_heading {
+	background: #eff8f7;
+	border: 1px solid #ccc;
+	border-top: 0;
+	font-weight: 700;
+	color: #45545f;
+	text-transform: none;
+	font-size: 18px;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_section_content {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-07 .wpct_comparison_table_section_content .wpct_comparison_table_col {
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-08 {
+	padding-top: 50px;
+}
+
+.wpct_comparison_table.simple-08 .wpct_price {
+	background: 0 0;
+	font-weight: 900;
+}
+
+.wpct_comparison_table.simple-08 .wpct_price .wpct_unit {
+	vertical-align: super;
+}
+
+.wpct_comparison_table.simple-08 .wpct_pricing_table {
+	background: 0;
+	border: 0;
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_pricing_table .wpct_promo-text {
+	background: #fa7921;
+	position: absolute;
+	top: -66px;
+	color: #fff;
+	padding: 10px;
+	margin: 0 -15px;
+	left: -1px;
+	right: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.wpct_comparison_table.simple-08 .wpct_submit-button {
+	border-radius: 4px;
+	border: 0;
+	padding: 5px 15px;
+	background: #1e5694;
+	font-weight: 700;
+}
+
+.wpct_comparison_table.simple-08 .wpct_submit-button:hover {
+	background: #1f73d0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_col {
+	border: 1px solid #ccc;
+	border-top: 0;
+	-ms-flex-item-align: stretch;
+	-ms-grid-row-align: stretch;
+	align-self: stretch;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_col:not(:last-child) {
+	border-right: 0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_col.featured {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_col.featured .wpct_submit-button {
+	background: #fa7921;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_col.featured .wpct_submit-button:hover {
+	background: #ff9020;
+}
+
+@media only screen and (max-width: 768px) {
+	.simgle{
+		padding-left: 40px;
+	}
+	.services-chart .row ul li button{
+		padding: 0 10px;
+	}
+
+	.domain-list .domaing-slider .owl-buttons{
+		display: none;
+	}
+
+	section.service-price .wpct_comparison_table_feature_values.ssl-ul-li li .fa.wpct_icon_yes,
+	section.service-price .wpct_comparison_table_feature_values.ssl-ul-li li .fa{
+		color: white;
+	}
+	.wpct_comparison_table.simple-08 .wpct_comparison_table_col:not(:last-child) {
+		border-right: 1px solid #ccc;
+	}
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_titles li,
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_values li {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 15px;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_titles li:nth-child(odd),
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_values li:nth-child(odd) {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_titles li:nth-child(even),
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_values li:nth-child(even) {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_titles li:last-child,
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_values li:last-child {
+	border-bottom: 0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_titles li .fa.wpct_icon_no,
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_titles li .fa.wpct_icon_yes,
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_values li .fa.wpct_icon_no,
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_values li .fa.wpct_icon_yes {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	background: #32b17b;
+	border-radius: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_titles li .fa.wpct_icon_no,
+.wpct_comparison_table.simple-08 .wpct_comparison_table_feature_values li .fa.wpct_icon_no {
+	background: red;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_section_tables .wpct_comparison_table_col {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	text-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 24px 15px;
+	border-top: 1px solid #ccc;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_section_tables .wpct_comparison_table_col > * {
+	width: 100%;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_section_tables .wpct_comparison_table_col:first-child {
+	border-top: 0;
+	border-left: 0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_section_tables h2 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_section_tables .wpct_button {
+	display: block;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_section_heading {
+	background: 0;
+	border: 1px solid #ccc;
+	border-top: 0;
+	font-weight: 700;
+	color: #45545f;
+	text-transform: none;
+	font-size: 18px;
+	text-align: left;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_section_content {
+	background: 0;
+}
+
+.wpct_comparison_table.simple-08 .wpct_comparison_table_section_content .wpct_comparison_table_col {
+	padding: 0;
+}
+
+.wpct_comparison_table.simple-09 .wpct_button {
+	display: block;
+}
+
+.wpct_comparison_table.simple-09 .wpct_comparison_table_section_heading {
+	background: #63b770;
+	text-align: left;
+}
+
+.wpct_comparison_table.simple-10 .wpct_comparison_table_row {
+	background: #f4f5f9;
+
+}
+
+
+@media only screen and (max-width: 992px) {
+	.wpct_comparison_table .wpct_comparison_table_feature_titles,
+	.wpct_comparison_table .wpct_comparison_table_titles_col {
+		display: none ;
+	}
+
+	.wpct_comparison_table .wpct_comparison_table_titles_col {
+		display: none;
+	}
+
+	.wpct_comparison_table .wpct_comp_feature_title_responsive {
+		display: block;
+		font-weight: 700;
+	}
+
+	.wpct_comparison_table.one_col .wpct_comparison_table_col {
+		width: 100%;
+	}
+
+	.wpct_comparison_table.two_cols .wpct_comparison_table_col {
+		width: 50%;
+	}
+
+	.wpct_comparison_table.three_cols .wpct_comparison_table_col {
+		width: 33.33%;
+	}
+
+	.wpct_comparison_table.four_cols .wpct_comparison_table_col {
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.wpct_comparison_table {
+		min-width: 200px;
+	}
+
+	.wpct_comparison_table.four_cols .wpct_comparison_table_col,
+	.wpct_comparison_table.one_col .wpct_comparison_table_col,
+	.wpct_comparison_table.three_cols .wpct_comparison_table_col,
+	.wpct_comparison_table.tow_cols .wpct_comparison_table_col {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.wpct_comparison_table .wpct_comparison_table_section_content,
+	.wpct_comparison_table .wpct_comparison_table_section_heading,
+	.wpct_comparison_table .wpct_comparison_table_section_summary,
+	.wpct_comparison_table .wpct_price_row {
+		display: none;
+	}
+
+	.wpct_comparison_table .wpct_plan_description_responsive {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.wpct_comparison_table .wpct_comparison_table_section_tables .wpct_pricing_table {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		border-bottom: 0;
+		margin: 0;
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+	}
+
+	.wpct_comparison_table .wpct_comparison_table_section_tables .wpct_pricing_table .wpct_button,
+	.wpct_comparison_table .wpct_comparison_table_section_tables .wpct_pricing_table .wpct_features {
+		display: none;
+	}
+}
+
+.wpct_table_group .whmpress_pricing_table {
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.wpct_table_group .whmpress_pricing_table ul {
+	width: 100%;
+	padding: 15px;
+	margin: 10px 0 0;
+	border-top: 1px solid #ddd;
+}
+
+.wpct_table_group .whmpress_pricing_table ul li {
+	width: 100%;
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+	list-style: none;
+}
+
+.wpct_table_group .whmpress_pricing_table ul li:last-child {
+	border-bottom: 0;
+}
+
+.wpct_table_group .whmpress_pricing_table h4 {
+	width: 100%;
+	border-top: 1px solid #ddd;
+	margin: 0;
+	padding: 20px 0 10px;
+}
+
+.wpct_table_group .whmpress_pricing_table .whmpress_order_combo form {
+	display: block;
+}
+
+.wpct_table_group .whmpress_pricing_table .whmpress_order_combo form button,
+.wpct_table_group .whmpress_pricing_table .whmpress_order_combo form select {
+	display: block;
+	width: 90%;
+	margin: 0 auto 15px;
+}
+
+.wpct_table_group .whmpress_pricing_table .whmpress_order_button {
+	width: 90%;
+	display: inline-block;
+}
+
+.wpct_table_group {
+	box-sizing: border-box;
+}
+
+.wpct_table_group *,
+.wpct_table_group :after,
+.wpct_table_group :before {
+	box-sizing: border-box;
+}
+
+.wpct_table_group .wpct_table_group_col {
+	width: 20%;
+	padding: 10px;
+	min-width: 250px;
+	text-align: center;
+}
+
+.wpct_table_group .wpct_table_group_col .whmpress_pricing_table {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+.wpct_table_group .wpct_table_group_col .whmpress_pricing_table .whmpress_order_button {
+	display: inline-block;
+}
+
+.wpct_table_group.one_col .wpct_table_group_col {
+	width: 100%;
+}
+
+.wpct_table_group.two_cols .wpct_table_group_col {
+	width: 50%;
+}
+
+.wpct_table_group.three_cols .wpct_table_group_col {
+	width: 33%;
+}
+
+.wpct_table_group.four_cols .wpct_table_group_col {
+	width: 25%;
+}
+
+.wpct_table_group .slick-dots {
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	position: relative;
+	margin: 0 auto 15px;
+}
+
+.wpct_table_group .slick-dots:after {
+	content: '';
+	position: absolute;
+	background: #7ecefd;
+	height: 10px;
+	border-radius: 10px;
+	left: 10px;
+	right: 10px;
+	z-index: 97;
+	bottom: 10px;
+}
+
+.wpct_table_group .slick-dots li {
+	position: relative;
+	cursor: pointer;
+	min-width: 70px;
+	text-align: center;
+}
+
+.wpct_table_group .slick-dots li > span {
+	content: '';
+	display: block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	margin: 5px auto;
+	background: #7ecefd;
+	border-radius: 20px;
+	z-index: 98;
+}
+
+.wpct_table_group .slick-dots li > span:after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	z-index: 99;
+	background: #7ecefd;
+	border-radius: 10px;
+	left: 5px;
+	top: 5px;
+}
+
+.wpct_table_group .slick-dots li.slick-active {
+	cursor: default;
+}
+
+.wpct_table_group .slick-dots li.slick-active > span:after {
+	background: #fff;
+}
+
+.wpct_table_group .wpct_group_title {
+	display: none ;
+}
+
+.wpct_table_group.wpct_have_carousel .wpct_table_group_row {
+	padding-left: 60px;
+	padding-right: 60px;
+	position: relative;
+}
+
+.wpct_table_group.wpct_have_carousel .wpct_table_group_row .wpct_next,
+.wpct_table_group.wpct_have_carousel .wpct_table_group_row .wpct_prev {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	box-sizing: border-box;
+	padding: 0;
+	background: 0;
+	left: 2px;
+	top: 50%;
+	margin-top: -25px;
+	color: #333;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 0;
+	outline: transparent;
+}
+
+.wpct_table_group.wpct_have_carousel .wpct_table_group_row .wpct_next:hover,
+.wpct_table_group.wpct_have_carousel .wpct_table_group_row .wpct_prev:hover {
+	color: #333;
+	background: 0;
+	border: 0;
+}
+
+.wpct_table_group.wpct_have_carousel .wpct_table_group_row .wpct_next.wpct_next,
+.wpct_table_group.wpct_have_carousel .wpct_table_group_row .wpct_prev.wpct_next {
+	left: auto;
+	right: 0;
+}
+
+.wpct_table_group.group-01 .slick-dots:after {
+	background: #2cd26c;
+}
+
+.wpct_table_group.group-01 .slick-dots li > span {
+	background: #2cd26c;
+}
+
+.wpct_table_group.group-01 .slick-dots li > span:after {
+	background: #2cd26c;
+}
+
+.wpct_table_group.group-02 .slick-dots:after {
+	background: #e84c3d;
+}
+
+.wpct_table_group.group-02 .slick-dots li > span {
+	background: #e84c3d;
+}
+
+.wpct_table_group.group-02 .slick-dots li > span:after {
+	background: #e84c3d;
+}
+
+.wpct_table_group.group-03 .slick-dots:after {
+	background: #ffac00;
+}
+
+.wpct_table_group.group-03 .slick-dots li > span {
+	background: #ffac00;
+}
+
+.wpct_table_group.group-03 .slick-dots li > span:after {
+	background: #ffac00;
+}
+
+.wpct_table_group.group-04 .slick-dots:after {
+	background: #7c3ac9;
+}
+
+.wpct_table_group.group-04 .slick-dots li > span {
+	background: #7c3ac9;
+}
+
+.wpct_table_group.group-04 .slick-dots li > span:after {
+	background: #7c3ac9;
+}
+
+.wpct_table_group.group-05 .slick-dots:after {
+	background: #a6374a;
+}
+
+.wpct_table_group.group-05 .slick-dots li > span {
+	background: #a6374a;
+}
+
+.wpct_table_group.group-05 .slick-dots li > span:after {
+	background: #a6374a;
+}
+
+.wpct_table_group.group-06 .slick-dots:after {
+	background: #7ec01e;
+}
+
+.wpct_table_group.group-06 .slick-dots li > span {
+	background: #7ec01e;
+}
+
+.wpct_table_group.group-06 .slick-dots li > span:after {
+	background: #7ec01e;
+}
+
+.wpct_table_group.group-07 .slick-dots:after {
+	background: #d4300c;
+}
+
+.wpct_table_group.group-07 .slick-dots li > span {
+	background: #d4300c;
+}
+
+.wpct_table_group.group-07 .slick-dots li > span:after {
+	background: #d4300c;
+}
+
+.wpct_table_group.group-08 .slick-dots:after {
+	background: #2edb7c;
+}
+
+.wpct_table_group.group-08 .slick-dots li > span {
+	background: #2edb7c;
+}
+
+.wpct_table_group.group-08 .slick-dots li > span:after {
+	background: #2edb7c;
+}
+
+.wpct_table_group.group-09 .slick-dots:after {
+	background: #ff813b;
+}
+
+.wpct_table_group.group-09 .slick-dots li > span {
+	background: #ff813b;
+}
+
+.wpct_table_group.group-09 .slick-dots li > span:after {
+	background: #ff813b;
+}
+
+.wpct_table_group.group-10 .slick-dots:after {
+	background: #26c3f6;
+}
+
+.wpct_table_group.group-10 .slick-dots li > span {
+	background: #26c3f6;
+}
+
+.wpct_table_group.group-10 .slick-dots li > span:after {
+	background: #26c3f6;
+}
+
+.wpct_table_group.simple-01 .slick-dots:after {
+	background: #009cfc;
+}
+
+.wpct_table_group.simple-01 .slick-dots li > span {
+	background: #009cfc;
+}
+
+.wpct_table_group.simple-01 .slick-dots li > span:after {
+	background: #009cfc;
+}
+
+.wpct_table_group.simple-02 .slick-dots:after {
+	background: #b43a7e;
+}
+
+.wpct_table_group.simple-02 .slick-dots li > span {
+	background: #b43a7e;
+}
+
+.wpct_table_group.simple-02 .slick-dots li > span:after {
+	background: #b43a7e;
+}
+
+.wpct_table_group.simple-03 .slick-dots:after {
+	background: #242424;
+}
+
+.wpct_table_group.simple-03 .slick-dots li > span {
+	background: #242424;
+}
+
+.wpct_table_group.simple-03 .slick-dots li > span:after {
+	background: #242424;
+}
+
+.wpct_hosting_slider {
+	box-sizing: border-box;
+	background: #e5e5e5;
+	margin: 50px auto 30px;
+	font-size: 16px;
+	line-height: 1.4;
+	padding: 35px 25px 20px;
+	box-shadow: inset 0 0 3px 3px #ccc;
+	font-family: "Ubuntu", serif;
+}
+
+.wpct_hosting_slider *,
+.wpct_hosting_slider :after,
+.wpct_hosting_slider :before {
+	box-sizing: border-box;
+}
+
+.wpct_hosting_slider .wpct_package_title ul li {
+	background: green;
+	text-align: center;
+	padding: 6px;
+	border-radius: 6px;
+	color: #fff;
+	cursor: pointer;
+	width: 10%;
+	min-width: 90px;
+	margin-bottom: 15px;
+}
+
+.wpct_hosting_slider .ui-slider {
+	width: 90%;
+	margin: 0 auto 30px;
+}
+
+.wpct_hosting_slider .wpct_slider_content {
+	padding-bottom: 30px;
+}
+
+.wpct_hosting_slider .wpct_slider_submit_button {
+	text-align: center;
+}
+
+.wpct_hosting_slider .wpct_slider_submit_button .wpct_submit {
+	display: inline-block;
+	background: #5cb85c;
+	border-radius: 6px;
+	padding: 6px 10px;
+	border: 1px solid #4cae4c;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.wpct_hosting_slider .wpct_slider_submit_button .wpct_submit:hover {
+	background: #449d44;
+	border-color: #398439;
+}
+
+.wpct_hosting_slider .wpct_package_title_mobile {
+	display: none;
+}
+
+.wpct_hosting_slider .wpct_price_toggle {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.wpct_hosting_slider .wpct_price_toggle label span {
+	background-color: #dff0d8;
+}
+
+.wpct_hosting_slider .wpct_price_toggle input:checked + span {
+	background-color: green;
+	color: #fff;
+}
+
+.wpct_hosting_slider .wpct_slider_discounts_container {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.wpct_hosting_slider .wpct_slider_discounts_container .wpct_holder {
+	display: inline-block;
+	text-align: center;
+	font-weight: 700;
+}
+
+.wpct_hosting_slider .wpct_slider_discounts_container .wpct_discount_text:after {
+	content: " ";
+}
+
+@media (min-width: 641px) {
+	.wpct_hosting_slider .wpct_price_toggle {
+		width: 50%;
+		float: left;
+		text-align: left;
+	}
+
+	.wpct_hosting_slider .wpct_slider_discounts_container {
+		width: 50%;
+		float: right;
+		text-align: right;
+	}
+}
+
+@media (max-width: 640px) {
+	.wpct_hosting_slider .wpct_package_title ul {
+		padding: 0;
+	}
+
+	.wpct_hosting_slider .wpct_package_title ul li {
+		background: 0;
+		padding: 6px 0;
+		border-radius: 0;
+		color: unset;
+		cursor: pointer;
+		width: 10%;
+		min-width: 10px;
+	}
+
+	.wpct_hosting_slider .wpct_package_title_mobile {
+		display: block;
+	}
+
+	.wpct_hosting_slider .wpct_package_title_desktop {
+		display: none;
+	}
+
+	.wpct_hosting_slider .wpct_discounts_container,
+	.wpct_hosting_slider .wpct_price_toggle {
+		float: none;
+		max-width: 100%;
+	}
+}
+
+.wpct_hosting_slider.first .wpct_slider_output {
+	float: left;
+	padding: 10px 15px;
+	margin-right: 10px;
+	color: #3c763d;
+	background-color: #dff0d8;
+	border: 1px solid #d6e9c6;
+	border-radius: 4px;
+	position: relative;
+}
+
+.wpct_hosting_slider.first .wpct_slider_output .wpct_tooltip {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+.wpct_hosting_slider.first .wpct_slider_output:hover .wpct_tooltip {
+	display: block;
+}
+
+.wpct_hosting_slider.first .wpct_slider_heading {
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.wpct_hosting_slider.second {
+	background: #e1ecf4;
+	border: 1px solid #c1dcc4;
+	box-shadow: none;
+	padding-bottom: 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.wpct_hosting_slider.second .wpct_price_toggle label span {
+	background-color: #41728e;
+	color: #fff;
+}
+
+.wpct_hosting_slider.second .wpct_price_toggle label:first-child > span {
+	border-radius: 6px 0 0 6px;
+}
+
+.wpct_hosting_slider.second .wpct_price_toggle label:last-child > span {
+	border-radius: 0 6px 6px 0;
+}
+
+.wpct_hosting_slider.second .wpct_price_toggle input:checked + span {
+	background-color: #21526e;
+}
+
+.wpct_hosting_slider.second .ui-slider {
+	background: #21526e;
+}
+
+.wpct_hosting_slider.second .ui-slider .ui-widget-header {
+	background: #62A028;
+}
+
+.wpct_hosting_slider.second .wpct_slider_content {
+	background: #41728e;
+	margin-right: -25px;
+	margin-left: -25px;
+	margin-bottom: 0;
+	padding: 0 25px;
+	border-top: 1px solid #21526e;
+}
+
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output {
+	float: left;
+	width: 20%;
+	min-width: 150px;
+	color: #e1ecf4;
+	padding: 20px 10px;
+	text-align: center;
+	border-right: 1px solid #21526e;
+}
+
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output:first-child {
+	border-left: 1px solid #21526e;
+}
+
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output .wpct_slider_description_title {
+	display: block;
+}
+
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output .wpct_slider_description_title .wpct_price .wpct_amount,
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output .wpct_slider_description_title .wpct_price .wpct_decimal,
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output .wpct_slider_description_title .wpct_price .wpct_fraction,
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output .wpct_slider_description_title .wpct_price .wpct_unit {
+	display: none;
+}
+
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output .wpct_slider_description_title .wpct_price .wpct_period {
+	display: block;
+}
+
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output .wpct_slider_description_detail {
+	font-weight: 700;
+	display: block;
+	font-size: 24px;
+}
+
+.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output .wpct_slider_description_detail .wpct_price .wpct_period {
+	display: none;
+}
+
+.wpct_hosting_slider.second .wpct_package_title ul li {
+	background: #21526e;
+	padding: 3px 6px;
+}
+
+.wpct_hosting_slider.second .wpct_slider_submit {
+	text-align: right;
+	margin-right: -25px;
+	margin-left: -25px;
+	padding: 25px;
+	background: #41728e;
+	border-top: 1px solid #21526e;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.wpct_hosting_slider.second .wpct_slider_submit .wpct_submit {
+	background: #e1ecf4;
+	border: 5px solid #21526e;
+	border-radius: 0;
+	color: #21526e;
+	padding: 15px 30px;
+	font-size: 18px;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.wpct_hosting_slider.second .wpct_slider_submit .wpct_submit:hover {
+	border-color: #e1ecf4;
+	background: #21526e;
+	color: #e1ecf4;
+}
+
+@media (max-width: 993px) {
+	.wpct_hosting_slider.second .wpct_slider_content {
+		border-bottom: 0;
+	}
+
+	.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output {
+		border-top: 1px solid #21526e;
+	}
+
+	.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output:nth-child(1) {
+		width: 33.33%;
+	}
+
+	.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output:nth-child(2) {
+		width: 33.33%;
+	}
+
+	.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output:nth-child(3) {
+		width: 33.33%;
+	}
+
+	.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output:nth-child(4) {
+		width: 50%;
+		border-left: 1px solid #21526e;
+	}
+
+	.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output:nth-child(5) {
+		width: 50%;
+	}
+}
+
+@media (max-width: 640px) {
+	.wpct_hosting_slider.second .wpct_slider_content {
+		border-bottom: 0;
+	}
+
+	.wpct_hosting_slider.second .wpct_slider_content .wpct_slider_output {
+		border-top: 1px solid #21526e;
+		border-left: 1px solid #21526e;
+		width: 100%;
+	}
+
+	.wpct_hosting_slider.second .wpct_package_title ul li {
+		background: 0;
+		padding: 3px 0;
+	}
+}
+
+.wpct_hosting_slider.third {
+	background: #fff;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.wpct_hosting_slider.third .wpct_package_title ul {
+	width: 90%;
+	display: block;
+	padding-bottom: 0;
+	position: relative;
+	min-height: 20px;
+}
+
+.wpct_hosting_slider.third .wpct_package_title ul li {
+	background: 0 0;
+	border-radius: 0;
+	padding: 0;
+	color: #000;
+	font-weight: 700;
+	cursor: pointer;
+	width: 40px;
+	min-width: 40px;
+	margin-left: -20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wpct_hosting_slider.third .ui-slider {
+	margin: 0 auto 10px;
+}
+
+.wpct_hosting_slider.third .bottom-holder {
+	border: 3px solid #333;
+	border-right: 0;
+	margin-bottom: 20px;
+}
+
+.wpct_hosting_slider.third .bottom-holder .slider-container {
+	float: left;
+	width: calc(-80%);
+	margin: 20px auto;
+}
+
+.wpct_hosting_slider.third .bottom-holder .wpct_price {
+	float: right;
+	width: 180px;
+	line-height: 40px;
+	background: #333;
+	color: #fff;
+}
+
+.wpct_hosting_slider.third .bottom-holder .wpct_price .wpct_slider_description_title {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.wpct_hosting_slider.third .bottom-holder .wpct_price .wpct_slider_description_detail {
+	font-size: 34px;
+	background: #fff;
+	width: 100%;
+	display: block;
+	border-right: 3px solid #333;
+	color: #333;
+}
+
+.wpct_hosting_slider.third .bottom-holder .wpct_price .wpct_slider_description_detail .wpct_unit {
+	padding: 0 5px 0 15px;
+	background: #333;
+	color: #fff;
+	display: inline-block;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output {
+	float: left;
+	width: 18%;
+	max-width: 150px;
+	min-width: 120px;
+	margin-right: 2%;
+	border: 2px solid #333;
+	line-height: 2.5;
+	text-align: center;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output span {
+	display: block;
+	font-weight: 700;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output span.wpct_slider_description_title {
+	background: #f78f8f;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output:nth-child(1) .wpct_slider_description_title {
+	background: #f78f8f;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output:nth-child(2) .wpct_slider_description_title {
+	background: #e2b088;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output:nth-child(3) .wpct_slider_description_title {
+	background: #3697f2;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output:nth-child(4) .wpct_slider_description_title {
+	background: #85e02d;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output:nth-child(5) .wpct_slider_description_title {
+	background: #f78f8f;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output:nth-child(6) .wpct_slider_description_title {
+	background: #e2b088;
+}
+
+.wpct_hosting_slider.third .wpct_slider_content:after,
+.wpct_hosting_slider.third .wpct_slider_content:before {
+	display: block;
+	clear: both;
+}
+
+.wpct_hosting_slider.third .ui-slider {
+	background: #999;
+	border-radius: 0;
+	border: 0;
+	box-shadow: none;
+	height: 8px;
+}
+
+.wpct_hosting_slider.third .ui-slider .ui-widget-header {
+	background: #333;
+	border-radius: 0;
+}
+
+.wpct_hosting_slider.third .wpct_submit {
+	background: #333;
+	border: 5px solid #fff;
+	border-radius: 0;
+	color: #fff;
+	padding: 15px 30px;
+	font-size: 18px;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.wpct_hosting_slider.third .wpct_submit:hover {
+	border-color: #333;
+	background: #fff;
+	color: #333;
+}
+
+.wpct_hosting_slider.third .wpct_slider_heading {
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+@media (max-width: 769px) {
+	.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output {
+		max-width: 23%;
+		width: 23%;
+		margin: 1%;
+	}
+}
+
+@media (max-width: 640px) {
+	.wpct_hosting_slider.third .bottom-holder {
+		border: 3px solid #333;
+	}
+
+	.wpct_hosting_slider.third .bottom-holder .slider-container {
+		float: none;
+		width: 100%;
+		margin: 20px auto 15px;
+	}
+
+	.wpct_hosting_slider.third .bottom-holder .wpct_price {
+		float: none;
+		width: 100%;
+	}
+
+	.wpct_hosting_slider.third .bottom-holder .wpct_price .wpct_slider_description_title {
+		display: block;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.wpct_hosting_slider.third .bottom-holder .wpct_price .wpct_slider_description_detail {
+		text-align: center;
+		border-right: 0;
+		width: 100%;
+	}
+
+	.wpct_hosting_slider.third .bottom-holder .wpct_price .wpct_slider_description_detail .wpct_unit {
+		background: #fff;
+		color: #333;
+		margin-right: -5px;
+	}
+
+	.wpct_hosting_slider.third .wpct_slider_content .wpct_slider_output {
+		min-width: 100%;
+		max-width: 100%;
+		width: 100%;
+		margin: 0 0 20px;
+	}
+}
+
+.wpct_hosting_slider.fourth {
+	background: #6c7a89;
+	color: #fff;
+	box-shadow: none;
+	border: 0;
+	border-radius: 6px;
+	padding: 55px 0 0;
+	margin-top: 35px;
+	width: 100%;
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_container {
+	padding: 0 60px;
+}
+
+.wpct_hosting_slider.fourth .ui-slider {
+	background: #000;
+	background: rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	height: 17px;
+	margin: 0 0 12px;
+	padding: 0;
+	width: 100%;
+}
+
+.wpct_hosting_slider.fourth .ui-slider .ui-slider-range {
+	background: #DE6262;
+	border-radius: 6px;
+}
+
+.wpct_hosting_slider.fourth .wpct_package_title ul {
+	padding: 20px 60px;
+}
+
+.wpct_hosting_slider.fourth .wpct_package_title ul li {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	margin: 0;
+	background: 0;
+	width: auto;
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 25px 0;
+	text-align: center;
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_slider_output {
+	width: 25%;
+	color: #fff;
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_slider_output h3 {
+	margin: 0;
+	font-size: 19px;
+	line-height: 21px;
+	color: #fff;
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_slider_output .wpct_slider_description_detail {
+	font-size: 29px;
+	font-weight: 900;
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_slider_submit a {
+	font-size: 17px;
+	font-weight: 900;
+	padding: 6px 15px;
+	background-color: #73ae95;
+	border-color: #4cae4c;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_plan_title_responsive {
+	display: none;
+	background: #6c7a89;
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_plan_title_responsive h3 {
+	position: relative;
+	background: #72AC94;
+	text-align: center;
+	color: #fff;
+	padding: 8px 17px;
+	margin: 30px auto 0;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_plan_title_responsive h3:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(114, 172, 148, 0);
+	border-top-color: #72AC94;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+	.wpct_hosting_slider.fourth .wpct_package_title {
+		display: none;
+	}
+
+	.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) {
+		display: block;
+		padding-top: 0;
+	}
+
+	.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_slider_output {
+		width: 100%;
+		padding: 10px;
+		border-bottom: 1px solid #6C7A89;
+	}
+
+	.wpct_hosting_slider.fourth .wpct_slider_content:not(.wpct_hidden) .wpct_plan_title_responsive {
+		display: block;
+		margin-top: 25px;
+	}
+}
+
+.wpct_hosting_slider.slider-05 {
+	box-shadow: none;
+	background: 0;
+}
+
+.wpct_hosting_slider.slider-05 .ui-slider {
+	height: 20px;
+	border-radius: 20px 20px 0 0;
+	background: #6da7c5;
+}
+
+.wpct_hosting_slider.slider-05 .ui-slider .ui-widget-header {
+	background: #68bd4e;
+	border-radius: 20px 20px 0 0;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_package_title ul li {
+	background: 0 0;
+	border: 0;
+	border-radius: 0;
+	color: #666;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_package_title ul li.active {
+	font-weight: 700;
+	color: #000;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content {
+	width: 90%;
+	background: #fff;
+	margin: -30px auto 0;
+	padding: 20px;
+	box-shadow: 0 1px 5px 1px #666;
+	text-align: center;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_description_holder {
+	width: 75%;
+	float: left;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_description_holder > .wpct_slider_output {
+	float: left;
+	width: 25%;
+	min-width: 120px;
+	margin-bottom: 15px;
+	text-align: center;
+	padding: 5px;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_slider_description_title {
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_slider_description_detail {
+	font-size: 24px;
+	line-height: 26px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	color: #000;
+	position: relative;
+	display: block;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_slider_description_detail:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 5px;
+	background: #68bd4e;
+	border-radius: 5px;
+	left: 5px;
+	right: 5px;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_price_holder {
+	width: 25%;
+	float: right;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_price_holder .wpct_slider_description_detail {
+	padding-top: 32px;
+	padding-bottom: 15px;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_price_holder .wpct_slider_description_detail:after {
+	display: none;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_price_holder .wpct_submit {
+	background: #4891b6;
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_price_holder .wpct_submit:hover {
+	background: #3a7491;
+	color: #fff;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_toggle_discount_contianer {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_toggle_discount_contianer .wpct_price_toggle label span {
+	background-color: #4891b6;
+	color: #fff;
+}
+
+.wpct_hosting_slider.slider-05 .wpct_toggle_discount_contianer .wpct_price_toggle input:checked + span {
+	background: #3a7491;
+}
+
+@media (max-width: 640px) {
+	.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_description_holder {
+		width: 105%;
+		float: none;
+	}
+
+	.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_description_holder > .wpct_slider_output {
+		float: none;
+		width: 100%;
+	}
+
+	.wpct_hosting_slider.slider-05 .wpct_slider_content .wpct_price_holder {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+}
+
+.wpct_hosting_slider.slider-06 {
+	box-shadow: none;
+	max-width: 860px;
+	margin: 50px auto;
+	border: 0;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.wpct_hosting_slider.slider-06 .ui-slider {
+	height: 18px;
+	background: #415a89;
+	border: 1px solid #38678B;
+	border-color: #314366 #5171ac #5171ac #314366;
+}
+
+.wpct_hosting_slider.slider-06 .ui-slider .ui-widget-header {
+	background: #5377b6;
+	border: 1px solid #5377b6;
+	border-color: #7793c5 #405f96 #405f96 #7793c5;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_package_title ul li {
+	background: 0 0;
+	border: 0;
+	border-radius: 0;
+	color: #ccc;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_package_title ul li.active {
+	font-weight: 700;
+	color: #fff;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder {
+	min-height: 240px;
+	position: relative;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output {
+	position: absolute;
+	width: 100px;
+	overflow: hidden;
+	height: 100px;
+	border-radius: 100px;
+	background: #24305f;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output > * {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output .wpct_slider_description_detail {
+	font-size: 22px;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output .wpct_slider_description_title {
+	font-size: 10px;
+	margin-top: -5px;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output:nth-child(1) {
+	left: 12%;
+	bottom: -80px;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output:nth-child(2) {
+	left: 5%;
+	bottom: 20px;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output:nth-child(3) {
+	left: 15%;
+	bottom: 120px;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output:nth-child(4) {
+	left: 35%;
+	bottom: 140px;
+}
+
+@media only screen and (max-width: 640px) {
+	.wpct_hosting_slider.slider-06 .wpct_description_holder {
+		min-height: 480px;
+	}
+
+	.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output {
+		left: 50%;
+		margin-left: -50px;
+	}
+
+	.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output:nth-child(1) {
+		left: 50%;
+		bottom: 0;
+	}
+
+	.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output:nth-child(2) {
+		left: 50%;
+		bottom: 120px;
+	}
+
+	.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output:nth-child(3) {
+		left: 50%;
+		bottom: 240px;
+	}
+
+	.wpct_hosting_slider.slider-06 .wpct_description_holder > .wpct_slider_output:nth-child(4) {
+		left: 50%;
+		bottom: 360px;
+	}
+}
+
+.wpct_hosting_slider.slider-06 .wpct_price_holder {
+	text-align: right;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_price_holder .wpct_price {
+	font-size: 30px;
+	line-height: 1.4;
+	margin: 10px auto 15px;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_price_holder .whmpress_order_button {
+	display: inline-block;
+	color: #fff;
+	background: #24305f;
+}
+
+.wpct_hosting_slider.slider-06 .wpct_price_holder .whmpress_order_button:hover {
+	color: #fff;
+	background: #324384;
+}
+
+@media only screen and (max-width: 640px) {
+	.wpct_hosting_slider.slider-06 .wpct_price_holder {
+		text-align: center;
+	}
+}
+
+.wpct_hosting_slider.slider-07 {
+	background: #ececec;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_container {
+	padding-right: 180px;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_heading {
+	font-size: 30px;
+	font-weight: 400;
+	color: #3767a2;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.wpct_hosting_slider.slider-07 .ui-slider {
+	height: 8px;
+	background: #dbdbdb;
+	border: 0;
+	margin-bottom: 0;
+}
+
+.wpct_hosting_slider.slider-07 .ui-slider .ui-widget-header {
+	background: #dbdbdb;
+	border: 0;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_package_title ul li {
+	min-width: 10px;
+	text-align: center;
+	background: 0;
+	color: #666;
+	font-size: 15px;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_package_title ul li.active {
+	color: #000;
+	font-weight: 700;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_package_title ul li > div {
+	position: relative;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_package_title ul li:not(:first-child):not(:last-child) > div:before {
+	content: "";
+	position: absolute;
+	height: 8px;
+	width: 2px;
+	background: #666;
+	top: -14px;
+	left: 50%;
+	margin-left: -1px;
+	z-index: 1;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_content {
+	position: relative;
+	padding-right: 180px;
+	background: #fff;
+	margin-bottom: 35px;
+	border-radius: 10px;
+	border-bottom: 3px solid #999;
+	overflow: hidden;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_content .wpct_slider_output {
+	width: 20%;
+	float: left;
+	border-right: 1px solid #666;
+	padding: 15px 10px;
+	text-align: center;
+	min-width: 120px;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_content .wpct_slider_output .wpct_slider_description_title {
+	font-size: 15px;
+	line-height: 22px;
+	color: #999;
+	font-weight: 400;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_content .wpct_slider_output .wpct_slider_description_detail {
+	font-size: 20px;
+	line-height: 22px;
+	color: #000;
+	font-weight: 400;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_content .wpct_slider_submit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 180px;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_content .wpct_slider_submit .wpct_submit {
+	background: #3767a2;
+	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	border-radius: 0;
+	font-size: 22px;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_content .wpct_slider_submit .wpct_submit:hover {
+	background: #2a4f7c;
+	color: #fff;
+}
+
+.wpct_hosting_slider.slider-07 .wpct_slider_content:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media only screen and (max-width: 640px) {
+	.wpct_hosting_slider.slider-07 .wpct_slider_content {
+		padding-right: 0;
+	}
+
+	.wpct_hosting_slider.slider-07 .wpct_slider_content .wpct_slider_output {
+		width: 100%;
+		float: none;
+		border-right: 0;
+	}
+
+	.wpct_hosting_slider.slider-07 .wpct_slider_content .wpct_slider_submit {
+		position: relative;
+		width: 100%;
+		height: 80px;
+	}
+
+	.wpct_hosting_slider.slider-07 .wpct_slider_container {
+		padding-right: 0;
+	}
+}
+
+.wpct_hosting_slider.slider-08 {
+	background: #fff;
+	box-shadow: 0 0 1px 1px #ddd;
+	border-radius: 6px;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_price_toggle {
+	margin-bottom: 25px;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_price_toggle .ribbon {
+	color: #fff;
+	line-height: 1.4;
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 20px 10px 40px;
+	margin-left: -45px;
+	position: relative;
+	background: #0d8ff2;
+	box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.wpct_hosting_slider.slider-08 .wpct_price_toggle .ribbon:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -1px;
+	top: 100%;
+	border-width: 6px 10px;
+	border-style: solid;
+	border-color: #085691 #085691 transparent transparent;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_price_toggle label span {
+	background: #3da5f5;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_price_toggle input:checked + span {
+	background: #0a72c2;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_discounts_container {
+	padding: 10px 20px;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_container {
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+}
+
+.wpct_hosting_slider.slider-08 .ui-slider {
+	height: 12px;
+	background: #cbcbcb;
+	border: 0;
+	border-radius: 12px;
+	margin-bottom: 15px;
+}
+
+.wpct_hosting_slider.slider-08 .ui-slider .ui-widget-header {
+	background: #0d8ff2;
+	border: 0;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_package_title ul li {
+	text-align: center;
+	background: 0;
+	color: #666;
+	font-size: 15px;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_package_title ul li.active {
+	color: #0d8ff2;
+	font-weight: 700;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content_container .wpct_slider_heading {
+	color: #000;
+	font-size: 18px;
+	padding: 15px;
+	text-align: center;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content {
+	position: relative;
+	padding-right: 180px;
+	background: #fff;
+	margin-bottom: 35px;
+	border-radius: 10px;
+	overflow: hidden;
+	min-height: 160px;
+	text-align: center;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_slider_output {
+	width: 20%;
+	display: inline-block;
+	padding: 15px 10px;
+	text-align: center;
+	min-width: 120px;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_slider_output .wpct_slider_description_title {
+	font-size: 15px;
+	line-height: 22px;
+	color: #999;
+	font-weight: 400;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_slider_output .wpct_slider_description_detail {
+	font-size: 20px;
+	line-height: 22px;
+	color: #000;
+	font-weight: 400;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 180px;
+	text-align: center;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder .wpct_slider_description_title {
+	font-size: 14px;
+	line-height: 22px;
+	color: #000;
+	font-weight: 400;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_amount,
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_decimal,
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_fraction,
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_unit {
+	display: none;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_period {
+	display: block;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder .wpct_slider_description_detail {
+	font-size: 28px;
+	line-height: 22px;
+	color: #0d8ff2;
+	font-weight: 700;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder .wpct_slider_description_detail .wpct_price .wpct_period {
+	display: none;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_submit {
+	background: #62b738;
+	color: #fff;
+	border-radius: 6px;
+	font-size: 22px;
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_submit:hover {
+	background: #4d902c;
+	color: #fff;
+}
+
+.wpct_hosting_slider.slider-08 .wpct_slider_content:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media only screen and (max-width: 640px) {
+	.wpct_hosting_slider.slider-08 .wpct_slider_content {
+		padding-right: 0;
+	}
+
+	.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_slider_output {
+		width: 100%;
+		float: none;
+		border-right: 0;
+	}
+
+	.wpct_hosting_slider.slider-08 .wpct_slider_content .wpct_price_holder {
+		position: relative;
+		width: 100%;
+	}
+
+	.wpct_hosting_slider.slider-08 .wpct_slider_container {
+		padding-right: 0;
+	}
+
+	.wpct_hosting_slider.slider-08 .wpct_price_toggle {
+		text-align: left;
+	}
+}
+
+@media (min-width: 641px) {
+	.wpct_hosting_slider.slider-08 .wpct_price_toggle,
+	.wpct_hosting_slider.slider-08 .wpct_slider_discounts_container {
+		width: auto;
+		float: left;
+	}
+}
+
+.wpct_hosting_slider.slider-09 {
+	background: #f5f6f7;
+	background: linear-gradient(to bottom, #f5f6f7 0, #e6e6e6 100%);
+	padding: 35px 0 0;
+	box-shadow: 0 0 1px 1px #ddd;
+	border-radius: 6px;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_price_toggle {
+	padding: 10px 20px;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_price_toggle label span {
+	background-color: #0290cd;
+	color: #fff;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_price_toggle label:first-child > span {
+	border-radius: 6px 0 0 6px;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_price_toggle label:last-child > span {
+	border-radius: 0 6px 6px 0;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_price_toggle input:checked + span {
+	background-color: #026d9a;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_discounts_container {
+	padding: 10px 20px;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_heading {
+	font-size: 30px;
+	font-weight: 400;
+	color: #0290CD;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.wpct_hosting_slider.slider-09 .ui-slider {
+	height: 4px;
+	background: #c1c1c1;
+	border: 0;
+	border-radius: 4px;
+	margin-bottom: 0;
+}
+
+.wpct_hosting_slider.slider-09 .ui-slider .ui-widget-header {
+	background: #dbdbdb;
+	border: 0;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_package_title ul li {
+	min-width: 47px;
+	padding: 15px 0 0;
+	text-align: center;
+	background: 0;
+	color: #666;
+	font-size: 15px;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_package_title ul li.active {
+	color: #000;
+	font-weight: 700;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_package_title ul li > div {
+	position: relative;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_container {
+	border-bottom: 1px solid #999;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content {
+	position: relative;
+	padding-right: 180px;
+	margin-bottom: 35px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output {
+	width: 20%;
+	float: left;
+	border-right: 1px solid #999;
+	padding: 15px 10px;
+	text-align: center;
+	min-width: 120px;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output .wpct_slider_description_title {
+	font-size: 15px;
+	line-height: 22px;
+	color: #999;
+	font-weight: 400;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output .wpct_slider_description_detail {
+	font-size: 20px;
+	color: #0290CD;
+	font-weight: 400;
+	line-height: 34px;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output.wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_amount,
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output.wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_decimal,
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output.wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_fraction,
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output.wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_unit {
+	display: none;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output.wpct_price_holder .wpct_slider_description_title .wpct_price .wpct_period {
+	display: block;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output.wpct_price_holder .wpct_slider_description_detail {
+	color: #62af01;
+	font-size: 28px;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output.wpct_price_holder .wpct_slider_description_detail .wpct_price .wpct_period {
+	display: none;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_submit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 180px;
+	padding: 15px;
+	text-align: center;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_submit .wpct_submit {
+	background: #0290CD;
+	color: #fff;
+	border-radius: 6px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_submit .wpct_submit:hover {
+	background: #026d9a;
+	color: #fff;
+}
+
+.wpct_hosting_slider.slider-09 .wpct_slider_content:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media only screen and (max-width: 640px) {
+	.wpct_hosting_slider.slider-09 {
+		padding-bottom: 25px;
+	}
+
+	.wpct_hosting_slider.slider-09 .wpct_slider_content {
+		padding-right: 0;
+	}
+
+	.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_output {
+		width: 100%;
+		float: none;
+		border-right: 0;
+	}
+
+	.wpct_hosting_slider.slider-09 .wpct_slider_content .wpct_slider_submit {
+		position: relative;
+		width: 100%;
+		height: 80px;
+	}
+
+	.wpct_hosting_slider.slider-09 .wpct_slider_container {
+		padding-right: 0;
+	}
+}
+
+.wpct_hosting_slider.slider-10 {
+	background: #ebebeb;
+	border: 10px solid #fff;
+	box-shadow: none;
+	border-radius: 5px;
+	color: #333;
+	margin: 50px auto 30px;
+	position: relative;
+	border: 1px solid #ebf7ff;
+	border-radius: 0;
+}
+
+.wpct_hosting_slider.slider-10 .ui-slider {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	height: 24px;
+	margin-bottom: 10px;
+}
+
+.wpct_hosting_slider.slider-10 .ui-slider .ui-widget-header {
+	background: #fff;
+	border-radius: 0;
+}
+
+.wpct_hosting_slider.slider-10 .ui-slider .ui-slider-handle {
+	background: #fff;
+	border: 1px solid #ddd;
+	height: 28px;
+	width: 18px;
+	border-radius: 0;
+	top: -3px;
+	cursor: pointer;
+}
+
+.wpct_hosting_slider.slider-10 .ui-slider .ui-slider-handle:after,
+.wpct_hosting_slider.slider-10 .ui-slider .ui-slider-handle:before {
+	content: "";
+	position: absolute;
+	width: 8px;
+	height: 3px;
+	left: 4px;
+	top: 9px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.wpct_hosting_slider.slider-10 .ui-slider .ui-slider-handle:after {
+	top: 13px;
+}
+
+.wpct_hosting_slider.slider-10 .ui-slider .wpct_slider_pipe {
+	width: 1px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -1px;
+	background: #ddd;
+	z-index: 2;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_heading {
+	font-size: 40px;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_package_title ul li {
+	background: 0;
+	padding: 0;
+	border-radius: 0;
+	color: #333;
+	min-width: 80px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_package_title ul li.active {
+	font-weight: 700;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_output {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_output .wpct_slider_description_detail {
+	border-bottom: 1px solid #ddd;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_submit {
+	text-align: center;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit,
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit-button {
+	display: inline-block;
+	color: #fff;
+	background: #fff;
+	border-radius: 0;
+	border: 2px solid #ddd;
+	padding: 12px 20px 12px 40px;
+	color: #333;
+	font-size: 20px;
+	position: relative;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit-button:after,
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit-button:before,
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit:after,
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit:before {
+	content: "";
+	position: absolute;
+	width: 18px;
+	height: 6px;
+	left: 12px;
+	top: 50%;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	margin-top: -7px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit-button:after,
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit:after {
+	margin-top: 1px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit-button:hover,
+.wpct_hosting_slider.slider-10 .wpct_slider_submit .wpct_submit:hover {
+	background: #c4c4c4;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_description_holder {
+	margin-bottom: 50px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_package_title_desktop .wpct_price .wpct_period,
+.wpct_hosting_slider.slider-10 .wpct_package_title_mobile .wpct_price .wpct_period {
+	display: none;
+}
+
+@media (max-width: 640px) {
+	.wpct_hosting_slider.slider-10 .wpct_slider_output {
+		float: none;
+		width: 100%;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.wpct_hosting_slider.slider-10 .wpct_slider_output .wpct_slider_description_detail {
+		border-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+
+.wpct_hosting_slider.slider-10 .wpct_discounts_container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	min-height: 85px;
+	background: #c4c4c4;
+	color: #333;
+	min-width: 200px;
+	line-height: 1.1;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_discounts_container .wpct_discount_text,
+.wpct_hosting_slider.slider-10 .wpct_discounts_container .wpct_discount_value {
+	display: block;
+	text-align: center;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_discounts_container .wpct_discount_text.wpct_discount_text,
+.wpct_hosting_slider.slider-10 .wpct_discounts_container .wpct_discount_value.wpct_discount_text {
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_discounts_container .wpct_discount_text.wpct_discount_value,
+.wpct_hosting_slider.slider-10 .wpct_discounts_container .wpct_discount_value.wpct_discount_value {
+	font-size: 38px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_discounts_container .wpct_discount {
+	display: block;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_heading {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	min-height: 85px;
+	background: #c4c4c4;
+	color: #333;
+	min-width: 150px;
+	line-height: 1.1;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_heading .wpct_unit {
+	font-size: 28px;
+	vertical-align: baseline;
+	top: -20px;
+	position: relative;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_heading .wpct_amount {
+	font-size: 56px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_heading .wpct_decimal {
+	position: absolute;
+	margin-top: 13px;
+	font-size: 24px;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_heading .wpct_fraction {
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 10px;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_heading sub,
+.wpct_hosting_slider.slider-10 .wpct_price_heading sup {
+	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_heading sub {
+	top: 0.4em;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_toggle {
+	position: absolute;
+	left: 0;
+	top: -35px;
+	text-align: center;
+	width: auto;
+	float: none;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_toggle input {
+	display: none;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_toggle label span {
+	background: #fff;
+	border-radius: 0;
+	border: 2px solid #ddd;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_price_toggle input:checked + span {
+	background: #c4c4c4;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_heading {
+	width: calc(-290%);
+	margin: 0 auto;
+}
+
+.wpct_hosting_slider.slider-10 .wpct_slider_heading span {
+	display: inline-block;
+	border: 1px solid;
+	padding: 2px 24px;
+}
+
+@media (max-width: 767px) {
+	.wpct_hosting_slider.slider-10 {
+		padding-top: 105px;
+	}
+
+	.wpct_hosting_slider.slider-10 .wpct_slider_heading {
+		width: 100%;
+	}
+}
+
+@media (max-width: 575px) {
+	.wpct_hosting_slider.slider-10 .wpct_discounts_container,
+	.wpct_hosting_slider.slider-10 .wpct_price_heading {
+		width: 50%;
+	}
+
+	.wpct_hosting_slider.slider-10 .wpct_discounts_container .wpct_price,
+	.wpct_hosting_slider.slider-10 .wpct_price_heading .wpct_price {
+		text-align: center;
+	}
+}
+
+.wpct_comparison_matrix {
+	box-sizing: border-box;
+	font-family: "Ubuntu", serif;
+}
+
+.wpct_comparison_matrix *,
+.wpct_comparison_matrix :after,
+.wpct_comparison_matrix :before {
+	box-sizing: border-box;
+}
+
+.wpct_comparison_matrix table {
+	width: 100%;
+	overflow: auto;
+	border-collapse: collapse;
+}
+
+.wpct_comparison_matrix table td,
+.wpct_comparison_matrix table th {
+	text-align: center;
+	width: 10%;
+}
+
+.wpct_comparison_matrix table td {
+	border: 1px solid #D9D9D9;
+	padding: 20px 8px 15px;
+	background: #f3f3f3;
+	font-weight: 400;
+	color: #252525;
+	text-transform: uppercase;
+}
+
+.wpct_comparison_matrix .wpct_group_title th {
+	background: #42454a;
+	color: #fff;
+	font-size: 18px;
+	padding: 17px;
+}
+
+.wpct_comparison_matrix .wpct_description_titles td {
+	text-transform: uppercase;
+	background: #ccc;
+	font-size: 12px;
+	padding: 8px;
+}
+
+.wpct_comparison_matrix .wpct_plan_title span {
+	display: block;
+}
+
+.wpct_comparison_matrix .wpct_plan_title span.wpct_plan_title_name {
+	font-weight: 700;
+}
+
+.wpct_comparison_matrix .wpct_amount,
+.wpct_comparison_matrix .wpct_unit {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.wpct_comparison_matrix .wpct_compare_unit {
+	font-weight: 300;
+	text-transform: lowercase;
+	display: block;
+}
+
+.wpct_comparison_matrix .wpct_button .wpct_submit-button {
+	border-radius: 3px;
+	background: #fd4326;
+	padding: 0 15px;
+	line-height: 38px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid #fd4326;
+	transition: all 0.5s ease-in-out;
+}
+
+.wpct_comparison_matrix .wpct_button .wpct_submit-button:hover {
+	background: #fff;
+	color: #FD4326;
+}
+
+@media only screen and (max-width: 768px) {
+	.wpct_comparison_matrix table,
+	.wpct_comparison_matrix tbody,
+	.wpct_comparison_matrix tbody tr,
+	.wpct_comparison_matrix td {
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+
+	.wpct_comparison_matrix table td,
+	.wpct_comparison_matrix tbody td,
+	.wpct_comparison_matrix tbody tr td,
+	.wpct_comparison_matrix td td {
+		width: 100%;
+	}
+
+	.wpct_comparison_matrix table thead {
+		display: none;
+	}
+
+	.wpct_comparison_matrix tr {
+		border: 1px solid #ccc;
+	}
+
+	.wpct_comparison_matrix td {
+		border: none;
+		border-bottom: 1px solid #eee;
+	}
+
+	.wpct_comparison_matrix td[data-title] {
+		text-align: left;
+	}
+
+	.wpct_comparison_matrix td[data-title]:before {
+		content: attr(data-title) ": ";
+		display: inline-block;
+		font-weight: 700;
+		width: 45%;
+	}
+
+	.wpct_comparison_matrix td:not([data-title]) {
+		text-align: center;
+	}
+}
+
+.wpct_comparison_matrix.matrix-01 {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #303030;
+}
+
+.wpct_comparison_matrix.matrix-01 table td {
+	padding: 8px;
+	background: #fff;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_group_title th {
+	background: #e6e6e6;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 8px;
+	color: #303030;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_description_titles td {
+	background: #fff;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_plan_title {
+	text-align: left;
+	padding-left: 40px;
+	position: relative;
+	overflow: hidden;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_plan_title span {
+	display: block;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_plan_title span.wpct_plan_title_name {
+	font-weight: 400;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_plan_title .wpct_ribbon_text {
+	position: absolute;
+	width: 100px;
+	height: 14px;
+	background: #da2727;
+	color: #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	top: 10px;
+	left: -35px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+@media only screen and (max-width: 640px) {
+	.wpct_comparison_matrix.matrix-01 .wpct_plan_title {
+		text-align: center;
+		padding: 8px;
+	}
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_amount {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_compare_unit {
+	text-transform: none;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_button .wpct_submit-button {
+	font-size: 14px;
+	line-height: 18px;
+	background: #fff;
+	color: #303030;
+	border-radius: 0;
+	border: 1px solid #303030;
+	padding: 4px 8px;
+	transition: all 0.3s linear;
+}
+
+.wpct_comparison_matrix.matrix-01 .wpct_button .wpct_submit-button:hover {
+	background: #da2727;
+	color: #fff;
+	border-color: #da2727;
+}
+
+.wpct_comparison_matrix.webreplex_matrix {
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.wpct_comparison_matrix.webreplex_matrix table {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+.wpct_comparison_matrix.webreplex_matrix table tr {
+	border-bottom: 1px solid #ddd;
+	background: #F2F2F2;
+}
+
+.wpct_comparison_matrix.webreplex_matrix table tr:nth-child(even) {
+	background: #fff;
+}
+
+.wpct_comparison_matrix.webreplex_matrix table tr td {
+	background: 0;
+	border: 0;
+	padding: 5px 10px;
+}
+
+.wpct_comparison_matrix.webreplex_matrix .wpct_description_titles th {
+	background: #00ace8;
+	color: #fff;
+	font-weight: 700;
+	vertical-align: middle;
+	height: 60px;
+}
+
+.wpct_comparison_matrix.webreplex_matrix .wpct_button .wpct_submit-button {
+	background: #00ace8;
+	border-radius: 0;
+	color: #fff;
+	border: 0;
+}
+
+.wpct_comparison_matrix.webreplex_matrix .wpct_button .wpct_submit-button:hover {
+	background: #0086b5;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

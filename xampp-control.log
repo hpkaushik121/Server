@@ -1,0 +1,2225 @@
+20:02:46  [main] 	Initializing Control Panel
+20:02:46  [main] 	Windows Version:  Enterprise  64-bit
+20:02:46  [main] 	XAMPP Version: 5.6.15
+20:02:46  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+20:02:46  [main] 	You are not running with administrator rights! This will work for
+20:02:46  [main] 	most application stuff but whenever you do something with services
+20:02:46  [main] 	there will be a security dialogue or things will break! So think 
+20:02:46  [main] 	about running this application with administrator rights!
+20:02:46  [main] 	XAMPP Installation Directory: "c:\xampp\"
+20:02:46  [main] 	Checking for prerequisites
+20:02:46  [main] 	All prerequisites found
+20:02:46  [main] 	Initializing Modules
+20:02:46  [Apache] 	Problem detected!
+20:02:46  [Apache] 	Port 80 in use by "Unable to open process" with PID 3016!
+20:02:46  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:02:46  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:02:46  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:02:46  [Apache] 	Problem detected!
+20:02:46  [Apache] 	Port 443 in use by "Unable to open process" with PID 3016!
+20:02:46  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:02:46  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:02:46  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:02:46  [main] 	Starting Check-Timer
+20:02:46  [main] 	Control Panel Ready
+20:02:52  [Apache] 	Problem detected!
+20:02:52  [Apache] 	Port 80 in use by "Unable to open process" with PID 3016!
+20:02:52  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:02:52  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:02:52  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:02:52  [Apache] 	Problem detected!
+20:02:52  [Apache] 	Port 443 in use by "Unable to open process" with PID 3016!
+20:02:52  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:02:52  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:02:52  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:02:52  [Apache] 	Attempting to start Apache app...
+20:02:52  [Apache] 	Status change detected: running
+20:02:53  [Apache] 	Status change detected: stopped
+20:02:53  [Apache] 	Error: Apache shutdown unexpectedly.
+20:02:53  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:02:53  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:02:53  [Apache] 	Press the Logs button to view error logs and check
+20:02:53  [Apache] 	the Windows Event Viewer for more clues
+20:02:53  [Apache] 	If you need more help, copy and post this
+20:02:53  [Apache] 	entire log window on the forums
+20:02:55  [Apache] 	Problem detected!
+20:02:55  [Apache] 	Port 80 in use by "Unable to open process" with PID 3016!
+20:02:55  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:02:55  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:02:55  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:02:55  [Apache] 	Problem detected!
+20:02:55  [Apache] 	Port 443 in use by "Unable to open process" with PID 3016!
+20:02:55  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:02:55  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:02:55  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:02:55  [Apache] 	Attempting to start Apache app...
+20:02:55  [Apache] 	Status change detected: running
+20:02:55  [Apache] 	Status change detected: stopped
+20:02:55  [Apache] 	Error: Apache shutdown unexpectedly.
+20:02:55  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:02:55  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:02:55  [Apache] 	Press the Logs button to view error logs and check
+20:02:55  [Apache] 	the Windows Event Viewer for more clues
+20:02:55  [Apache] 	If you need more help, copy and post this
+20:02:55  [Apache] 	entire log window on the forums
+20:03:15  [Apache] 	Problem detected!
+20:03:15  [Apache] 	Port 80 in use by "Unable to open process" with PID 3016!
+20:03:15  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:03:15  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:03:15  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:03:15  [Apache] 	Problem detected!
+20:03:15  [Apache] 	Port 443 in use by "Unable to open process" with PID 3016!
+20:03:15  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:03:15  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:03:15  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:03:15  [Apache] 	Attempting to start Apache app...
+20:03:15  [Apache] 	Status change detected: running
+20:03:16  [Apache] 	Status change detected: stopped
+20:03:16  [Apache] 	Error: Apache shutdown unexpectedly.
+20:03:16  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:03:16  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:03:16  [Apache] 	Press the Logs button to view error logs and check
+20:03:16  [Apache] 	the Windows Event Viewer for more clues
+20:03:16  [Apache] 	If you need more help, copy and post this
+20:03:16  [Apache] 	entire log window on the forums
+20:03:25  [Apache] 	Problem detected!
+20:03:25  [Apache] 	Port 80 in use by "Unable to open process" with PID 3016!
+20:03:25  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:03:25  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:03:25  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:03:25  [Apache] 	Problem detected!
+20:03:25  [Apache] 	Port 443 in use by "Unable to open process" with PID 3016!
+20:03:25  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:03:25  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:03:25  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:03:25  [Apache] 	Attempting to start Apache app...
+20:03:25  [Apache] 	Status change detected: running
+20:03:26  [Apache] 	Status change detected: stopped
+20:03:26  [Apache] 	Error: Apache shutdown unexpectedly.
+20:03:26  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:03:26  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:03:26  [Apache] 	Press the Logs button to view error logs and check
+20:03:26  [Apache] 	the Windows Event Viewer for more clues
+20:03:26  [Apache] 	If you need more help, copy and post this
+20:03:26  [Apache] 	entire log window on the forums
+20:03:45  [Apache] 	Attempting to start Apache app...
+20:03:45  [Apache] 	Status change detected: running
+20:03:48  [Apache] 	Attempting to stop Apache (PID: 3884)
+20:03:48  [Apache] 	Attempting to stop Apache (PID: 5452)
+20:03:49  [Apache] 	Status change detected: stopped
+20:04:00  [Apache] 	Attempting to start Apache app...
+20:04:00  [Apache] 	Status change detected: running
+20:04:02  [Apache] 	Attempting to stop Apache (PID: 2788)
+20:04:02  [Apache] 	Attempting to stop Apache (PID: 8500)
+20:04:02  [Apache] 	Status change detected: stopped
+20:04:15  [Apache] 	Attempting to start Apache app...
+20:04:15  [Apache] 	Status change detected: running
+20:04:17  [Apache] 	Attempting to stop Apache (PID: 4404)
+20:04:17  [Apache] 	Attempting to stop Apache (PID: 4316)
+20:04:17  [Apache] 	Status change detected: stopped
+20:04:53  [Apache] 	Attempting to start Apache app...
+20:04:53  [Apache] 	Status change detected: running
+20:04:55  [mysql] 	Attempting to start MySQL app...
+20:04:55  [mysql] 	Status change detected: running
+20:12:46  [Apache] 	Attempting to stop Apache (PID: 4420)
+20:12:46  [Apache] 	Attempting to stop Apache (PID: 7708)
+20:12:47  [Apache] 	Status change detected: stopped
+20:12:47  [mysql] 	Attempting to stop MySQL app...
+20:12:49  [Apache] 	Attempting to start Apache app...
+20:12:49  [Apache] 	Status change detected: running
+20:12:49  [mysql] 	Status change detected: stopped
+20:12:51  [mysql] 	Attempting to start MySQL app...
+20:12:52  [mysql] 	Status change detected: running
+20:14:12  [Apache] 	Attempting to stop Apache (PID: 6620)
+20:14:12  [Apache] 	Attempting to stop Apache (PID: 5132)
+20:14:12  [Apache] 	Status change detected: stopped
+20:14:13  [Apache] 	Problem detected!
+20:14:13  [Apache] 	Port 443 in use by "Unable to get info" with PID 6620!
+20:14:13  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:14:13  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:14:13  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:14:13  [Apache] 	Attempting to start Apache app...
+20:14:13  [Apache] 	Status change detected: running
+20:16:26  [Apache] 	Attempting to stop Apache (PID: 32)
+20:16:26  [Apache] 	Attempting to stop Apache (PID: 8112)
+20:16:27  [Apache] 	Status change detected: stopped
+20:16:27  [Apache] 	Problem detected!
+20:16:27  [Apache] 	Port 443 in use by "Unable to get info" with PID 32!
+20:16:27  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:16:27  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:16:27  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:16:27  [Apache] 	Attempting to start Apache app...
+20:16:28  [Apache] 	Status change detected: running
+20:17:13  [Apache] 	Attempting to stop Apache (PID: 5612)
+20:17:13  [Apache] 	Attempting to stop Apache (PID: 8592)
+20:17:13  [Apache] 	Status change detected: stopped
+20:17:13  [mysql] 	Attempting to stop MySQL app...
+20:17:14  [Apache] 	Problem detected!
+20:17:14  [Apache] 	Port 443 in use by "Unable to get info" with PID 5612!
+20:17:14  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:17:14  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:17:14  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:17:14  [Apache] 	Attempting to start Apache app...
+20:17:14  [Apache] 	Status change detected: running
+20:17:15  [mysql] 	Status change detected: stopped
+20:17:16  [mysql] 	Attempting to start MySQL app...
+20:17:16  [mysql] 	Status change detected: running
+20:23:07  [Apache] 	Attempting to stop Apache (PID: 6628)
+20:23:07  [Apache] 	Attempting to stop Apache (PID: 8768)
+20:23:08  [Apache] 	Status change detected: stopped
+20:23:09  [Apache] 	Problem detected!
+20:23:09  [Apache] 	Port 443 in use by "Unable to get info" with PID 6628!
+20:23:09  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:23:09  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:23:09  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:23:09  [Apache] 	Attempting to start Apache app...
+20:23:09  [Apache] 	Status change detected: running
+20:24:10  [mercury] 	Attempting to start Mercury app...
+20:24:11  [mercury] 	Status change detected: running
+20:24:35  [mercury] 	Status change detected: stopped
+20:24:35  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:24:35  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:24:35  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:24:35  [mercury] 	Press the Logs button to view error logs and check
+20:24:35  [mercury] 	the Windows Event Viewer for more clues
+20:24:35  [mercury] 	If you need more help, copy and post this
+20:24:35  [mercury] 	entire log window on the forums
+20:24:35  [mercury] 	Attempting to start Mercury app...
+20:24:36  [mercury] 	Status change detected: running
+20:26:36  [mercury] 	Attempting to stop Mercury (PID: 9184)
+20:26:37  [mercury] 	Status change detected: stopped
+20:26:37  [mercury] 	Attempting to start Mercury app...
+20:26:38  [mercury] 	Status change detected: running
+20:27:20  [mercury] 	Status change detected: stopped
+20:27:20  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:27:20  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:27:20  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:27:20  [mercury] 	Press the Logs button to view error logs and check
+20:27:20  [mercury] 	the Windows Event Viewer for more clues
+20:27:20  [mercury] 	If you need more help, copy and post this
+20:27:20  [mercury] 	entire log window on the forums
+20:27:21  [mercury] 	Attempting to start Mercury app...
+20:27:21  [mercury] 	Status change detected: running
+20:28:02  [mercury] 	Attempting to stop Mercury (PID: 1412)
+20:28:03  [mercury] 	Status change detected: stopped
+20:28:03  [mercury] 	Attempting to start Mercury app...
+20:28:04  [mercury] 	Status change detected: running
+00:36:48  [Apache] 	Attempting to stop Apache (PID: 7504)
+00:36:48  [Apache] 	Attempting to stop Apache (PID: 892)
+00:36:48  [Apache] 	Status change detected: stopped
+00:36:48  [mysql] 	Attempting to stop MySQL app...
+00:36:50  [mysql] 	Status change detected: stopped
+00:36:50  [Apache] 	Problem detected!
+00:36:50  [Apache] 	Port 443 in use by "Unable to get info" with PID 7504!
+00:36:50  [Apache] 	Apache WILL NOT start without the configured ports free!
+00:36:50  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+00:36:50  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+00:36:50  [Apache] 	Attempting to start Apache app...
+00:36:51  [Apache] 	Status change detected: running
+00:36:54  [mysql] 	Attempting to start MySQL app...
+00:36:54  [mysql] 	Status change detected: running
+03:03:25  [Apache] 	Attempting to stop Apache (PID: 1408)
+03:03:25  [Apache] 	Attempting to stop Apache (PID: 1040)
+03:03:25  [Apache] 	Status change detected: stopped
+03:03:26  [mysql] 	Attempting to stop MySQL app...
+03:03:26  [mysql] 	Status change detected: stopped
+03:03:26  [mercury] 	Attempting to stop Mercury (PID: 5800)
+03:03:26  [mercury] 	Status change detected: stopped
+03:03:32  [main] 	Deinitializing Modules
+03:03:32  [main] 	Deinitializing Control Panel
+
+19:57:57  [main] 	Initializing Control Panel
+19:57:57  [main] 	Windows Version:  Enterprise  64-bit
+19:57:57  [main] 	XAMPP Version: 5.6.15
+19:57:57  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+19:57:57  [main] 	You are not running with administrator rights! This will work for
+19:57:57  [main] 	most application stuff but whenever you do something with services
+19:57:57  [main] 	there will be a security dialogue or things will break! So think 
+19:57:57  [main] 	about running this application with administrator rights!
+19:57:57  [main] 	XAMPP Installation Directory: "c:\xampp\"
+19:57:57  [main] 	Checking for prerequisites
+19:57:58  [main] 	All prerequisites found
+19:57:58  [main] 	Initializing Modules
+19:57:58  [Apache] 	Problem detected!
+19:57:58  [Apache] 	Port 80 in use by "Unable to open process" with PID 3016!
+19:57:58  [Apache] 	Apache WILL NOT start without the configured ports free!
+19:57:58  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+19:57:58  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+19:57:58  [Apache] 	Problem detected!
+19:57:58  [Apache] 	Port 443 in use by "Unable to open process" with PID 3016!
+19:57:58  [Apache] 	Apache WILL NOT start without the configured ports free!
+19:57:58  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+19:57:58  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+19:57:58  [main] 	Starting Check-Timer
+19:57:58  [main] 	Control Panel Ready
+20:02:53  [Apache] 	Status change detected: running
+20:02:53  [Apache] 	Status change detected: stopped
+20:02:53  [Apache] 	Error: Apache shutdown unexpectedly.
+20:02:53  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:02:53  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:02:53  [Apache] 	Press the Logs button to view error logs and check
+20:02:53  [Apache] 	the Windows Event Viewer for more clues
+20:02:53  [Apache] 	If you need more help, copy and post this
+20:02:53  [Apache] 	entire log window on the forums
+20:02:55  [Apache] 	Status change detected: running
+20:02:56  [Apache] 	Status change detected: stopped
+20:02:56  [Apache] 	Error: Apache shutdown unexpectedly.
+20:02:56  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:02:56  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:02:56  [Apache] 	Press the Logs button to view error logs and check
+20:02:56  [Apache] 	the Windows Event Viewer for more clues
+20:02:56  [Apache] 	If you need more help, copy and post this
+20:02:56  [Apache] 	entire log window on the forums
+20:03:15  [Apache] 	Status change detected: running
+20:03:15  [Apache] 	Status change detected: stopped
+20:03:15  [Apache] 	Error: Apache shutdown unexpectedly.
+20:03:15  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:03:15  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:03:15  [Apache] 	Press the Logs button to view error logs and check
+20:03:15  [Apache] 	the Windows Event Viewer for more clues
+20:03:15  [Apache] 	If you need more help, copy and post this
+20:03:15  [Apache] 	entire log window on the forums
+20:03:25  [Apache] 	Status change detected: running
+20:03:26  [Apache] 	Status change detected: stopped
+20:03:26  [Apache] 	Error: Apache shutdown unexpectedly.
+20:03:26  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:03:26  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:03:26  [Apache] 	Press the Logs button to view error logs and check
+20:03:26  [Apache] 	the Windows Event Viewer for more clues
+20:03:26  [Apache] 	If you need more help, copy and post this
+20:03:26  [Apache] 	entire log window on the forums
+20:03:45  [Apache] 	Status change detected: running
+20:03:49  [Apache] 	Status change detected: stopped
+20:03:49  [Apache] 	Error: Apache shutdown unexpectedly.
+20:03:49  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:03:49  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:03:49  [Apache] 	Press the Logs button to view error logs and check
+20:03:49  [Apache] 	the Windows Event Viewer for more clues
+20:03:49  [Apache] 	If you need more help, copy and post this
+20:03:49  [Apache] 	entire log window on the forums
+20:04:00  [Apache] 	Status change detected: running
+20:04:03  [Apache] 	Status change detected: stopped
+20:04:03  [Apache] 	Error: Apache shutdown unexpectedly.
+20:04:03  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:04:03  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:04:03  [Apache] 	Press the Logs button to view error logs and check
+20:04:03  [Apache] 	the Windows Event Viewer for more clues
+20:04:03  [Apache] 	If you need more help, copy and post this
+20:04:03  [Apache] 	entire log window on the forums
+20:04:15  [Apache] 	Status change detected: running
+20:04:17  [Apache] 	Status change detected: stopped
+20:04:17  [Apache] 	Error: Apache shutdown unexpectedly.
+20:04:17  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:04:17  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:04:17  [Apache] 	Press the Logs button to view error logs and check
+20:04:17  [Apache] 	the Windows Event Viewer for more clues
+20:04:17  [Apache] 	If you need more help, copy and post this
+20:04:17  [Apache] 	entire log window on the forums
+20:04:53  [Apache] 	Status change detected: running
+20:04:55  [mysql] 	Status change detected: running
+20:12:47  [Apache] 	Status change detected: stopped
+20:12:47  [Apache] 	Error: Apache shutdown unexpectedly.
+20:12:47  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:12:47  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:12:47  [Apache] 	Press the Logs button to view error logs and check
+20:12:47  [Apache] 	the Windows Event Viewer for more clues
+20:12:47  [Apache] 	If you need more help, copy and post this
+20:12:47  [Apache] 	entire log window on the forums
+20:12:49  [Apache] 	Status change detected: running
+20:12:49  [mysql] 	Status change detected: stopped
+20:12:49  [mysql] 	Error: MySQL shutdown unexpectedly.
+20:12:49  [mysql] 	This may be due to a blocked port, missing dependencies, 
+20:12:49  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+20:12:49  [mysql] 	Press the Logs button to view error logs and check
+20:12:49  [mysql] 	the Windows Event Viewer for more clues
+20:12:49  [mysql] 	If you need more help, copy and post this
+20:12:49  [mysql] 	entire log window on the forums
+20:12:52  [mysql] 	Status change detected: running
+20:14:12  [Apache] 	Status change detected: stopped
+20:14:12  [Apache] 	Error: Apache shutdown unexpectedly.
+20:14:12  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:14:12  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:14:12  [Apache] 	Press the Logs button to view error logs and check
+20:14:12  [Apache] 	the Windows Event Viewer for more clues
+20:14:12  [Apache] 	If you need more help, copy and post this
+20:14:12  [Apache] 	entire log window on the forums
+20:14:13  [Apache] 	Status change detected: running
+20:16:27  [Apache] 	Status change detected: stopped
+20:16:27  [Apache] 	Error: Apache shutdown unexpectedly.
+20:16:27  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:16:27  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:16:27  [Apache] 	Press the Logs button to view error logs and check
+20:16:27  [Apache] 	the Windows Event Viewer for more clues
+20:16:27  [Apache] 	If you need more help, copy and post this
+20:16:27  [Apache] 	entire log window on the forums
+20:16:28  [Apache] 	Status change detected: running
+20:17:13  [Apache] 	Status change detected: stopped
+20:17:13  [Apache] 	Error: Apache shutdown unexpectedly.
+20:17:13  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:17:13  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:17:13  [Apache] 	Press the Logs button to view error logs and check
+20:17:13  [Apache] 	the Windows Event Viewer for more clues
+20:17:13  [Apache] 	If you need more help, copy and post this
+20:17:13  [Apache] 	entire log window on the forums
+20:17:14  [Apache] 	Status change detected: running
+20:17:15  [mysql] 	Status change detected: stopped
+20:17:15  [mysql] 	Error: MySQL shutdown unexpectedly.
+20:17:15  [mysql] 	This may be due to a blocked port, missing dependencies, 
+20:17:15  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+20:17:15  [mysql] 	Press the Logs button to view error logs and check
+20:17:15  [mysql] 	the Windows Event Viewer for more clues
+20:17:15  [mysql] 	If you need more help, copy and post this
+20:17:15  [mysql] 	entire log window on the forums
+20:17:16  [mysql] 	Status change detected: running
+20:23:08  [Apache] 	Status change detected: stopped
+20:23:08  [Apache] 	Error: Apache shutdown unexpectedly.
+20:23:08  [Apache] 	This may be due to a blocked port, missing dependencies, 
+20:23:08  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+20:23:08  [Apache] 	Press the Logs button to view error logs and check
+20:23:08  [Apache] 	the Windows Event Viewer for more clues
+20:23:08  [Apache] 	If you need more help, copy and post this
+20:23:08  [Apache] 	entire log window on the forums
+20:23:09  [Apache] 	Status change detected: running
+20:24:11  [mercury] 	Status change detected: running
+20:24:35  [mercury] 	Status change detected: stopped
+20:24:35  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:24:35  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:24:35  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:24:35  [mercury] 	Press the Logs button to view error logs and check
+20:24:35  [mercury] 	the Windows Event Viewer for more clues
+20:24:35  [mercury] 	If you need more help, copy and post this
+20:24:35  [mercury] 	entire log window on the forums
+20:24:36  [mercury] 	Status change detected: running
+20:26:37  [mercury] 	Status change detected: stopped
+20:26:37  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:26:37  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:26:37  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:26:37  [mercury] 	Press the Logs button to view error logs and check
+20:26:37  [mercury] 	the Windows Event Viewer for more clues
+20:26:37  [mercury] 	If you need more help, copy and post this
+20:26:37  [mercury] 	entire log window on the forums
+20:26:38  [mercury] 	Status change detected: running
+20:27:20  [mercury] 	Status change detected: stopped
+20:27:20  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:27:20  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:27:20  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:27:20  [mercury] 	Press the Logs button to view error logs and check
+20:27:20  [mercury] 	the Windows Event Viewer for more clues
+20:27:20  [mercury] 	If you need more help, copy and post this
+20:27:20  [mercury] 	entire log window on the forums
+20:27:21  [mercury] 	Status change detected: running
+20:28:03  [mercury] 	Status change detected: stopped
+20:28:03  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:28:03  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:28:03  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:28:03  [mercury] 	Press the Logs button to view error logs and check
+20:28:03  [mercury] 	the Windows Event Viewer for more clues
+20:28:03  [mercury] 	If you need more help, copy and post this
+20:28:03  [mercury] 	entire log window on the forums
+20:28:04  [mercury] 	Status change detected: running
+00:36:48  [Apache] 	Status change detected: stopped
+00:36:48  [Apache] 	Error: Apache shutdown unexpectedly.
+00:36:48  [Apache] 	This may be due to a blocked port, missing dependencies, 
+00:36:48  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+00:36:48  [Apache] 	Press the Logs button to view error logs and check
+00:36:48  [Apache] 	the Windows Event Viewer for more clues
+00:36:48  [Apache] 	If you need more help, copy and post this
+00:36:48  [Apache] 	entire log window on the forums
+00:36:50  [mysql] 	Status change detected: stopped
+00:36:50  [mysql] 	Error: MySQL shutdown unexpectedly.
+00:36:50  [mysql] 	This may be due to a blocked port, missing dependencies, 
+00:36:50  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+00:36:50  [mysql] 	Press the Logs button to view error logs and check
+00:36:50  [mysql] 	the Windows Event Viewer for more clues
+00:36:50  [mysql] 	If you need more help, copy and post this
+00:36:50  [mysql] 	entire log window on the forums
+00:36:51  [Apache] 	Status change detected: running
+00:36:54  [mysql] 	Status change detected: running
+03:03:25  [Apache] 	Status change detected: stopped
+03:03:25  [Apache] 	Error: Apache shutdown unexpectedly.
+03:03:25  [Apache] 	This may be due to a blocked port, missing dependencies, 
+03:03:25  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+03:03:25  [Apache] 	Press the Logs button to view error logs and check
+03:03:25  [Apache] 	the Windows Event Viewer for more clues
+03:03:25  [Apache] 	If you need more help, copy and post this
+03:03:25  [Apache] 	entire log window on the forums
+03:03:26  [mysql] 	Status change detected: stopped
+03:03:26  [mysql] 	Error: MySQL shutdown unexpectedly.
+03:03:26  [mysql] 	This may be due to a blocked port, missing dependencies, 
+03:03:26  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+03:03:26  [mysql] 	Press the Logs button to view error logs and check
+03:03:26  [mysql] 	the Windows Event Viewer for more clues
+03:03:26  [mysql] 	If you need more help, copy and post this
+03:03:26  [mysql] 	entire log window on the forums
+03:03:26  [mercury] 	Status change detected: stopped
+03:03:26  [mercury] 	Error: Mercury shutdown unexpectedly.
+03:03:26  [mercury] 	This may be due to a blocked port, missing dependencies, 
+03:03:26  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+03:03:26  [mercury] 	Press the Logs button to view error logs and check
+03:03:26  [mercury] 	the Windows Event Viewer for more clues
+03:03:26  [mercury] 	If you need more help, copy and post this
+03:03:26  [mercury] 	entire log window on the forums
+03:03:32  [main] 	Deinitializing Modules
+03:03:32  [main] 	Deinitializing Control Panel
+
+21:32:21  [main] 	Initializing Control Panel
+21:32:21  [main] 	Windows Version:  Enterprise  64-bit
+21:32:21  [main] 	XAMPP Version: 5.6.15
+21:32:21  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+21:32:21  [main] 	You are not running with administrator rights! This will work for
+21:32:21  [main] 	most application stuff but whenever you do something with services
+21:32:21  [main] 	there will be a security dialogue or things will break! So think 
+21:32:21  [main] 	about running this application with administrator rights!
+21:32:21  [main] 	XAMPP Installation Directory: "c:\xampp\"
+21:32:21  [main] 	Checking for prerequisites
+21:32:23  [main] 	All prerequisites found
+21:32:23  [main] 	Initializing Modules
+21:32:23  [main] 	Starting Check-Timer
+21:32:23  [main] 	Control Panel Ready
+21:32:25  [Apache] 	Attempting to start Apache app...
+21:32:27  [Apache] 	Status change detected: running
+21:32:32  [mysql] 	Attempting to start MySQL app...
+21:32:32  [mysql] 	Status change detected: running
+21:32:33  [mercury] 	Attempting to start Mercury app...
+21:32:36  [mercury] 	Status change detected: running
+23:11:20  [Apache] 	Attempting to stop Apache (PID: 3404)
+23:11:20  [Apache] 	Attempting to stop Apache (PID: 8212)
+23:11:20  [Apache] 	Status change detected: stopped
+23:11:20  [mysql] 	Attempting to stop MySQL app...
+23:11:22  [mysql] 	Status change detected: stopped
+23:11:22  [mercury] 	Attempting to stop Mercury (PID: 2136)
+23:11:23  [mercury] 	Status change detected: stopped
+01:15:04  [main] 	Deinitializing Modules
+01:15:04  [main] 	Deinitializing Control Panel
+
+02:07:30  [main] 	Initializing Control Panel
+02:07:30  [main] 	Windows Version:  Enterprise  64-bit
+02:07:30  [main] 	XAMPP Version: 5.6.15
+02:07:30  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+02:07:30  [main] 	You are not running with administrator rights! This will work for
+02:07:30  [main] 	most application stuff but whenever you do something with services
+02:07:30  [main] 	there will be a security dialogue or things will break! So think 
+02:07:30  [main] 	about running this application with administrator rights!
+02:07:30  [main] 	XAMPP Installation Directory: "c:\xampp\"
+02:07:30  [main] 	Checking for prerequisites
+02:07:39  [main] 	All prerequisites found
+02:07:39  [main] 	Initializing Modules
+02:07:39  [main] 	Starting Check-Timer
+02:07:39  [main] 	Control Panel Ready
+02:07:42  [Apache] 	Attempting to start Apache app...
+02:07:42  [Apache] 	Status change detected: running
+02:07:43  [mysql] 	Attempting to start MySQL app...
+02:07:46  [mysql] 	Status change detected: running
+02:12:00  [Apache] 	Attempting to stop Apache (PID: 9664)
+02:12:00  [Apache] 	Attempting to stop Apache (PID: 7228)
+02:12:00  [Apache] 	Status change detected: stopped
+02:12:01  [Apache] 	Attempting to start Apache app...
+02:12:01  [Apache] 	Status change detected: running
+02:12:41  [Apache] 	Attempting to stop Apache (PID: 7624)
+02:12:41  [Apache] 	Attempting to stop Apache (PID: 3196)
+02:12:42  [Apache] 	Status change detected: stopped
+02:12:43  [Apache] 	Attempting to start Apache app...
+02:12:43  [Apache] 	Status change detected: running
+02:19:09  [mercury] 	Attempting to start Mercury app...
+02:19:09  [mercury] 	Status change detected: running
+15:54:28  [mercury] 	Status change detected: stopped
+15:54:28  [mercury] 	Error: Mercury shutdown unexpectedly.
+15:54:28  [mercury] 	This may be due to a blocked port, missing dependencies, 
+15:54:28  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+15:54:28  [mercury] 	Press the Logs button to view error logs and check
+15:54:28  [mercury] 	the Windows Event Viewer for more clues
+15:54:28  [mercury] 	If you need more help, copy and post this
+15:54:28  [mercury] 	entire log window on the forums
+15:54:37  [mercury] 	Status change detected: running
+16:08:33  [mercury] 	Attempting to stop Mercury (PID: 1928)
+16:08:33  [mercury] 	Status change detected: stopped
+16:08:34  [mercury] 	Attempting to start Mercury app...
+16:08:34  [mercury] 	Status change detected: running
+16:09:40  [mercury] 	Attempting to stop Mercury (PID: 3604)
+16:09:40  [mercury] 	Status change detected: stopped
+16:09:41  [mercury] 	Attempting to start Mercury app...
+16:09:41  [mercury] 	Status change detected: running
+16:14:52  [mercury] 	Attempting to stop Mercury (PID: 5964)
+16:14:52  [mercury] 	Status change detected: stopped
+16:14:53  [mercury] 	Attempting to start Mercury app...
+16:14:53  [mercury] 	Status change detected: running
+16:15:35  [mercury] 	Attempting to stop Mercury (PID: 1984)
+16:15:36  [mercury] 	Status change detected: stopped
+16:15:37  [mercury] 	Attempting to start Mercury app...
+16:15:37  [mercury] 	Status change detected: running
+16:20:18  [mercury] 	Attempting to stop Mercury (PID: 3212)
+16:20:18  [mercury] 	Status change detected: stopped
+16:20:20  [mercury] 	Attempting to start Mercury app...
+16:20:20  [mercury] 	Status change detected: running
+16:23:34  [mercury] 	Attempting to stop Mercury (PID: 9372)
+16:23:35  [mercury] 	Status change detected: stopped
+16:23:35  [mercury] 	Attempting to start Mercury app...
+16:23:36  [mercury] 	Status change detected: running
+16:23:55  [mercury] 	Attempting to stop Mercury (PID: 548)
+16:23:56  [mercury] 	Status change detected: stopped
+16:23:56  [mercury] 	Attempting to start Mercury app...
+16:23:56  [mercury] 	Status change detected: running
+16:25:23  [mercury] 	Attempting to stop Mercury (PID: 6616)
+16:25:23  [mercury] 	Status change detected: stopped
+16:25:24  [mercury] 	Attempting to start Mercury app...
+16:25:24  [mercury] 	Status change detected: running
+16:28:16  [mercury] 	Attempting to stop Mercury (PID: 1180)
+16:28:16  [mercury] 	Status change detected: stopped
+16:28:18  [mercury] 	Attempting to start Mercury app...
+16:28:18  [mercury] 	Status change detected: running
+16:51:01  [mercury] 	Attempting to stop Mercury (PID: 8516)
+16:51:02  [mercury] 	Status change detected: stopped
+16:51:02  [mercury] 	Attempting to start Mercury app...
+16:51:03  [mercury] 	Status change detected: running
+16:56:35  [mercury] 	Attempting to stop Mercury (PID: 1380)
+16:56:35  [mercury] 	Status change detected: stopped
+16:56:36  [mercury] 	Attempting to start Mercury app...
+16:56:36  [mercury] 	Status change detected: running
+16:58:27  [mercury] 	Attempting to stop Mercury (PID: 6080)
+16:58:28  [mercury] 	Status change detected: stopped
+16:58:28  [mercury] 	Attempting to start Mercury app...
+16:58:29  [mercury] 	Status change detected: running
+17:01:43  [mercury] 	Attempting to stop Mercury (PID: 3704)
+17:01:44  [mercury] 	Status change detected: stopped
+17:01:45  [mercury] 	Attempting to start Mercury app...
+17:01:45  [mercury] 	Status change detected: running
+17:04:04  [mercury] 	Attempting to stop Mercury (PID: 3916)
+17:04:04  [mercury] 	Status change detected: stopped
+17:04:05  [mercury] 	Attempting to start Mercury app...
+17:04:05  [mercury] 	Status change detected: running
+17:04:43  [mercury] 	Attempting to stop Mercury (PID: 2852)
+17:04:44  [mercury] 	Status change detected: stopped
+17:04:45  [mercury] 	Attempting to start Mercury app...
+17:04:45  [mercury] 	Status change detected: running
+17:11:57  [mercury] 	Attempting to stop Mercury (PID: 4880)
+17:11:58  [mercury] 	Status change detected: stopped
+17:11:59  [mercury] 	Attempting to start Mercury app...
+17:11:59  [mercury] 	Status change detected: running
+17:12:14  [mercury] 	Attempting to stop Mercury (PID: 3456)
+17:12:14  [mercury] 	Status change detected: stopped
+17:12:15  [mercury] 	Attempting to start Mercury app...
+17:12:16  [mercury] 	Status change detected: running
+17:13:43  [mercury] 	Attempting to stop Mercury (PID: 5548)
+17:13:43  [mercury] 	Status change detected: stopped
+17:13:44  [mercury] 	Attempting to start Mercury app...
+17:13:45  [mercury] 	Status change detected: running
+17:14:00  [mercury] 	Attempting to stop Mercury (PID: 9400)
+17:14:01  [mercury] 	Status change detected: stopped
+17:14:02  [mercury] 	Attempting to start Mercury app...
+17:14:02  [mercury] 	Status change detected: running
+17:25:44  [mercury] 	Attempting to stop Mercury (PID: 7488)
+17:25:44  [mercury] 	Status change detected: stopped
+17:25:45  [mercury] 	Attempting to start Mercury app...
+17:25:45  [mercury] 	Status change detected: running
+17:26:03  [mercury] 	Attempting to stop Mercury (PID: 3820)
+17:26:03  [mercury] 	Status change detected: stopped
+17:26:05  [mercury] 	Attempting to start Mercury app...
+17:26:05  [mercury] 	Status change detected: running
+17:26:20  [mercury] 	Attempting to stop Mercury (PID: 8736)
+17:26:21  [mercury] 	Status change detected: stopped
+18:17:44  [mercury] 	Attempting to start Mercury app...
+18:17:44  [mercury] 	Status change detected: running
+18:17:46  [mercury] 	Attempting to stop Mercury (PID: 10620)
+18:17:46  [mercury] 	Status change detected: stopped
+18:17:48  [mercury] 	Attempting to start Mercury app...
+18:17:48  [mercury] 	Status change detected: running
+18:18:13  [mercury] 	Status change detected: stopped
+18:18:13  [mercury] 	Error: Mercury shutdown unexpectedly.
+18:18:13  [mercury] 	This may be due to a blocked port, missing dependencies, 
+18:18:13  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+18:18:13  [mercury] 	Press the Logs button to view error logs and check
+18:18:13  [mercury] 	the Windows Event Viewer for more clues
+18:18:13  [mercury] 	If you need more help, copy and post this
+18:18:13  [mercury] 	entire log window on the forums
+18:21:56  [mercury] 	Attempting to start Mercury app...
+18:21:57  [mercury] 	Status change detected: running
+18:22:03  [mercury] 	Status change detected: stopped
+18:22:03  [mercury] 	Error: Mercury shutdown unexpectedly.
+18:22:03  [mercury] 	This may be due to a blocked port, missing dependencies, 
+18:22:03  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+18:22:03  [mercury] 	Press the Logs button to view error logs and check
+18:22:03  [mercury] 	the Windows Event Viewer for more clues
+18:22:03  [mercury] 	If you need more help, copy and post this
+18:22:03  [mercury] 	entire log window on the forums
+18:25:10  [mercury] 	Attempting to start Mercury app...
+18:25:11  [mercury] 	Status change detected: running
+19:14:53  [mercury] 	Attempting to stop Mercury (PID: 8124)
+19:14:54  [mercury] 	Status change detected: stopped
+19:14:54  [mercury] 	Attempting to start Mercury app...
+19:14:55  [mercury] 	Status change detected: running
+19:18:49  [mercury] 	Attempting to stop Mercury (PID: 10732)
+19:18:49  [mercury] 	Status change detected: stopped
+19:18:50  [mercury] 	Attempting to start Mercury app...
+19:18:51  [mercury] 	Status change detected: running
+19:19:58  [mercury] 	Attempting to stop Mercury (PID: 3604)
+19:19:58  [mercury] 	Status change detected: stopped
+19:19:59  [mercury] 	Attempting to start Mercury app...
+19:19:59  [mercury] 	Status change detected: running
+21:56:16  [mercury] 	Attempting to stop Mercury (PID: 8608)
+21:56:17  [mercury] 	Status change detected: stopped
+21:56:17  [mercury] 	Attempting to start Mercury app...
+21:56:18  [mercury] 	Status change detected: running
+21:58:08  [mercury] 	Attempting to stop Mercury (PID: 12280)
+21:58:08  [mercury] 	Status change detected: stopped
+21:58:09  [mercury] 	Attempting to start Mercury app...
+21:58:10  [mercury] 	Status change detected: running
+22:02:05  [mercury] 	Attempting to stop Mercury (PID: 4752)
+22:02:05  [mercury] 	Status change detected: stopped
+22:02:06  [mercury] 	Attempting to start Mercury app...
+22:02:06  [mercury] 	Status change detected: running
+22:02:35  [mercury] 	Attempting to stop Mercury (PID: 11980)
+22:02:35  [mercury] 	Status change detected: stopped
+22:02:36  [mercury] 	Attempting to start Mercury app...
+22:02:36  [mercury] 	Status change detected: running
+22:30:44  [mercury] 	Status change detected: stopped
+22:30:44  [mercury] 	Error: Mercury shutdown unexpectedly.
+22:30:44  [mercury] 	This may be due to a blocked port, missing dependencies, 
+22:30:44  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+22:30:44  [mercury] 	Press the Logs button to view error logs and check
+22:30:44  [mercury] 	the Windows Event Viewer for more clues
+22:30:44  [mercury] 	If you need more help, copy and post this
+22:30:44  [mercury] 	entire log window on the forums
+22:36:00  [mercury] 	Attempting to start Mercury app...
+22:36:00  [mercury] 	Status change detected: running
+22:40:16  [mercury] 	Attempting to stop Mercury (PID: 4032)
+22:40:16  [mercury] 	Status change detected: stopped
+22:40:17  [mercury] 	Attempting to start Mercury app...
+22:40:17  [mercury] 	Status change detected: running
+23:55:11  [mercury] 	Attempting to stop Mercury (PID: 9060)
+23:55:11  [mercury] 	Status change detected: stopped
+23:55:11  [mercury] 	Attempting to start Mercury app...
+23:55:12  [mercury] 	Status change detected: running
+23:55:19  [mercury] 	Attempting to stop Mercury (PID: 10304)
+23:55:19  [mercury] 	Status change detected: stopped
+23:56:18  [mercury] 	Attempting to start Mercury app...
+23:56:19  [mercury] 	Status change detected: running
+23:56:45  [mercury] 	Attempting to stop Mercury (PID: 15540)
+23:56:45  [mercury] 	Status change detected: stopped
+23:56:46  [mercury] 	Attempting to start Mercury app...
+23:56:46  [mercury] 	Status change detected: running
+23:56:58  [mercury] 	Attempting to stop Mercury (PID: 8424)
+23:56:58  [mercury] 	Status change detected: stopped
+23:57:02  [mercury] 	Attempting to start Mercury app...
+23:57:02  [mercury] 	Status change detected: running
+23:57:04  [mercury] 	Attempting to stop Mercury (PID: 8920)
+23:57:04  [mercury] 	Status change detected: stopped
+23:57:20  [mercury] 	Attempting to start Mercury app...
+23:57:20  [mercury] 	Status change detected: running
+23:57:34  [mercury] 	Attempting to stop Mercury (PID: 16180)
+23:57:34  [mercury] 	Status change detected: stopped
+23:57:38  [mercury] 	Attempting to start Mercury app...
+23:57:38  [mercury] 	Status change detected: running
+23:58:07  [mercury] 	Attempting to stop Mercury (PID: 1192)
+23:58:08  [mercury] 	Status change detected: stopped
+23:58:20  [mercury] 	Attempting to start Mercury app...
+23:58:20  [mercury] 	Status change detected: running
+23:58:49  [mercury] 	Attempting to stop Mercury (PID: 10724)
+23:58:50  [mercury] 	Status change detected: stopped
+23:58:50  [mercury] 	Attempting to start Mercury app...
+23:58:50  [mercury] 	Status change detected: running
+23:59:05  [mercury] 	Attempting to stop Mercury (PID: 15988)
+23:59:06  [mercury] 	Status change detected: stopped
+23:59:07  [mercury] 	Attempting to start Mercury app...
+23:59:07  [mercury] 	Status change detected: running
+00:00:28  [mercury] 	Attempting to stop Mercury (PID: 17052)
+00:00:28  [mercury] 	Status change detected: stopped
+00:00:29  [mercury] 	Attempting to start Mercury app...
+00:00:29  [mercury] 	Status change detected: running
+00:01:09  [mercury] 	Attempting to stop Mercury (PID: 9308)
+00:01:09  [mercury] 	Status change detected: stopped
+00:03:11  [mercury] 	Attempting to start Mercury app...
+00:03:11  [mercury] 	Status change detected: running
+00:03:41  [mercury] 	Attempting to stop Mercury (PID: 11176)
+00:03:41  [mercury] 	Status change detected: stopped
+00:04:06  [mercury] 	Attempting to start Mercury app...
+00:04:06  [mercury] 	Status change detected: running
+00:04:21  [mercury] 	Attempting to stop Mercury (PID: 7644)
+00:04:21  [mercury] 	Status change detected: stopped
+00:04:55  [mercury] 	Attempting to start Mercury app...
+00:04:55  [mercury] 	Status change detected: running
+00:05:03  [mercury] 	Attempting to stop Mercury (PID: 14696)
+00:05:03  [mercury] 	Status change detected: stopped
+00:05:04  [mercury] 	Attempting to start Mercury app...
+00:05:04  [mercury] 	Status change detected: running
+00:05:19  [mercury] 	Attempting to stop Mercury (PID: 15032)
+00:05:19  [mercury] 	Status change detected: stopped
+00:07:15  [mercury] 	Attempting to start Mercury app...
+00:07:16  [mercury] 	Status change detected: running
+00:07:43  [mercury] 	Attempting to stop Mercury (PID: 13224)
+00:07:43  [mercury] 	Status change detected: stopped
+00:08:15  [mercury] 	Attempting to start Mercury app...
+00:08:15  [mercury] 	Status change detected: running
+00:08:41  [mercury] 	Attempting to stop Mercury (PID: 13632)
+00:08:41  [mercury] 	Status change detected: stopped
+00:09:06  [mercury] 	Attempting to start Mercury app...
+00:09:06  [mercury] 	Status change detected: running
+00:09:14  [mercury] 	Attempting to stop Mercury (PID: 15892)
+00:09:14  [mercury] 	Status change detected: stopped
+00:09:16  [mercury] 	Attempting to start Mercury app...
+00:09:16  [mercury] 	Status change detected: running
+00:09:27  [mercury] 	Attempting to stop Mercury (PID: 15852)
+00:09:27  [mercury] 	Status change detected: stopped
+00:10:51  [mercury] 	Attempting to start Mercury app...
+00:10:51  [mercury] 	Status change detected: running
+00:10:58  [mercury] 	Attempting to stop Mercury (PID: 16996)
+00:10:58  [mercury] 	Status change detected: stopped
+00:14:55  [mercury] 	Attempting to start Mercury app...
+00:14:55  [mercury] 	Status change detected: running
+00:15:07  [mercury] 	Attempting to stop Mercury (PID: 8616)
+00:15:07  [mercury] 	Status change detected: stopped
+00:16:31  [mercury] 	Attempting to start Mercury app...
+00:16:31  [mercury] 	Status change detected: running
+00:16:40  [mercury] 	Attempting to stop Mercury (PID: 6288)
+00:16:40  [mercury] 	Status change detected: stopped
+00:21:00  [mercury] 	Attempting to start Mercury app...
+00:21:00  [mercury] 	Status change detected: running
+00:21:07  [mercury] 	Attempting to stop Mercury (PID: 1344)
+00:21:07  [mercury] 	Status change detected: stopped
+00:21:32  [Apache] 	Attempting to stop Apache (PID: 5632)
+00:21:32  [Apache] 	Attempting to stop Apache (PID: 4948)
+00:21:32  [Apache] 	Status change detected: stopped
+00:21:33  [mysql] 	Attempting to stop MySQL app...
+00:21:33  [mysql] 	Status change detected: stopped
+00:23:56  [mercury] 	Status change detected: running
+00:24:17  [mercury] 	Status change detected: stopped
+00:24:18  [mercury] 	Status change detected: running
+00:24:35  [mercury] 	Status change detected: stopped
+00:24:36  [mercury] 	Status change detected: running
+00:33:05  [mercury] 	Status change detected: stopped
+00:33:06  [mercury] 	Status change detected: running
+00:38:23  [Apache] 	Status change detected: running
+00:38:24  [mysql] 	Status change detected: running
+00:38:54  [Apache] 	Status change detected: stopped
+00:38:55  [mysql] 	Status change detected: stopped
+00:38:56  [mercury] 	Status change detected: stopped
+00:39:19  [main] 	Deinitializing Modules
+00:39:19  [main] 	Deinitializing Control Panel
+
+00:23:51  [main] 	Initializing Control Panel
+00:23:51  [main] 	Windows Version:  Enterprise  64-bit
+00:23:51  [main] 	XAMPP Version: 5.6.15
+00:23:51  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+00:23:51  [main] 	You are not running with administrator rights! This will work for
+00:23:51  [main] 	most application stuff but whenever you do something with services
+00:23:51  [main] 	there will be a security dialogue or things will break! So think 
+00:23:51  [main] 	about running this application with administrator rights!
+00:23:51  [main] 	XAMPP Installation Directory: "c:\xampp\"
+00:23:51  [main] 	Checking for prerequisites
+00:23:52  [main] 	All prerequisites found
+00:23:52  [main] 	Initializing Modules
+00:23:52  [main] 	Starting Check-Timer
+00:23:52  [main] 	Control Panel Ready
+00:23:55  [mercury] 	Attempting to start Mercury app...
+00:23:56  [mercury] 	Status change detected: running
+00:24:17  [mercury] 	Attempting to stop Mercury (PID: 16852)
+00:24:17  [mercury] 	Status change detected: stopped
+00:24:18  [mercury] 	Attempting to start Mercury app...
+00:24:18  [mercury] 	Status change detected: running
+00:24:35  [mercury] 	Attempting to stop Mercury (PID: 10456)
+00:24:35  [mercury] 	Status change detected: stopped
+00:24:36  [mercury] 	Attempting to start Mercury app...
+00:24:36  [mercury] 	Status change detected: running
+00:33:04  [mercury] 	Attempting to stop Mercury (PID: 15832)
+00:33:04  [mercury] 	Status change detected: stopped
+00:33:05  [mercury] 	Attempting to start Mercury app...
+00:33:05  [mercury] 	Status change detected: running
+00:38:23  [Apache] 	Attempting to start Apache app...
+00:38:23  [Apache] 	Status change detected: running
+00:38:24  [mysql] 	Attempting to start MySQL app...
+00:38:24  [mysql] 	Status change detected: running
+00:38:54  [Apache] 	Attempting to stop Apache (PID: 10644)
+00:38:54  [Apache] 	Attempting to stop Apache (PID: 9480)
+00:38:54  [Apache] 	Status change detected: stopped
+00:38:55  [mysql] 	Attempting to stop MySQL app...
+00:38:55  [mysql] 	Status change detected: stopped
+00:38:55  [mercury] 	Attempting to stop Mercury (PID: 11408)
+00:38:56  [mercury] 	Status change detected: stopped
+00:39:19  [main] 	Deinitializing Modules
+00:39:19  [main] 	Deinitializing Control Panel
+
+00:41:13  [main] 	Initializing Control Panel
+00:41:13  [main] 	Windows Version:  Enterprise  64-bit
+00:41:13  [main] 	XAMPP Version: 5.6.15
+00:41:13  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+00:41:13  [main] 	You are not running with administrator rights! This will work for
+00:41:13  [main] 	most application stuff but whenever you do something with services
+00:41:13  [main] 	there will be a security dialogue or things will break! So think 
+00:41:13  [main] 	about running this application with administrator rights!
+00:41:13  [main] 	XAMPP Installation Directory: "c:\xampp\"
+00:41:13  [main] 	Checking for prerequisites
+00:41:15  [main] 	All prerequisites found
+00:41:15  [main] 	Initializing Modules
+00:41:15  [main] 	Starting Check-Timer
+00:41:15  [main] 	Control Panel Ready
+00:41:17  [Apache] 	Attempting to start Apache app...
+00:41:17  [Apache] 	Status change detected: running
+00:41:17  [mysql] 	Attempting to start MySQL app...
+00:41:19  [mysql] 	Status change detected: running
+00:41:19  [mercury] 	Attempting to start Mercury app...
+00:41:20  [mercury] 	Status change detected: running
+00:46:13  [mercury] 	Attempting to stop Mercury (PID: 15704)
+00:46:13  [mercury] 	Status change detected: stopped
+00:46:17  [mercury] 	Attempting to start Mercury app...
+00:46:17  [mercury] 	Status change detected: running
+00:51:05  [mercury] 	Attempting to stop Mercury (PID: 8524)
+00:51:05  [mercury] 	Status change detected: stopped
+00:51:06  [mercury] 	Attempting to start Mercury app...
+00:51:06  [mercury] 	Status change detected: running
+00:54:52  [mercury] 	Attempting to stop Mercury (PID: 10884)
+00:54:52  [mercury] 	Status change detected: stopped
+00:54:53  [mercury] 	Attempting to start Mercury app...
+00:54:53  [mercury] 	Status change detected: running
+00:55:12  [mercury] 	Attempting to stop Mercury (PID: 2612)
+00:55:12  [mercury] 	Status change detected: stopped
+00:55:25  [mercury] 	Attempting to start Mercury app...
+00:55:25  [mercury] 	Status change detected: running
+00:59:15  [mercury] 	Attempting to stop Mercury (PID: 292)
+00:59:16  [mercury] 	Status change detected: stopped
+00:59:17  [mercury] 	Attempting to start Mercury app...
+00:59:17  [mercury] 	Status change detected: running
+01:01:24  [mercury] 	Attempting to stop Mercury (PID: 648)
+01:01:24  [mercury] 	Status change detected: stopped
+01:01:25  [mercury] 	Attempting to start Mercury app...
+01:01:25  [mercury] 	Status change detected: running
+01:08:15  [mercury] 	Attempting to stop Mercury (PID: 10800)
+01:08:16  [mercury] 	Status change detected: stopped
+01:08:17  [mercury] 	Attempting to start Mercury app...
+01:08:17  [mercury] 	Status change detected: running
+01:11:42  [mercury] 	Attempting to stop Mercury (PID: 10252)
+01:11:43  [mercury] 	Status change detected: stopped
+01:11:43  [mercury] 	Attempting to start Mercury app...
+01:11:43  [mercury] 	Status change detected: running
+01:13:27  [mercury] 	Attempting to stop Mercury (PID: 14752)
+01:13:28  [mercury] 	Status change detected: stopped
+01:13:29  [mercury] 	Attempting to start Mercury app...
+01:13:29  [mercury] 	Status change detected: running
+01:16:13  [mercury] 	Attempting to stop Mercury (PID: 16868)
+01:16:14  [mercury] 	Status change detected: stopped
+01:16:15  [mercury] 	Attempting to start Mercury app...
+01:16:15  [mercury] 	Status change detected: running
+01:16:30  [mercury] 	Attempting to stop Mercury (PID: 16884)
+01:16:31  [mercury] 	Status change detected: stopped
+01:16:32  [mercury] 	Attempting to start Mercury app...
+01:16:32  [mercury] 	Status change detected: running
+01:20:28  [mercury] 	Attempting to stop Mercury (PID: 7384)
+01:20:28  [mercury] 	Status change detected: stopped
+01:20:29  [mercury] 	Attempting to start Mercury app...
+01:20:30  [mercury] 	Status change detected: running
+01:30:45  [mercury] 	Attempting to stop Mercury (PID: 9396)
+01:30:46  [mercury] 	Status change detected: stopped
+01:30:46  [mercury] 	Attempting to start Mercury app...
+01:30:47  [mercury] 	Status change detected: running
+01:34:13  [mercury] 	Attempting to stop Mercury (PID: 6836)
+01:34:14  [mercury] 	Status change detected: stopped
+01:34:15  [mercury] 	Attempting to start Mercury app...
+01:34:15  [mercury] 	Status change detected: running
+01:35:23  [mercury] 	Attempting to stop Mercury (PID: 10592)
+01:35:24  [mercury] 	Status change detected: stopped
+01:35:24  [mercury] 	Attempting to start Mercury app...
+01:35:24  [mercury] 	Status change detected: running
+01:35:46  [mercury] 	Attempting to stop Mercury (PID: 16924)
+01:35:46  [mercury] 	Status change detected: stopped
+01:35:47  [mercury] 	Attempting to start Mercury app...
+01:35:47  [mercury] 	Status change detected: running
+01:37:37  [mercury] 	Attempting to stop Mercury (PID: 348)
+01:37:37  [mercury] 	Status change detected: stopped
+01:37:38  [mercury] 	Attempting to start Mercury app...
+01:37:38  [mercury] 	Status change detected: running
+01:41:51  [mercury] 	Attempting to stop Mercury (PID: 4316)
+01:41:51  [mercury] 	Status change detected: stopped
+01:41:52  [mercury] 	Attempting to start Mercury app...
+01:41:52  [mercury] 	Status change detected: running
+01:44:52  [mercury] 	Attempting to stop Mercury (PID: 15660)
+01:44:52  [mercury] 	Status change detected: stopped
+01:44:53  [mercury] 	Attempting to start Mercury app...
+01:44:53  [mercury] 	Status change detected: running
+01:48:19  [mercury] 	Attempting to stop Mercury (PID: 15504)
+01:48:19  [mercury] 	Status change detected: stopped
+01:48:20  [mercury] 	Attempting to start Mercury app...
+01:48:20  [mercury] 	Status change detected: running
+01:54:06  [mercury] 	Attempting to stop Mercury (PID: 10932)
+01:54:06  [mercury] 	Status change detected: stopped
+01:54:07  [mercury] 	Attempting to start Mercury app...
+01:54:07  [mercury] 	Status change detected: running
+01:58:14  [mercury] 	Attempting to stop Mercury (PID: 1340)
+01:58:14  [mercury] 	Status change detected: stopped
+01:58:16  [mercury] 	Attempting to start Mercury app...
+01:58:16  [mercury] 	Status change detected: running
+01:58:34  [mercury] 	Status change detected: stopped
+01:58:34  [mercury] 	Error: Mercury shutdown unexpectedly.
+01:58:34  [mercury] 	This may be due to a blocked port, missing dependencies, 
+01:58:34  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+01:58:34  [mercury] 	Press the Logs button to view error logs and check
+01:58:34  [mercury] 	the Windows Event Viewer for more clues
+01:58:34  [mercury] 	If you need more help, copy and post this
+01:58:34  [mercury] 	entire log window on the forums
+01:58:35  [Apache] 	Attempting to stop Apache (PID: 11972)
+01:58:35  [Apache] 	Attempting to stop Apache (PID: 12504)
+01:58:35  [Apache] 	Status change detected: stopped
+01:58:35  [mysql] 	Attempting to stop MySQL app...
+01:58:37  [mysql] 	Status change detected: stopped
+01:58:44  [main] 	Deinitializing Modules
+01:58:44  [main] 	Deinitializing Control Panel
+
+11:27:22  [main] 	Initializing Control Panel
+11:27:22  [main] 	Windows Version:  Enterprise  64-bit
+11:27:22  [main] 	XAMPP Version: 5.6.15
+11:27:22  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+11:27:22  [main] 	You are not running with administrator rights! This will work for
+11:27:22  [main] 	most application stuff but whenever you do something with services
+11:27:22  [main] 	there will be a security dialogue or things will break! So think 
+11:27:22  [main] 	about running this application with administrator rights!
+11:27:22  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:27:22  [main] 	Checking for prerequisites
+11:27:22  [main] 	All prerequisites found
+11:27:22  [main] 	Initializing Modules
+11:27:22  [main] 	Starting Check-Timer
+11:27:22  [main] 	Control Panel Ready
+11:27:25  [Apache] 	Attempting to start Apache app...
+11:27:25  [Apache] 	Status change detected: running
+11:27:26  [mysql] 	Attempting to start MySQL app...
+11:27:27  [mysql] 	Status change detected: running
+11:27:28  [mercury] 	Attempting to start Mercury app...
+11:27:29  [mercury] 	Status change detected: running
+11:59:14  [mercury] 	Attempting to stop Mercury (PID: 160)
+11:59:14  [mercury] 	Status change detected: stopped
+11:59:20  [mercury] 	Attempting to start Mercury app...
+11:59:20  [mercury] 	Status change detected: running
+12:00:18  [mercury] 	Attempting to stop Mercury (PID: 516)
+12:00:19  [mercury] 	Status change detected: stopped
+12:00:19  [mercury] 	Attempting to start Mercury app...
+12:00:20  [mercury] 	Status change detected: running
+12:00:36  [mercury] 	Attempting to stop Mercury (PID: 6588)
+12:00:36  [mercury] 	Status change detected: stopped
+12:00:37  [mercury] 	Attempting to start Mercury app...
+12:00:37  [mercury] 	Status change detected: running
+12:02:09  [Apache] 	Attempting to stop Apache (PID: 11480)
+12:02:09  [Apache] 	Attempting to stop Apache (PID: 12472)
+12:02:09  [Apache] 	Status change detected: stopped
+12:02:10  [Apache] 	Problem detected!
+12:02:10  [Apache] 	Port 443 in use by "Unable to get info" with PID 11480!
+12:02:10  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:02:10  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:02:10  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:02:10  [Apache] 	Attempting to start Apache app...
+12:02:10  [Apache] 	Status change detected: running
+12:03:01  [Apache] 	Attempting to stop Apache (PID: 17096)
+12:03:01  [Apache] 	Attempting to stop Apache (PID: 13376)
+12:03:02  [Apache] 	Status change detected: stopped
+12:03:03  [Apache] 	Problem detected!
+12:03:03  [Apache] 	Port 443 in use by "Unable to get info" with PID 17096!
+12:03:03  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:03:03  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:03:03  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:03:03  [Apache] 	Attempting to start Apache app...
+12:03:04  [Apache] 	Status change detected: running
+12:05:03  [Apache] 	Attempting to stop Apache (PID: 12664)
+12:05:03  [Apache] 	Attempting to stop Apache (PID: 12264)
+12:05:04  [Apache] 	Status change detected: stopped
+12:05:05  [Apache] 	Problem detected!
+12:05:05  [Apache] 	Port 443 in use by "Unable to get info" with PID 12664!
+12:05:05  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:05:05  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:05:05  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:05:05  [Apache] 	Attempting to start Apache app...
+12:05:05  [Apache] 	Status change detected: running
+12:08:01  [Apache] 	Attempting to stop Apache (PID: 2020)
+12:08:01  [Apache] 	Attempting to stop Apache (PID: 9944)
+12:08:01  [Apache] 	Status change detected: stopped
+12:08:02  [Apache] 	Problem detected!
+12:08:02  [Apache] 	Port 443 in use by "Unable to get info" with PID 2020!
+12:08:02  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:08:02  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:08:02  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:08:02  [Apache] 	Attempting to start Apache app...
+12:08:03  [Apache] 	Status change detected: running
+12:11:08  [Apache] 	Attempting to stop Apache (PID: 13472)
+12:11:08  [Apache] 	Attempting to stop Apache (PID: 1264)
+12:11:08  [Apache] 	Status change detected: stopped
+12:11:10  [Apache] 	Attempting to start Apache app...
+12:11:10  [Apache] 	Status change detected: running
+12:11:40  [Apache] 	Attempting to stop Apache (PID: 16544)
+12:11:40  [Apache] 	Attempting to stop Apache (PID: 8056)
+12:11:40  [Apache] 	Status change detected: stopped
+12:11:42  [Apache] 	Problem detected!
+12:11:42  [Apache] 	Port 443 in use by "Unable to get info" with PID 16544!
+12:11:42  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:11:42  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:11:42  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:11:42  [Apache] 	Attempting to start Apache app...
+12:11:42  [Apache] 	Status change detected: running
+12:11:43  [Apache] 	Status change detected: stopped
+12:11:43  [Apache] 	Error: Apache shutdown unexpectedly.
+12:11:43  [Apache] 	This may be due to a blocked port, missing dependencies, 
+12:11:43  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+12:11:43  [Apache] 	Press the Logs button to view error logs and check
+12:11:43  [Apache] 	the Windows Event Viewer for more clues
+12:11:43  [Apache] 	If you need more help, copy and post this
+12:11:43  [Apache] 	entire log window on the forums
+12:13:30  [Apache] 	Attempting to start Apache app...
+12:13:30  [Apache] 	Status change detected: running
+12:13:31  [Apache] 	Status change detected: stopped
+12:13:31  [Apache] 	Error: Apache shutdown unexpectedly.
+12:13:31  [Apache] 	This may be due to a blocked port, missing dependencies, 
+12:13:31  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+12:13:31  [Apache] 	Press the Logs button to view error logs and check
+12:13:31  [Apache] 	the Windows Event Viewer for more clues
+12:13:31  [Apache] 	If you need more help, copy and post this
+12:13:31  [Apache] 	entire log window on the forums
+12:13:40  [Apache] 	Attempting to start Apache app...
+12:13:40  [Apache] 	Status change detected: running
+12:14:59  [Apache] 	Attempting to stop Apache (PID: 13912)
+12:14:59  [Apache] 	Attempting to stop Apache (PID: 4576)
+12:14:59  [Apache] 	Status change detected: stopped
+12:15:01  [Apache] 	Problem detected!
+12:15:01  [Apache] 	Port 443 in use by "Unable to get info" with PID 13912!
+12:15:01  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:15:01  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:15:01  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:15:01  [Apache] 	Attempting to start Apache app...
+12:15:01  [Apache] 	Status change detected: running
+12:15:43  [Apache] 	Attempting to stop Apache (PID: 5068)
+12:15:43  [Apache] 	Attempting to stop Apache (PID: 6448)
+12:15:43  [Apache] 	Status change detected: stopped
+12:15:44  [Apache] 	Problem detected!
+12:15:44  [Apache] 	Port 443 in use by "Unable to get info" with PID 5068!
+12:15:44  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:15:44  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:15:44  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:15:44  [Apache] 	Attempting to start Apache app...
+12:15:45  [Apache] 	Status change detected: running
+00:05:52  [Apache] 	Attempting to stop Apache (PID: 16496)
+00:05:52  [Apache] 	Attempting to stop Apache (PID: 16552)
+00:05:52  [Apache] 	Status change detected: stopped
+00:05:53  [mysql] 	Attempting to stop MySQL app...
+00:05:53  [mysql] 	Status change detected: stopped
+00:05:54  [mercury] 	Attempting to stop Mercury (PID: 15860)
+00:05:54  [mercury] 	Status change detected: stopped
+00:06:04  [main] 	Deinitializing Modules
+00:06:04  [main] 	Deinitializing Control Panel
+
+10:33:36  [main] 	Initializing Control Panel
+10:33:36  [main] 	Windows Version:  Enterprise  64-bit
+10:33:36  [main] 	XAMPP Version: 5.6.15
+10:33:36  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+10:33:36  [main] 	You are not running with administrator rights! This will work for
+10:33:36  [main] 	most application stuff but whenever you do something with services
+10:33:36  [main] 	there will be a security dialogue or things will break! So think 
+10:33:36  [main] 	about running this application with administrator rights!
+10:33:36  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:33:36  [main] 	Checking for prerequisites
+10:33:39  [main] 	All prerequisites found
+10:33:39  [main] 	Initializing Modules
+10:33:39  [main] 	Starting Check-Timer
+10:33:39  [main] 	Control Panel Ready
+10:33:42  [Apache] 	Attempting to start Apache app...
+10:33:43  [Apache] 	Status change detected: running
+10:33:44  [mysql] 	Attempting to start MySQL app...
+10:33:44  [mysql] 	Status change detected: running
+10:33:49  [mercury] 	Attempting to start Mercury app...
+10:33:49  [mercury] 	Status change detected: running
+10:46:38  [Apache] 	Attempting to stop Apache (PID: 16160)
+10:46:38  [Apache] 	Attempting to stop Apache (PID: 16216)
+10:46:38  [Apache] 	Status change detected: stopped
+10:46:39  [Apache] 	Attempting to start Apache app...
+10:46:40  [Apache] 	Status change detected: running
+10:46:41  [Apache] 	Attempting to stop Apache (PID: 12540)
+10:46:41  [Apache] 	Attempting to stop Apache (PID: 13876)
+10:46:42  [Apache] 	Status change detected: stopped
+10:46:51  [Apache] 	Attempting to start Apache app...
+10:46:51  [Apache] 	Status change detected: running
+10:47:07  [Apache] 	Attempting to stop Apache (PID: 15780)
+10:47:07  [Apache] 	Attempting to stop Apache (PID: 14104)
+10:47:08  [Apache] 	Status change detected: stopped
+10:47:08  [Apache] 	Attempting to start Apache app...
+10:47:09  [Apache] 	Status change detected: running
+14:13:54  [Apache] 	Attempting to stop Apache (PID: 3036)
+14:13:54  [Apache] 	Attempting to stop Apache (PID: 1572)
+14:13:54  [Apache] 	Status change detected: stopped
+14:13:55  [Apache] 	Attempting to start Apache app...
+14:13:55  [Apache] 	Status change detected: running
+01:13:41  [Apache] 	Attempting to stop Apache (PID: 14772)
+01:13:41  [Apache] 	Attempting to stop Apache (PID: 13624)
+01:13:41  [Apache] 	Status change detected: stopped
+01:13:42  [mysql] 	Attempting to stop MySQL app...
+01:13:43  [mysql] 	Status change detected: stopped
+01:13:44  [mercury] 	Attempting to stop Mercury (PID: 7976)
+01:13:44  [mercury] 	Status change detected: stopped
+01:14:12  [main] 	Deinitializing Modules
+01:14:12  [main] 	Deinitializing Control Panel
+
+09:35:05  [main] 	Initializing Control Panel
+09:35:05  [main] 	Windows Version:  Enterprise  64-bit
+09:35:05  [main] 	XAMPP Version: 5.6.15
+09:35:05  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+09:35:05  [main] 	You are not running with administrator rights! This will work for
+09:35:05  [main] 	most application stuff but whenever you do something with services
+09:35:05  [main] 	there will be a security dialogue or things will break! So think 
+09:35:05  [main] 	about running this application with administrator rights!
+09:35:05  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:35:05  [main] 	Checking for prerequisites
+09:35:08  [main] 	All prerequisites found
+09:35:08  [main] 	Initializing Modules
+09:35:08  [main] 	Starting Check-Timer
+09:35:08  [main] 	Control Panel Ready
+09:35:10  [Apache] 	Attempting to start Apache app...
+09:35:10  [Apache] 	Status change detected: running
+09:35:10  [mysql] 	Attempting to start MySQL app...
+09:35:10  [mysql] 	Status change detected: running
+09:35:11  [mercury] 	Attempting to start Mercury app...
+09:35:11  [mercury] 	Status change detected: running
+09:35:16  [Apache] 	Attempting to stop Apache (PID: 1288)
+09:35:16  [Apache] 	Status change detected: stopped
+09:35:18  [mysql] 	Attempting to stop MySQL app...
+09:35:18  [mysql] 	Status change detected: stopped
+09:35:21  [mercury] 	Status change detected: stopped
+09:35:21  [mercury] 	Error: Mercury shutdown unexpectedly.
+09:35:21  [mercury] 	This may be due to a blocked port, missing dependencies, 
+09:35:21  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+09:35:21  [mercury] 	Press the Logs button to view error logs and check
+09:35:21  [mercury] 	the Windows Event Viewer for more clues
+09:35:21  [mercury] 	If you need more help, copy and post this
+09:35:21  [mercury] 	entire log window on the forums
+13:38:54  [main] 	Deinitializing Modules
+13:38:54  [main] 	Deinitializing Control Panel
+
+16:29:29  [main] 	Initializing Control Panel
+16:29:29  [main] 	Windows Version:  Enterprise  64-bit
+16:29:29  [main] 	XAMPP Version: 5.6.15
+16:29:29  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+16:29:29  [main] 	You are not running with administrator rights! This will work for
+16:29:29  [main] 	most application stuff but whenever you do something with services
+16:29:29  [main] 	there will be a security dialogue or things will break! So think 
+16:29:29  [main] 	about running this application with administrator rights!
+16:29:29  [main] 	XAMPP Installation Directory: "c:\xampp\"
+16:29:29  [main] 	Checking for prerequisites
+16:29:30  [main] 	All prerequisites found
+16:29:30  [main] 	Initializing Modules
+16:29:30  [main] 	Starting Check-Timer
+16:29:30  [main] 	Control Panel Ready
+16:29:41  [Apache] 	Attempting to start Apache app...
+16:29:42  [Apache] 	Status change detected: running
+16:29:48  [mysql] 	Attempting to start MySQL app...
+16:29:48  [mysql] 	Status change detected: running
+16:29:51  [mercury] 	Attempting to start Mercury app...
+16:29:52  [mercury] 	Status change detected: running
+23:57:56  [Apache] 	Attempting to stop Apache (PID: 1924)
+23:57:56  [Apache] 	Attempting to stop Apache (PID: 7436)
+23:57:56  [Apache] 	Status change detected: stopped
+23:57:57  [mysql] 	Attempting to stop MySQL app...
+23:57:57  [mysql] 	Status change detected: stopped
+23:57:58  [mercury] 	Attempting to stop Mercury (PID: 6296)
+23:57:58  [mercury] 	Status change detected: stopped
+23:58:03  [main] 	Deinitializing Modules
+23:58:03  [main] 	Deinitializing Control Panel
+
+21:07:16  [main] 	Initializing Control Panel
+21:07:16  [main] 	Windows Version:  Enterprise  64-bit
+21:07:16  [main] 	XAMPP Version: 5.6.15
+21:07:16  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+21:07:16  [main] 	You are not running with administrator rights! This will work for
+21:07:16  [main] 	most application stuff but whenever you do something with services
+21:07:16  [main] 	there will be a security dialogue or things will break! So think 
+21:07:16  [main] 	about running this application with administrator rights!
+21:07:16  [main] 	XAMPP Installation Directory: "c:\xampp\"
+21:07:16  [main] 	Checking for prerequisites
+21:07:20  [main] 	All prerequisites found
+21:07:20  [main] 	Initializing Modules
+21:07:20  [main] 	Starting Check-Timer
+21:07:20  [main] 	Control Panel Ready
+21:07:23  [Apache] 	Attempting to start Apache app...
+21:07:23  [Apache] 	Status change detected: running
+21:07:24  [mysql] 	Attempting to start MySQL app...
+21:07:25  [mysql] 	Status change detected: running
+21:39:32  [Apache] 	Attempting to stop Apache (PID: 508)
+21:39:32  [Apache] 	Attempting to stop Apache (PID: 4600)
+21:39:32  [Apache] 	Status change detected: stopped
+21:39:35  [Apache] 	Attempting to start Apache app...
+21:39:35  [Apache] 	Status change detected: running
+07:34:40  [Apache] 	Attempting to stop Apache (PID: 6172)
+07:34:40  [Apache] 	Attempting to stop Apache (PID: 8312)
+07:34:40  [Apache] 	Status change detected: stopped
+07:34:41  [mysql] 	Attempting to stop MySQL app...
+07:34:41  [mysql] 	Status change detected: stopped
+07:36:16  [main] 	Deinitializing Modules
+07:36:16  [main] 	Deinitializing Control Panel
+
+18:19:04  [main] 	Initializing Control Panel
+18:19:04  [main] 	Windows Version:  Enterprise  64-bit
+18:19:04  [main] 	XAMPP Version: 5.6.15
+18:19:04  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+18:19:04  [main] 	You are not running with administrator rights! This will work for
+18:19:04  [main] 	most application stuff but whenever you do something with services
+18:19:04  [main] 	there will be a security dialogue or things will break! So think 
+18:19:04  [main] 	about running this application with administrator rights!
+18:19:04  [main] 	XAMPP Installation Directory: "c:\xampp\"
+18:19:04  [main] 	Checking for prerequisites
+18:19:06  [main] 	All prerequisites found
+18:19:06  [main] 	Initializing Modules
+18:19:06  [main] 	Starting Check-Timer
+18:19:06  [main] 	Control Panel Ready
+18:19:08  [Apache] 	Attempting to start Apache app...
+18:19:08  [Apache] 	Status change detected: running
+18:19:09  [mysql] 	Attempting to start MySQL app...
+18:19:09  [mysql] 	Status change detected: running
+18:34:50  [Apache] 	Attempting to stop Apache (PID: 8168)
+18:34:50  [Apache] 	Attempting to stop Apache (PID: 6944)
+18:34:51  [Apache] 	Status change detected: stopped
+18:34:51  [mysql] 	Attempting to stop MySQL app...
+18:34:52  [mysql] 	Status change detected: stopped
+00:28:51  [main] 	Deinitializing Modules
+00:28:51  [main] 	Deinitializing Control Panel
+
+18:43:46  [main] 	Initializing Control Panel
+18:43:46  [main] 	Windows Version:  Enterprise  64-bit
+18:43:46  [main] 	XAMPP Version: 5.6.15
+18:43:46  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+18:43:46  [main] 	You are not running with administrator rights! This will work for
+18:43:46  [main] 	most application stuff but whenever you do something with services
+18:43:46  [main] 	there will be a security dialogue or things will break! So think 
+18:43:46  [main] 	about running this application with administrator rights!
+18:43:46  [main] 	XAMPP Installation Directory: "c:\xampp\"
+18:43:46  [main] 	Checking for prerequisites
+18:43:47  [main] 	All prerequisites found
+18:43:47  [main] 	Initializing Modules
+18:43:47  [main] 	Starting Check-Timer
+18:43:47  [main] 	Control Panel Ready
+18:47:55  [Apache] 	Status change detected: running
+18:47:58  [mysql] 	Status change detected: running
+19:00:36  [Apache] 	Status change detected: stopped
+19:00:36  [Apache] 	Error: Apache shutdown unexpectedly.
+19:00:36  [Apache] 	This may be due to a blocked port, missing dependencies, 
+19:00:36  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+19:00:36  [Apache] 	Press the Logs button to view error logs and check
+19:00:36  [Apache] 	the Windows Event Viewer for more clues
+19:00:36  [Apache] 	If you need more help, copy and post this
+19:00:36  [Apache] 	entire log window on the forums
+19:00:37  [mysql] 	Status change detected: stopped
+19:00:37  [mysql] 	Error: MySQL shutdown unexpectedly.
+19:00:37  [mysql] 	This may be due to a blocked port, missing dependencies, 
+19:00:37  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+19:00:37  [mysql] 	Press the Logs button to view error logs and check
+19:00:37  [mysql] 	the Windows Event Viewer for more clues
+19:00:37  [mysql] 	If you need more help, copy and post this
+19:00:37  [mysql] 	entire log window on the forums
+00:11:23  [main] 	Deinitializing Modules
+00:11:23  [main] 	Deinitializing Control Panel
+
+10:10:34  [main] 	Initializing Control Panel
+10:10:34  [main] 	Windows Version:  Enterprise  64-bit
+10:10:34  [main] 	XAMPP Version: 5.6.15
+10:10:34  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+10:10:34  [main] 	You are not running with administrator rights! This will work for
+10:10:34  [main] 	most application stuff but whenever you do something with services
+10:10:34  [main] 	there will be a security dialogue or things will break! So think 
+10:10:34  [main] 	about running this application with administrator rights!
+10:10:34  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:10:34  [main] 	Checking for prerequisites
+10:10:38  [main] 	All prerequisites found
+10:10:38  [main] 	Initializing Modules
+10:10:38  [main] 	Starting Check-Timer
+10:10:38  [main] 	Control Panel Ready
+10:10:41  [Apache] 	Attempting to start Apache app...
+10:10:42  [Apache] 	Status change detected: running
+10:10:42  [mysql] 	Attempting to start MySQL app...
+10:10:43  [mysql] 	Status change detected: running
+10:13:48  [Apache] 	Attempting to stop Apache (PID: 9200)
+10:13:48  [Apache] 	Attempting to stop Apache (PID: 3724)
+10:13:48  [Apache] 	Status change detected: stopped
+10:13:49  [mysql] 	Attempting to stop MySQL app...
+10:13:49  [mysql] 	Status change detected: stopped
+01:09:26  [main] 	Deinitializing Modules
+01:09:26  [main] 	Deinitializing Control Panel
+
+00:08:29  [main] 	Initializing Control Panel
+00:08:29  [main] 	Windows Version:  Enterprise  64-bit
+00:08:29  [main] 	XAMPP Version: 5.6.15
+00:08:29  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+00:08:29  [main] 	You are not running with administrator rights! This will work for
+00:08:29  [main] 	most application stuff but whenever you do something with services
+00:08:29  [main] 	there will be a security dialogue or things will break! So think 
+00:08:29  [main] 	about running this application with administrator rights!
+00:08:29  [main] 	XAMPP Installation Directory: "c:\xampp\"
+00:08:29  [main] 	Checking for prerequisites
+00:08:34  [main] 	All prerequisites found
+00:08:34  [main] 	Initializing Modules
+00:08:34  [main] 	Starting Check-Timer
+00:08:34  [main] 	Control Panel Ready
+00:08:36  [Apache] 	Attempting to start Apache app...
+00:08:36  [Apache] 	Status change detected: running
+00:08:37  [mysql] 	Attempting to start MySQL app...
+00:08:37  [mysql] 	Status change detected: running
+00:08:38  [mercury] 	Attempting to start Mercury app...
+00:08:39  [mercury] 	Status change detected: running
+00:24:06  [mercury] 	Status change detected: stopped
+00:24:06  [mercury] 	Error: Mercury shutdown unexpectedly.
+00:24:06  [mercury] 	This may be due to a blocked port, missing dependencies, 
+00:24:06  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+00:24:06  [mercury] 	Press the Logs button to view error logs and check
+00:24:06  [mercury] 	the Windows Event Viewer for more clues
+00:24:06  [mercury] 	If you need more help, copy and post this
+00:24:06  [mercury] 	entire log window on the forums
+00:46:26  [Apache] 	Attempting to stop Apache (PID: 7540)
+00:46:26  [Apache] 	Attempting to stop Apache (PID: 10180)
+00:46:26  [Apache] 	Status change detected: stopped
+00:46:27  [mysql] 	Attempting to stop MySQL app...
+00:46:28  [mysql] 	Status change detected: stopped
+02:33:27  [main] 	Deinitializing Modules
+02:33:27  [main] 	Deinitializing Control Panel
+
+12:02:43  [main] 	Initializing Control Panel
+12:02:43  [main] 	Windows Version:  Enterprise  64-bit
+12:02:43  [main] 	XAMPP Version: 5.6.15
+12:02:43  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+12:02:43  [main] 	You are not running with administrator rights! This will work for
+12:02:43  [main] 	most application stuff but whenever you do something with services
+12:02:43  [main] 	there will be a security dialogue or things will break! So think 
+12:02:43  [main] 	about running this application with administrator rights!
+12:02:43  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:02:43  [main] 	Checking for prerequisites
+12:02:47  [main] 	All prerequisites found
+12:02:47  [main] 	Initializing Modules
+12:02:47  [main] 	Starting Check-Timer
+12:02:47  [main] 	Control Panel Ready
+12:02:51  [Apache] 	Attempting to start Apache app...
+12:02:51  [Apache] 	Status change detected: running
+12:02:52  [mysql] 	Attempting to start MySQL app...
+12:02:53  [mysql] 	Status change detected: running
+12:02:53  [mercury] 	Attempting to start Mercury app...
+12:02:54  [mercury] 	Status change detected: running
+12:04:31  [Apache] 	Attempting to stop Apache (PID: 5208)
+12:04:31  [Apache] 	Attempting to stop Apache (PID: 9788)
+12:04:31  [Apache] 	Status change detected: stopped
+12:04:32  [mysql] 	Attempting to stop MySQL app...
+12:04:32  [mysql] 	Status change detected: stopped
+12:04:32  [mercury] 	Attempting to stop Mercury (PID: 4144)
+12:04:33  [mercury] 	Status change detected: stopped
+01:31:17  [main] 	Deinitializing Modules
+01:31:17  [main] 	Deinitializing Control Panel
+
+01:05:36  [main] 	Initializing Control Panel
+01:05:36  [main] 	Windows Version:  Enterprise  64-bit
+01:05:36  [main] 	XAMPP Version: 5.6.15
+01:05:36  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+01:05:36  [main] 	You are not running with administrator rights! This will work for
+01:05:36  [main] 	most application stuff but whenever you do something with services
+01:05:36  [main] 	there will be a security dialogue or things will break! So think 
+01:05:36  [main] 	about running this application with administrator rights!
+01:05:36  [main] 	XAMPP Installation Directory: "c:\xampp\"
+01:05:36  [main] 	Checking for prerequisites
+01:05:38  [main] 	All prerequisites found
+01:05:38  [main] 	Initializing Modules
+01:05:38  [main] 	Starting Check-Timer
+01:05:38  [main] 	Control Panel Ready
+01:05:47  [Apache] 	Status change detected: running
+01:05:48  [mysql] 	Status change detected: running
+02:31:43  [Apache] 	Status change detected: stopped
+02:31:43  [Apache] 	Error: Apache shutdown unexpectedly.
+02:31:43  [Apache] 	This may be due to a blocked port, missing dependencies, 
+02:31:43  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+02:31:43  [Apache] 	Press the Logs button to view error logs and check
+02:31:43  [Apache] 	the Windows Event Viewer for more clues
+02:31:43  [Apache] 	If you need more help, copy and post this
+02:31:43  [Apache] 	entire log window on the forums
+02:31:45  [mysql] 	Status change detected: stopped
+02:31:45  [mysql] 	Error: MySQL shutdown unexpectedly.
+02:31:45  [mysql] 	This may be due to a blocked port, missing dependencies, 
+02:31:45  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+02:31:45  [mysql] 	Press the Logs button to view error logs and check
+02:31:45  [mysql] 	the Windows Event Viewer for more clues
+02:31:45  [mysql] 	If you need more help, copy and post this
+02:31:45  [mysql] 	entire log window on the forums
+02:32:03  [main] 	Deinitializing Modules
+02:32:03  [main] 	Deinitializing Control Panel
+
+18:18:34  [main] 	Initializing Control Panel
+18:18:34  [main] 	Windows Version:  Enterprise  64-bit
+18:18:34  [main] 	XAMPP Version: 5.6.15
+18:18:34  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+18:18:34  [main] 	You are not running with administrator rights! This will work for
+18:18:34  [main] 	most application stuff but whenever you do something with services
+18:18:34  [main] 	there will be a security dialogue or things will break! So think 
+18:18:34  [main] 	about running this application with administrator rights!
+18:18:34  [main] 	XAMPP Installation Directory: "c:\xampp\"
+18:18:34  [main] 	Checking for prerequisites
+18:18:36  [main] 	All prerequisites found
+18:18:36  [main] 	Initializing Modules
+18:18:36  [main] 	Starting Check-Timer
+18:18:36  [main] 	Control Panel Ready
+18:18:38  [Apache] 	Attempting to start Apache app...
+18:18:38  [Apache] 	Status change detected: running
+18:18:39  [mysql] 	Attempting to start MySQL app...
+18:18:39  [mysql] 	Status change detected: running
+18:23:13  [Apache] 	Attempting to stop Apache (PID: 7356)
+18:23:13  [Apache] 	Attempting to stop Apache (PID: 7172)
+18:23:14  [Apache] 	Status change detected: stopped
+18:23:14  [mysql] 	Attempting to stop MySQL app...
+18:23:15  [mysql] 	Status change detected: stopped
+18:23:16  [Apache] 	Attempting to start Apache app...
+18:23:16  [Apache] 	Status change detected: running
+18:23:18  [mysql] 	Attempting to start MySQL app...
+18:23:18  [mysql] 	Status change detected: running
+18:29:17  [Apache] 	Attempting to stop Apache (PID: 10432)
+18:29:17  [Apache] 	Attempting to stop Apache (PID: 10452)
+18:29:17  [Apache] 	Status change detected: stopped
+18:29:18  [Apache] 	Attempting to start Apache app...
+18:29:18  [Apache] 	Status change detected: running
+18:30:31  [Apache] 	Attempting to stop Apache (PID: 2384)
+18:30:31  [Apache] 	Attempting to stop Apache (PID: 7032)
+18:30:31  [Apache] 	Status change detected: stopped
+18:30:32  [Apache] 	Problem detected!
+18:30:32  [Apache] 	Port 443 in use by "Unable to get info" with PID 2384!
+18:30:32  [Apache] 	Apache WILL NOT start without the configured ports free!
+18:30:32  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+18:30:32  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+18:30:32  [Apache] 	Attempting to start Apache app...
+18:30:32  [Apache] 	Status change detected: running
+18:31:24  [Apache] 	Attempting to stop Apache (PID: 5000)
+18:31:24  [Apache] 	Attempting to stop Apache (PID: 3228)
+18:31:24  [Apache] 	Status change detected: stopped
+18:31:27  [Apache] 	Problem detected!
+18:31:27  [Apache] 	Port 443 in use by "Unable to get info" with PID 5000!
+18:31:27  [Apache] 	Apache WILL NOT start without the configured ports free!
+18:31:27  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+18:31:27  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+18:31:27  [Apache] 	Attempting to start Apache app...
+18:31:27  [Apache] 	Status change detected: running
+18:49:25  [Apache] 	Attempting to stop Apache (PID: 9588)
+18:49:25  [Apache] 	Attempting to stop Apache (PID: 10308)
+18:49:26  [Apache] 	Status change detected: stopped
+18:49:27  [mysql] 	Attempting to stop MySQL app...
+18:49:27  [mysql] 	Status change detected: stopped
+18:49:28  [Apache] 	Attempting to start Apache app...
+18:49:28  [Apache] 	Status change detected: running
+18:49:29  [mysql] 	Attempting to start MySQL app...
+18:49:29  [mysql] 	Status change detected: running
+18:51:07  [Apache] 	Attempting to stop Apache (PID: 10952)
+18:51:07  [Apache] 	Attempting to stop Apache (PID: 6376)
+18:51:07  [Apache] 	Status change detected: stopped
+18:51:07  [mysql] 	Attempting to stop MySQL app...
+18:51:08  [mysql] 	Status change detected: stopped
+18:54:09  [main] 	Deinitializing Modules
+18:54:09  [main] 	Deinitializing Control Panel
+
+15:28:53  [main] 	Initializing Control Panel
+15:28:53  [main] 	Windows Version:  Enterprise  64-bit
+15:28:53  [main] 	XAMPP Version: 5.6.15
+15:28:53  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+15:28:53  [main] 	You are not running with administrator rights! This will work for
+15:28:53  [main] 	most application stuff but whenever you do something with services
+15:28:53  [main] 	there will be a security dialogue or things will break! So think 
+15:28:53  [main] 	about running this application with administrator rights!
+15:28:53  [main] 	XAMPP Installation Directory: "c:\xampp\"
+15:28:53  [main] 	Checking for prerequisites
+15:28:56  [main] 	All prerequisites found
+15:28:56  [main] 	Initializing Modules
+15:28:56  [main] 	Starting Check-Timer
+15:28:56  [main] 	Control Panel Ready
+15:28:58  [Apache] 	Attempting to start Apache app...
+15:28:58  [Apache] 	Status change detected: running
+15:59:23  [Apache] 	Attempting to stop Apache (PID: 28664)
+15:59:23  [Apache] 	Attempting to stop Apache (PID: 25940)
+15:59:23  [Apache] 	Status change detected: stopped
+17:43:00  [main] 	Deinitializing Modules
+17:43:00  [main] 	Deinitializing Control Panel
+
+10:22:36  [main] 	Initializing Control Panel
+10:22:36  [main] 	Windows Version:  Enterprise  64-bit
+10:22:36  [main] 	XAMPP Version: 5.6.15
+10:22:36  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+10:22:36  [main] 	You are not running with administrator rights! This will work for
+10:22:36  [main] 	most application stuff but whenever you do something with services
+10:22:36  [main] 	there will be a security dialogue or things will break! So think 
+10:22:36  [main] 	about running this application with administrator rights!
+10:22:36  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:22:36  [main] 	Checking for prerequisites
+10:22:40  [main] 	All prerequisites found
+10:22:40  [main] 	Initializing Modules
+10:22:40  [main] 	Starting Check-Timer
+10:22:40  [main] 	Control Panel Ready
+10:22:42  [Apache] 	Attempting to start Apache app...
+10:22:42  [Apache] 	Status change detected: running
+10:22:43  [mysql] 	Attempting to start MySQL app...
+10:22:43  [mysql] 	Status change detected: running
+10:22:44  [mercury] 	Attempting to start Mercury app...
+10:22:45  [mercury] 	Status change detected: running
+00:47:40  [main] 	Deinitializing Modules
+00:47:40  [main] 	Deinitializing Control Panel
+
+21:13:05  [main] 	Initializing Control Panel
+21:13:05  [main] 	Windows Version:  Enterprise  64-bit
+21:13:05  [main] 	XAMPP Version: 5.6.15
+21:13:05  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+21:13:05  [main] 	You are not running with administrator rights! This will work for
+21:13:05  [main] 	most application stuff but whenever you do something with services
+21:13:05  [main] 	there will be a security dialogue or things will break! So think 
+21:13:05  [main] 	about running this application with administrator rights!
+21:13:05  [main] 	XAMPP Installation Directory: "c:\xampp\"
+21:13:05  [main] 	Checking for prerequisites
+21:13:10  [main] 	All prerequisites found
+21:13:10  [main] 	Initializing Modules
+21:13:10  [main] 	Starting Check-Timer
+21:13:10  [main] 	Control Panel Ready
+21:13:12  [Apache] 	Attempting to start Apache app...
+21:13:12  [Apache] 	Status change detected: running
+01:24:54  [Apache] 	Attempting to stop Apache (PID: 7976)
+01:24:54  [Apache] 	Attempting to stop Apache (PID: 8288)
+01:24:54  [Apache] 	Attempting to stop Apache (PID: 8288)
+01:24:54  [Apache] 	Problem killing PID 8288
+01:24:54  [Apache] 	Check that you have the proper privileges
+01:24:54  [Apache] 	Status change detected: stopped
+00:04:00  [main] 	Deinitializing Modules
+00:04:00  [main] 	Deinitializing Control Panel
+
+15:31:37  [main] 	Initializing Control Panel
+15:31:37  [main] 	Windows Version:  Enterprise  64-bit
+15:31:37  [main] 	XAMPP Version: 5.6.15
+15:31:37  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+15:31:37  [main] 	You are not running with administrator rights! This will work for
+15:31:37  [main] 	most application stuff but whenever you do something with services
+15:31:37  [main] 	there will be a security dialogue or things will break! So think 
+15:31:37  [main] 	about running this application with administrator rights!
+15:31:37  [main] 	XAMPP Installation Directory: "c:\xampp\"
+15:31:37  [main] 	Checking for prerequisites
+15:31:38  [main] 	All prerequisites found
+15:31:38  [main] 	Initializing Modules
+15:31:38  [main] 	Starting Check-Timer
+15:31:38  [main] 	Control Panel Ready
+15:31:41  [Apache] 	Attempting to start Apache app...
+15:31:41  [Apache] 	Status change detected: running
+15:31:42  [mysql] 	Attempting to start MySQL app...
+15:31:42  [mysql] 	Status change detected: running
+17:09:41  [Apache] 	Attempting to stop Apache (PID: 1120)
+17:09:41  [Apache] 	Attempting to stop Apache (PID: 10064)
+17:09:42  [Apache] 	Status change detected: stopped
+17:09:43  [mysql] 	Attempting to stop MySQL app...
+17:09:44  [mysql] 	Status change detected: stopped
+17:09:45  [Apache] 	Attempting to start Apache app...
+17:09:45  [Apache] 	Status change detected: running
+17:09:47  [mysql] 	Attempting to start MySQL app...
+17:09:47  [mysql] 	Status change detected: running
+23:54:29  [mysql] 	Attempting to stop MySQL app...
+23:54:30  [mysql] 	Status change detected: stopped
+23:54:31  [Apache] 	Attempting to stop Apache (PID: 7700)
+23:54:31  [Apache] 	Attempting to stop Apache (PID: 9480)
+23:54:31  [Apache] 	Status change detected: stopped
+23:54:38  [main] 	Deinitializing Modules
+23:54:38  [main] 	Deinitializing Control Panel
+
+10:51:17  [main] 	Initializing Control Panel
+10:51:17  [main] 	Windows Version:  Enterprise  64-bit
+10:51:17  [main] 	XAMPP Version: 5.6.15
+10:51:17  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+10:51:17  [main] 	You are not running with administrator rights! This will work for
+10:51:17  [main] 	most application stuff but whenever you do something with services
+10:51:17  [main] 	there will be a security dialogue or things will break! So think 
+10:51:17  [main] 	about running this application with administrator rights!
+10:51:17  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:51:17  [main] 	Checking for prerequisites
+10:51:28  [main] 	All prerequisites found
+10:51:28  [main] 	Initializing Modules
+10:51:28  [main] 	Starting Check-Timer
+10:51:28  [main] 	Control Panel Ready
+10:51:33  [Apache] 	Attempting to start Apache app...
+10:51:33  [Apache] 	Status change detected: running
+10:51:34  [mysql] 	Attempting to start MySQL app...
+10:51:34  [mysql] 	Status change detected: running
+10:51:35  [mysql] 	Attempting to stop MySQL app...
+10:51:38  [mysql] 	Status change detected: stopped
+10:51:39  [mysql] 	Attempting to start MySQL app...
+10:51:39  [mysql] 	Status change detected: running
+17:03:53  [mercury] 	Attempting to start Mercury app...
+17:03:54  [mercury] 	Status change detected: running
+23:21:58  [mercury] 	Attempting to stop Mercury (PID: 11868)
+23:21:58  [mercury] 	Status change detected: stopped
+23:21:59  [mysql] 	Attempting to stop MySQL app...
+23:22:00  [mysql] 	Status change detected: stopped
+23:22:00  [Apache] 	Attempting to stop Apache (PID: 6880)
+23:22:00  [Apache] 	Attempting to stop Apache (PID: 6520)
+23:22:00  [Apache] 	Status change detected: stopped
+23:22:17  [main] 	Deinitializing Modules
+23:22:17  [main] 	Deinitializing Control Panel
+
+11:04:28  [main] 	Initializing Control Panel
+11:04:28  [main] 	Windows Version:  Enterprise  64-bit
+11:04:28  [main] 	XAMPP Version: 5.6.15
+11:04:28  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+11:04:28  [main] 	You are not running with administrator rights! This will work for
+11:04:28  [main] 	most application stuff but whenever you do something with services
+11:04:28  [main] 	there will be a security dialogue or things will break! So think 
+11:04:28  [main] 	about running this application with administrator rights!
+11:04:28  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:04:28  [main] 	Checking for prerequisites
+11:04:32  [main] 	All prerequisites found
+11:04:32  [main] 	Initializing Modules
+11:04:32  [main] 	Starting Check-Timer
+11:04:32  [main] 	Control Panel Ready
+11:04:35  [Apache] 	Attempting to start Apache app...
+11:04:35  [Apache] 	Status change detected: running
+11:04:35  [mysql] 	Attempting to start MySQL app...
+11:04:35  [mysql] 	Status change detected: running
+11:04:41  [mercury] 	Attempting to start Mercury app...
+11:04:41  [mercury] 	Status change detected: running
+13:11:59  [Apache] 	Attempting to stop Apache (PID: 10064)
+13:11:59  [Apache] 	Attempting to stop Apache (PID: 4724)
+13:12:00  [Apache] 	Status change detected: stopped
+13:12:01  [Apache] 	Attempting to start Apache app...
+13:12:01  [Apache] 	Status change detected: running
+00:20:36  [Apache] 	Attempting to stop Apache (PID: 11716)
+00:20:36  [Apache] 	Attempting to stop Apache (PID: 4580)
+00:20:36  [Apache] 	Status change detected: stopped
+00:20:37  [mysql] 	Attempting to stop MySQL app...
+00:20:38  [mysql] 	Status change detected: stopped
+00:20:39  [mercury] 	Attempting to stop Mercury (PID: 7764)
+00:20:39  [mercury] 	Status change detected: stopped
+00:21:07  [main] 	Deinitializing Modules
+00:21:07  [main] 	Deinitializing Control Panel
+
+21:37:15  [main] 	Initializing Control Panel
+21:37:15  [main] 	Windows Version:  Enterprise  64-bit
+21:37:15  [main] 	XAMPP Version: 5.6.15
+21:37:15  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+21:37:15  [main] 	You are not running with administrator rights! This will work for
+21:37:15  [main] 	most application stuff but whenever you do something with services
+21:37:15  [main] 	there will be a security dialogue or things will break! So think 
+21:37:15  [main] 	about running this application with administrator rights!
+21:37:15  [main] 	XAMPP Installation Directory: "c:\xampp\"
+21:37:15  [main] 	Checking for prerequisites
+21:37:16  [main] 	All prerequisites found
+21:37:16  [main] 	Initializing Modules
+21:37:16  [main] 	Starting Check-Timer
+21:37:16  [main] 	Control Panel Ready
+21:37:18  [Apache] 	Attempting to start Apache app...
+21:37:18  [Apache] 	Status change detected: running
+21:37:20  [mysql] 	Attempting to start MySQL app...
+21:37:20  [mysql] 	Status change detected: running
+21:37:21  [mercury] 	Attempting to start Mercury app...
+21:37:21  [mercury] 	Status change detected: running
+21:47:23  [mercury] 	Attempting to stop Mercury (PID: 7204)
+21:47:23  [mercury] 	Status change detected: stopped
+21:47:24  [mercury] 	Attempting to start Mercury app...
+21:47:25  [mercury] 	Status change detected: running
+01:32:23  [Apache] 	Attempting to stop Apache (PID: 780)
+01:32:23  [Apache] 	Attempting to stop Apache (PID: 5968)
+01:32:24  [Apache] 	Status change detected: stopped
+01:32:24  [mysql] 	Attempting to stop MySQL app...
+01:32:25  [mysql] 	Status change detected: stopped
+01:32:25  [mercury] 	Attempting to stop Mercury (PID: 3772)
+01:32:26  [mercury] 	Status change detected: stopped
+18:49:45  [Apache] 	Status change detected: running
+18:49:46  [mysql] 	Status change detected: running
+18:49:50  [mercury] 	Status change detected: running
+20:51:50  [mercury] 	Status change detected: stopped
+20:51:52  [mercury] 	Status change detected: running
+16:46:19  [mercury] 	Status change detected: stopped
+16:46:21  [mercury] 	Status change detected: running
+16:46:32  [mercury] 	Status change detected: stopped
+16:46:35  [mercury] 	Status change detected: running
+16:58:33  [Apache] 	Status change detected: stopped
+16:58:34  [mysql] 	Status change detected: stopped
+16:58:35  [mercury] 	Status change detected: stopped
+16:58:36  [Apache] 	Status change detected: running
+16:58:37  [mysql] 	Status change detected: running
+16:58:38  [mercury] 	Status change detected: running
+17:00:12  [mercury] 	Status change detected: stopped
+17:00:13  [mercury] 	Status change detected: running
+17:02:17  [mercury] 	Status change detected: stopped
+17:02:18  [mercury] 	Status change detected: running
+17:02:27  [mercury] 	Status change detected: stopped
+17:02:54  [mercury] 	Status change detected: running
+17:04:37  [mercury] 	Status change detected: stopped
+17:04:57  [mercury] 	Status change detected: running
+19:51:17  [mercury] 	Status change detected: stopped
+19:51:18  [mercury] 	Status change detected: running
+19:57:29  [mercury] 	Status change detected: stopped
+19:57:29  [mercury] 	Status change detected: running
+19:59:00  [mercury] 	Status change detected: stopped
+19:59:01  [mercury] 	Status change detected: running
+20:01:21  [mercury] 	Status change detected: stopped
+20:01:39  [Apache] 	Status change detected: stopped
+20:01:40  [mysql] 	Status change detected: stopped
+20:01:41  [Apache] 	Status change detected: running
+20:01:42  [mysql] 	Status change detected: running
+20:02:47  [mercury] 	Status change detected: running
+20:10:51  [mercury] 	Status change detected: stopped
+20:10:51  [mercury] 	Status change detected: running
+20:12:24  [mercury] 	Status change detected: stopped
+20:12:27  [mercury] 	Status change detected: running
+20:14:20  [mercury] 	Status change detected: stopped
+20:14:20  [mercury] 	Status change detected: running
+20:14:43  [mercury] 	Status change detected: stopped
+20:14:44  [mercury] 	Status change detected: running
+20:16:01  [mercury] 	Status change detected: stopped
+20:16:06  [mercury] 	Status change detected: running
+20:19:17  [mercury] 	Status change detected: stopped
+20:19:17  [mercury] 	Status change detected: running
+20:21:25  [mercury] 	Status change detected: stopped
+20:21:25  [mercury] 	Status change detected: running
+20:21:37  [mercury] 	Status change detected: stopped
+20:21:42  [mercury] 	Status change detected: running
+20:26:13  [mercury] 	Status change detected: stopped
+20:26:15  [mercury] 	Status change detected: running
+20:27:19  [mercury] 	Status change detected: stopped
+20:27:24  [mercury] 	Status change detected: running
+20:28:32  [mercury] 	Status change detected: stopped
+20:28:33  [mercury] 	Status change detected: running
+20:28:37  [mercury] 	Status change detected: stopped
+20:28:38  [mercury] 	Status change detected: running
+20:43:32  [mercury] 	Status change detected: stopped
+20:43:33  [mercury] 	Status change detected: running
+20:43:39  [mercury] 	Status change detected: stopped
+20:44:09  [mercury] 	Status change detected: running
+20:44:59  [mercury] 	Status change detected: stopped
+20:45:20  [mercury] 	Status change detected: running
+20:46:18  [mercury] 	Status change detected: stopped
+20:47:38  [mercury] 	Status change detected: running
+20:48:00  [mercury] 	Status change detected: stopped
+20:48:27  [mercury] 	Status change detected: running
+20:48:31  [mercury] 	Status change detected: stopped
+20:50:01  [mercury] 	Status change detected: running
+20:52:01  [mercury] 	Status change detected: stopped
+20:52:22  [mercury] 	Status change detected: running
+20:52:31  [mercury] 	Status change detected: stopped
+20:52:31  [mercury] 	Status change detected: running
+21:10:09  [mercury] 	Status change detected: stopped
+21:10:11  [mercury] 	Status change detected: running
+23:15:28  [mercury] 	Status change detected: stopped
+23:15:29  [Apache] 	Status change detected: stopped
+23:15:30  [mysql] 	Status change detected: stopped
+23:15:37  [main] 	Deinitializing Modules
+23:15:37  [main] 	Deinitializing Control Panel
+
+18:49:43  [main] 	Initializing Control Panel
+18:49:43  [main] 	Windows Version:  Enterprise  64-bit
+18:49:43  [main] 	XAMPP Version: 5.6.15
+18:49:43  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+18:49:43  [main] 	You are not running with administrator rights! This will work for
+18:49:43  [main] 	most application stuff but whenever you do something with services
+18:49:43  [main] 	there will be a security dialogue or things will break! So think 
+18:49:43  [main] 	about running this application with administrator rights!
+18:49:43  [main] 	XAMPP Installation Directory: "c:\xampp\"
+18:49:43  [main] 	Checking for prerequisites
+18:49:43  [main] 	All prerequisites found
+18:49:43  [main] 	Initializing Modules
+18:49:43  [main] 	Starting Check-Timer
+18:49:43  [main] 	Control Panel Ready
+18:49:45  [Apache] 	Attempting to start Apache app...
+18:49:45  [Apache] 	Status change detected: running
+18:49:46  [mysql] 	Attempting to start MySQL app...
+18:49:46  [mysql] 	Status change detected: running
+18:49:49  [mercury] 	Attempting to start Mercury app...
+18:49:50  [mercury] 	Status change detected: running
+20:51:50  [mercury] 	Attempting to stop Mercury (PID: 9596)
+20:51:50  [mercury] 	Status change detected: stopped
+20:51:52  [mercury] 	Attempting to start Mercury app...
+20:51:52  [mercury] 	Status change detected: running
+16:46:18  [mercury] 	Attempting to stop Mercury (PID: 11800)
+16:46:19  [mercury] 	Status change detected: stopped
+16:46:20  [mercury] 	Attempting to start Mercury app...
+16:46:21  [mercury] 	Status change detected: running
+16:46:32  [mercury] 	Status change detected: stopped
+16:46:32  [mercury] 	Error: Mercury shutdown unexpectedly.
+16:46:32  [mercury] 	This may be due to a blocked port, missing dependencies, 
+16:46:32  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+16:46:32  [mercury] 	Press the Logs button to view error logs and check
+16:46:32  [mercury] 	the Windows Event Viewer for more clues
+16:46:32  [mercury] 	If you need more help, copy and post this
+16:46:32  [mercury] 	entire log window on the forums
+16:46:35  [mercury] 	Status change detected: running
+16:58:33  [Apache] 	Attempting to stop Apache (PID: 3924)
+16:58:33  [Apache] 	Attempting to stop Apache (PID: 1972)
+16:58:33  [Apache] 	Status change detected: stopped
+16:58:34  [mysql] 	Attempting to stop MySQL app...
+16:58:34  [mysql] 	Status change detected: stopped
+16:58:34  [mercury] 	Attempting to stop Mercury (PID: 804)
+16:58:35  [mercury] 	Status change detected: stopped
+16:58:36  [Apache] 	Attempting to start Apache app...
+16:58:36  [Apache] 	Status change detected: running
+16:58:37  [mysql] 	Attempting to start MySQL app...
+16:58:37  [mysql] 	Status change detected: running
+16:58:38  [mercury] 	Attempting to start Mercury app...
+16:58:38  [mercury] 	Status change detected: running
+17:00:12  [mercury] 	Attempting to stop Mercury (PID: 9608)
+17:00:12  [mercury] 	Status change detected: stopped
+17:00:13  [mercury] 	Attempting to start Mercury app...
+17:00:13  [mercury] 	Status change detected: running
+17:02:17  [mercury] 	Attempting to stop Mercury (PID: 4828)
+17:02:17  [mercury] 	Status change detected: stopped
+17:02:18  [mercury] 	Attempting to start Mercury app...
+17:02:18  [mercury] 	Status change detected: running
+17:02:27  [mercury] 	Status change detected: stopped
+17:02:27  [mercury] 	Error: Mercury shutdown unexpectedly.
+17:02:27  [mercury] 	This may be due to a blocked port, missing dependencies, 
+17:02:27  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+17:02:27  [mercury] 	Press the Logs button to view error logs and check
+17:02:27  [mercury] 	the Windows Event Viewer for more clues
+17:02:27  [mercury] 	If you need more help, copy and post this
+17:02:27  [mercury] 	entire log window on the forums
+17:02:54  [mercury] 	Status change detected: running
+17:04:37  [mercury] 	Attempting to stop Mercury (PID: 11628)
+17:04:37  [mercury] 	Status change detected: stopped
+17:04:57  [mercury] 	Attempting to start Mercury app...
+17:04:57  [mercury] 	Status change detected: running
+19:51:17  [mercury] 	Attempting to stop Mercury (PID: 1696)
+19:51:17  [mercury] 	Status change detected: stopped
+19:51:17  [mercury] 	Attempting to start Mercury app...
+19:51:18  [mercury] 	Status change detected: running
+19:57:28  [mercury] 	Attempting to stop Mercury (PID: 11456)
+19:57:29  [mercury] 	Status change detected: stopped
+19:57:29  [mercury] 	Attempting to start Mercury app...
+19:57:29  [mercury] 	Status change detected: running
+19:58:59  [mercury] 	Attempting to stop Mercury (PID: 4480)
+19:59:00  [mercury] 	Status change detected: stopped
+19:59:01  [mercury] 	Attempting to start Mercury app...
+19:59:01  [mercury] 	Status change detected: running
+20:01:21  [mercury] 	Attempting to stop Mercury (PID: 2768)
+20:01:21  [mercury] 	Status change detected: stopped
+20:01:39  [Apache] 	Attempting to stop Apache (PID: 5776)
+20:01:39  [Apache] 	Attempting to stop Apache (PID: 292)
+20:01:39  [Apache] 	Status change detected: stopped
+20:01:40  [mysql] 	Attempting to stop MySQL app...
+20:01:40  [mysql] 	Status change detected: stopped
+20:01:41  [Apache] 	Attempting to start Apache app...
+20:01:41  [Apache] 	Status change detected: running
+20:01:42  [mysql] 	Attempting to start MySQL app...
+20:01:42  [mysql] 	Status change detected: running
+20:02:46  [mercury] 	Attempting to start Mercury app...
+20:02:47  [mercury] 	Status change detected: running
+20:10:50  [mercury] 	Attempting to stop Mercury (PID: 5200)
+20:10:51  [mercury] 	Status change detected: stopped
+20:10:51  [mercury] 	Attempting to start Mercury app...
+20:10:51  [mercury] 	Status change detected: running
+20:12:24  [mercury] 	Attempting to stop Mercury (PID: 11596)
+20:12:24  [mercury] 	Status change detected: stopped
+20:12:27  [mercury] 	Status change detected: running
+20:14:20  [mercury] 	Status change detected: stopped
+20:14:20  [mercury] 	Status change detected: running
+20:14:43  [mercury] 	Attempting to stop Mercury (PID: 10124)
+20:14:43  [mercury] 	Status change detected: stopped
+20:14:44  [mercury] 	Attempting to start Mercury app...
+20:14:44  [mercury] 	Status change detected: running
+20:16:01  [mercury] 	Status change detected: stopped
+20:16:01  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:16:01  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:16:01  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:16:01  [mercury] 	Press the Logs button to view error logs and check
+20:16:01  [mercury] 	the Windows Event Viewer for more clues
+20:16:01  [mercury] 	If you need more help, copy and post this
+20:16:01  [mercury] 	entire log window on the forums
+20:16:06  [mercury] 	Status change detected: running
+20:19:17  [mercury] 	Attempting to stop Mercury (PID: 4292)
+20:19:17  [mercury] 	Status change detected: stopped
+20:19:17  [mercury] 	Attempting to start Mercury app...
+20:19:17  [mercury] 	Status change detected: running
+20:21:25  [mercury] 	Attempting to stop Mercury (PID: 12088)
+20:21:25  [mercury] 	Status change detected: stopped
+20:21:25  [mercury] 	Attempting to start Mercury app...
+20:21:25  [mercury] 	Status change detected: running
+20:21:37  [mercury] 	Status change detected: stopped
+20:21:37  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:21:37  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:21:37  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:21:37  [mercury] 	Press the Logs button to view error logs and check
+20:21:37  [mercury] 	the Windows Event Viewer for more clues
+20:21:37  [mercury] 	If you need more help, copy and post this
+20:21:37  [mercury] 	entire log window on the forums
+20:21:42  [mercury] 	Status change detected: running
+20:26:13  [mercury] 	Attempting to stop Mercury (PID: 2396)
+20:26:13  [mercury] 	Status change detected: stopped
+20:26:15  [mercury] 	Attempting to start Mercury app...
+20:26:15  [mercury] 	Status change detected: running
+20:27:19  [mercury] 	Status change detected: stopped
+20:27:19  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:27:19  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:27:19  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:27:19  [mercury] 	Press the Logs button to view error logs and check
+20:27:19  [mercury] 	the Windows Event Viewer for more clues
+20:27:19  [mercury] 	If you need more help, copy and post this
+20:27:19  [mercury] 	entire log window on the forums
+20:27:24  [mercury] 	Status change detected: running
+20:28:32  [mercury] 	Attempting to stop Mercury (PID: 6668)
+20:28:32  [mercury] 	Status change detected: stopped
+20:28:33  [mercury] 	Attempting to start Mercury app...
+20:28:33  [mercury] 	Status change detected: running
+20:28:37  [mercury] 	Attempting to stop Mercury (PID: 12132)
+20:28:37  [mercury] 	Status change detected: stopped
+20:28:38  [mercury] 	Attempting to start Mercury app...
+20:28:38  [mercury] 	Status change detected: running
+20:43:32  [mercury] 	Attempting to stop Mercury (PID: 10748)
+20:43:32  [mercury] 	Status change detected: stopped
+20:43:32  [mercury] 	Attempting to start Mercury app...
+20:43:33  [mercury] 	Status change detected: running
+20:43:39  [mercury] 	Status change detected: stopped
+20:43:39  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:43:39  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:43:39  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:43:40  [mercury] 	Press the Logs button to view error logs and check
+20:43:40  [mercury] 	the Windows Event Viewer for more clues
+20:43:40  [mercury] 	If you need more help, copy and post this
+20:43:40  [mercury] 	entire log window on the forums
+20:44:09  [mercury] 	Attempting to start Mercury app...
+20:44:09  [mercury] 	Status change detected: running
+20:44:59  [mercury] 	Status change detected: stopped
+20:44:59  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:44:59  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:44:59  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:44:59  [mercury] 	Press the Logs button to view error logs and check
+20:44:59  [mercury] 	the Windows Event Viewer for more clues
+20:44:59  [mercury] 	If you need more help, copy and post this
+20:44:59  [mercury] 	entire log window on the forums
+20:45:20  [mercury] 	Attempting to start Mercury app...
+20:45:20  [mercury] 	Status change detected: running
+20:46:18  [mercury] 	Status change detected: stopped
+20:46:18  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:46:19  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:46:19  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:46:19  [mercury] 	Press the Logs button to view error logs and check
+20:46:19  [mercury] 	the Windows Event Viewer for more clues
+20:46:19  [mercury] 	If you need more help, copy and post this
+20:46:19  [mercury] 	entire log window on the forums
+20:47:38  [mercury] 	Status change detected: running
+20:48:00  [mercury] 	Status change detected: stopped
+20:48:00  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:48:00  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:48:00  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:48:00  [mercury] 	Press the Logs button to view error logs and check
+20:48:00  [mercury] 	the Windows Event Viewer for more clues
+20:48:00  [mercury] 	If you need more help, copy and post this
+20:48:00  [mercury] 	entire log window on the forums
+20:48:27  [mercury] 	Status change detected: running
+20:48:31  [mercury] 	Status change detected: stopped
+20:48:31  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:48:31  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:48:31  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:48:31  [mercury] 	Press the Logs button to view error logs and check
+20:48:31  [mercury] 	the Windows Event Viewer for more clues
+20:48:31  [mercury] 	If you need more help, copy and post this
+20:48:31  [mercury] 	entire log window on the forums
+20:50:00  [mercury] 	Attempting to start Mercury app...
+20:50:01  [mercury] 	Status change detected: running
+20:52:01  [mercury] 	Status change detected: stopped
+20:52:01  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:52:01  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:52:01  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:52:01  [mercury] 	Press the Logs button to view error logs and check
+20:52:01  [mercury] 	the Windows Event Viewer for more clues
+20:52:01  [mercury] 	If you need more help, copy and post this
+20:52:01  [mercury] 	entire log window on the forums
+20:52:22  [mercury] 	Status change detected: running
+20:52:31  [mercury] 	Status change detected: stopped
+20:52:31  [mercury] 	Error: Mercury shutdown unexpectedly.
+20:52:31  [mercury] 	This may be due to a blocked port, missing dependencies, 
+20:52:31  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+20:52:31  [mercury] 	Press the Logs button to view error logs and check
+20:52:31  [mercury] 	the Windows Event Viewer for more clues
+20:52:31  [mercury] 	If you need more help, copy and post this
+20:52:31  [mercury] 	entire log window on the forums
+20:52:31  [mercury] 	Status change detected: running
+21:10:09  [mercury] 	Attempting to stop Mercury (PID: 9352)
+21:10:09  [mercury] 	Status change detected: stopped
+21:10:10  [mercury] 	Attempting to start Mercury app...
+21:10:11  [mercury] 	Status change detected: running
+23:15:28  [mercury] 	Status change detected: stopped
+23:15:28  [mercury] 	Error: Mercury shutdown unexpectedly.
+23:15:28  [mercury] 	This may be due to a blocked port, missing dependencies, 
+23:15:28  [mercury] 	improper privileges, a crash, or a shutdown by another method.
+23:15:28  [mercury] 	Press the Logs button to view error logs and check
+23:15:28  [mercury] 	the Windows Event Viewer for more clues
+23:15:28  [mercury] 	If you need more help, copy and post this
+23:15:28  [mercury] 	entire log window on the forums
+23:15:29  [Apache] 	Attempting to stop Apache (PID: 7524)
+23:15:29  [Apache] 	Attempting to stop Apache (PID: 9064)
+23:15:29  [Apache] 	Status change detected: stopped
+23:15:30  [mysql] 	Attempting to stop MySQL app...
+23:15:30  [mysql] 	Status change detected: stopped
+23:15:37  [main] 	Deinitializing Modules
+23:15:37  [main] 	Deinitializing Control Panel
+
+11:21:56  [main] 	Initializing Control Panel
+11:21:56  [main] 	Windows Version:  Enterprise  64-bit
+11:21:56  [main] 	XAMPP Version: 5.6.15
+11:21:56  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+11:21:56  [main] 	You are not running with administrator rights! This will work for
+11:21:56  [main] 	most application stuff but whenever you do something with services
+11:21:56  [main] 	there will be a security dialogue or things will break! So think 
+11:21:56  [main] 	about running this application with administrator rights!
+11:21:56  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:21:56  [main] 	Checking for prerequisites
+11:21:57  [main] 	All prerequisites found
+11:21:57  [main] 	Initializing Modules
+11:21:57  [main] 	Starting Check-Timer
+11:21:57  [main] 	Control Panel Ready
+11:22:01  [Apache] 	Attempting to start Apache app...
+11:22:01  [Apache] 	Status change detected: running
+11:22:03  [mysql] 	Attempting to start MySQL app...
+11:22:03  [mysql] 	Status change detected: running
+11:22:04  [mercury] 	Attempting to start Mercury app...
+11:22:05  [mercury] 	Status change detected: running
+01:05:53  [Apache] 	Attempting to stop Apache (PID: 11548)
+01:05:53  [Apache] 	Attempting to stop Apache (PID: 6552)
+01:05:53  [Apache] 	Status change detected: stopped
+01:05:54  [mysql] 	Attempting to stop MySQL app...
+01:05:54  [mysql] 	Status change detected: stopped
+01:05:55  [mercury] 	Attempting to stop Mercury (PID: 10912)
+01:05:55  [mercury] 	Status change detected: stopped
+01:06:09  [main] 	Deinitializing Modules
+01:06:09  [main] 	Deinitializing Control Panel
+
+10:06:16  [main] 	Initializing Control Panel
+10:06:16  [main] 	Windows Version:  Enterprise  64-bit
+10:06:16  [main] 	XAMPP Version: 5.6.15
+10:06:16  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+10:06:16  [main] 	You are not running with administrator rights! This will work for
+10:06:16  [main] 	most application stuff but whenever you do something with services
+10:06:16  [main] 	there will be a security dialogue or things will break! So think 
+10:06:16  [main] 	about running this application with administrator rights!
+10:06:16  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:06:16  [main] 	Checking for prerequisites
+10:06:19  [main] 	All prerequisites found
+10:06:19  [main] 	Initializing Modules
+10:06:19  [main] 	Starting Check-Timer
+10:06:19  [main] 	Control Panel Ready
+10:06:22  [Apache] 	Attempting to start Apache app...
+10:06:22  [Apache] 	Status change detected: running
+10:06:24  [mysql] 	Attempting to start MySQL app...
+10:06:24  [mysql] 	Status change detected: running
+10:06:25  [mercury] 	Attempting to start Mercury app...
+10:06:26  [mercury] 	Status change detected: running
+12:21:36  [Apache] 	Attempting to stop Apache (PID: 928)
+12:21:36  [Apache] 	Attempting to stop Apache (PID: 8860)
+12:21:36  [Apache] 	Status change detected: stopped
+12:21:37  [Apache] 	Problem detected!
+12:21:37  [Apache] 	Port 443 in use by "Unable to open process" with PID 3460!
+12:21:37  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:21:37  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:21:37  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:21:37  [Apache] 	Attempting to start Apache app...
+12:21:37  [Apache] 	Status change detected: running
+12:25:31  [Apache] 	Attempting to stop Apache (PID: 8044)
+12:25:31  [Apache] 	Attempting to stop Apache (PID: 10512)
+12:25:31  [Apache] 	Status change detected: stopped
+12:25:33  [Apache] 	Problem detected!
+12:25:33  [Apache] 	Port 443 in use by "Unable to open process" with PID 3460!
+12:25:33  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:25:33  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:25:33  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:25:33  [Apache] 	Attempting to start Apache app...
+12:25:33  [Apache] 	Status change detected: running
+12:25:56  [Apache] 	Attempting to stop Apache (PID: 9932)
+12:25:56  [Apache] 	Attempting to stop Apache (PID: 4872)
+12:25:56  [Apache] 	Status change detected: stopped
+12:25:57  [Apache] 	Problem detected!
+12:25:57  [Apache] 	Port 443 in use by "Unable to open process" with PID 3460!
+12:25:57  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:25:57  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:25:57  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:25:57  [Apache] 	Attempting to start Apache app...
+12:25:57  [Apache] 	Status change detected: running
+12:27:33  [Apache] 	Attempting to stop Apache (PID: 9904)
+12:27:33  [Apache] 	Attempting to stop Apache (PID: 10188)
+12:27:33  [Apache] 	Status change detected: stopped
+12:28:05  [Apache] 	Problem detected!
+12:28:05  [Apache] 	Port 443 in use by "Unable to open process" with PID 3460!
+12:28:05  [Apache] 	Apache WILL NOT start without the configured ports free!
+12:28:05  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+12:28:05  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+12:28:05  [Apache] 	Attempting to start Apache app...
+12:28:05  [Apache] 	Status change detected: running
+12:28:08  [Apache] 	Attempting to stop Apache (PID: 1188)
+12:28:08  [Apache] 	Attempting to stop Apache (PID: 2464)
+12:28:09  [Apache] 	Status change detected: stopped
+12:28:22  [Apache] 	Attempting to start Apache app...
+12:28:23  [Apache] 	Status change detected: running
+22:02:02  [main] 	Deinitializing Modules
+22:02:02  [main] 	Deinitializing Control Panel
+
+01:28:03  [main] 	Initializing Control Panel
+01:28:03  [main] 	Windows Version:  Enterprise  64-bit
+01:28:03  [main] 	XAMPP Version: 5.6.15
+01:28:03  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+01:28:03  [main] 	You are not running with administrator rights! This will work for
+01:28:03  [main] 	most application stuff but whenever you do something with services
+01:28:03  [main] 	there will be a security dialogue or things will break! So think 
+01:28:03  [main] 	about running this application with administrator rights!
+01:28:03  [main] 	XAMPP Installation Directory: "c:\xampp\"
+01:28:03  [main] 	Checking for prerequisites
+01:28:04  [main] 	All prerequisites found
+01:28:04  [main] 	Initializing Modules
+01:28:04  [main] 	Starting Check-Timer
+01:28:04  [main] 	Control Panel Ready
+01:28:11  [main] 	Deinitializing Modules
+01:28:11  [main] 	Deinitializing Control Panel
+
+23:50:53  [main] 	Initializing Control Panel
+23:50:53  [main] 	Windows Version:  Enterprise  64-bit
+23:50:53  [main] 	XAMPP Version: 5.6.15
+23:50:53  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+23:50:53  [main] 	You are not running with administrator rights! This will work for
+23:50:53  [main] 	most application stuff but whenever you do something with services
+23:50:53  [main] 	there will be a security dialogue or things will break! So think 
+23:50:53  [main] 	about running this application with administrator rights!
+23:50:53  [main] 	XAMPP Installation Directory: "c:\xampp\"
+23:50:53  [main] 	Checking for prerequisites
+23:51:26  [main] 	All prerequisites found
+23:51:26  [main] 	Initializing Modules
+23:51:27  [main] 	Starting Check-Timer
+23:51:27  [main] 	Control Panel Ready
+23:51:31  [Apache] 	Attempting to start Apache app...
+23:51:31  [Apache] 	Status change detected: running
+23:51:32  [mysql] 	Attempting to start MySQL app...
+23:51:32  [mysql] 	Status change detected: running
+23:51:33  [mercury] 	Attempting to start Mercury app...
+23:51:34  [mercury] 	Status change detected: running
+00:34:33  [Apache] 	Attempting to stop Apache (PID: 3864)
+00:34:33  [Apache] 	Attempting to stop Apache (PID: 108)
+00:34:33  [Apache] 	Status change detected: stopped
+00:34:34  [mysql] 	Attempting to stop MySQL app...
+00:34:35  [mercury] 	Attempting to stop Mercury (PID: 4660)
+00:34:35  [mysql] 	Status change detected: stopped
+00:34:35  [mercury] 	Status change detected: stopped
+00:34:41  [main] 	Deinitializing Modules
+00:34:41  [main] 	Deinitializing Control Panel
+
+10:57:16  [main] 	Initializing Control Panel
+10:57:16  [main] 	Windows Version:  Enterprise  64-bit
+10:57:16  [main] 	XAMPP Version: 5.6.15
+10:57:16  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+10:57:16  [main] 	You are not running with administrator rights! This will work for
+10:57:16  [main] 	most application stuff but whenever you do something with services
+10:57:16  [main] 	there will be a security dialogue or things will break! So think 
+10:57:16  [main] 	about running this application with administrator rights!
+10:57:16  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:57:16  [main] 	Checking for prerequisites
+10:57:24  [main] 	All prerequisites found
+10:57:24  [main] 	Initializing Modules
+10:57:24  [main] 	Starting Check-Timer
+10:57:24  [main] 	Control Panel Ready
+10:57:34  [Apache] 	Attempting to start Apache app...
+10:57:34  [Apache] 	Status change detected: running
+10:57:36  [mysql] 	Attempting to start MySQL app...
+10:57:36  [mysql] 	Status change detected: running
+10:57:38  [mercury] 	Attempting to start Mercury app...
+10:57:38  [mercury] 	Status change detected: running
+00:13:39  [Apache] 	Attempting to stop Apache (PID: 4648)
+00:13:39  [Apache] 	Attempting to stop Apache (PID: 10792)
+00:13:39  [Apache] 	Status change detected: stopped
+00:13:40  [mysql] 	Attempting to stop MySQL app...
+00:13:41  [mysql] 	Status change detected: stopped
+00:13:41  [mercury] 	Attempting to stop Mercury (PID: 7464)
+00:13:41  [mercury] 	Status change detected: stopped
+00:14:02  [mercury] 	Attempting to start Mercury app...
+00:14:02  [mercury] 	Status change detected: running
+00:14:03  [mysql] 	Attempting to start MySQL app...
+00:14:04  [mysql] 	Status change detected: running
+00:14:05  [Apache] 	Attempting to start Apache app...
+00:14:05  [Apache] 	Status change detected: running
+00:15:56  [Apache] 	Attempting to stop Apache (PID: 10716)
+00:15:56  [Apache] 	Attempting to stop Apache (PID: 664)
+00:15:56  [Apache] 	Status change detected: stopped
+00:15:57  [mysql] 	Attempting to stop MySQL app...
+00:15:57  [mysql] 	Status change detected: stopped
+00:15:58  [mercury] 	Attempting to stop Mercury (PID: 10252)
+00:15:58  [mercury] 	Status change detected: stopped
+00:16:16  [main] 	Deinitializing Modules
+00:16:16  [main] 	Deinitializing Control Panel
+

@@ -1,0 +1,193 @@
+Received: from spooler by ipuniversity.tk (Mercury/32 v4.62); 20 Sep 2018 17:47:05 +0530
+X-Envelope-To: <master@iserv.tech>
+Return-path: <>
+Received: from us2.outbound.mailhostbox.com (208.91.198.22) by iserv.tech (Mercury/32 v4.62) with ESMTP ID MG000001;
+   20 Sep 2018 17:47:01 +0530
+Received: by us2.outbound.mailhostbox.com (Postfix)
+	id ABA9B1C295C; Thu, 20 Sep 2018 12:21:44 +0000 (GMT)
+Date: Thu, 20 Sep 2018 12:21:44 +0000 (GMT)
+From: MAILER-DAEMON@us2.outbound.mailhostbox.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: master@iserv.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="A20101C2959.1537446104/us2.outbound.mailhostbox.com"
+Message-Id: <20180920122144.ABA9B1C295C@us2.outbound.mailhostbox.com>
+Content-Transfer-Encoding: 7bit
+X-UC-Weight: [#   ] 51
+X-CC-Diagnostic: Message contains Lazy HTML (51)
+X-PMFLAGS: 570949760 0 5 YALN4QBQ.CNM
+
+This is a MIME-encapsulated message.
+
+--A20101C2959.1537446104/us2.outbound.mailhostbox.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host us2.outbound.mailhostbox.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<hpkaushik121@gamil.com>: host mx9.webfaction.com[185.20.49.164] said: 550
+    5.1.1 <hpkaushik121@gamil.com>: Recipient address rejected: User unknown in
+    virtual alias table (in reply to RCPT TO command)
+
+--A20101C2959.1537446104/us2.outbound.mailhostbox.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; us2.outbound.mailhostbox.com
+X-Postfix-Queue-ID: A20101C2959
+X-Postfix-Sender: rfc822; master@iserv.tech
+Arrival-Date: Thu, 20 Sep 2018 12:21:41 +0000 (GMT)
+
+Final-Recipient: rfc822; hpkaushik121@gamil.com
+Original-Recipient: rfc822;hpkaushik121@gamil.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mx9.webfaction.com
+Diagnostic-Code: smtp; 550 5.1.1 <hpkaushik121@gamil.com>: Recipient address
+    rejected: User unknown in virtual alias table
+
+--A20101C2959.1537446104/us2.outbound.mailhostbox.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 7bit
+
+Return-Path: <master@iserv.tech>
+Received: from iserv.tech (unknown [43.230.104.162])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: master@iserv.tech)
+	by us2.outbound.mailhostbox.com (Postfix) with ESMTPSA id A20101C2959
+	for <hpkaushik121@gamil.com>; Thu, 20 Sep 2018 12:21:41 +0000 (GMT)
+Date: Thu, 20 Sep 2018 14:16:42 +0200
+To: hpkaushik121@gamil.com
+From: master <master@iserv.tech>
+Reply-To: master <master@iserv.tech>
+Subject: Account Created Successfully
+Message-ID: <brAQPyxaLbY6GObNkJKPOEtFlxruU5NhyIpgzBPqs@iserv.tech>
+X-Mailer: PHPMailer 6.0.5 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_brAQPyxaLbY6GObNkJKPOEtFlxruU5NhyIpgzBPqs"
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.2 cv=P+tKvmIu c=1 sm=1 tr=0
+	a=L9O1+l+eiDMoKK/DyNLbgg==:117 a=L9O1+l+eiDMoKK/DyNLbgg==:17
+	a=MKtGQD3n3ToA:10 a=1oJP67jkp3AA:10 a=_qk5O9rPRBMA:10 a=ZZnuYtJkoWoA:10
+	a=r77TgQKjGQsHNAKrUKIA:9 a=6d3Lqsafku5JIbBfHmoA:9 a=CjuIK1q_8ugA:10
+	a=rqriEFlrOtbBvHbdTd4A:9 a=0VwiXlHwAcXDR3yR:21 a=6WDtDwcPmNyPJYlQ:21
+	a=T-h7JExwgkPs_EP9:21 a=_W_S_7VecoQA:10 a=wPNLvfGTeEIA:10 a=UpQo1cG5i20A:10
+	a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10
+Content-Transfer-Encoding: 7bit
+
+This is a multi-part message in MIME format.
+--b1_brAQPyxaLbY6GObNkJKPOEtFlxruU5NhyIpgzBPqs
+Content-Type: text/plain; charset=us-ascii
+
+This is the body in plain text for non-HTML mail clients
+
+--b1_brAQPyxaLbY6GObNkJKPOEtFlxruU5NhyIpgzBPqs
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www=
+.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+   =20
+  </head>
+  <body style=3D"background-color:#f4f4f4; margin:0;">
+    <div class=3D"topOrange" style=3D"z-index:-100;width:100%;height:30%;=
+background-color:#eea637; ">
+	<img style=3D"margin-left:30px; margin-top:30px; float:left; " src=3D"ht=
+tp://iserv.tech/assets/images/sitelogo.png" width=3D"100"/>
+	<div style=3D"float:right; margin:30px;">
+	<p style=3D"float:right;">24/7 Support: +917838941249</p>
+	 <p>
+<p style=3D"float:right; margin-top:-10px;">Mail us   =E2=80=94 info@iser=
+v.tech</p>
+
+
+=09
+	</div>
+=20
+         </div>
+    <div class=3D"bigContainer" style=3D"border-radius:5px;width:100%;hei=
+ght:auto;">
+	<div style=3D"width:100%;height:10px;"></div>
+          <div style=3D"width:100%;height:10px;"></div>
+      <div class=3D"container" style=3D"padding:50px;margin:auto;word-wra=
+p:break-word;border-radius:5px;background-color:#ffffff;width:60%;height:=
+auto;">
+        <div class=3D"heading" style=3D"text-align:center;width:100%;"><h=
+1>Account has been created successfully</h1></div>
+        <div class=3D"para" style=3D"margin-top:5%;font-style:bold;">Dear=
+, fsodap
+          <div style=3D"width:100%;height:10px;"></div>
+          <div style=3D"width:100%;height:10px;"></div>
+                       Congratulations, Your account has been created suc=
+cessfully .
+          <div style=3D"width:100%;height:10px;"></div>
+          <div style=3D"width:100%;height:10px;"></div>
+          To activate you account just click the button below: </div>
+        <div style=3D"width:100%;height:10px;"></div>
+      =20
+        <div style=3D"width:100%;height:10px;"></div>
+        <div style=3D"width:100%;height:10px;"></div>
+        <div style=3D"width:100%;height:10px;"></div>
+        <div style=3D"width:100%; text-align:center; margin:auto;">
+          <a class=3D"btn" href=3D"https://iserv.tech/register/ActivatAcc=
+.php?username=3Dasdjfoi&password=3Dfaisdjfoi" style=3D"background:#eea637=
+;color:#fff;text-decoration:none;padding:12px;border-radius:6px;">CLICK T=
+O LOGIN</a>
+        </div>
+        <div style=3D"width:100%;height:10px;"></div>
+        <div style=3D"width:100%;height:10px;"></div>
+        <div class=3D"para" style=3D"margin-top:5%;font-style:bold;">
+          If you are not redirected after clicking the button just copy t=
+he link below and paste it in your browser:=20
+		   <div style=3D"width:100%;height:10px;"></div>
+		  <a href=3D"https://iserv.tech/register/ActivatAcc.php?username=3Dasdj=
+foi&password=3Dfaisdjfoi">https://iserv.tech/register/ActivatAcc.php?user=
+name=3Dasdjfoi&password=3Dfaisdjfoi</a>
+        </div>
+      </div>
+    </div>
+    <div style=3D"width:100%;height:10px;"></div>
+    <div style=3D"width:100%;height:10px;"></div>
+    <div style=3D"width:100%;  background-color:#e8eae8;">
+      <div style=3D"width:100%;height:10px;"></div>
+      <div style=3D"width:100%;height:10px;"></div>
+      <div style=3D"width:100%;height:10px;"></div>
+      <div style=3D"width:50%; margin:auto">
+        *<a href=3D"https://iserv.tech/terms">Terms and Conditions</a>
+        <div style=3D"width:100%;height:10px;"></div>
+        <div style=3D"width:100%;height:10px;"></div>
+        Please do not reply to this email. Emails sent to this address wi=
+ll not be answered.
+        <div style=3D"width:100%;height:10px;"></div>
+        <div style=3D"width:100%;height:10px;"></div>
+        Copyright =C2=A9 2017-2018 Iserv Operating Company, LLC. India. A=
+ll rights reserved.
+        <div style=3D"width:100%;height:10px;"></div>
+        <div style=3D"width:100%;height:10px;"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+--b1_brAQPyxaLbY6GObNkJKPOEtFlxruU5NhyIpgzBPqs--
+
+
+--A20101C2959.1537446104/us2.outbound.mailhostbox.com--
